@@ -99,8 +99,9 @@ def main():
         with open("data/charts/song_features.csv", encoding="utf-8-sig") as f:
             for r in csv.DictReader(f):
                 if r["match_quality"] in ("ok", "keine Audio-Features") and r["spotify_track_id"]:
-                    rows.append({"id": r["spotify_track_id"], "artist": r["spotify_artist"],
-                                 "title": r["spotify_name"]})
+                    rows.append({"id": r["spotify_track_id"],
+                                 "artist": r["spotify_artist"] or r["chart_artist"],
+                                 "title": r["spotify_name"] or r["chart_title"]})
     else:
         with open(sys.argv[3], encoding="utf-8-sig") as f:
             for r in csv.DictReader(f):
