@@ -20,6 +20,7 @@ from concurrent.futures import ThreadPoolExecutor
 
 UA = "Mozilla/5.0 (X11; Linux x86_64) nmf-top75/1.0"
 ALBUM_CACHE = {}
+FAILS = {"n": 0}
 
 
 def get(url, tries=5):
@@ -30,10 +31,12 @@ def get(url, tries=5):
                 data = json.load(r)
             if isinstance(data, dict) and data.get("error", {}).get("code") in (4, 100):
                 time.sleep(2 + 2 * i)  # Quota
+                FAILS['quota'] = FAILS.get('quota', 0) + 1
                 continue
             return data
         except Exception:
             time.sleep(1 + i)
+    FAILS["n"] += 1
     return None
 
 
@@ -88,7 +91,7 @@ def lookup(row):
                 alb.get("release_date", ""),
             )
         out["genres"], out["album_release"] = ALBUM_CACHE[aid]
-    time.sleep(0.15)
+    time.sleep(0.3)
     return out
 
 
@@ -107,8 +110,15 @@ def main():
             for r in csv.DictReader(f):
                 rows.append({"id": r["track_id"], "artist": r["artists"], "title": r["name"]})
     print(f"{len(rows)} Songs", flush=True)
-    with ThreadPoolExecutor(max_workers=3) as ex:
+    with ThreadPoolExecutor(max_workers=2) as ex:
         res = list(ex.map(lookup, rows))
+    # zweiter Durchgang fuer Songs ohne Kandidaten (z.B. wegen Abfragelimit)
+    time.sleep(10)
+    for i, r in enumerate(res):
+        if not r["dz_id"] and r["match"] == 0.0:
+            res[i] = lookup({"id": r["id"], "artist": r["artist"], "title": r["title"]})
+            time.sleep(0.3)
+    print(f"Fehlgeschlagene Abrufe: {FAILS}")
     cols = list(res[0].keys())
     with open(out_path, "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=cols)
