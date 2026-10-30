@@ -66,7 +66,10 @@ def main():
     ids = ",".join(TRACKS)
     s, body = call(
         f"https://api.reccobeats.com/v1/audio-features?ids={ids}",
-        headers={"Accept": "application/json"},
+        headers={
+            "Accept": "application/json",
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+        },
     )
     print(f"[ReccoBeats] audio-features fuer {len(TRACKS)} IDs: HTTP {s}")
     if s == 200:
