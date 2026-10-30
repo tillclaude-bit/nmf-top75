@@ -111,10 +111,10 @@ def describe(wav_path):
     return d
 
 
-def process(tid):
+def process(tid, url=None):
     row = {"track_id": tid, "preview_ok": 0, "error": ""}
     try:
-        url = preview_url(tid)
+        url = url or preview_url(tid)
         if not url:
             row["error"] = "keine Preview-URL"
             return row
@@ -152,14 +152,23 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("out")
     ap.add_argument("--limit", type=int, default=0)
+    ap.add_argument("--pool", help="pool_tracks_*.csv (track_id, preview_url) statt Kalibriersatz")
     a = ap.parse_args()
-    ids = load_ids()
+    urls = {}
+    if a.pool:
+        ids = {}
+        with open(a.pool, encoding="utf-8-sig") as f:
+            for r in csv.DictReader(f):
+                ids[r["track_id"]] = "pool"
+                urls[r["track_id"]] = r.get("preview_url") or None
+    else:
+        ids = load_ids()
     items = list(ids.items())
     if a.limit:
         items = items[: a.limit]
     print(f"{len(items)} Tracks", flush=True)
     with ThreadPoolExecutor(max_workers=4) as ex:
-        rows = list(ex.map(lambda kv: process(kv[0]), items))
+        rows = list(ex.map(lambda kv: process(kv[0], urls.get(kv[0])), items))
     for r, (_, src) in zip(rows, items):
         r["source"] = src
     cols = ["track_id", "source", "preview_ok", "error"]
