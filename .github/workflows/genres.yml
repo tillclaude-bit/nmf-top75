@@ -1,0 +1,39 @@
+name: Genres (Deezer)
+
+on:
+  workflow_dispatch:
+    inputs:
+      target:
+        description: "charts oder pool"
+        default: "charts"
+      date:
+        description: "Datum der NMF-Woche (nur fuer pool)"
+        default: "2026-10-30"
+
+permissions:
+  contents: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - name: Charts
+        if: ${{ github.event.inputs.target == 'charts' }}
+        run: |
+          python3 scripts/genres.py charts data/analysis/genres_charts_2026-10-30.csv | tee run.txt
+          while IFS= read -r line; do echo "::notice::${line}"; done < run.txt
+      - name: Pool
+        if: ${{ github.event.inputs.target == 'pool' }}
+        run: |
+          python3 scripts/genres.py pool "data/pools/pool_genres_${{ github.event.inputs.date }}.csv" "data/pools/pool_tracks_${{ github.event.inputs.date }}.csv" | tee run.txt
+          while IFS= read -r line; do echo "::notice::${line}"; done < run.txt
+      - name: Commit result
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@users.noreply.github.com"
+          git add data
+          git commit -m "Add genre lookup (${{ github.event.inputs.target }})" || echo "nothing to commit"
+          git pull --rebase origin main
+          git push origin HEAD:main
