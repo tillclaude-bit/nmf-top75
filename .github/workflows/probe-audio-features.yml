@@ -12,4 +12,6 @@ jobs:
         env:
           SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
           SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
-        run: python3 scripts/probe_audio_features.py
+        run: |
+          python3 scripts/probe_audio_features.py | tee probe.txt
+          while IFS= read -r line; do echo "::notice::${line}"; done < probe.txt
