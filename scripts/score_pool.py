@@ -5,7 +5,7 @@ Aufruf: python score_pool.py 2026-10-30
 
 Signale (alle fuer jeden Song gleich berechnet):
   taste   Passungsmass: logistische Regression "deine Chartsongs" gegen "alle NMF-Songs"
-          auf eigenen Vorschau-Deskriptoren + Deezer-Genres (Out-of-fold fuer Pool-Songs)
+          auf eigenen Vorschau-Deskriptoren (Klang, Rhythmus, Timbre; Out-of-fold fuer Pool-Songs)
   breadth log(Anzahl der NMF-Playlists, in denen der Song steht)
   pos     bester Listenplatz (Log)
   artist  Zahl der Chartsongs desselben Kuenstlers in deinen Charts
@@ -76,18 +76,10 @@ pool["is_chart"] = pool.tkey.isin(chart_keys)
 print(f"Pool: {len(pool)} Tracks, davon bereits in deinen Charts: {pool.is_chart.sum()}, "
       f"ohne Deskriptoren: {(pool.preview_ok != 1).sum()}")
 
-# --- Genres als Multi-Hot
-allg = pd.concat([cd.genres, pool.genres]).dropna().str.split(";").explode()
-keep = [g for g, n in allg.value_counts().items() if n >= 6]
-
-
-def genre_mat(s):
-    sets = s.fillna("").str.split(";")
-    return pd.DataFrame({f"g_{g}": [1.0 if g in x else 0.0 for x in sets] for g in keep}, index=s.index)
-
-
-Xc = pd.concat([cd[DESC].reset_index(drop=True), genre_mat(cd.genres).reset_index(drop=True)], axis=1)
-Xp = pd.concat([pool[DESC].reset_index(drop=True), genre_mat(pool.genres).reset_index(drop=True)], axis=1)
+# --- Nur Audio-Deskriptoren (gleiche Abdeckung fuer alle Songs; Genre-Labels waren
+# bei Chart- und Pool-Songs ungleich verfuegbar und wuerden das Modell verfaelschen)
+Xc = cd[DESC].reset_index(drop=True)
+Xp = pool[DESC].reset_index(drop=True)
 med = pd.concat([Xc, Xp]).median()
 Xc, Xp = Xc.fillna(med), Xp.fillna(med)
 neg = ~pool.is_chart.values
