@@ -1,0 +1,13 @@
+spotify_feature,korrelation_cv_ridge,korrelation_cv_gbm,r2_gbm,bemerkung
+tempo,0.28,0.19,-0.04,"Direktschaetzung statt Modell: 78% innerhalb 4% von Spotify; Halb-/Doppeltempo nur 3%"
+energy,0.75,0.69,0.48,
+danceability,0.67,0.68,0.47,
+valence,0.55,0.57,0.32,
+acousticness,0.75,0.76,0.58,
+loudness,0.76,0.71,0.50,
+speechiness,0.60,0.56,0.31,
+instrumentalness,0.35,0.39,0.10,"schwach"
+liveness,0.11,0.07,-0.15,"nicht nachbildbar"
+key,0.10,0.07,-0.08,"Direktschaetzung stimmt in 38% der Faelle"
+mode,0.25,0.19,-0.02,"Direktschaetzung stimmt in 64% der Faelle"
+chart_vs_pool_klassifikation,,,,"5-fach-CV-AUC 0.77 (Logit, C=0.01); 205 Chartsongs vs 170 Pool-Stichprobe"
