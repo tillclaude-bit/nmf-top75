@@ -9,7 +9,9 @@ Wöchentliche Top-75-Playlist aus den Spotify-New-Music-Friday-Playlists von 14 
   - `chart_rows.csv`: alle Chartzeilen (Platz, Künstler, Titel, Vorwoche, Wochen, NEW/RE)
   - `songs.csv`: eindeutige Songs mit Peak, Wochen in den Charts, Ersteintritt
   - `artists.csv`: Künstler mit Anzahl Songs, Chartwochen, bester Position
-- `data/pools/`: wöchentlicher Pool aller 14 Playlists (folgt)
+- `data/charts/song_features.csv`: Spotify-Audio-Features der 216 gecharteten Songs (`match_quality` beachten: 5 falsche Treffer, 6 ohne Features)
+- `data/pools/`: wöchentlicher Pool aller 14 Playlists (folgt); bisher nur `pool_sample_features_2026-10-30.csv` (176 Tracks Stichprobe mit Features)
+- `data/analysis/`: Vergleiche, z.B. Chart-Songs gegen Pool-Stichprobe
 - `data/rankings/`: wöchentlich das vollständige Ranking aller neuen Songs (folgt)
 - `data/feedback.csv`: Songs, die nicht gefallen
 
@@ -24,3 +26,9 @@ Wöchentliche Top-75-Playlist aus den Spotify-New-Music-Friday-Playlists von 14 
 ## Zugangsdaten
 
 Apify-Token und Spotify-Zugang gehören nur als GitHub-Secrets ins Repo, nie in Dateien.
+
+## Hinweise zu den Feature-Daten
+
+- Quelle: Apify-Actor musicae/spotify-extended-scraper, Suche per "Künstler Titel" (Suche per Track-ID oder URL liefert für neue Tracks "Not found").
+- Neu veröffentlichte Tracks haben Popularity 0, einige bekannte Tracks liefern keine Audio-Features; Popularity ist für den Wochenpool daher unbrauchbar.
+- Die Stichprobe stammt aus dem Pool vom 30.10.2026 (neue Tracks), die Chart-Songs aus früheren Wochen. Der Vergleich ist deshalb nur ein erster Anhaltspunkt.
