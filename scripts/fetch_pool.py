@@ -59,7 +59,14 @@ def main():
     a = ap.parse_args()
     token = os.environ["APIFY_TOKEN"]
     items = read_dataset(token, a.dataset) if a.dataset else run_actor(token)
-    items = [i for i in items if i.get("type", "track") == "track" and i.get("trackId")]
+    flat = []
+    for i in items:  # aeltere Datasets: Playlist-Eintraege mit verschachtelten Tracks
+        if i.get("type") == "playlist" and i.get("tracks"):
+            for t in i["tracks"]:
+                flat.append({**t, "playlistId": i.get("playlistId"), "playlistName": i.get("name")})
+        else:
+            flat.append(i)
+    items = [i for i in flat if i.get("type", "track") in ("track", None) and i.get("trackId")]
     print(f"{len(items)} Zeilen (Playlist x Track)")
 
     os.makedirs("data/pools", exist_ok=True)
