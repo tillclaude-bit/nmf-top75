@@ -23,6 +23,7 @@ from sklearn.pipeline import make_pipeline
 from sklearn.preprocessing import StandardScaler
 
 DATE = sys.argv[1]
+SUFFIX = sys.argv[2] if len(sys.argv) > 2 else ""
 W = {"taste": 1.0, "breadth": 0.5, "pos": 0.25, "artist": 0.5}
 MAX_PER_ARTIST = 2
 N = 75
@@ -82,12 +83,18 @@ Xc, Xp = Xc.fillna(med), Xp.fillna(med)
 neg = ~pool.is_chart.values
 likes = set(fb[fb.signal == "like"].track_id.astype(str)) if len(fb) else set()
 is_like = pool.track_id.isin(likes).values
-# Gefallene Songs zaehlen als zusaetzliche Positive (Gewicht 2), nicht als Negative
+# Gefallene Songs (auch aus frueheren Wochen) zaehlen als zusaetzliche Positive (Gewicht 2), nie als Negative
 neg = neg & ~is_like
-X = pd.concat([Xc, Xp[is_like], Xp[neg]], ignore_index=True)
-y = np.r_[np.ones(len(Xc) + is_like.sum()), np.zeros(neg.sum())]
-w = np.r_[cd.w.values, np.full(is_like.sum(), 2.0), np.ones(neg.sum())]
-off = len(Xc) + is_like.sum()
+import glob
+hist = pd.concat([rd(f) for f in sorted(glob.glob("data/pools/pool_descriptors_*.csv"))], ignore_index=True)
+hist = hist[hist.track_id.isin(likes) & (hist.preview_ok == 1)].drop_duplicates("track_id")
+Xl = hist[DESC].reset_index(drop=True)
+Xl = Xl.fillna(pd.concat([Xc, Xp]).median())
+X = pd.concat([Xc, Xl, Xp[neg]], ignore_index=True)
+y = np.r_[np.ones(len(Xc) + len(Xl)), np.zeros(neg.sum())]
+w = np.r_[cd.w.values, np.full(len(Xl), 2.0), np.ones(neg.sum())]
+off = len(Xc) + len(Xl)
+print(f"Zusaetzliche Positive aus deinem Feedback: {len(Xl)}")
 
 
 def model():
@@ -161,11 +168,11 @@ import os
 os.makedirs("data/rankings", exist_ok=True)
 keep_cols = ["rank", "selected", "quota_pick", "score", "taste", "breadth", "pos", "artist_hits", "track_id", "name", "artists",
              "n_playlists", "best_pos", "preview_ok", "is_chart", "tempo", "rms_db_mean", "playlists"]
-pool[keep_cols].to_csv(f"data/rankings/ranking_{DATE}.csv", index=False)
+pool[keep_cols].to_csv(f"data/rankings/ranking_{DATE}{SUFFIX}.csv", index=False)
 top = pool[pool.selected].reset_index(drop=True)
 top.insert(0, "nr", np.arange(1, len(top) + 1))
 top[["nr", "track_id", "name", "artists", "score", "n_playlists", "best_pos"]].to_csv(
-    f"data/rankings/playlist_{DATE}.csv", index=False
+    f"data/rankings/playlist_{DATE}{SUFFIX}.csv", index=False
 )
 print(f"{len(top)} Songs ausgewaehlt, {top.artists.nunique()} Kuenstler")
 print(top[["nr", "name", "artists", "n_playlists", "best_pos", "taste"]].to_string(max_colwidth=38))
