@@ -1,0 +1,21 @@
+name: Playlist anlegen
+on:
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Datum der NMF-Woche"
+        default: "2026-10-30"
+permissions:
+  contents: read
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Playlist anlegen
+        env:
+          SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
+          SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
+        run: |
+          python3 scripts/create_playlist.py "${{ github.event.inputs.date }}" | tee out.txt
+          while IFS= read -r line; do echo "::notice::${line}"; done < out.txt
