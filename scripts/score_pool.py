@@ -26,6 +26,8 @@ DATE = sys.argv[1]
 W = {"taste": 1.0, "breadth": 0.5, "pos": 0.25, "artist": 0.5}
 MAX_PER_ARTIST = 2
 N = 75
+QUOTA = 2  # Plaetze je Nicht-Englisch-Markt fuer lokale Songs (in hoechstens 2 NMF-Listen)
+MARKETS = ["France", "Deutschland", "Espa", "Italia", "Suomi", "Korea", "Polska", "NL", "Denmark", "Norway", "Sweden", "Greece"]
 
 
 def norm(s):
@@ -51,7 +53,7 @@ cdesc = cdesc[cdesc.source == "chart"]
 songs = rd("data/charts/songs.csv")
 feats = rd("data/charts/song_features.csv")
 arts = rd("data/charts/artists.csv")
-fb = rd("data/feedback.csv")
+fb = rd("data/feedback.csv")  # track_id, signal (like/dislike), artist, title, reason, date
 
 DESC = [c for c in pdesc.columns if c not in ("track_id", "source", "preview_ok", "error", "dur")]
 
@@ -78,9 +80,14 @@ Xp = pool[DESC].reset_index(drop=True)
 med = pd.concat([Xc, Xp]).median()
 Xc, Xp = Xc.fillna(med), Xp.fillna(med)
 neg = ~pool.is_chart.values
-X = pd.concat([Xc, Xp[neg]], ignore_index=True)
-y = np.r_[np.ones(len(Xc)), np.zeros(neg.sum())]
-w = np.r_[cd.w.values, np.ones(neg.sum())]
+likes = set(fb[fb.signal == "like"].track_id.astype(str)) if len(fb) else set()
+is_like = pool.track_id.isin(likes).values
+# Gefallene Songs zaehlen als zusaetzliche Positive (Gewicht 2), nicht als Negative
+neg = neg & ~is_like
+X = pd.concat([Xc, Xp[is_like], Xp[neg]], ignore_index=True)
+y = np.r_[np.ones(len(Xc) + is_like.sum()), np.zeros(neg.sum())]
+w = np.r_[cd.w.values, np.full(is_like.sum(), 2.0), np.ones(neg.sum())]
+off = len(Xc) + is_like.sum()
 
 
 def model():
@@ -94,7 +101,7 @@ for tr, te in StratifiedKFold(10, shuffle=True, random_state=0).split(X, y):
     oof[te] = m.decision_function(X.iloc[te])
 print(f"Passungsmass CV-AUC (Chartsongs vs. Pool): {roc_auc_score(y, oof):.3f}")
 pool["taste"] = np.nan
-pool.loc[neg, "taste"] = oof[len(Xc):]
+pool.loc[neg, "taste"] = oof[off:]
 # Pool-Songs, die schon in den Charts sind, nur zur Anzeige: mit Gesamtmodell
 mfull = model().fit(X, y, logisticregression__sample_weight=w)
 pool.loc[~neg, "taste"] = mfull.decision_function(Xp[~neg])
@@ -113,31 +120,46 @@ pool["score"] = sum(W[k] * z(pool[k]) for k in W)
 pool.loc[pool.preview_ok != 1, "score"] -= 0.5  # keine Deskriptoren: vorsichtiger Abschlag
 
 # --- Feedback / Ausschluesse
-if len(fb):
-    bad = set(fb.song_id.astype(str))
-    pool = pool[~pool.track_id.isin(bad)]
+bad = set(fb[fb.signal == "dislike"].track_id.astype(str)) if len(fb) else set()
+pool = pool[~pool.track_id.isin(bad)].reset_index(drop=True)
 pool = pool.sort_values("score", ascending=False).reset_index(drop=True)
 pool["rank"] = np.arange(1, len(pool) + 1)
 
 # --- Auswahl: keine Chart-Duplikate, max. 2 pro Kuenstler, keine Doppelversionen
+# Erst je Nicht-Englisch-Markt die QUOTA besten lokalen Songs (Sprachvielfalt), dann der Rest nach Score
 sel, per_artist, seen = [], {}, set()
-for i, r in pool.iterrows():
-    if r.is_chart or r.tkey in seen:
-        continue
+
+
+def take(i, r):
     a = artist_tokens(r.artists)[0] if artist_tokens(r.artists) else r.artists
-    if per_artist.get(a, 0) >= MAX_PER_ARTIST:
-        continue
+    if r.is_chart or r.tkey in seen or per_artist.get(a, 0) >= MAX_PER_ARTIST:
+        return False
     sel.append(i)
     per_artist[a] = per_artist.get(a, 0) + 1
     seen.add(r.tkey)
-    if len(sel) == N:
+    return True
+
+
+pool["quota_pick"] = False
+for m in MARKETS:
+    n = 0
+    for i, r in pool[(pool.n_playlists <= 2) & pool.playlists.str.contains(m)].iterrows():
+        if n >= QUOTA:
+            break
+        if take(i, r):
+            pool.loc[i, "quota_pick"] = True
+            n += 1
+for i, r in pool.iterrows():
+    if len(sel) >= N:
         break
+    if i not in sel:
+        take(i, r)
 pool["selected"] = pool.index.isin(sel)
 
 import os
 
 os.makedirs("data/rankings", exist_ok=True)
-keep_cols = ["rank", "selected", "score", "taste", "breadth", "pos", "artist_hits", "track_id", "name", "artists",
+keep_cols = ["rank", "selected", "quota_pick", "score", "taste", "breadth", "pos", "artist_hits", "track_id", "name", "artists",
              "n_playlists", "best_pos", "preview_ok", "is_chart", "tempo", "rms_db_mean", "playlists"]
 pool[keep_cols].to_csv(f"data/rankings/ranking_{DATE}.csv", index=False)
 top = pool[pool.selected].reset_index(drop=True)
