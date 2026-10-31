@@ -6,7 +6,7 @@ Aufruf: python score_pool.py 2026-10-30
 Signale (alle fuer jeden Song gleich berechnet):
   taste   Passungsmass: logistische Regression "deine Chartsongs" gegen "alle NMF-Songs"
           auf eigenen Vorschau-Deskriptoren (Klang, Rhythmus, Timbre; Out-of-fold fuer Pool-Songs)
-  breadth log(Anzahl der NMF-Playlists) -- Gewicht 0 (nur Anzeige): die Zahl der Playlists soll keine Rolle spielen
+  breadth log(Anzahl der NMF-Playlists, in denen der Song steht)
   pos     bester Listenplatz (Log)
   artist  Zahl der Chartsongs desselben Kuenstlers in deinen Charts
 Gewichte sind vorerst Annahmen; sie werden mit den Chartergebnissen nachjustiert.
@@ -24,10 +24,10 @@ from sklearn.preprocessing import StandardScaler
 
 DATE = sys.argv[1]
 SUFFIX = sys.argv[2] if len(sys.argv) > 2 else ""
-W = {"taste": 1.0, "breadth": 0.0, "pos": 0.25, "artist": 0.5}  # breadth = 0: Till will nicht, dass die Zahl der Playlists eine Rolle spielt
+W = {"taste": 1.0, "breadth": 0.5, "pos": 0.25, "artist": 0.5}  # breadth bleibt drin (Till, 2026-10-31); Vorwochen-Backtest: Breite sagt Chart-Einstiege vorher
 MAX_PER_ARTIST = 2
 N = 75
-QUOTA = 2  # Plaetze je Nicht-Englisch-Markt; zaehlt nur, ob der Song in dieser Liste steht und nicht in UK/AU-NZ (Sprach-Proxy, unabhaengig von der Breite)
+QUOTA = 2  # Plaetze je Nicht-Englisch-Markt fuer lokale Songs (in hoechstens 2 NMF-Listen)
 MARKETS = ["France", "Deutschland", "Espa", "Italia", "Suomi", "Korea", "Polska", "NL", "Denmark", "Norway", "Sweden", "Greece"]
 
 
@@ -152,7 +152,7 @@ def take(i, r):
 pool["quota_pick"] = False
 for m in MARKETS:
     n = 0
-    for i, r in pool[pool.playlists.str.contains(m) & ~pool.playlists.str.contains("UK & Ireland|AU & NZ")].iterrows():
+    for i, r in pool[(pool.n_playlists <= 2) & pool.playlists.str.contains(m)].iterrows():
         if n >= QUOTA:
             break
         if take(i, r):
