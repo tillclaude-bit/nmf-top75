@@ -1,0 +1,28 @@
+name: Spotify-Freigabe Schritt 2
+on:
+  workflow_dispatch:
+    inputs:
+      redirect_url:
+        description: "Komplette Adresse nach der Freigabe"
+permissions:
+  contents: write
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Token holen
+        env:
+          SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
+          RED: ${{ github.event.inputs.redirect_url }}
+        run: |
+          python3 scripts/auth_finish.py "$RED" | tee out.txt
+          while IFS= read -r line; do echo "::notice::${line}"; done < out.txt
+      - name: Verifier loeschen
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@users.noreply.github.com"
+          git rm -q -f auth/pkce.json || true
+          git commit -m "auth: remove verifier" || true
+          git pull --rebase origin main
+          git push origin HEAD:main
