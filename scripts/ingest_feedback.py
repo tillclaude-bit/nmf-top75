@@ -26,7 +26,23 @@ for r in mine[~mine.track_id.isin(his.track_id)].itertuples():
     if r.track_id not in known:
         rows.append(dict(track_id=r.track_id, signal="dislike", artist=r.artists, title=r.name,
                          reason="aus Auswahl entfernt", date=date))
+# Gestuftes Ranking: nur wenn die Reihenfolge deutlich von meiner abweicht (er hat sortiert)
+from scipy.stats import spearmanr
+m = his.merge(mine[["track_id", "nr"]], on="track_id")
+reordered = len(m) > 5 and abs(spearmanr(m.pos, m.nr)[0]) < 0.95
+if reordered:
+    n = len(his)
+    for r in his.itertuples():
+        frac = r.pos / n
+        sig = "like" if frac <= 0.45 else ("neutral" if frac <= 0.67 else "weak_dislike")
+        if r.track_id in known and not (sig == "weak_dislike"):
+            continue
+        if r.track_id in known and sig == "weak_dislike":
+            continue
+        rows.append(dict(track_id=r.track_id, signal=sig, artist=r.artists, title=r.name,
+                         reason=f"Rang {r.pos} von {n} in eigener Liste", date=date))
+        known.add(r.track_id)
 if rows:
     pd.concat([fb, pd.DataFrame(rows)], ignore_index=True).to_csv("data/feedback.csv", index=False)
-print(f"Feedback {date}: {sum(r['signal']=='like' for r in rows)} neue likes, "
-      f"{sum(r['signal']=='dislike' for r in rows)} neue dislikes, Liste hat {len(his)} Songs")
+from collections import Counter
+print(f"Feedback {date}: neu {dict(Counter(r['signal'] for r in rows))}, umsortiert={reordered}, Liste hat {len(his)} Songs")

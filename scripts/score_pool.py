@@ -84,7 +84,9 @@ neg = ~pool.is_chart.values
 likes = set(fb[fb.signal == "like"].track_id.astype(str)) if len(fb) else set()
 is_like = pool.track_id.isin(likes).values
 # Gefallene Songs (auch aus frueheren Wochen) zaehlen als zusaetzliche Positive (Gewicht 2), nie als Negative
-neg = neg & ~is_like
+neutral = set(fb[fb.signal == "neutral"].track_id.astype(str)) if len(fb) else set()
+weak = set(fb[fb.signal == "weak_dislike"].track_id.astype(str)) if len(fb) else set()
+neg = neg & ~is_like & ~pool.track_id.isin(neutral).values  # neutral: weder Positiv noch Negativ
 import glob
 hist = pd.concat([rd(f) for f in sorted(glob.glob("data/pools/pool_descriptors_*.csv"))], ignore_index=True)
 hist = hist[hist.track_id.isin(likes) & (hist.preview_ok == 1)].drop_duplicates("track_id")
@@ -92,7 +94,7 @@ Xl = hist[DESC].reset_index(drop=True)
 Xl = Xl.fillna(pd.concat([Xc, Xp]).median())
 X = pd.concat([Xc, Xl, Xp[neg]], ignore_index=True)
 y = np.r_[np.ones(len(Xc) + len(Xl)), np.zeros(neg.sum())]
-w = np.r_[cd.w.values, np.full(len(Xl), 2.0), np.ones(neg.sum())]
+w = np.r_[cd.w.values, np.full(len(Xl), 2.0), np.where(pool.track_id[neg].isin(weak).values, 2.0, 1.0)]
 off = len(Xc) + len(Xl)
 print(f"Zusaetzliche Positive aus deinem Feedback: {len(Xl)}")
 
