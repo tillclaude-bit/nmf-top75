@@ -46,10 +46,8 @@ def z(x):
 rd = lambda p: pd.read_csv(p, encoding="utf-8-sig")
 pool = rd(f"data/pools/pool_tracks_{DATE}.csv")
 pdesc = rd(f"data/pools/pool_descriptors_{DATE}.csv")
-pgen = rd(f"data/pools/pool_genres_{DATE}.csv")
 cdesc = rd("data/analysis/preview_descriptors_2026-10-30.csv")
 cdesc = cdesc[cdesc.source == "chart"]
-cgen = rd("data/analysis/genres_charts_2026-10-30.csv")
 songs = rd("data/charts/songs.csv")
 feats = rd("data/charts/song_features.csv")
 arts = rd("data/charts/artists.csv")
@@ -61,9 +59,7 @@ DESC = [c for c in pdesc.columns if c not in ("track_id", "source", "preview_ok"
 cs = feats[["song_id", "spotify_track_id"]].merge(songs[["song_id", "peak_pos", "weeks_in_10_charts"]], on="song_id")
 cs["w"] = 1 + 0.5 * (cs.peak_pos <= 10) + 0.5 * (cs.weeks_in_10_charts >= 4)
 cd = cdesc.rename(columns={"track_id": "spotify_track_id"}).merge(cs, on="spotify_track_id")
-cd = cd[cd.preview_ok == 1].merge(
-    cgen.rename(columns={"id": "spotify_track_id"})[["spotify_track_id", "genres"]], on="spotify_track_id", how="left"
-)
+cd = cd[cd.preview_ok == 1]
 
 # --- Pool: Chartsongs und Kuenstler/Titel-Duplikate ausschliessen (keine Eigen-Treffer als Negativ)
 pool["tkey"] = pool.artists.map(lambda a: artist_tokens(a)[0] if artist_tokens(a) else "") + "|" + pool.name.map(norm)
@@ -71,7 +67,6 @@ chart_keys = set(
     songs.artist.map(lambda a: artist_tokens(a)[0] if artist_tokens(a) else "") + "|" + songs.title.map(norm)
 )
 pool = pool.merge(pdesc.drop(columns=["source"], errors="ignore"), on="track_id", how="left")
-pool = pool.merge(pgen[["id", "genres", "match"]].rename(columns={"id": "track_id"}), on="track_id", how="left")
 pool["is_chart"] = pool.tkey.isin(chart_keys)
 print(f"Pool: {len(pool)} Tracks, davon bereits in deinen Charts: {pool.is_chart.sum()}, "
       f"ohne Deskriptoren: {(pool.preview_ok != 1).sum()}")
@@ -143,11 +138,11 @@ import os
 
 os.makedirs("data/rankings", exist_ok=True)
 keep_cols = ["rank", "selected", "score", "taste", "breadth", "pos", "artist_hits", "track_id", "name", "artists",
-             "n_playlists", "best_pos", "genres", "preview_ok", "is_chart", "tempo", "rms_db_mean", "playlists"]
+             "n_playlists", "best_pos", "preview_ok", "is_chart", "tempo", "rms_db_mean", "playlists"]
 pool[keep_cols].to_csv(f"data/rankings/ranking_{DATE}.csv", index=False)
 top = pool[pool.selected].reset_index(drop=True)
 top.insert(0, "nr", np.arange(1, len(top) + 1))
-top[["nr", "track_id", "name", "artists", "score", "n_playlists", "best_pos", "genres"]].to_csv(
+top[["nr", "track_id", "name", "artists", "score", "n_playlists", "best_pos"]].to_csv(
     f"data/rankings/playlist_{DATE}.csv", index=False
 )
 print(f"{len(top)} Songs ausgewaehlt, {top.artists.nunique()} Kuenstler")
