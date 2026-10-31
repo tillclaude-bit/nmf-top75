@@ -64,4 +64,7 @@ jobs:
       - name: Zusammenfassung
         if: always()
         run: |
-          for f in fetch.txt desc.txt score.txt pl.txt; do [ -f $f ] && grep -v '^ *[0-9]* ' $f | while IFS= read -r line; do echo "::notice::${line}"; done; done
+          for f in fetch.txt desc.txt score.txt pl.txt; do
+            if [ -f "$f" ]; then grep -v '^ *[0-9]* ' "$f" | while IFS= read -r line; do echo "::notice::${line}"; done || true; fi
+          done
+          exit 0
