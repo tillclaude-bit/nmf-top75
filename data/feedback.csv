@@ -1,1 +1,5 @@
-song_id,artist,title,reason,date
+track_id,signal,artist,title,reason,date
+5XXXFERLsHPaaO4TI4KC8b,dislike,Nickelback,If I Don't Go,gefaellt nicht,2026-10-31
+5oCTpUSu18fKYHfRIsgX6d,dislike,Bryan Adams,Lake Ontario,gefaellt nicht,2026-10-31
+0q6eqNNH6K1G3ywPpcBypp,like,Ebony,FEMME ZOMBIE,selbst in NMF Frankreich gefunden aber nicht ausgewaehlt,2026-10-31
+5rlEA8a56MmvUmIioXtLR4,like,Charlotte Fever,La victoire,selbst in NMF Frankreich gefunden aber nicht ausgewaehlt,2026-10-31
