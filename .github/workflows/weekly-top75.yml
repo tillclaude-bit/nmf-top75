@@ -36,7 +36,14 @@ jobs:
       - name: Pool holen (14 NMF-Playlists)
         env:
           APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
-        run: python3 scripts/fetch_pool.py "$DATE" | tee fetch.txt
+        run: |
+          for try in 1 2 3 4; do
+            python3 scripts/fetch_pool.py "$DATE" | tee fetch.txt
+            if python3 scripts/check_fresh.py "$DATE" | tee -a fetch.txt; then break; fi
+            if [ "$try" = 4 ]; then echo "Warnung: Playlists evtl. noch nicht aktualisiert, mache trotzdem weiter" | tee -a fetch.txt; break; fi
+            echo "Warte 30 Minuten auf neue Playlists (Versuch $try)" | tee -a fetch.txt
+            sleep 1800
+          done
       - name: Pool archivieren
         run: |
           git config user.name "github-actions"
