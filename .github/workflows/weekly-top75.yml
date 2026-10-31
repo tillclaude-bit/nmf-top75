@@ -33,6 +33,19 @@ jobs:
         run: |
           sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg libsndfile1
           pip install -q librosa pyloudnorm numpy scipy pandas scikit-learn
+      - name: Feedback der Vorwoche einlesen (deine Aenderungen an der letzten Playlist)
+        continue-on-error: true
+        env:
+          SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
+          SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
+        run: |
+          python3 scripts/ingest_feedback.py | tee fb.txt
+          git config user.name "github-actions"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/feedback data/feedback.csv
+          git commit -m "Ingest feedback from last playlist" || echo "nothing to commit"
+          git pull --rebase origin main
+          git push origin HEAD:main
       - name: Pool holen (14 NMF-Playlists)
         env:
           APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
@@ -68,10 +81,17 @@ jobs:
           SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
           SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
         run: python3 scripts/create_playlist.py "$DATE" | tee pl.txt
+      - name: Playlist-ID festhalten
+        if: github.event.inputs.skip_playlist != 'ja'
+        run: |
+          git add data/playlist_ids.csv
+          git commit -m "Record playlist id $DATE" || echo "nothing to commit"
+          git pull --rebase origin main
+          git push origin HEAD:main
       - name: Zusammenfassung
         if: always()
         run: |
-          for f in fetch.txt desc.txt score.txt pl.txt; do
+          for f in fb.txt fetch.txt desc.txt score.txt pl.txt; do
             if [ -f "$f" ]; then grep -v '^ *[0-9]* ' "$f" | while IFS= read -r line; do echo "::notice::${line}"; done || true; fi
           done
           exit 0

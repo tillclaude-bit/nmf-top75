@@ -63,4 +63,8 @@ s, chk = call(f"https://api.spotify.com/v1/playlists/{pid}", token=tok)
 if s == 200:
     tot = (chk.get("tracks") or chk.get("items") or {}).get("total")
     print(f"Playlist {pid}: public={chk.get('public')} tracks={tot}")
+import pathlib
+f = pathlib.Path("data/playlist_ids.csv")
+with open(f, "a", encoding="utf-8") as fh:
+    fh.write(f"{date},{pid}\n")
 print("URL=https://open.spotify.com/playlist/" + pid)
