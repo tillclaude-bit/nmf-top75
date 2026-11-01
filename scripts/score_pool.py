@@ -30,6 +30,9 @@ N = 75
 LANG_MIN_PROB = 0.40   # darunter gilt die Spracherkennung als unsicher (z.B. Instrumentals)
 CHART_WEEKS = 4        # Sprachquote richtet sich nach dem Anteil in den letzten Chartwochen
 LANGS = ["en", "de", "fr", "es", "it", "el", "da", "no", "sv", "fi", "ko", "pl", "nl", "pt", "ja", "tr", "ar", "hi", "id"]  # plausible Sprachen
+MARKET_LANG = {"UK & Ireland": "en", "AU & NZ": "en", "France": "fr", "Deutschland": "de", "Espa": "es", "Italia": "it",
+               "Greece": "el", "Denmark": "da", "Norway": "no", "Sweden": "sv", "Suomi": "fi", "Korea": "ko",
+               "Polska": "pl", "NL": "nl"}
 MAX_LANG_SHARE = 0.25  # hoechstens dieser Anteil der Nicht-Englisch-Plaetze fuer eine einzelne Sprache
 
 
@@ -144,8 +147,23 @@ if lf:
     lang = pd.concat([rd(f) for f in lf], ignore_index=True)
     lang = lang[lang.lang.notna() & (lang.lang != "")].drop_duplicates("track_id", keep="last")
     lang["lang_ok"] = np.where((lang.prob >= LANG_MIN_PROB) & lang.lang.isin(LANGS), lang.lang, "unknown")
-    pool = pool.merge(lang[["track_id", "lang_ok"]].rename(columns={"lang_ok": "lang"}), on="track_id", how="left")
-    pool["lang"] = pool["lang"].fillna("unknown")
+    pool = pool.merge(lang[["track_id", "lang", "prob", "lang2", "prob2"]].rename(
+        columns={"lang": "w1", "prob": "p1", "lang2": "w2", "prob2": "p2"}), on="track_id", how="left")
+
+    def pick(r):
+        """Whisper-Top-2, gewichtet mit der Herkunft: Sprachen der Laender, in deren NMF-Liste der Song steht, x4"""
+        if pd.isna(r.w1):
+            return "unknown"
+        home = {l for k, l in MARKET_LANG.items() if k in r.playlists}
+        c = {r.w1: r.p1}
+        if isinstance(r.w2, str) and r.w2:
+            c[r.w2] = r.p2
+        b = {l: p * (4.0 if l in home else 1.0) for l, p in c.items()}
+        best = max(b, key=b.get)
+        conf = b[best] / (sum(b.values()) + max(0.0, 1 - sum(c.values())))
+        return best if (conf >= LANG_MIN_PROB and best in LANGS) else "unknown"
+
+    pool["lang"] = pool.apply(pick, axis=1)
     cr = rd("data/charts/chart_rows.csv").merge(
         feats[["song_id", "spotify_track_id"]], on="song_id", how="left"
     ).merge(lang[["track_id", "lang_ok"]].rename(columns={"track_id": "spotify_track_id"}), on="spotify_track_id", how="left")
