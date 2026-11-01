@@ -14,7 +14,7 @@ nr,track_id,name,artists,score,n_playlists,best_pos,lang
 13,3KLacVEtzdMB3ttyGP7a0I,Heavy Hearts Club,Dandelion,3.985691753008173,4,31,en
 14,0SqDNsDiJyvrbXGsIvt0hN,ADDICTED,JISOO,3.7526551273278215,8,2,en
 15,2b8BZIE6VefboEkZMrNhRX,Overthinker,CHVRCHES,3.7124508784325942,11,7,en
-16,68EONb3R2tW8LyJrmZh40n,Touch of an Angel,Cobrah,3.5672236176473513,7,8,ko
+16,68EONb3R2tW8LyJrmZh40n,Touch of an Angel,Cobrah,3.5672236176473513,7,8,en
 17,0Ho5wqdJQbhRhk96fhPUtl,mine venner hader dig :),Klara Vibeke,3.542487985257726,1,7,da
 18,3LXnxu7Eiu6ThZApudc52a,Una spada nella roccia,Francesca Michielin,3.518244631395395,1,5,it
 19,3OvgA9rjBeKPR4BDI6TrhB,Bora,Leigh-Anne,3.4886156081244892,6,19,en
@@ -58,19 +58,19 @@ nr,track_id,name,artists,score,n_playlists,best_pos,lang
 57,3El0PldZjIxF1olHHzhUxW,CASTING CALL,Dominic Fike,1.9556311654050096,13,2,en
 58,68y4a4W1V6GyrmHBE6a08h,Ihminen (Vain elämää kausi 17),BESS,1.9078079087209256,1,8,unknown
 59,2xZk0W8K0J4zEFczDjVjrZ,SWEAT,MISSU,1.889808999321223,1,41,en
-60,6t56q2oSxyEHHjNSFcwO8R,I Gotta Believe,MYKKE,1.8854568160991119,4,53,unknown
-61,661rXAsu9bIXLjQd1Xl2HA,CATIRA,Yorghaki,1.7920662744022064,2,14,es
-62,2BCAVdzC0l3ReJtx2LAVbJ,Mon Sac,Jäde,1.6869250622929366,1,53,fr
-63,1qIoZHgXGlBWYBQJU5XgZk,Invencible,Merche,1.6477199792034405,1,26,es
-64,5PafEFpYfVg7SUNc8T8Bdq,oikees,"louna0nline, keiju",1.6425300450410059,1,3,fi
-65,6chDOOvsTHIjkO97WqKn20,Adespoto,"Lena Zevgara, Foivos",1.6418645768357414,1,1,el
-66,2EfcQOJiJBtoN4zYghioen,Bakom oss bara dimma (Filmversion från Jävla karlar),Håkan Hellström,1.5847301207762765,4,3,sv
-67,5z98V9Jg4anXgKGeDTLWEc,Vain hullut selvii järjissään,Ira,1.513756698748772,1,25,fi
-68,6bjkdtQ8CD9zil8oXEsSeF,Solen,"Yukimi, Little Dragon",1.3794563227289802,4,14,sv
-69,7JAMj6SxlVPRwHu57nLH4l,Kiss To My Ex,Sara Bee,1.373837927985024,1,1,fi
-70,7mgr04uZgK1DsjH0q3e9az,Tutto ciò di cui hai bisogno,"Kevira, Piccolorvssk",1.3502900878844564,1,75,it
-71,7pmJhkcWxLdIfd4Qp3Kw0t,bonanza,Myra,1.3460356465977958,1,14,ko
-72,354LxmUuNkYgAZ6F10x5DK,Cuesta abajo,Lisasinson,1.3145479455141484,1,44,es
-73,42NqejaZKgbJMTtJdb44Ff,Gatorna på Södermalm,LOVIS,1.2830773391978956,1,43,sv
-74,12aQbTyM4034Ej1N4MI5oq,la verità,sangiovanni,1.2824808672290597,1,11,it
-75,4Gh8CTxxxAJkA8iejRHhQM,Felicidades (feat. Maluma),"Yami Safdie, Maluma",1.2759783245262666,2,8,es
+60,661rXAsu9bIXLjQd1Xl2HA,CATIRA,Yorghaki,1.7920662744022064,2,14,es
+61,2BCAVdzC0l3ReJtx2LAVbJ,Mon Sac,Jäde,1.6869250622929366,1,53,fr
+62,1qIoZHgXGlBWYBQJU5XgZk,Invencible,Merche,1.6477199792034405,1,26,es
+63,5PafEFpYfVg7SUNc8T8Bdq,oikees,"louna0nline, keiju",1.6425300450410059,1,3,fi
+64,6chDOOvsTHIjkO97WqKn20,Adespoto,"Lena Zevgara, Foivos",1.6418645768357414,1,1,el
+65,2EfcQOJiJBtoN4zYghioen,Bakom oss bara dimma (Filmversion från Jävla karlar),Håkan Hellström,1.5847301207762765,4,3,sv
+66,5z98V9Jg4anXgKGeDTLWEc,Vain hullut selvii järjissään,Ira,1.513756698748772,1,25,fi
+67,6bjkdtQ8CD9zil8oXEsSeF,Solen,"Yukimi, Little Dragon",1.3794563227289802,4,14,sv
+68,7JAMj6SxlVPRwHu57nLH4l,Kiss To My Ex,Sara Bee,1.373837927985024,1,1,fi
+69,7mgr04uZgK1DsjH0q3e9az,Tutto ciò di cui hai bisogno,"Kevira, Piccolorvssk",1.3502900878844564,1,75,it
+70,7pmJhkcWxLdIfd4Qp3Kw0t,bonanza,Myra,1.3460356465977958,1,14,ko
+71,354LxmUuNkYgAZ6F10x5DK,Cuesta abajo,Lisasinson,1.3145479455141484,1,44,es
+72,42NqejaZKgbJMTtJdb44Ff,Gatorna på Södermalm,LOVIS,1.2830773391978956,1,43,sv
+73,12aQbTyM4034Ej1N4MI5oq,la verità,sangiovanni,1.2824808672290597,1,11,it
+74,4Gh8CTxxxAJkA8iejRHhQM,Felicidades (feat. Maluma),"Yami Safdie, Maluma",1.2759783245262666,2,8,es
+75,1ZV4PH0ks54rIEjDAh9yYX,Omia polkujaan,EMI,1.255334183536847,1,18,fi

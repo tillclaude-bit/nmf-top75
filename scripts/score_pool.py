@@ -164,6 +164,10 @@ if lf:
         return best if (conf >= LANG_MIN_PROB and best in LANGS) else "unknown"
 
     pool["lang"] = pool.apply(pick, axis=1)
+    import os as _os
+    if _os.path.exists("data/language_overrides.csv"):  # von Hand bestaetigte Sprachen haben Vorrang
+        ov = rd("data/language_overrides.csv").set_index("track_id").lang.to_dict()
+        pool["lang"] = [ov.get(t, l) for t, l in zip(pool.track_id, pool.lang)]
     cr = rd("data/charts/chart_rows.csv").merge(
         feats[["song_id", "spotify_track_id"]], on="song_id", how="left"
     ).merge(lang[["track_id", "lang_ok"]].rename(columns={"track_id": "spotify_track_id"}), on="spotify_track_id", how="left")
