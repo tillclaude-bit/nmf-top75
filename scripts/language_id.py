@@ -16,6 +16,15 @@ for r in csv.DictReader(open(pool, encoding="utf-8-sig")):
 for r in csv.DictReader(open("data/charts/song_features.csv", encoding="utf-8-sig")):
     if r.get("match_quality") == "ok" and r.get("spotify_track_id"):
         items.setdefault(r["spotify_track_id"], ("chart", None))
+# Chartsongs, deren Sprache schon aus frueheren Laeufen bekannt ist, nicht erneut berechnen
+import glob
+done = set()
+for f in glob.glob("data/analysis/language_*.csv"):
+    if os.path.abspath(f) != os.path.abspath(out):
+        for r in csv.DictReader(open(f, encoding="utf-8-sig")):
+            if r.get("lang"):
+                done.add(r["track_id"])
+items = {k: v for k, v in items.items() if v[0] == "pool" or k not in done}
 print(f"{len(items)} Tracks", flush=True)
 
 
@@ -34,7 +43,7 @@ def fetch(kv):
         return tid, src, None, repr(e)[:100]
 
 
-model = WhisperModel("base", device="cpu", compute_type="int8", cpu_threads=4)
+model = WhisperModel("small", device="cpu", compute_type="int8", cpu_threads=4)
 rows = []
 with ThreadPoolExecutor(max_workers=4) as ex:
     for tid, src, audio, err in ex.map(fetch, items.items()):

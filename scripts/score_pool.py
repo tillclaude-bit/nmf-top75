@@ -27,8 +27,10 @@ SUFFIX = sys.argv[2] if len(sys.argv) > 2 else ""
 W = {"taste": 1.0, "breadth": 0.5, "pos": 0.25, "artist": 0.5}  # breadth bleibt drin (Till, 2026-10-31); Vorwochen-Backtest: Breite sagt Chart-Einstiege vorher
 MAX_PER_ARTIST = 2
 N = 75
-QUOTA = 2  # Plaetze je Nicht-Englisch-Markt fuer lokale Songs (in hoechstens 2 NMF-Listen)
-MARKETS = ["France", "Deutschland", "Espa", "Italia", "Suomi", "Korea", "Polska", "NL", "Denmark", "Norway", "Sweden", "Greece"]
+LANG_MIN_PROB = 0.40   # darunter gilt die Spracherkennung als unsicher (z.B. Instrumentals)
+CHART_WEEKS = 4        # Sprachquote richtet sich nach dem Anteil in den letzten Chartwochen
+LANGS = ["en", "de", "fr", "es", "it", "el", "da", "no", "sv", "fi", "ko", "pl", "nl", "pt", "ja", "tr", "ar", "hi", "id"]  # plausible Sprachen
+MAX_LANG_SHARE = 0.25  # hoechstens dieser Anteil der Nicht-Englisch-Plaetze fuer eine einzelne Sprache
 
 
 def norm(s):
@@ -134,8 +136,30 @@ pool = pool[~pool.track_id.isin(bad)].reset_index(drop=True)
 pool = pool.sort_values("score", ascending=False).reset_index(drop=True)
 pool["rank"] = np.arange(1, len(pool) + 1)
 
+# --- Sprache (Whisper auf den Vorschauen) und Zielanteil aus den aktuellen Charts
+import glob as _glob
+lang = None
+lf = sorted(_glob.glob("data/analysis/language_*.csv"))
+if lf:
+    lang = pd.concat([rd(f) for f in lf], ignore_index=True)
+    lang = lang[lang.lang.notna() & (lang.lang != "")].drop_duplicates("track_id", keep="last")
+    lang["lang_ok"] = np.where((lang.prob >= LANG_MIN_PROB) & lang.lang.isin(LANGS), lang.lang, "unknown")
+    pool = pool.merge(lang[["track_id", "lang_ok"]].rename(columns={"lang_ok": "lang"}), on="track_id", how="left")
+    pool["lang"] = pool["lang"].fillna("unknown")
+    cr = rd("data/charts/chart_rows.csv").merge(
+        feats[["song_id", "spotify_track_id"]], on="song_id", how="left"
+    ).merge(lang[["track_id", "lang_ok"]].rename(columns={"track_id": "spotify_track_id"}), on="spotify_track_id", how="left")
+    weeks = sorted(cr.chart_date.unique())[-CHART_WEEKS:]
+    cl = cr[cr.chart_date.isin(weeks) & cr.lang_ok.notna() & (cr.lang_ok != "unknown")]
+    EN_SHARE = float((cl.lang_ok == "en").mean())
+    print(f"Chartwochen {weeks[0]}..{weeks[-1]}: Anteil Englisch {EN_SHARE:.0%} ({len(cl)} Chartplaetze mit Spracherkennung)")
+else:
+    pool["lang"] = "unknown"
+    EN_SHARE = None
+    print("Keine Sprachdaten, Auswahl ohne Sprachquote")
+
 # --- Auswahl: keine Chart-Duplikate, max. 2 pro Kuenstler, keine Doppelversionen
-# Erst je Nicht-Englisch-Markt die QUOTA besten lokalen Songs (Sprachvielfalt), dann der Rest nach Score
+# Erst die besten nicht-englischen Songs bis zum Zielanteil (aus den aktuellen Charts), dann der Rest nach Score
 sel, per_artist, seen = [], {}, set()
 
 
@@ -150,14 +174,24 @@ def take(i, r):
 
 
 pool["quota_pick"] = False
-for m in MARKETS:
-    n = 0
-    for i, r in pool[(pool.n_playlists <= 2) & pool.playlists.str.contains(m)].iterrows():
-        if n >= QUOTA:
+if EN_SHARE is not None:
+    n_non = int(round((1 - EN_SHARE) * N))
+    cap = max(2, int(np.ceil(MAX_LANG_SHARE * n_non)))
+    per_lang = {}
+    for i, r in pool[(pool.lang != "en") & (pool.lang != "unknown")].iterrows():
+        if len(sel) >= n_non:
             break
+        if per_lang.get(r.lang, 0) >= cap:
+            continue
         if take(i, r):
             pool.loc[i, "quota_pick"] = True
-            n += 1
+            per_lang[r.lang] = per_lang.get(r.lang, 0) + 1
+    print(f"Sprachquote: {len(sel)} nicht-englische Songs (Ziel {n_non}), Sprachen: {per_lang}")
+    # Rest: nur englisch/unklar, damit der Zielanteil nicht ueberschritten wird
+    for i, r in pool[(pool.lang == "en") | (pool.lang == "unknown")].iterrows():
+        if len(sel) >= N:
+            break
+        take(i, r)
 for i, r in pool.iterrows():
     if len(sel) >= N:
         break
@@ -168,12 +202,12 @@ pool["selected"] = pool.index.isin(sel)
 import os
 
 os.makedirs("data/rankings", exist_ok=True)
-keep_cols = ["rank", "selected", "quota_pick", "score", "taste", "breadth", "pos", "artist_hits", "track_id", "name", "artists",
+keep_cols = ["rank", "selected", "quota_pick", "lang", "score", "taste", "breadth", "pos", "artist_hits", "track_id", "name", "artists",
              "n_playlists", "best_pos", "preview_ok", "is_chart", "tempo", "rms_db_mean", "playlists"]
 pool[keep_cols].to_csv(f"data/rankings/ranking_{DATE}{SUFFIX}.csv", index=False)
 top = pool[pool.selected].reset_index(drop=True)
 top.insert(0, "nr", np.arange(1, len(top) + 1))
-top[["nr", "track_id", "name", "artists", "score", "n_playlists", "best_pos"]].to_csv(
+top[["nr", "track_id", "name", "artists", "score", "n_playlists", "best_pos", "lang"]].to_csv(
     f"data/rankings/playlist_{DATE}{SUFFIX}.csv", index=False
 )
 print(f"{len(top)} Songs ausgewaehlt, {top.artists.nunique()} Kuenstler")
