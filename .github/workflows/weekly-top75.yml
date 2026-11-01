@@ -18,7 +18,7 @@ permissions:
 jobs:
   run:
     runs-on: ubuntu-latest
-    timeout-minutes: 240
+    timeout-minutes: 300
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -32,7 +32,7 @@ jobs:
       - name: Abhaengigkeiten
         run: |
           sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg libsndfile1
-          pip install -q librosa pyloudnorm numpy scipy pandas scikit-learn
+          pip install -q librosa pyloudnorm numpy scipy pandas scikit-learn faster-whisper
       - name: Feedback der Vorwoche einlesen (deine Aenderungen an der letzten Playlist)
         continue-on-error: true
         env:
@@ -67,11 +67,13 @@ jobs:
           git push origin HEAD:main
       - name: Klang-Eigenschaften berechnen
         run: python3 scripts/preview_features.py "data/pools/pool_descriptors_$DATE.csv" --pool "data/pools/pool_tracks_$DATE.csv" | tee desc.txt
+      - name: Sprache der Songs erkennen
+        run: python3 scripts/language_id.py "data/analysis/language_$DATE.csv" "data/pools/pool_tracks_$DATE.csv" | tee lang.txt
       - name: Bewerten und Top 75 waehlen
         run: python3 scripts/score_pool.py "$DATE" | tee score.txt
       - name: Ergebnis archivieren
         run: |
-          git add data/pools data/rankings
+          git add data/pools data/rankings data/analysis
           git commit -m "Ranking and playlist $DATE" || echo "nothing to commit"
           git pull --rebase origin main
           git push origin HEAD:main
@@ -91,7 +93,7 @@ jobs:
       - name: Zusammenfassung
         if: always()
         run: |
-          for f in fb.txt fetch.txt desc.txt score.txt pl.txt; do
+          for f in fb.txt fetch.txt desc.txt lang.txt score.txt pl.txt; do
             if [ -f "$f" ]; then grep -v '^ *[0-9]* ' "$f" | while IFS= read -r line; do echo "::notice::${line}"; done || true; fi
           done
           exit 0
