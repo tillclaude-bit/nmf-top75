@@ -53,6 +53,7 @@ print("me:", s, me.get("id") if isinstance(me, dict) else me)
 
 
 def norm(x):
+    x = x.replace("&", " and ")
     x = unicodedata.normalize("NFKD", x).encode("ascii", "ignore").decode().lower()
     x = re.sub(r"\bthe\b", " ", x)
     return re.sub(r"[^a-z0-9]+", "", x)
@@ -77,6 +78,11 @@ def title_variants(title):
     out = [title]
     if stripped and stripped != title:
         out.append(stripped)
+    # "&" und "and" im Titel gelten als gleich: zusaetzlich die jeweils andere Schreibweise suchen
+    for v in list(out):
+        alt = re.sub(r"\s+and\s+", " & ", v, flags=re.I) if re.search(r"\s+and\s+", v, flags=re.I) else v.replace("&", "and")
+        if alt != v and alt not in out:
+            out.append(alt)
     return out
 
 
