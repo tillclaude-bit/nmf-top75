@@ -119,7 +119,7 @@ def best(line):
             if b in low and b not in line.lower():
                 sc -= 2
         extra = sum(1 for w in wanted_artists[1:] if any(w in n or n in w for n in names))
-        sc += extra * 0.5
+        sc += extra * 4
         if it.get("album", {}).get("album_type") == "compilation":
             sc -= 1
         scored.append((sc, -order, it))
@@ -131,6 +131,29 @@ def best(line):
         return None
     return {"id": it["id"], "title": it["name"], "artists": [a["name"] for a in it["artists"]],
             "album": it.get("album", {}).get("name"), "score": sc}
+
+
+def from_override(ov):
+    """ov: {"ids": [...]} (Track-IDs direkt) oder {"query": "...", "artist": "...", "title": "..."} (Suche, erster Treffer)."""
+    if "ids" in ov:
+        out = []
+        for tid in ov["ids"]:
+            s, r = call(f"https://api.spotify.com/v1/tracks/{tid}", token=tok)
+            out.append({"id": tid, "title": r.get("name") if s == 200 else None,
+                        "artists": [a["name"] for a in r.get("artists", [])] if s == 200 else [],
+                        "album": (r.get("album") or {}).get("name") if s == 200 else None, "score": 99})
+        return out
+    s, r = call("https://api.spotify.com/v1/search?" + urllib.parse.urlencode(
+        {"q": ov["query"], "type": "track", "limit": 10, "market": "from_token"}), token=tok)
+    if s != 200:
+        return []
+    for it in r.get("tracks", {}).get("items", []) or []:
+        if not it:
+            continue
+        if norm(ov["artist"]) in "".join(norm(a["name"]) for a in it["artists"]) and norm(ov["title"]) in norm(it["name"]):
+            return [{"id": it["id"], "title": it["name"], "artists": [a["name"] for a in it["artists"]],
+                     "album": it.get("album", {}).get("name"), "score": 98}]
+    return []
 
 
 pathlib.Path("data/custom/results").mkdir(parents=True, exist_ok=True)
@@ -147,7 +170,18 @@ for lst in sorted(glob.glob("data/custom/lists/*.txt")):
         print(base, "- vorhandene Treffer genutzt:", len(matches))
     else:
         matches = []
+        ovf = pathlib.Path(f"data/custom/lists/{base}.overrides.json")
+        overrides = json.load(open(ovf, encoding="utf-8")) if ovf.exists() else {}
         for l in lines:
+            if l in overrides:
+                found_ov = from_override(overrides[l])
+                m = found_ov[0] if found_ov else None
+                entry = {"input": l, "match": m}
+                if len(found_ov) > 1:
+                    entry["extra"] = found_ov[1:]
+                matches.append(entry)
+                print(("OVR ") if m else "MISS", l, "->", [x["title"] for x in found_ov])
+                continue
             m = best(l)
             matches.append({"input": l, "match": m})
             print(("OK  " if m else "MISS"), l, "->", (m["title"] + " / " + ", ".join(m["artists"])) if m else "-")
@@ -159,9 +193,10 @@ for lst in sorted(glob.glob("data/custom/lists/*.txt")):
     if os.path.exists(f"data/custom/lists/{base}.create") and not plf.exists():
         ids, seen = [], set()
         for m in found:
-            if m["match"]["id"] not in seen:
-                seen.add(m["match"]["id"])
-                ids.append(m["match"]["id"])
+            for x in [m["match"]] + m.get("extra", []):
+                if x["id"] not in seen:
+                    seen.add(x["id"])
+                    ids.append(x["id"])
         desc = "Tracklist aus Chat-Vorlage, per Spotify-ID zusammengestellt."
         for url in ("https://api.spotify.com/v1/me/playlists",
                     f"https://api.spotify.com/v1/users/{me.get('id')}/playlists"):
