@@ -27,6 +27,8 @@ SUFFIX = sys.argv[2] if len(sys.argv) > 2 else ""
 W = {"taste": 1.0, "breadth": 0.5, "pos": 0.25, "artist": 0.5}  # breadth bleibt drin (Till, 2026-10-31); Vorwochen-Backtest: Breite sagt Chart-Einstiege vorher
 MAX_PER_ARTIST = 2
 N = 75
+# Weihnachtslieder sind ausgeschlossen (Titel-Stichworte in den NMF-Sprachen; Kuenstlernamen zaehlen nicht)
+XMAS = re.compile(r"christmas|xmas|x-mas|weihnacht|\bnoel\b|\bnoël\b|kerst|joulu|\bjul\b|julen|jul[ei]n?\b|navidad|natale|\bnatal\b|\bsanta\b|jingle|sleigh|rudolph|mistletoe|silent night|stille nacht|white christmas|boże narodzenie|święta|jõulu|\bjule\b|nadal|nativity|bethlehem|reindeer|snowman|frosty|holly jolly|\bcarols?\b|noche buena|nochebuena|krismas|božić|vánoc", re.I)
 LANG_MIN_PROB = 0.40   # darunter gilt die Spracherkennung als unsicher (z.B. Instrumentals)
 CHART_WEEKS = 4        # Sprachquote richtet sich nach dem Anteil in den letzten Chartwochen
 LANGS = ["en", "de", "fr", "es", "it", "el", "da", "no", "sv", "fi", "ko", "pl", "nl", "pt", "ja", "tr", "ar", "hi", "id"]  # plausible Sprachen
@@ -187,6 +189,8 @@ sel, per_artist, seen = [], {}, set()
 
 
 def take(i, r):
+    if r.is_xmas:
+        return False
     a = artist_tokens(r.artists)[0] if artist_tokens(r.artists) else r.artists
     if r.is_chart or r.tkey in seen or per_artist.get(a, 0) >= MAX_PER_ARTIST:
         return False
@@ -196,6 +200,8 @@ def take(i, r):
     return True
 
 
+pool["is_xmas"] = pool.name.map(lambda t: bool(XMAS.search(str(t))))
+print("Weihnachtslieder im Pool (ausgeschlossen):", pool[pool.is_xmas][["name", "artists"]].values.tolist())
 pool["quota_pick"] = False
 if EN_SHARE is not None:
     n_non = int(round((1 - EN_SHARE) * N))
