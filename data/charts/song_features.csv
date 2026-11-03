@@ -1,217 +1,233 @@
 ﻿song_id,chart_artist,chart_title,peak_pos,weeks_in_10_charts,spotify_track_id,spotify_name,spotify_artist,isrc,popularity,release_date,artist_followers,tempo,energy,danceability,valence,acousticness,loudness,speechiness,instrumentalness,liveness,key,mode,match_quality
-S117,Faouzia,Unethical,1,6,6QKpHmO41jkd9pTp0FfmHs,UNETHICAL,Faouzia,QM24S2504240,87,2025-08-01,1300459,134.916,0.455,0.536,0.138,0.406,-6.523,0.0297,0,0.118,2,0,ok
-S160,Iamamiwhoami; Ionnalee,Shadowshow,1,4,0kGj6A84wBS143RHoHvq0x,shadowshow,iamamiwhoami,SE4DQ1401313,37,2014-11-10,189169,94.192,0.785,0.522,0.189,0.0487,-7.01,0.0409,0.00118,0.158,5,0,falscher Treffer: alte Version 2014
-S023,Shprot,Gayush,2,10,30SDxSsYU2evTMKSDkPrWu,Gayush,Shprot,QT6642606389,19,2026-04-27,2052,150.02,0.9,0.73,0.43,0.24,-6.94,0.42,0,0.37,8,1,ok
-S097,Adéla,Nicole Kidman,2,8,70cHKK8bHAfJrOGVnfRG9J,Nicole Kidman,ADÉLA,USUM72606032,98,2026-09-04,1711000,140.91,0.57,0.66,0.76,0.11,-7.17,0.03,0,0.16,7,0,ok
-S101,Sophia Stel,I Do,2,7,4Y5Zx6Dht91ZUpCQ8NPePX,I Do,Sophia Stel,USA2P2653120,60,2026-09-10,61833,127.98,0.61,0.63,0.2,0.07,-8.18,0.03,0.08,0.11,9,1,ok
-S120,Wasia Project,Wildfire,2,6,3V7Hl03AvjE96bo66GRwK8,Wildfire,Wasia Project,QM6N22654515,59,2026-09-18,410467,91.07,0.67,0.34,0.12,0.01,-4,0.03,0,0.11,8,1,ok
-S161,Telenova,Happy,2,4,1SBYruzHCKFuVMPJp8R6mb,Happy,Telenova,AUM8H2500116,46,2026-10-01,34213,115.01,0.68,0.59,0.39,0.04,-5.4,0.03,0,0.16,1,1,ok
-S203,Haute & Freddy,Film Noir,2,1,7DjfpeQoZzZv2DUe0kHaLT,Film Noir,Haute & Freddy,USAT22607119,62,2026-10-23,167376,127.01,0.83,0.6,0.47,0.02,-5.14,0.03,0,0.08,5,0,ok
-S148,Pierre de Maere; Clara Luciani,Quasiment Parfait,3,5,4M9fLn8fL9yXy0Cv3xLWAW,Quasiment parfait,Pierre de Maere,FR6F32601600,54,2026-09-25,179144,140.06,0.8,0.67,0.41,0.01,-5.86,0.04,0,0.15,6,0,ok
-S091,Ellie Goulding,For Your Entertainment,4,8,1i1Blr6MbP98bkiiDPM4um,For Your Entertainment,Ellie Goulding,GBUM72506796,66,2026-09-04,14205072,127.99,0.85,0.49,0.26,0.06,-3.94,0.07,0,0.19,10,1,ok
-S127,Isabel LaRosa,Don't Make Them Like Me,4,6,4xAIC3X3mntqjiiVbHZhUg,Don't Make Them Like Me,Isabel LaRosa,USRC12601751,60,2026-09-18,2914722,93.06,0.47,0.7,0.38,0.28,-5.75,0.05,0,0.08,7,0,ok
-S176,Judeline,La Falda,4,3,3RskBcs0Iu92bHl4KmRryd,La Falda,Judeline,USA2P2671762,78,2026-10-08,360809,92.02,0.83,0.73,0.64,0.2,-4.51,0.04,0.21,0.09,5,0,ok
-S102,Mylène Farmer,Des Lols Et Des Quoi,5,7,6bGXBGuWSCFEoS6Yitllcc,Des lols et des quoi,Mylène Farmer,FR02R2600100,58,2026-09-11,731919,128.03,0.73,0.76,0.44,0.19,-6.25,0.05,0,0.09,6,0,ok
-S104,Panicbaby,Troubled Man,5,7,1TXsIu8vBDn0vLQ1GteDUL,troubled man,panicbaby,DE1FB2600292,51,2026-09-08,44646,128.04,0.87,0.51,0.51,0.08,-5.5,0.04,0,0.29,0,0,ok
-S162,Leony,Way Too Late,5,4,6x6qpL0Qxi68Z0POHaIToF,Way Too Late,Leony,DECE72605627,56,2026-10-02,239442,137.03,0.95,0.58,0.6,0.1,-4.03,0.07,0,0.28,1,1,ok
-S187,Tate McRae,Housewife,5,2,2sFepQNyl1WjpROruP8bJ0,Housewife,Tate McRae,USRC12601916,96,2026-10-15,11727479,133.01,0.72,0.63,0.64,0.34,-5.35,0.05,0,0.22,8,0,ok
-S154,PiXXiE,Dusty,6,5,5mllbepsjuNZPax6LX1tuW,DUSTY,PiXXiE,GB2DY2610110,50,2026-09-24,505179,120.01,0.69,0.75,0.31,0.16,-5.11,0.07,0,0.12,1,1,ok
-S103,Thunder Bae,Gay Alice In Wonderland,7,7,416Ap5aRSDpdteagt5h1N7,GAY ALICE IN WONDERLAND,Thunder Bae,QM6XS2610974,16,2026-06-19,2324,110.02,0.6,0.71,0.09,0.12,-9.72,0.05,0.25,0.11,1,1,ok
-S106,Jeanne,Cybersensible,7,7,2o5ghGw2qfZEPWMDO2YHei,Cybersensible,Jeanne,FRZ052600286,57,2026-09-11,68776,141.96,0.68,0.74,0.55,0.75,-7.56,0.14,0,0.12,11,0,ok
-S204,Noé Preszow,Soleil Secret,7,1,3I4I2AZNtlEtcQAfdTTAJb,Soleil secret,Noé Preszow,FR79W2600480,43,2026-10-23,39126,137.43,0.73,0.4,0.3,0.01,-4.72,0.04,0,0.1,1,0,ok
-S118,Yndling,Shell,8,6,4Y3t75xwiQuJkvXXmNcgRc,Shell,Yndling,QT6682679528,45,2026-09-18,41353,133,0.66,0.48,0.43,0.72,-9.06,0.03,0.24,0.15,0,1,ok
-S159,Holly Humberstone,Too Cute To Be Lonely,8,4,5iZbOxJZ2Rmo2ECMXRHU9a,Too Cute To Be Lonely,Holly Humberstone,GBUM72600837,71,2026-09-30,405207,119.98,0.73,0.63,0.64,0.02,-4.16,0.03,0,0.09,5,1,ok
-S205,SKYND,Johnny Kitagawa,8,1,005RXKfUWngQEJeG0fhoVG,Johnny Kitagawa,SKYND,QT6HP2659142,47,2026-09-04,106391,125.01,0.97,0.59,0.55,0,-3.48,0.05,0,0.16,6,0,ok
-S107,Avery Cochrane,Toy Gun,9,7,0OXVPuuyCU3Wih7xObJ4HO,Toy Gun,Avery Cochrane,QMDA72602983,54,2026-09-09,29720,126.09,0.64,0.73,0.66,0.25,-5.32,0.04,0,0.23,1,0,ok
-S121,Ane Brun; ARY,Hold Me,10,6,2K3BJYJx0twWhZeomNHLia,Hold Me,Ane Brun,SEVVQ2600001,41,2026-08-21,375755,120.03,0.57,0.53,0.04,0.03,-10.03,0.03,0.85,0.09,8,1,ok
-S076,Angèle,Une Seule Vie,11,9,5Y3p9cIQH4TxX3sI4ZQIAL,Une seule vie,Angèle,BE8HB2600017,68,2026-08-28,2942031,102.96,0.7,0.51,0.36,0.03,-6.11,0.04,0,0.06,1,0,ok
-S206,Kacey Musgraves,Weekend In Texas,11,1,7LBCgoUHyu8ITKLzalD0Ea,Weekend In Texas,Kacey Musgraves,USUG12609726,69,2026-10-23,1853328,129.96,0.83,0.64,0.64,0.19,-5.12,0.03,0,0.11,4,1,ok
-S119,Tove Styrke,Me/You (Always And Forever),12,6,7EtHVLkstCjz6iY79FmvLb,Me/You (always and forever),Tove Styrke,SEBGA2600597,48,2026-09-18,169861,118.01,0.53,0.86,0.83,0.31,-10.32,0.04,0.76,0.11,5,0,ok
-S171,ÄmbÖ,Johannes Kasvaja,12,4,43Sp3xb3omSgK6zWnxgDg0,Johannes Kasvaja,ÄmbÖ,FIBAR2600312,34,2026-10-02,519,162.09,0.78,0.65,0.45,0.07,-3.66,0.06,0,0.07,1,1,ok
-S078,Kiara Nelson,Dancing Alone,13,9,7lcOwbhhqpVRqudzulstWt,Dancing Alone,Kiara Nelson,DEN062600685,40,2026-08-28,52269,129.99,0.82,0.67,0.48,0.11,-3.66,0.04,0,0.21,5,1,ok
-S079,Haute & Freddy,Touch Touch,14,9,18fRO6IsVaKNn5HIdVraSA,Touch Touch,Haute & Freddy,USAT22605314,66,2026-08-28,167376,124.02,0.84,0.61,0.42,0.04,-6.69,0.03,0.1,0.07,1,1,ok
-S178,Slayyyter,I Think He's Got A Girl,14,3,5KJwFcJc0m1u4F8mVkwT5Y,i think he's got a girl,Slayyyter,USQX92605572,81,2026-10-09,908935,98.01,0.52,0.48,0.13,0,-5.1,0.03,0.15,0.12,9,1,ok
-S181,Hoshi,Santé Mentale,14,3,7igfJ7OJ0Y7BFs80ilvfsD,Santé mentale,Hoshi,FRX282695998,55,2026-10-09,940527,147.99,0.78,0.62,0.49,0.25,-3.37,0.32,0,0.17,9,0,ok
-S080,Tuuli,Rakkaus Ei Maksa Mitään,15,9,4IfO3xKQb5I9DiFAOWWgLI,Rakkaus ei maksa mitään,TUULI,FIBAR2600260,46,2026-08-28,41003,97.94,0.74,0.67,0.43,0,-4.27,0.03,0,0.11,11,0,ok
-S095,Oria,Bella Vita,15,8,6bDXDC1meVMo6NyzH7VoxB,Bella Vita,Oria,FRETX2600080,56,2026-09-04,30082,121.06,0.73,0.59,0.56,0.29,-5.97,0.06,0,0.13,11,0,ok
-S177,Ane Brun; Röyksopp,Eat The Fruit,15,3,6QTVocXJIT6QomBx2QuBBm,Eat the Fruit,Ane Brun,SEVVQ2600002,47,2026-10-09,375755,130,0.56,0.7,0.2,0.01,-12.04,0.03,0.64,0.49,0,0,ok
-S166,Zombic; Carlotta,Engel Der Nacht,16,4,64RfoXW3bs3I2ggPMJjewv,Engel Der Nacht,Zombic,DEUM72604370,37,2026-10-02,25403,161.98,0.97,0.42,0.27,0,-2.05,0.09,0,0.3,2,0,ok
-S207,IVE,Looks Can Kill,16,1,79kqYxIkS29va2I9AeL9ak,Looks Can Kill,IVE,QMFME2602326,75,2026-10-19,7909148,129.99,0.82,0.74,0.83,0.01,-3.38,0.05,0,0.03,6,0,ok
-S151,Roxie,Jesień Trwa (Bez Końca),17,5,50GX2voMa5qtdAi1DO3D8h,Jesień trwa (bez końca),Roxie,PLI367846290,57,2026-09-23,124957,136.82,0.82,0.62,0.46,0.13,-4.72,0.06,0,0.35,0,0,ok
-S190,Fontaines D.C.,Japan,17,2,29USgREdEXy48zHm3OnhAZ,Japan,Fontaines D.C.,GBBKS2600152,81,2026-10-16,1681076,147.97,0.7,0.39,0.44,0.04,-6.78,0.03,0,0.31,2,1,ok
-S130,Troye Sivan,Party,18,6,3OEhcaHabVo4Oc2fdMb6DO,Party,Troye Sivan,USUG12606855,72,2026-10-09,9695837,119.98,0.88,0.73,0.55,0.01,-4.43,0.07,0.01,0.1,1,1,ok
-S149,Gerd,Love Economy,18,5,3juxxdQ5TckAecsfNgML9J,Love Economy,GERD,SEUM72600618,46,2026-09-25,14702,128.11,0.58,0.52,0.18,0.08,-5.2,0.04,0,0.14,1,0,ok
-S114,Gazal,Eat D!rt,19,7,3sqdyDy4wwsUQAXaTq2imI,EAT D!RT,GAZAL,AUI442601085,22,2026-09-11,1731,104.99,0.6,0.82,0.35,0.03,-6.94,0.11,0,0.24,1,1,ok
-S189,Manon Lisa,Jeune Demoiselle,20,2,4uie9TydlbuQRptziBOzss,Jeune Demoiselle,Manon Lisa,FR9W12641004,55,2026-10-14,37981,104.5,0.72,0.74,0.91,0.05,-5.73,0.04,0,0.23,8,0,ok
-S180,Levante,Sono Blu,21,3,1VKV5q3ahnUb05DBDHSFbX,SONO BLU,Levante,ITQ002501993,43,2026-10-09,267217,124.82,0.79,0.39,0.04,0,-3.92,0.05,0,0.08,3,0,ok
-S070,Zalia,Daj Mi Znak,22,10,7qOAHK3XcMHz9YlSopJ107,daj mi znak,Zalia,PLUM72600417,59,2026-08-18,95824,114.03,0.48,0.58,0.2,0.74,-9.18,0.03,0,0.1,3,0,ok
-S094,Malika Ayane,Detto Tra Noi,22,8,6SHMgDcV1LeVNfQyGGqohD,detto tra noi,Malika Ayane,ITB262600560,47,2026-09-18,380745,100.05,0.67,0.72,0.45,0.01,-6.41,0.05,0,0.12,2,1,ok
-S124,Hemlocke Springs,Gloria!,24,6,0JvxCw2L2ChMeVpIfSwvqN,gloria!,hemlocke springs,QMDA72644884,56,2026-09-17,303844,129.99,0.9,0.76,0.68,0.04,-4.6,0.04,0.01,0.33,11,0,ok
-S163,Angèle; Caroline Polachek; SebastiAn,Love Triangle,24,4,5AdL0XU6R5bN6RweaQsCHr,Love Triangle,Angèle,BE8HB2600024,67,2026-09-29,2942031,97.99,0.57,0.67,0.09,0.01,-7.8,0.03,0.13,0.14,2,1,ok
-S164,Pihlaja,Koviksen Kyyneleet,24,4,1yxnYOzBnnnmPQjbmWlzXy,Koviksen kyyneleet,Pihlaja,FIBAR2600319,58,2026-10-02,16569,125.06,0.62,0.75,0.46,0.09,-5.33,0.04,0,0.1,3,1,ok
-S074,Fontaines D.C.,Marianne,25,10,6OciU5g0hekPBP9MqbCKFs,Marianne,Fontaines D.C.,GBBKS2600144,79,2026-10-16,1681076,81.98,0.7,0.45,0.2,0,-6.3,0.03,0,0.19,6,0,ok
-S153,Anouk,Ta Peau,25,5,1URO8RODQThxTuCjuPmwgu,Ta peau,Anouk,FRZ052600513,62,2026-09-25,10673,132.12,0.74,0.59,0.37,0.23,-5.06,0.04,0,0.17,9,0,ok
-S188,Mae Muller; Jodie Harsh,Hallucination,26,2,5jB7PFMeHYnSG6uRAvmPvR,Hallucination,Mae Muller,FRX762650530,38,2026-10-16,167184,129.86,0.92,0.48,0.28,0,-4.19,0.09,0,0.29,2,1,ok
-S191,MEOVV,Go Hard,26,2,3P2MygdWs8lorZnwV3KrsJ,GO HARD,MEOVV,KSA002652474,73,2026-10-12,2261178,87.36,0.76,0.73,0.2,0,-5.16,0.08,0,0.13,2,1,ok
-S174,Purple Disco Machine; Meek,Test My Luck,27,4,44Ac5ReqR5sNoBxpdn35qU,Test My Luck,Purple Disco Machine,DEE862601362,67,2026-10-02,930336,127.04,0.85,0.65,0.64,0,-4.76,0.05,0,0.07,1,1,ok
-S084,Hania; Samunowak,Syreny,28,9,2moIgh6lTs6D6kICWX8370,SYRENY,Hania,PL4K02678170,28,2026-08-28,3076,148.05,0.86,0.67,0.7,0.08,-2.98,0.03,0,0.24,0,1,ok
-S165,Mollie Elizabeth,Kiss The Ring,28,4,3uiUQodPW2SoJkzg7J6Bfd,Kiss The Ring,Mollie Elizabeth,USUG12609291,63,2026-10-02,226829,127.09,0.48,0.66,0.71,0.27,-5.36,0.03,0,0.1,10,0,ok
-S122,Say Now,Met My Match,31,6,6DgMjSTiKodctEfV68Azlf,Met my match,Say Now,GBAHS2600407,73,2026-09-18,226032,120.65,0.92,0.68,0.75,0.08,-1.83,0.08,0,0.29,1,0,ok
-S125,Paula Koops,Tu Tercer Cubata,31,6,5Ccp1PIWXf7oOwNkGXi4kZ,Tu tercer cubata,Paula Koops,FRX762611896,42,2026-09-18,78422,171,0.93,0.5,0.76,0,-3.79,0.06,0,0.12,8,1,ok
-S208,Maisie Peters,Hands On Me,31,1,3qzc3xyTxHCvsT55a7xPGw,Hands On Me (Nobody Wants This S3),Maisie Peters,USAT22607680,62,2026-10-22,830741,167.99,0.81,0.51,0.62,0.09,-4.75,0.05,0,0.21,4,1,ok
-S126,Miley Cyrus,Let's Get Married,32,6,3Ln4JSpTO4Zc7oRinGsp4k,Let's Get Married,Miley Cyrus,USAT22604408,78,2026-09-18,28952133,96.96,0.76,0.57,0.45,0.03,-4.67,0.03,0,0.49,0,1,ok
-S109,Kaeyra,Na Moje Nieszczęście,33,7,5kp1LBPYyaGswDaG75sx13,na moje nieszczęście,Kaeyra,PLA552600722,52,2026-09-10,10136,125.96,0.9,0.66,0.45,0.03,-4.06,0.04,0,0.36,4,0,ok
-S179,Louane,Mode Avion,33,3,2lB2ZierONlZoEKGzxNLsp,mode avion,Louane,FR9W12633776,55,2026-10-08,1654204,143.9,0.94,0.67,0.77,0.04,-3.43,0.06,0,0.11,9,1,ok
-S128,Boy Harsher,Faulty,35,6,1oLrfOvf2TaMR23qu8QThR,Faulty,Boy Harsher,USAT22605002,61,2026-09-18,471750,139.99,0.84,0.6,0.82,0.05,-6.57,0.03,0.36,0.09,2,0,ok
-S183,Nathalia,In Our Prime,37,3,5fAH8m3khx6QmLJtTAYSTT,In Our Prime,NATHALIA,GBUM72605776,35,2026-10-07,148,140.08,0.93,0.63,0.72,0,-3.64,0.19,0.09,0.3,9,1,ok
-S192,Shygirl,Mantra,39,2,6FRKbLeBePLS0KTZqhVMgR,Mantra,Shygirl,GBMVH2600360,58,2026-10-13,394132,144.98,0.93,0.49,0.35,0,-5.67,0.15,0,0.53,8,1,ok
-S170,Paola Turci,Miss,40,4,5PTasnhkAF8nEFH6AlIVGo,Miss,Paola Turci,ITDV92600120,37,2026-10-02,114685,142.08,0.64,0.47,0.35,0.25,-6.45,0.03,0,0.1,4,0,ok
-S193,Enola Cox,Impolie,40,2,2T6Lb6NhrpZrXo9nbGfdq1,Impolie,Enola Cox,QT66A2614715,35,2026-10-14,15242,152.16,0.73,0.44,0.24,0.21,-5.64,0.14,0,0.07,9,0,ok
-S110,Dylan,To Love And To Lose,44,7,25KmVoAJzApNxuj6CDDwR5,to love and to lose,Dylan,GBUM72605462,72,2026-09-09,238482,99.91,0.53,0.67,0.37,0.02,-7.64,0.03,0,0.05,1,1,ok
-S108,Dove Cameron,When In Rome,45,7,0CfLsX61bPV9E4pjjvwNZw,when in rome,Dove Cameron,USQX92605130,68,2026-09-09,5736851,130.53,0.76,0.65,0.54,0.01,-4.84,0.05,0,0.15,0,1,ok
-S167,Ella Rammelt,SMS,46,4,35wWVfVzzJyBQQMJaGp9KN,SMS,Ella Rammelt,QMDA72677287,27,2026-10-02,4037,124.96,0.82,0.75,0.91,0.03,-3.8,0.05,0,0.07,7,0,ok
-S150,Bicep; Soarr,Air,47,5,2infXICqVSUM3bbGSOgFOY,Air,BICEP,GBCFB2600588,63,2026-09-25,693940,125.09,0.97,0.27,0.14,0,-6.22,0.05,0.81,0.06,7,0,ok
-S194,Naomi Jon,Delilah,47,2,35sNEqHC4lA66ZHFvM8UgM,Delilah,Naomi Jon,CH7812685695,49,2026-10-16,117729,104.02,0.65,0.67,0.52,0.01,-4.79,0.05,0,0.42,0,1,ok
-S169,Victoria Monét; SZA,See You In My Dreams,48,4,5sDYIz1pOavfbjfMVIMOzW,See You In My Dreams (feat. SZA),Victoria Monét,USRC12601481,74,2026-10-02,1417668,,,,,,,,,,,,keine Audio-Features
-S182,Chloe Slater,Can I Finish Please?,48,3,3gsQ4YYAT2eg4EaKh3X9v5,Can I Finish Please?,Chloe Slater,QM7282607446,47,2026-10-09,55618,123.97,0.86,0.65,0.57,0,-4.23,0.08,0.08,0.1,0,1,ok
-S195,Moyka,Dust U Off,48,2,1MjkvZOLEgJqSShFr1Ixui,Dust U Off,Moyka,NOZTP2610010,43,2026-10-16,23043,129.93,0.69,0.56,0.08,0.1,-8.23,0.07,0.03,0.09,7,1,ok
-S196,Otha,Fuck This Stress,49,2,5f3LPYNbngs55vHYXsU13W,Fuck This Stress,Otha,QZWDD2606664,46,2026-10-15,67332,118,0.42,0.78,0.19,0.1,-14.74,0.04,0.51,0.13,9,0,ok
-S209,Hailee Steinfeld,Magic,50,1,3VvHGb4SxuVt9A35ytpWNQ,Magic - From Hexed,Hailee Steinfeld,USWD12642617,54,2026-10-23,8930640,120.01,0.8,0.7,0.7,0,-5.67,0.03,0,0.04,1,1,ok
-S168,Nelli Matula,Kuolematon,51,4,5puzPJnroeHXDmfHotFs1g,Kuolematon - Vain elämää kausi 17,Nelli Matula,FIUM72600194,55,2026-10-02,41194,129.84,0.71,0.46,0.24,0.08,-5.65,0.06,0,0.14,1,0,ok
-S152,Sara James,Zrób To Dla Mnie,55,5,4K88kcWQbXeUBrG7GRh5dc,ZRÓB TO DLA MNIE,,PLUM72600456,58,,,112,0.72,0.58,0.26,0.01,-2.65,0.03,0,0.1,1,1,ok
-S175,Horsegiirl; Dylan Brady,C*ntry Girl Rock,55,4,3SwB3iCazOqulClBTo6RsA,c*ntry girl rock,,USRC12601792,55,,,170.04,0.92,0.66,0.79,0.02,-2.31,0.09,0.02,0.19,10,0,ok
-S210,Bluegirl,Look At All The Happy People,58,1,18o11AfvD5c8x6LjCSeCYG,Look At All The Happy People,,GBUM72606253,57,,,127.91,0.69,0.62,0.18,0.13,-6.44,0.05,0,0.13,8,1,ok
-S156,Francesca Michielin,La Mia Ragazza,59,5,4XfPcAhhb6aiWEGe9v4FP1,La mia ragazza,,ITB002601011,53,,,119.99,0.9,0.62,0.6,0,-5.48,0.03,0,0.38,5,1,ok
-S184,Morgana,Prince Of The Park,59,3,6Fh06IwS6hPWqoW35rd4JJ,Prince Of The Park,,QZN882617681,34,,,119.97,0.38,0.59,0.04,0,-21.17,0.04,0,0.06,2,1,ok
-S197,Rachel Chinouriri,Pretty Girls,63,2,7c0oKEgUPN6nQ5dwhzzs3m,Pretty girls,,GBAYE2600500,68,,,,,,,,,,,,,,keine Audio-Features
-S172,Becca Hatch,Extra Time,64,4,0UHNfLj6mQL2kz2qZT5mfC,Extra Time,,AUQ9D2682395,47,,,115.1,0.7,0.53,0.16,0.04,-4.8,0.03,0.01,0.07,9,1,ok
-S211,Sophie and the Giants,Wreck Of Me,65,1,4Ezd8z85fB3hmxrIEF6m2M,Wreck Of Me,,DEUM72604788,50,,,145.16,0.69,0.48,0.3,0.01,-4.22,0.05,0,0.18,11,1,ok
-S143,Ruletti; Melissa,Pilvenpiirtäjät,66,6,73I9BEWL543fECv8svC4Ag,Pilvenpiirtäjät,,QT6HW2668469,37,,,109.99,0.59,0.62,0.37,0.26,-5.61,0.02,0,0.1,6,0,ok
-S155,Dolla,Ugly,67,5,1zmU3IYQvUbyJXmH8oCsB9,Ugly,,TCACN1617839,39,,,118.539,0.0551,0.553,0.189,0.96,-19.55,0.0358,0.00000428,0.111,3,1,falscher Treffer: falscher Song (2016)
-S212,Nosowska,Schron,67,1,67vmRUkeNoqOZ9oalln2ot,SCHRON,,PLA812600044,46,,,120.03,0.59,0.74,0.04,0.03,-9.06,0.04,0.02,0.11,2,1,ok
-S198,Angèle,Au Revoir,70,2,7fI6oGb9FBWHru0W4sI1Ca,Au revoir,,BE8HB2600016,69,,,,,,,,,,,,,,keine Audio-Features
-S199,Florrie,Spreadsheets,72,2,0gUaLYxyvx6b6bfM4Ku0YJ,Spreadsheets,,UKQWC2600116,47,,,84.85,0.91,0.48,0.62,0.01,-4.27,0.08,0.01,0.24,6,1,ok
-S213,St Graal,Asocjal,72,1,189Sybq8UM7kotCnzV7EqB,7ème ciel,,FR10S1986275,40,,,124.03,0.76,0.89,0.67,0.58,-6.76,0.2,0,0.11,7,0,falscher Treffer: falscher Song
-S200,Rosi,"Sulle, rakkaus",74,2,4aL0Z1Nmu7jQoVdMXf4x4R,"Sulle, rakkaus",,FI9PF2600191,40,,,111.98,0.62,0.7,0.26,0.35,-6.73,0.03,0,0.13,10,0,ok
-S186,Franky Rizardo,Shinjuku,77,3,0niU8VMrQzSNhrmsiLlmeS,Shinjuku,,NLML62600055,78,,,129,0.9,0.77,0.75,0,-7.66,0.04,0.94,0.13,8,0,ok
-S214,R3HAB; Korolova,Hi Hello,77,1,2Kaldx1TDzLaxn1dvIfaKX,Hi Hello,,AEA2D2600561,60,,,130.02,0.89,0.63,0.19,0,-6.19,0.05,0.03,0.1,2,1,ok
-S215,Olivia Bay,Admitelo,80,1,1ffQfEbZMUztGGJ0SIoPbM,Admítelo,,ES5022600896,50,,,123.02,0.67,0.69,0.43,0.51,-6.62,0.03,0,0.12,5,1,ok
-S201,Zoe Wees,Rise Again,84,2,6bCNNWrKOVLaDBhunGvFJe,Rise Again,,USZXT2661577,55,,,93.94,0.75,0.46,0.25,0.18,-3.11,0.04,0,0.1,10,0,ok
-S202,Temper City,Sex & Drugs,89,2,7CsXW2mwJHmItiGJuxwjwW,Sex & Drugs,,QT8CK2615434,67,,,112.02,0.72,0.76,0.47,0.03,-3.69,0.03,0.01,0.06,11,0,ok
-S216,Dove Cameron,Do The Math,94,1,4brpx6ZUKRDaEJZvbbBMl8,do the math,,USQX92606169,66,,,187.6,0.45,0.47,0.32,0.39,-5.76,0.04,0,0.12,8,1,ok
-S001,Ariana Grande,Petal,1,8,70pVCVMGjmIWPbWXDwf11e,petal,,USUM72601822,89,,,134.89,0.57,0.67,0.58,0.33,-6.46,0.05,0,0.4,0,0,ok
-S026,Livka,Poza Tobą Nic,1,8,4fxmxMlrViwVyolXZJUJ8Z,poza Tobą nic,,PLB382600454,67,,,124.98,0.81,0.65,0.38,0.34,-5.52,0.04,0,0.23,8,0,ok
-S002,Amara CTK100,Paradiso Nights,2,9,18UFEQ1MviWquW8oWqwMmx,Paradiso Nights,,QT6FH2649678,46,,,122.01,0.91,0.63,0.56,0.01,-3.41,0.13,0.42,0.14,11,0,ok
-S003,Nessa Barrett,"Too Fast To Live, Too Young To Die",3,8,3mWXq4lBomJgw79Sz7jeB3,"Too Fast To Live, Too Young To Die",,USWB12602541,64,,,127.96,0.6,0.56,0.36,0.34,-6.25,0.03,0,0.11,6,0,ok
-S007,Kasia DVD ✧,Syren,3,7,6EHCRmMbDquS2PRDkTGUed,SYREN,,PLI362444160,25,,,129.97,0.91,0.57,0.51,0,-4.98,0.04,0.2,0.21,7,0,ok
-S090,Florrie,Catch You If You Fall,3,7,56bWmjpsXV3kNSNqzWyWQ7,Catch You If You Fall,,UKQWC2600114,38,,,75.93,0.69,0.52,0.15,0.17,-4.9,0.03,0,0.11,3,1,ok
-S081,Nita,Tańcz I Kochaj,4,7,2JM1chl2LrZLp2O56Pgb82,Tańcz i kochaj,,PL44Y2600006,39,,,110.04,0.73,0.78,0.95,0.12,-5.3,0.06,0,0.05,10,0,ok
-S004,Valencia Grace,Guillotine,4,6,6Zqufsn9eQJIBbG8J19WV7,Guillotine,,QT3FA2632930,42,,,127.98,0.95,0.59,0.53,0.01,-5.46,0.07,0,0.35,0,1,ok
-S022,Fida,Kafejka Na Ochocie,5,7,2huAJcqnLg4SC4jvHKKohG,Kafejka na Ochocie,,PL8K22600005,44,,,127.97,0.68,0.71,0.58,0.22,-7.41,0.06,0,0.16,7,1,ok
-S005,Alice Pisano,Only Girl,5,6,7g1CPq2enxhjC3L9VB6v4B,Only Girl,,QMBZ92690891,42,,,130.04,0.68,0.63,0.44,0.06,-4.05,0.04,0,0.12,5,1,ok
-S011,Nessa Barrett,Bad Girls Never Die,6,9,0XeJjHtXi5gHqzuzjozPPh,Bad Girls Never Die,,USWB12602724,61,,,98.98,0.58,0.51,0.42,0.03,-6.91,0.03,0,0.11,9,0,ok
-S006,Katseye,Animal,6,5,3ouNEk0tv5TTi8VWMe1xbX,Animal,,USUM72602757,92,,,149.97,0.84,0.78,0.96,0.42,-4.12,0.05,0,0.24,0,0,ok
-S050,Lia Lia,Adore You,7,8,3H4hhFhMhXIn8gBeS0Jxfs,Adore You,,QZWH32600353,38,,,133.1,0.53,0.53,0.2,0.2,-7.55,0.03,0.33,0.28,4,0,ok
-S008,Luna,Away With The Fairies,8,6,6a35UAgzwJILqPKJ7YEmJd,Away With The Fairies,,PL2DY2600041,33,,,125.99,0.62,0.74,0.55,0.09,-7.63,0.04,0,0.15,7,1,ok
-S009,Lily Meola,Sleeping With My Boots On,9,7,6NIFqS0Rz2Zbjh1RN69hzX,Sleeping with My Boots On,,CAN112600464,48,,,106.64,0.77,0.62,0.85,0.12,-4.59,0.06,0,0.21,9,0,ok
-S010,Margaret,Primabalerina,9,7,4WH0yDfn9CfE1usPV3sBMu,Primabalerina,,PLB382600349,61,,,133.02,0.86,0.62,0.57,0.08,-5.72,0.03,0,0.12,0,1,ok
-S012,Gabriella Ekaputri,Mockingbird,12,5,7j6wCnpHT798vsPWQHouQK,Mockingbird,,IDUM72600124,23,,,106.01,0.5,0.58,0.33,0.18,-7.84,0.03,0,0.17,6,1,ok
-S013,Ana Farelo; Mía Berlín,21 De Enero,13,7,6bN2gia9DIeUImuOuQDwH8,21 de enero,,FRX202656906,23,,,130.01,0.75,0.62,0.51,0.17,-5.19,0.03,0,0.1,8,1,ok
-S014,Adéla,Ain't In LA,14,8,6U9VpmP3dEinuezxCJ2Zg9,Ain't In LA,,USUM72605978,92,,,139,0.78,0.66,0.47,0.01,-5.87,0.04,0.01,0.18,1,0,ok
-S015,Sofia Monroy,No Era De Oro,15,5,2Yj4rtiIjw5iGzHVTGEIbA,No Era De Oro,,MXUM72601794,36,,,128.05,0.67,0.8,0.67,0.41,-6.54,0.05,0,0.07,10,0,ok
-S018,Victor Leksell; Molly Sandén,Tänk Om,15,5,1HUiVQFHxfb3ZYoFletQV0,Tänk om,,SEBGA2600940,68,,,108.85,0.71,0.7,0.56,0.4,-5.8,0.19,0,0.1,10,1,ok
-S016,Slayyyter,Brand New Chanel$,16,7,3FZoov0ORtnr8TznSNI1y2,brand new chanel$,,USQX92603227,84,,,125.9,0.8,0.41,0.12,0,-5.03,0.05,0,0.28,6,1,ok
-S064,Marquise,Ironic,17,8,3ogfOAC1LbQnW1glXS0HTb,IRONIC,,QMDA62607877,57,,,109.97,0.67,0.77,0.53,0.08,-7.83,0.04,0,0.08,1,0,ok
-S017,Inna Truu,Test Drive,17,1,3MKs2ga5FIPGl8jAZF086Q,Test Drive,,QT6HJ2628035,32,,,121.94,0.93,0.66,0.23,0,-4.04,0.04,0.02,0.09,9,1,ok
-S029,Jacqline,Forever June,18,6,0dI91F5rGGIvG8ARfc9yJG,Forever June,,SEUM72601088,39,,,103.24,0.49,0.6,0.33,0.15,-8.78,0.04,0,0.37,6,0,ok
-S046,Effe,Tears Always Burn,18,6,5eRigJE4gYutJ6YY0aZL10,Tears Always Burn,,QT2JK2600045,48,,,171.89,0.8,0.46,0.57,0.15,-6.78,0.05,0,0.08,1,0,ok
-S019,Shaboozey; Leon Bridges,Burn It Down,19,3,4xej9vaOrovFRzZVKr8KlF,Burn it Down (feat. Leon Bridges),,USUYG1807423,69,,,122.05,0.75,0.64,0.55,0.01,-5.94,0.03,0,0.35,7,1,falscher Treffer: alte Version 2018
-S092,Natalie Imbruglia,Beautiful Love,20,7,2BupBRJwKdAEdkmBfSLYDx,Beautiful Love,,UK9AV2600086,41,,,119.93,0.68,0.57,0.35,0.01,-6.44,0.04,0,0.09,3,1,ok
-S020,Kacey Musgraves,Mexico Honey,20,5,7xKr077iMufVJwge6aO9xJ,Mexico Honey,,USUG12510477,82,,,108.97,0.66,0.7,0.66,0.35,-6.67,0.03,0,0.13,11,1,ok
-S077,Jain; Meryl,Fam,21,7,2ZwuG40MrzPtHSrta5wV9o,FAM,,FRZ052600108,52,,,111.05,0.79,0.82,0.71,0.04,-5.25,0.04,0.03,0.11,10,0,ok
-S105,Ivoris; Clara Benin,Lipgloss,21,6,6oAQWAZf1PNxRSrbKoY0SI,Lipgloss,,USHM92610753,47,,,99.99,0.63,0.71,0.6,0.15,-4.41,0.03,0,0.33,2,1,ok
-S021,Overmono,After The Rain,21,3,0rclr5nd7iwF4rJTYRLlJq,After The Rain,,GBBKS2600082,60,,,134.96,0.84,0.65,0.53,0.01,-5.13,0.08,0.76,0.34,11,1,ok
-S093,Vana,In Your Name,23,3,5MC8y7w5E0DUEqii0sP4Fm,In Your Name,,USYFZ2689001,58,,,129.9,0.91,0.29,0.27,0.01,-3.55,0.09,0,0.24,5,0,ok
-S036,Hi Hania; Kizo; Clearmind,Aioli,24,8,7rPpyQOTrwogcFW1PZ6DYQ,AIOLI,,PL4I52600079,61,,,128,0.91,0.79,0.67,0.12,-5.1,0.05,0,0.11,0,1,ok
-S024,тлен,Пътник,24,4,17DXCwaVJIpnHENtcrVhCw,пътник,,QT3EZ2674539,25,,,138.94,0.84,0.62,0.26,0.1,-7.35,0.05,0.69,0.13,2,0,ok
-S025,Martyna Baranowska,Tracimy Tylko Czas,25,4,3A9S5Pvld6KupTf9YNvB0n,Tracimy tylko czas,,PLUM72600399,34,,,123.02,0.75,0.67,0.86,0.09,-4.12,0.03,0,0.3,6,0,ok
-S035,Klara Hammarström,Gravity,27,6,27NCPgfAJ3i4epMbWcMfd1,Gravity,,SE6132654749,45,,,112.09,0.67,0.6,0.47,0.06,-5.78,0.07,0,0.07,3,1,ok
-S146,Cara Delevingne,Looking For You,27,4,0DC66w1mim0UhUQF9uL6Fx,Looking for You,,USWB12601522,47,,,,,,,,,,,,,,keine Audio-Features
-S027,Mollie Elizabeth,Puppet Show,27,3,3sXZgxkAkqbTYDZbBGr94W,Puppet Show,,USUG12606999,62,,,203.82,0.61,0.34,0.48,0.41,-5.47,0.04,0,0.17,7,1,ok
-S034,Girlset,Chat,28,6,1hNixpTJ3KtIQGYIdGWLoz,CHAT,,USUG12606223,75,,,160.02,0.9,0.63,0.75,0,-4.21,0.19,0.01,0.13,11,0,ok
-S098,Lisa,SaWaDiKa,28,6,1VWiDyYTrqQhhmnWANWkFa,SaWaDiKa,,USRC12601645,90,,,140.04,0.75,0.73,0.6,0.07,-5.88,0.03,0,0.57,9,1,ok
-S028,A6el,Comme Des Rats,28,3,30NnfTuqWG36upsxuT4QOG,Comme des rats,,QT6FN2696401,53,,,110.94,0.7,0.8,0.69,0.02,-4.99,0.08,0,0.09,10,0,ok
-S030,Molly Mae,Pretty & Broken,29,9,3EfZrjNEOUOWRyYftmlpzZ,Pretty & Broken,,USA2P2649993,35,,,121.92,0.53,0.54,0.29,0.01,-9.48,0.04,0,0.37,5,0,ok
-S045,Tove Lo,DNH,31,5,6qVRph9axcbxl5n6p5jflL,DNH,,USA2P2624776,63,,,152.04,0.73,0.63,0.4,0.22,-1.92,0.04,0,0.17,4,0,ok
-S129,Angie,Notte Malinconia,31,5,2nygN7TUKrJpnsjhbvvtFb,Notte Malinconia,,ITUM72600974,47,,,158.01,0.85,0.51,0.57,0.23,-5.6,0.12,0,0.33,4,1,ok
-S031,Alyssa Grace,Bloodstream,31,3,2oWFJJW9d1bIra3zHjR6GO,bloodstream,,QT2JK2600011,90,,,98.15,0.55,0.38,0.39,0.65,-5.97,0.04,0,0.13,8,0,ok
-S032,Ayra Starr; Theodora,Ms. Paper,32,3,0e6cXkbHc57qMSN3DwmfSI,Ms. Paper (feat. Theodora),,USUG12605167,67,,,153.82,0.84,0.75,0.71,0.13,-5.37,0.26,0,0.11,10,0,ok
-S039,Chloe Qisha,Baby Girl,33,6,3tlp0uCJYzXztr2vIZ19Lv,Baby Girl,,GBARL2600981,48,,,123.02,0.77,0.8,0.92,0.1,-3.28,0.04,0,0.07,1,0,ok
-S033,Angelina Mango; Marco Mengoni,Canto D'Amore,33,5,3JjyzXQ07ODREBhJknQgLS,Canto d’amore (con Marco Mengoni),,ITJG42600017,71,,,134.81,0.77,0.62,0.42,0.13,-4.72,0.1,0,0.16,3,0,ok
-S049,Martyna Wrochna,Francuskie Pocałunki,35,6,6y23ZdgplPyXUaF44n9pBJ,Francuskie pocałunki,,PLB382600365,17,,,123.02,0.59,0.71,0.49,0.11,-7.32,0.03,0,0.07,11,0,ok
-S123,Freya Skye,Bad Taste,35,4,3TDVbddsKv0TrYdnLdrZZs,bad taste,,USHR12653281,75,,,151.85,0.83,0.6,0.48,0.14,-4.99,0.28,0,0.07,5,0,ok
-S147,Illit,Swingin' Magic,37,4,1hRZJgqpTb8VzSALbDSUrk,Swingin’ Magic,,JPZ672600048,69,,,100,0.9,0.69,0.75,0.27,-3.45,0.05,0,0.3,5,0,ok
-S037,Atmos Bloom,It's Enough,37,2,3gJeAlw8DaNWm039NeqXMG,It's Enough,,QT4QS2600056,35,,,135,0.73,0.5,0.12,0,-7.6,0.03,0,0.11,1,1,ok
-S038,Shye,Smoke,38,2,5IGQIUoXm7ZsMXUkHRIsMg,Smoke,,QZTB52694835,44,,,122.97,0.61,0.39,0.15,0,-8.52,0.03,0.18,0.12,6,1,ok
-S096,Cassia,Together In My Head,39,7,2gFxCFg0NGBoKVqOGdZjB0,together in my head,,QMBZ92673267,44,,,126.93,0.73,0.68,0.67,0.07,-7.4,0.04,0.01,0.31,11,0,ok
-S040,Elley Duhé,Salt And Lime,40,3,0zMZWDPzIl4di7X7uOHdi3,Salt And Lime,,QZQAY2677459,42,,,125.94,0.8,0.69,0.78,0.12,-4.53,0.05,0,0.16,1,1,ok
-S041,Olivia Rodrigo,My Way,41,3,4Ilw2lD6z4WBqh65vUUZUf,my way,,USUG12601727,86,,,,,,,,,,,,,,keine Audio-Features
-S042,KiiiKiii,Pop Off Pop Off,42,6,3iHzvU39BS03PD0zpNa19b,Pop Off Pop Off,,QMDA62628507,74,,,131.08,0.97,0.82,0.78,0.11,-3.69,0.15,0,0.14,9,0,ok
-S043,Judeline,Besito,43,2,389oMzXEijK20cCw6pFfYl,BESITO,,USA2P2641394,61,,,190.02,0.6,0.53,0.32,0.48,-6.51,0.06,0,0.35,2,0,ok
-S044,FLO,Remedied,44,3,0kjt7clFnD75MjoN4mhdcj,Remedied,,GBUM72602368,54,,,131.99,0.8,0.69,0.78,0,-5.06,0.05,0,0.23,7,1,ok
-S051,Devon Cole,Serial Kisser,47,5,0XSj08H0vgkV8MFZiaL2D5,Serial Kisser,,QM24S2604393,54,,,93.98,0.85,0.75,0.96,0.1,-6.26,0.08,0,0.15,7,1,ok
-S047,Jorja Smith,Dancing,47,3,4rcF5dwIHEVOgQQhva1OOI,Dancing,,QM7282623289,60,,,126.03,0.9,0.73,0.72,0,-6.63,0.09,0.02,0.12,1,0,ok
-S048,Le Sserafim; Illit; Katseye,Iconic By Mistake,48,2,6fl4Gu0lJm5hc8FM5JzCZD,ICONIC BY MISTAKE,,USA2P2633014,88,,,150.04,0.57,0.77,0.32,0.11,-3.19,0.07,0,0.07,2,1,ok
-S082,Katariina Juselius,Päätyyn,51,2,1ldoqB49Q8kvyiMclTku2s,PÄÄTYYN,,FIFEK2600011,25,,,129.99,0.82,0.77,0.82,0.02,-3.44,0.05,0,0.15,1,0,ok
-S099,Eini,Pomona,52,7,3tcmHMvJi9rUvun9HDWwIG,Pomona,,FIBAR2600275,35,,,150.03,0.82,0.6,0.82,0.01,-5.11,0.04,0,0.08,1,0,ok
-S083,Ptazeta; Kristina; Juacko,Mujeres,52,5,1jnbmkP9jZZRr7s4XvxVky,Mujeres,,EEML32611020,42,,,94.99,0.87,0.72,0.84,0.08,-1.54,0.17,0,0.42,2,1,ok
-S052,Wasia Project,Whale Call,52,2,5sAktOKPSU85r1AeXoZcrl,Whale Call,,QM6N22654498,52,,,94.53,0.43,0.18,0.12,0.81,-8.13,0.03,0,0.1,11,1,ok
-S053,Hyolyn,Check,53,1,03OWSvT8tWcUSpUlke4buk,ChecK,,KRMIM2640634,58,,,134.61,0.86,0.78,0.77,0.23,-4.17,0.43,0,0.21,8,1,ok
-S056,Lilja Lundén,Liian Nuorii Kuolinilmotuksiin,54,3,5chWNStxbGubQxGS0ueMtd,Liian nuorii kuolinilmotuksiin,,FIBAR2600244,35,,,119.97,0.62,0.68,0.34,0.02,-7.31,0.04,0,0.11,10,1,ok
-S054,Charli XCX,Camera,54,1,1C95XJLGL9xyMlsES1uVDQ,Camera,,USAT22603057,63,,,126.01,0.58,0.69,0.45,0.1,-5.42,0.04,0,0.23,8,1,ok
-S058,Sarah Nimmo,Two Steps Away,55,3,6vZegZgBN1xd6RJsnbW7Op,Two Steps Away,,QM6P42645654,24,,,109,0.91,0.58,0.77,0.08,-4.96,0.03,0.03,0.06,3,0,ok
-S055,Dasha,Memo,55,2,74ULkLG9L8FiqL8PyxbsFG,Memo,,USWB12602583,64,,,122.83,0.82,0.58,0.51,0.07,-5.9,0.07,0,0.32,0,1,ok
-S111,Marshmello; Illenium; Sacha,Close My Eyes,56,6,4Kv3BQhoqR0YboA8xvTyWC,Close My Eyes (feat. SACHA),,USA2P2660861,69,,,106.01,0.76,0.58,0.29,0.02,-4.52,0.03,0,0.1,6,1,ok
-S112,Nelli Matula,Hoidan Sut (Vain Elämää Kausi 17),57,3,4qtkZWC90Vu9Zy4yzZvh9v,Hoidan sut - Vain elämää kausi 17,,FIUM72600180,56,,,176,0.79,0.51,0.39,0.01,-4.71,0.07,0,0.24,1,0,ok
-S057,Meg Stalter; Muna,Gay,57,1,6LCLR74dsJsjSEWeajW5sO,GAY - MUNA Remix,,CAENV2657267,39,,,131.93,0.86,0.65,0.51,0,-4.52,0.04,0,0.07,1,1,ok
-S137,Sofia Camara,Hallucinating,58,4,3stwOzw3rk7g8Et43UvIVw,Hallucinating,,CAUM72600394,63,,,114.03,0.66,0.65,0.48,0.07,-6.29,0.04,0,0.16,0,0,ok
-S131,Annalisa; Madame,Amica,59,3,7i8Er4LumB8lnNHwEMO1i2,Amica (con Madame),,ITQ002600648,63,,,98.03,0.74,0.63,0.34,0.5,-3.48,0.03,0,0.29,0,1,ok
-S059,Aespa,Serenade (Karina & Winter),59,2,2h81piRbzIJmjpxR4qnM2o,Serenade (KARINA & WINTER),,KRA302600350,70,,,118.98,0.84,0.74,0.56,0.02,-4.76,0.1,0,0.43,0,0,ok
-S085,Jaguar Jonze,Kawasaki Ninja,60,2,1hnhcTofHtpuZyxX3EN3U7,Kawasaki Ninja,,CAN112601299,25,,,139.96,0.81,0.74,0.53,0,-3.86,0.22,0,0.32,11,0,ok
-S060,ARTMS,Blue Blood,60,1,4rbJwK22VEJd4uQLTCUXn1,Blue Blood,,KRA382602395,56,,,177.03,0.92,0.55,0.68,0.03,-2.55,0.15,0,0.4,5,0,ok
-S065,Bryska,Szklane Oczy,61,4,34ZbBdoFqHbBG069yK9aiq,Szklane oczy,,PLA552600658,42,,,129.06,0.86,0.77,0.5,0.02,-4.67,0.06,0,0.14,1,1,ok
-S132,Red Velvet - Irene & Seulgi,Cheetah,61,4,0WMhpKFwel1RuR4wF7wuHa,Cheetah,,JP92E2601888,56,,,126.04,0.83,0.74,0.64,0.06,-4.4,0.05,0,0.08,8,0,ok
-S061,Varitda,Almost Said I Love You,61,1,7tMlvqjC3bV9q8DQRekajk,Almost Said I Love You,,THMUN2610085,37,,,128,0.75,0.82,0.98,0.41,-5.68,0.04,0,0.34,7,1,ok
-S100,Bryska,Po Drugiej Stronie Szkła,61,1,7uyrqEix2UJUrCqOOFsnKf,Po drugiej stronie szkła,,PLA552600723,37,,,134.99,0.63,0.68,0.41,0.01,-8.83,0.06,0,0.13,7,1,ok
-S113,RØRY,Grey,62,3,6hRWQS48H0n7MIaOoxVe33,GREY,,NL8RL2647004,44,,,164.2,0.86,0.36,0.36,0,-4.38,0.11,0,0.17,4,0,ok
-S062,Dandelion,Ononon,62,2,53nl3XgMuM4ZdAQ16BEt4n,ONONON,,SEUM72600992,42,,,137.02,0.9,0.55,0.11,0.62,-5.96,0.04,0.22,0.22,8,0,ok
-S086,Bea,Ballet Pumps,63,2,3iAua4ZysTvqch8Uyt3lZ4,Ballet Pumps,,GBAHT2602411,64,,,111.97,0.81,0.7,0.64,0.41,-4.54,0.15,0,0.67,8,0,ok
-S063,Gracie Abrams,Good Reason,63,1,11GUkH18CKNFLKCHORkceJ,Good Reason,,USUG12603698,77,,,,,,,,,,,,,,keine Audio-Features
-S134,Larissa Lambert,Yearning,65,3,2N1ppcmn1zJVTooSi27O1p,Yearning,,USA2P2629812,59,,,136.94,0.61,0.6,0.62,0.08,-5.92,0.04,0,0.13,1,1,ok
-S066,Peach PRC,Distant Lands,66,2,6QsCyT9FUno8E6z7mHRsvp,Distant Lands,,AUUM72500496,43,,,135.01,0.87,0.6,0.49,0.11,-4.52,0.05,0,0.4,2,1,ok
-S067,Florrie,Malibu (Falling Over The Edge),67,1,6q2U0BAMGZxSUAwz9tf1Lr,Malibu (Falling Over The Edge),,UKQWC2600118,41,,,126,0.8,0.61,0.73,0,-5.98,0.04,0.01,0.26,2,0,ok
-S087,Rudimental; Original Koffee; Winny,Send Shots,67,1,2l8RyIEP6A1aPkM2EVecNY,Send Shots,,USA2P2645149,54,,,86.39,0.91,0.55,0.5,0,-2.84,0.06,0,0.39,5,0,ok
-S089,Max McNown,Comets,68,4,6YAZ4sSUI3MrKduG40Wr2e,Comets,,QMGVJ2600229,64,,,113.02,0.63,0.62,0.19,0.11,-7,0.04,0,0.11,9,1,ok
-S068,Ana Mena; Lola Indigo,Pa Ti Toa <3,68,1,54NQtnCL950bGIHlZUMMDH,pa ti toa <3,,ES5022600597,78,,,115,0.72,0.83,0.8,0.34,-4.95,0.04,0,0.26,9,0,ok
-S088,Aliisa Syrjä,Kesä Ja Sä,68,1,1q7piprJt1lb32b96l7Zck,Kesä ja sä,,FIWMA2600187,49,,,120,0.72,0.66,0.26,0.47,-6.82,0.04,0,0.07,5,1,ok
-S069,Audrey Hobert,Sue Me,69,1,6ZAuQOgLrNQb9s7BXheuTy,Sue me,,USRC12500621,86,,,119.913,0.79,0.553,0.545,0.0215,-5.734,0.0749,0,0.0624,8,1,ok
-S133,Yvonnes,Big Spender,70,3,5HyoH4bna6iOoKG8NogVwm,Big Spender,,DEXW92600045,36,,,92,0.78,0.58,0.81,0.01,-8.11,0.04,0.49,0.19,5,1,ok
-S071,Ella Tiritiello,Vad Är Det Med Dig,71,1,60FHpRpzYLG4xj2ClDKRNo,Vad är det med dig,,SEBGA2600931,40,,,174.94,0.65,0.62,0.96,0,-6.05,0.07,0,0.04,1,1,ok
-S072,Wasia Project,Vogue,72,1,7gLPKqoXJue0AJeNVRaDXj,Vogue,,QM6N22654496,53,,,120.02,0.87,0.54,0.26,0.21,-5.3,0.08,0.12,0.13,4,0,ok
-S073,Pernilla Andersson,Rosor,73,1,0aDYLomq2NbOuqniPSJ65T,Rosor,,SEPQA2600137,36,,,124.01,0.57,0.78,0.92,0.23,-8.28,0.03,0.02,0.07,9,0,ok
-S115,Chloe Qisha,Question Of The Day,74,3,3Yw8Agaovn9g02SPGZOK48,Question Of The Day,,GBARL2601005,55,,,119.05,0.59,0.77,0.85,0.05,-4.41,0.11,0,0.1,1,1,ok
-S157,Kaskade; Brieanna Grace,Stay For Love,74,3,4jVuZjOuBL2yj4R3fgeBAf,Stay For Love,,NL8RL2695949,64,,,131.98,0.8,0.51,0.05,0.09,-6.89,0.04,0.03,0.23,4,0,ok
-S173,Miranda Lambert; Ella Langley,Snakeskin Boots,74,2,5pjlXLbWn4VzmLUepF7729,Snakeskin Boots,,USUG12604865,76,,,110.03,0.62,0.58,0.2,0.22,-6.62,0.03,0,0.12,0,1,ok
-S075,Crawlers,All We Have Is Us,75,1,6Za0pihy6NRahaPey98WVy,ALL WE HAVE IS US,,CAN112600975,42,,,100.04,0.69,0.66,0.72,0.02,-5.41,0.04,0,0.11,6,1,ok
-S116,Le Sserafim,Made My Night,75,1,5MOIAV008posdOGmxiJBsi,Made My Night,,USA2P2654734,80,,,124.03,0.93,0.82,0.73,0.09,-3.33,0.16,0,0.08,0,1,ok
-S135,Nita,Aquí,76,3,2wjLG7OlKvYUA9Nrocax0s,Aquí,,ES5152600858,38,,,134.01,0.74,0.69,0.42,0.51,-5.15,0.05,0.36,0.11,1,1,ok
-S185,Girl In Red,Blue,76,2,6V1bu6o1Yo5ZXnsCJU8Ovk,Girls Like You (feat. Cardi B) - Cardi B Version,,USUM71805272,70,,,124.939,0.541,0.779,0.447,0.566,-6.824,0.0658,0,0.13,0,1,falscher Treffer: falscher Song (2018)
-S136,Crawlers,Birthday,79,2,4M11DzgR9VUohJhhakKnic,BIRTHDAY,,CAN112601308,41,,,132.06,0.69,0.39,0.07,0.01,-5.68,0.04,0,0.12,7,1,ok
-S138,Petra,Licia,83,5,7p81n4TOcxazBYhwIhXka4,licia,,ITZ042600125,45,,,140.1,0.71,0.67,0.96,0,-7.26,0.05,0,0.28,0,1,ok
-S158,Phoebe Bridgers,On Video,85,3,1QA6xgUEZ1BqOj2xuroM3N,On Video,,USJ5G2641701,69,,,159.61,0.52,0.28,0.32,0.25,-8.29,0.03,0.01,0.23,4,0,ok
-S139,Klara Vibeke,Står For Skud </3,85,2,65m0grU6EDSCBoX2hS4kZ7,står for skud </3,,DKAZA2600136,35,,,96.02,0.76,0.65,0.81,0.6,-7.29,0.18,0,0.43,11,0,ok
-S140,Tove Lo,Source Of Life,86,3,6ngCpcD8t3eo8sd3n5YzCV,source of life,,USA2P2624784,67,,,107.04,0.78,0.81,0.83,0.01,-5.27,0.05,0.02,0.21,9,1,ok
-S141,The Buoys,Stay Up To Date On Politics,91,2,2zlODSgArTyLCLjqZDdZLT,Stay Up to Date On Politics,,AUBM02600070,38,,,125.93,0.68,0.7,0.61,0.4,-7.16,0.03,0,0.12,7,1,ok
-S142,Gioia Lucia,Una Canzone Allegra,94,1,3OIpE2rJEoTgRxHHCNMBuB,Una canzone allegra,,ITIWE2690045,43,,,125.96,0.68,0.77,0.83,0.24,-6.22,0.04,0,0.12,7,0,ok
-S144,Angelica,"Ahi, Che Giornata!",99,1,5yNxPJwAC3O9C4aAfqK33B,"Ahi, che giornata!",,ITB002600977,39,,,128,0.69,0.67,0.73,0.02,-7.05,0.03,0,0.09,2,1,ok
-S145,Felicia,Hulk,100,1,2VxAelqw7mN2YZ1Xjj41D0,HULK,,SEPQA2600159,50,,,101.91,0.66,0.74,0.57,0.03,-6.47,0.05,0,0.07,1,1,ok
+S117,Faouzia,Unethical,1,7,6QKpHmO41jkd9pTp0FfmHs,UNETHICAL,Faouzia,QM24S2504240,87.0,2025-08-01,1300459.0,134.916,0.455,0.536,0.138,0.406,-6.523,0.0297,0.0,0.118,2.0,0.0,ok
+S160,Iamamiwhoami; Ionnalee,Shadowshow,1,5,0kGj6A84wBS143RHoHvq0x,shadowshow,iamamiwhoami,SE4DQ1401313,37.0,2014-11-10,189169.0,94.192,0.785,0.522,0.189,0.0487,-7.01,0.0409,0.00118,0.158,5.0,0.0,falscher Treffer: alte Version 2014
+S023,Shprot,Gayush,2,10,30SDxSsYU2evTMKSDkPrWu,Gayush,Shprot,QT6642606389,19.0,2026-04-27,2052.0,150.02,0.9,0.73,0.43,0.24,-6.94,0.42,0.0,0.37,8.0,1.0,ok
+S097,Adéla,Nicole Kidman,2,9,70cHKK8bHAfJrOGVnfRG9J,Nicole Kidman,ADÉLA,USUM72606032,98.0,2026-09-04,1711000.0,140.91,0.57,0.66,0.76,0.11,-7.17,0.03,0.0,0.16,7.0,0.0,ok
+S101,Sophia Stel,I Do,2,8,4Y5Zx6Dht91ZUpCQ8NPePX,I Do,Sophia Stel,USA2P2653120,60.0,2026-09-10,61833.0,127.98,0.61,0.63,0.2,0.07,-8.18,0.03,0.08,0.11,9.0,1.0,ok
+S120,Wasia Project,Wildfire,2,7,3V7Hl03AvjE96bo66GRwK8,Wildfire,Wasia Project,QM6N22654515,59.0,2026-09-18,410467.0,91.07,0.67,0.34,0.12,0.01,-4.0,0.03,0.0,0.11,8.0,1.0,ok
+S161,Telenova,Happy,2,5,1SBYruzHCKFuVMPJp8R6mb,Happy,Telenova,AUM8H2500116,46.0,2026-10-01,34213.0,115.01,0.68,0.59,0.39,0.04,-5.4,0.03,0.0,0.16,1.0,1.0,ok
+S203,Haute & Freddy,Film Noir,2,2,7DjfpeQoZzZv2DUe0kHaLT,Film Noir,Haute & Freddy,USAT22607119,62.0,2026-10-23,167376.0,127.01,0.83,0.6,0.47,0.02,-5.14,0.03,0.0,0.08,5.0,0.0,ok
+S148,Pierre de Maere; Clara Luciani,Quasiment Parfait,3,6,4M9fLn8fL9yXy0Cv3xLWAW,Quasiment parfait,Pierre de Maere,FR6F32601600,54.0,2026-09-25,179144.0,140.06,0.8,0.67,0.41,0.01,-5.86,0.04,0.0,0.15,6.0,0.0,ok
+S091,Ellie Goulding,For Your Entertainment,4,8,1i1Blr6MbP98bkiiDPM4um,For Your Entertainment,Ellie Goulding,GBUM72506796,66.0,2026-09-04,14205072.0,127.99,0.85,0.49,0.26,0.06,-3.94,0.07,0.0,0.19,10.0,1.0,ok
+S127,Isabel LaRosa,Don't Make Them Like Me,4,7,4xAIC3X3mntqjiiVbHZhUg,Don't Make Them Like Me,Isabel LaRosa,USRC12601751,60.0,2026-09-18,2914722.0,93.06,0.47,0.7,0.38,0.28,-5.75,0.05,0.0,0.08,7.0,0.0,ok
+S176,Judeline,La Falda,4,4,3RskBcs0Iu92bHl4KmRryd,La Falda,Judeline,USA2P2671762,78.0,2026-10-08,360809.0,92.02,0.83,0.73,0.64,0.2,-4.51,0.04,0.21,0.09,5.0,0.0,ok
+S102,Mylène Farmer,Des Lols Et Des Quoi,5,8,6bGXBGuWSCFEoS6Yitllcc,Des lols et des quoi,Mylène Farmer,FR02R2600100,58.0,2026-09-11,731919.0,128.03,0.73,0.76,0.44,0.19,-6.25,0.05,0.0,0.09,6.0,0.0,ok
+S104,Panicbaby,Troubled Man,5,8,1TXsIu8vBDn0vLQ1GteDUL,troubled man,panicbaby,DE1FB2600292,51.0,2026-09-08,44646.0,128.04,0.87,0.51,0.51,0.08,-5.5,0.04,0.0,0.29,0.0,0.0,ok
+S162,Leony,Way Too Late,5,5,6x6qpL0Qxi68Z0POHaIToF,Way Too Late,Leony,DECE72605627,56.0,2026-10-02,239442.0,137.03,0.95,0.58,0.6,0.1,-4.03,0.07,0.0,0.28,1.0,1.0,ok
+S187,Tate McRae,Housewife,5,3,2sFepQNyl1WjpROruP8bJ0,Housewife,Tate McRae,USRC12601916,96.0,2026-10-15,11727479.0,133.01,0.72,0.63,0.64,0.34,-5.35,0.05,0.0,0.22,8.0,0.0,ok
+S154,PiXXiE,Dusty,6,6,5mllbepsjuNZPax6LX1tuW,DUSTY,PiXXiE,GB2DY2610110,50.0,2026-09-24,505179.0,120.01,0.69,0.75,0.31,0.16,-5.11,0.07,0.0,0.12,1.0,1.0,ok
+S103,Thunder Bae,Gay Alice In Wonderland,7,8,416Ap5aRSDpdteagt5h1N7,GAY ALICE IN WONDERLAND,Thunder Bae,QM6XS2610974,16.0,2026-06-19,2324.0,110.02,0.6,0.71,0.09,0.12,-9.72,0.05,0.25,0.11,1.0,1.0,ok
+S106,Jeanne,Cybersensible,7,8,2o5ghGw2qfZEPWMDO2YHei,Cybersensible,Jeanne,FRZ052600286,57.0,2026-09-11,68776.0,141.96,0.68,0.74,0.55,0.75,-7.56,0.14,0.0,0.12,11.0,0.0,ok
+S204,Noé Preszow,Soleil Secret,3,2,3I4I2AZNtlEtcQAfdTTAJb,Soleil secret,Noé Preszow,FR79W2600480,43.0,2026-10-23,39126.0,137.43,0.73,0.4,0.3,0.01,-4.72,0.04,0.0,0.1,1.0,0.0,ok
+S118,Yndling,Shell,8,6,4Y3t75xwiQuJkvXXmNcgRc,Shell,Yndling,QT6682679528,45.0,2026-09-18,41353.0,133.0,0.66,0.48,0.43,0.72,-9.06,0.03,0.24,0.15,0.0,1.0,ok
+S159,Holly Humberstone,Too Cute To Be Lonely,8,5,5iZbOxJZ2Rmo2ECMXRHU9a,Too Cute To Be Lonely,Holly Humberstone,GBUM72600837,71.0,2026-09-30,405207.0,119.98,0.73,0.63,0.64,0.02,-4.16,0.03,0.0,0.09,5.0,1.0,ok
+S205,SKYND,Johnny Kitagawa,4,2,005RXKfUWngQEJeG0fhoVG,Johnny Kitagawa,SKYND,QT6HP2659142,47.0,2026-09-04,106391.0,125.01,0.97,0.59,0.55,0.0,-3.48,0.05,0.0,0.16,6.0,0.0,ok
+S107,Avery Cochrane,Toy Gun,9,8,0OXVPuuyCU3Wih7xObJ4HO,Toy Gun,Avery Cochrane,QMDA72602983,54.0,2026-09-09,29720.0,126.09,0.64,0.73,0.66,0.25,-5.32,0.04,0.0,0.23,1.0,0.0,ok
+S121,Ane Brun; ARY,Hold Me,10,6,2K3BJYJx0twWhZeomNHLia,Hold Me,Ane Brun,SEVVQ2600001,41.0,2026-08-21,375755.0,120.03,0.57,0.53,0.04,0.03,-10.03,0.03,0.85,0.09,8.0,1.0,ok
+S076,Angèle,Une Seule Vie,11,10,5Y3p9cIQH4TxX3sI4ZQIAL,Une seule vie,Angèle,BE8HB2600017,68.0,2026-08-28,2942031.0,102.96,0.7,0.51,0.36,0.03,-6.11,0.04,0.0,0.06,1.0,0.0,ok
+S206,Kacey Musgraves,Weekend In Texas,6,2,7LBCgoUHyu8ITKLzalD0Ea,Weekend In Texas,Kacey Musgraves,USUG12609726,69.0,2026-10-23,1853328.0,129.96,0.83,0.64,0.64,0.19,-5.12,0.03,0.0,0.11,4.0,1.0,ok
+S119,Tove Styrke,Me/You (Always And Forever),12,6,7EtHVLkstCjz6iY79FmvLb,Me/You (always and forever),Tove Styrke,SEBGA2600597,48.0,2026-09-18,169861.0,118.01,0.53,0.86,0.83,0.31,-10.32,0.04,0.76,0.11,5.0,0.0,ok
+S171,ÄmbÖ,Johannes Kasvaja,12,5,43Sp3xb3omSgK6zWnxgDg0,Johannes Kasvaja,ÄmbÖ,FIBAR2600312,34.0,2026-10-02,519.0,162.09,0.78,0.65,0.45,0.07,-3.66,0.06,0.0,0.07,1.0,1.0,ok
+S078,Kiara Nelson,Dancing Alone,13,10,7lcOwbhhqpVRqudzulstWt,Dancing Alone,Kiara Nelson,DEN062600685,40.0,2026-08-28,52269.0,129.99,0.82,0.67,0.48,0.11,-3.66,0.04,0.0,0.21,5.0,1.0,ok
+S079,Haute & Freddy,Touch Touch,14,10,18fRO6IsVaKNn5HIdVraSA,Touch Touch,Haute & Freddy,USAT22605314,66.0,2026-08-28,167376.0,124.02,0.84,0.61,0.42,0.04,-6.69,0.03,0.1,0.07,1.0,1.0,ok
+S178,Slayyyter,I Think He's Got A Girl,14,4,5KJwFcJc0m1u4F8mVkwT5Y,i think he's got a girl,Slayyyter,USQX92605572,81.0,2026-10-09,908935.0,98.01,0.52,0.48,0.13,0.0,-5.1,0.03,0.15,0.12,9.0,1.0,ok
+S181,Hoshi,Santé Mentale,14,4,7igfJ7OJ0Y7BFs80ilvfsD,Santé mentale,Hoshi,FRX282695998,55.0,2026-10-09,940527.0,147.99,0.78,0.62,0.49,0.25,-3.37,0.32,0.0,0.17,9.0,0.0,ok
+S080,Tuuli,Rakkaus Ei Maksa Mitään,15,10,4IfO3xKQb5I9DiFAOWWgLI,Rakkaus ei maksa mitään,TUULI,FIBAR2600260,46.0,2026-08-28,41003.0,97.94,0.74,0.67,0.43,0.0,-4.27,0.03,0.0,0.11,11.0,0.0,ok
+S095,Oria,Bella Vita,15,9,6bDXDC1meVMo6NyzH7VoxB,Bella Vita,Oria,FRETX2600080,56.0,2026-09-04,30082.0,121.06,0.73,0.59,0.56,0.29,-5.97,0.06,0.0,0.13,11.0,0.0,ok
+S177,Ane Brun; Röyksopp,Eat The Fruit,15,4,6QTVocXJIT6QomBx2QuBBm,Eat the Fruit,Ane Brun,SEVVQ2600002,47.0,2026-10-09,375755.0,130.0,0.56,0.7,0.2,0.01,-12.04,0.03,0.64,0.49,0.0,0.0,ok
+S166,Zombic; Carlotta,Engel Der Nacht,16,5,64RfoXW3bs3I2ggPMJjewv,Engel Der Nacht,Zombic,DEUM72604370,37.0,2026-10-02,25403.0,161.98,0.97,0.42,0.27,0.0,-2.05,0.09,0.0,0.3,2.0,0.0,ok
+S207,IVE,Looks Can Kill,7,2,79kqYxIkS29va2I9AeL9ak,Looks Can Kill,IVE,QMFME2602326,75.0,2026-10-19,7909148.0,129.99,0.82,0.74,0.83,0.01,-3.38,0.05,0.0,0.03,6.0,0.0,ok
+S151,Roxie,Jesień Trwa (Bez Końca),17,6,50GX2voMa5qtdAi1DO3D8h,Jesień trwa (bez końca),Roxie,PLI367846290,57.0,2026-09-23,124957.0,136.82,0.82,0.62,0.46,0.13,-4.72,0.06,0.0,0.35,0.0,0.0,ok
+S190,Fontaines D.C.,Japan,12,3,29USgREdEXy48zHm3OnhAZ,Japan,Fontaines D.C.,GBBKS2600152,81.0,2026-10-16,1681076.0,147.97,0.7,0.39,0.44,0.04,-6.78,0.03,0.0,0.31,2.0,1.0,ok
+S130,Troye Sivan,Party,18,7,3OEhcaHabVo4Oc2fdMb6DO,Party,Troye Sivan,USUG12606855,72.0,2026-10-09,9695837.0,119.98,0.88,0.73,0.55,0.01,-4.43,0.07,0.01,0.1,1.0,1.0,ok
+S149,Gerd,Love Economy,18,6,3juxxdQ5TckAecsfNgML9J,Love Economy,GERD,SEUM72600618,46.0,2026-09-25,14702.0,128.11,0.58,0.52,0.18,0.08,-5.2,0.04,0.0,0.14,1.0,0.0,ok
+S114,Gazal,Eat D!rt,19,8,3sqdyDy4wwsUQAXaTq2imI,EAT D!RT,GAZAL,AUI442601085,22.0,2026-09-11,1731.0,104.99,0.6,0.82,0.35,0.03,-6.94,0.11,0.0,0.24,1.0,1.0,ok
+S189,Manon Lisa,Jeune Demoiselle,20,3,4uie9TydlbuQRptziBOzss,Jeune Demoiselle,Manon Lisa,FR9W12641004,55.0,2026-10-14,37981.0,104.5,0.72,0.74,0.91,0.05,-5.73,0.04,0.0,0.23,8.0,0.0,ok
+S180,Levante,Sono Blu,21,4,1VKV5q3ahnUb05DBDHSFbX,SONO BLU,Levante,ITQ002501993,43.0,2026-10-09,267217.0,124.82,0.79,0.39,0.04,0.0,-3.92,0.05,0.0,0.08,3.0,0.0,ok
+S070,Zalia,Daj Mi Znak,22,10,7qOAHK3XcMHz9YlSopJ107,daj mi znak,Zalia,PLUM72600417,59.0,2026-08-18,95824.0,114.03,0.48,0.58,0.2,0.74,-9.18,0.03,0.0,0.1,3.0,0.0,ok
+S094,Malika Ayane,Detto Tra Noi,22,9,6SHMgDcV1LeVNfQyGGqohD,detto tra noi,Malika Ayane,ITB262600560,47.0,2026-09-18,380745.0,100.05,0.67,0.72,0.45,0.01,-6.41,0.05,0.0,0.12,2.0,1.0,ok
+S124,Hemlocke Springs,Gloria!,24,7,0JvxCw2L2ChMeVpIfSwvqN,gloria!,hemlocke springs,QMDA72644884,56.0,2026-09-17,303844.0,129.99,0.9,0.76,0.68,0.04,-4.6,0.04,0.01,0.33,11.0,0.0,ok
+S163,Angèle; Caroline Polachek; SebastiAn,Love Triangle,24,5,5AdL0XU6R5bN6RweaQsCHr,Love Triangle,Angèle,BE8HB2600024,67.0,2026-09-29,2942031.0,97.99,0.57,0.67,0.09,0.01,-7.8,0.03,0.13,0.14,2.0,1.0,ok
+S164,Pihlaja,Koviksen Kyyneleet,24,5,1yxnYOzBnnnmPQjbmWlzXy,Koviksen kyyneleet,Pihlaja,FIBAR2600319,58.0,2026-10-02,16569.0,125.06,0.62,0.75,0.46,0.09,-5.33,0.04,0.0,0.1,3.0,1.0,ok
+S074,Fontaines D.C.,Marianne,25,11,6OciU5g0hekPBP9MqbCKFs,Marianne,Fontaines D.C.,GBBKS2600144,79.0,2026-10-16,1681076.0,81.98,0.7,0.45,0.2,0.0,-6.3,0.03,0.0,0.19,6.0,0.0,ok
+S153,Anouk,Ta Peau,25,6,1URO8RODQThxTuCjuPmwgu,Ta peau,Anouk,FRZ052600513,62.0,2026-09-25,10673.0,132.12,0.74,0.59,0.37,0.23,-5.06,0.04,0.0,0.17,9.0,0.0,ok
+S188,Mae Muller; Jodie Harsh,Hallucination,26,3,5jB7PFMeHYnSG6uRAvmPvR,Hallucination,Mae Muller,FRX762650530,38.0,2026-10-16,167184.0,129.86,0.92,0.48,0.28,0.0,-4.19,0.09,0.0,0.29,2.0,1.0,ok
+S191,MEOVV,Go Hard,10,3,3P2MygdWs8lorZnwV3KrsJ,GO HARD,MEOVV,KSA002652474,73.0,2026-10-12,2261178.0,87.36,0.76,0.73,0.2,0.0,-5.16,0.08,0.0,0.13,2.0,1.0,ok
+S174,Purple Disco Machine; Meek,Test My Luck,27,5,44Ac5ReqR5sNoBxpdn35qU,Test My Luck,Purple Disco Machine,DEE862601362,67.0,2026-10-02,930336.0,127.04,0.85,0.65,0.64,0.0,-4.76,0.05,0.0,0.07,1.0,1.0,ok
+S084,Hania; Samunowak,Syreny,28,9,2moIgh6lTs6D6kICWX8370,SYRENY,Hania,PL4K02678170,28.0,2026-08-28,3076.0,148.05,0.86,0.67,0.7,0.08,-2.98,0.03,0.0,0.24,0.0,1.0,ok
+S165,Mollie Elizabeth,Kiss The Ring,28,5,3uiUQodPW2SoJkzg7J6Bfd,Kiss The Ring,Mollie Elizabeth,USUG12609291,63.0,2026-10-02,226829.0,127.09,0.48,0.66,0.71,0.27,-5.36,0.03,0.0,0.1,10.0,0.0,ok
+S122,Say Now,Met My Match,31,7,6DgMjSTiKodctEfV68Azlf,Met my match,Say Now,GBAHS2600407,73.0,2026-09-18,226032.0,120.65,0.92,0.68,0.75,0.08,-1.83,0.08,0.0,0.29,1.0,0.0,ok
+S125,Paula Koops,Tu Tercer Cubata,31,7,5Ccp1PIWXf7oOwNkGXi4kZ,Tu tercer cubata,Paula Koops,FRX762611896,42.0,2026-09-18,78422.0,171.0,0.93,0.5,0.76,0.0,-3.79,0.06,0.0,0.12,8.0,1.0,ok
+S208,Maisie Peters,Hands On Me,20,2,3qzc3xyTxHCvsT55a7xPGw,Hands On Me (Nobody Wants This S3),Maisie Peters,USAT22607680,62.0,2026-10-22,830741.0,167.99,0.81,0.51,0.62,0.09,-4.75,0.05,0.0,0.21,4.0,1.0,ok
+S126,Miley Cyrus,Let's Get Married,32,7,3Ln4JSpTO4Zc7oRinGsp4k,Let's Get Married,Miley Cyrus,USAT22604408,78.0,2026-09-18,28952133.0,96.96,0.76,0.57,0.45,0.03,-4.67,0.03,0.0,0.49,0.0,1.0,ok
+S109,Kaeyra,Na Moje Nieszczęście,33,8,5kp1LBPYyaGswDaG75sx13,na moje nieszczęście,Kaeyra,PLA552600722,52.0,2026-09-10,10136.0,125.96,0.9,0.66,0.45,0.03,-4.06,0.04,0.0,0.36,4.0,0.0,ok
+S179,Louane,Mode Avion,22,4,2lB2ZierONlZoEKGzxNLsp,mode avion,Louane,FR9W12633776,55.0,2026-10-08,1654204.0,143.9,0.94,0.67,0.77,0.04,-3.43,0.06,0.0,0.11,9.0,1.0,ok
+S128,Boy Harsher,Faulty,35,7,1oLrfOvf2TaMR23qu8QThR,Faulty,Boy Harsher,USAT22605002,61.0,2026-09-18,471750.0,139.99,0.84,0.6,0.82,0.05,-6.57,0.03,0.36,0.09,2.0,0.0,ok
+S183,Nathalia,In Our Prime,28,4,5fAH8m3khx6QmLJtTAYSTT,In Our Prime,NATHALIA,GBUM72605776,35.0,2026-10-07,148.0,140.08,0.93,0.63,0.72,0.0,-3.64,0.19,0.09,0.3,9.0,1.0,ok
+S192,Shygirl,Mantra,39,3,6FRKbLeBePLS0KTZqhVMgR,Mantra,Shygirl,GBMVH2600360,58.0,2026-10-13,394132.0,144.98,0.93,0.49,0.35,0.0,-5.67,0.15,0.0,0.53,8.0,1.0,ok
+S170,Paola Turci,Miss,37,5,5PTasnhkAF8nEFH6AlIVGo,Miss,Paola Turci,ITDV92600120,37.0,2026-10-02,114685.0,142.08,0.64,0.47,0.35,0.25,-6.45,0.03,0.0,0.1,4.0,0.0,ok
+S193,Enola Cox,Impolie,40,3,2T6Lb6NhrpZrXo9nbGfdq1,Impolie,Enola Cox,QT66A2614715,35.0,2026-10-14,15242.0,152.16,0.73,0.44,0.24,0.21,-5.64,0.14,0.0,0.07,9.0,0.0,ok
+S110,Dylan,To Love And To Lose,44,7,25KmVoAJzApNxuj6CDDwR5,to love and to lose,Dylan,GBUM72605462,72.0,2026-09-09,238482.0,99.91,0.53,0.67,0.37,0.02,-7.64,0.03,0.0,0.05,1.0,1.0,ok
+S108,Dove Cameron,When In Rome,45,7,0CfLsX61bPV9E4pjjvwNZw,when in rome,Dove Cameron,USQX92605130,68.0,2026-09-09,5736851.0,130.53,0.76,0.65,0.54,0.01,-4.84,0.05,0.0,0.15,0.0,1.0,ok
+S167,Ella Rammelt,SMS,41,5,35wWVfVzzJyBQQMJaGp9KN,SMS,Ella Rammelt,QMDA72677287,27.0,2026-10-02,4037.0,124.96,0.82,0.75,0.91,0.03,-3.8,0.05,0.0,0.07,7.0,0.0,ok
+S150,Bicep; Soarr,Air,47,5,2infXICqVSUM3bbGSOgFOY,Air,BICEP,GBCFB2600588,63.0,2026-09-25,693940.0,125.09,0.97,0.27,0.14,0.0,-6.22,0.05,0.81,0.06,7.0,0.0,ok
+S194,Naomi Jon,Delilah,44,3,35sNEqHC4lA66ZHFvM8UgM,Delilah,Naomi Jon,CH7812685695,49.0,2026-10-16,117729.0,104.02,0.65,0.67,0.52,0.01,-4.79,0.05,0.0,0.42,0.0,1.0,ok
+S169,Victoria Monét; SZA,See You In My Dreams,48,5,5sDYIz1pOavfbjfMVIMOzW,See You In My Dreams (feat. SZA),Victoria Monét,USRC12601481,74.0,2026-10-02,1417668.0,,,,,,,,,,,,keine Audio-Features
+S182,Chloe Slater,Can I Finish Please?,48,4,3gsQ4YYAT2eg4EaKh3X9v5,Can I Finish Please?,Chloe Slater,QM7282607446,47.0,2026-10-09,55618.0,123.97,0.86,0.65,0.57,0.0,-4.23,0.08,0.08,0.1,0.0,1.0,ok
+S195,Moyka,Dust U Off,48,3,1MjkvZOLEgJqSShFr1Ixui,Dust U Off,Moyka,NOZTP2610010,43.0,2026-10-16,23043.0,129.93,0.69,0.56,0.08,0.1,-8.23,0.07,0.03,0.09,7.0,1.0,ok
+S196,Otha,Fuck This Stress,49,3,5f3LPYNbngs55vHYXsU13W,Fuck This Stress,Otha,QZWDD2606664,46.0,2026-10-15,67332.0,118.0,0.42,0.78,0.19,0.1,-14.74,0.04,0.51,0.13,9.0,0.0,ok
+S209,Hailee Steinfeld,Magic,45,2,3VvHGb4SxuVt9A35ytpWNQ,Magic - From Hexed,Hailee Steinfeld,USWD12642617,54.0,2026-10-23,8930640.0,120.01,0.8,0.7,0.7,0.0,-5.67,0.03,0.0,0.04,1.0,1.0,ok
+S168,Nelli Matula,Kuolematon,51,4,5puzPJnroeHXDmfHotFs1g,Kuolematon - Vain elämää kausi 17,Nelli Matula,FIUM72600194,55.0,2026-10-02,41194.0,129.84,0.71,0.46,0.24,0.08,-5.65,0.06,0.0,0.14,1.0,0.0,ok
+S152,Sara James,Zrób To Dla Mnie,55,5,4K88kcWQbXeUBrG7GRh5dc,ZRÓB TO DLA MNIE,,PLUM72600456,58.0,,,112.0,0.72,0.58,0.26,0.01,-2.65,0.03,0.0,0.1,1.0,1.0,ok
+S175,Horsegiirl; Dylan Brady,C*ntry Girl Rock,55,5,3SwB3iCazOqulClBTo6RsA,c*ntry girl rock,,USRC12601792,55.0,,,170.04,0.92,0.66,0.79,0.02,-2.31,0.09,0.02,0.19,10.0,0.0,ok
+S210,Bluegirl,Look At All The Happy People,58,2,18o11AfvD5c8x6LjCSeCYG,Look At All The Happy People,,GBUM72606253,57.0,,,127.91,0.69,0.62,0.18,0.13,-6.44,0.05,0.0,0.13,8.0,1.0,ok
+S156,Francesca Michielin,La Mia Ragazza,59,6,4XfPcAhhb6aiWEGe9v4FP1,La mia ragazza,,ITB002601011,53.0,,,119.99,0.9,0.62,0.6,0.0,-5.48,0.03,0.0,0.38,5.0,1.0,ok
+S184,Morgana,Prince Of The Park,59,4,6Fh06IwS6hPWqoW35rd4JJ,Prince Of The Park,,QZN882617681,34.0,,,119.97,0.38,0.59,0.04,0.0,-21.17,0.04,0.0,0.06,2.0,1.0,ok
+S197,Rachel Chinouriri,Pretty Girls,63,2,7c0oKEgUPN6nQ5dwhzzs3m,Pretty girls,,GBAYE2600500,68.0,,,,,,,,,,,,,,keine Audio-Features
+S172,Becca Hatch,Extra Time,42,5,0UHNfLj6mQL2kz2qZT5mfC,Extra Time,,AUQ9D2682395,47.0,,,115.1,0.7,0.53,0.16,0.04,-4.8,0.03,0.01,0.07,9.0,1.0,ok
+S211,Sophie and the Giants,Wreck Of Me,59,2,4Ezd8z85fB3hmxrIEF6m2M,Wreck Of Me,,DEUM72604788,50.0,,,145.16,0.69,0.48,0.3,0.01,-4.22,0.05,0.0,0.18,11.0,1.0,ok
+S143,Ruletti; Melissa,Pilvenpiirtäjät,66,6,73I9BEWL543fECv8svC4Ag,Pilvenpiirtäjät,,QT6HW2668469,37.0,,,109.99,0.59,0.62,0.37,0.26,-5.61,0.02,0.0,0.1,6.0,0.0,ok
+S155,Dolla,Ugly,67,6,1zmU3IYQvUbyJXmH8oCsB9,Ugly,,TCACN1617839,39.0,,,118.539,0.0551,0.553,0.189,0.96,-19.55,0.0358,4.28e-06,0.111,3.0,1.0,falscher Treffer: falscher Song (2016)
+S212,Nosowska,Schron,64,2,67vmRUkeNoqOZ9oalln2ot,SCHRON,,PLA812600044,46.0,,,120.03,0.59,0.74,0.04,0.03,-9.06,0.04,0.02,0.11,2.0,1.0,ok
+S198,Angèle,Au Revoir,66,3,7fI6oGb9FBWHru0W4sI1Ca,Au revoir,,BE8HB2600016,69.0,,,,,,,,,,,,,,keine Audio-Features
+S199,Florrie,Spreadsheets,72,3,0gUaLYxyvx6b6bfM4Ku0YJ,Spreadsheets,,UKQWC2600116,47.0,,,84.85,0.91,0.48,0.62,0.01,-4.27,0.08,0.01,0.24,6.0,1.0,ok
+S213,St Graal,Asocjal,46,2,189Sybq8UM7kotCnzV7EqB,7ème ciel,,FR10S1986275,40.0,,,124.03,0.76,0.89,0.67,0.58,-6.76,0.2,0.0,0.11,7.0,0.0,falscher Treffer: falscher Song
+S200,Rosi,"Sulle, rakkaus",74,3,4aL0Z1Nmu7jQoVdMXf4x4R,"Sulle, rakkaus",,FI9PF2600191,40.0,,,111.98,0.62,0.7,0.26,0.35,-6.73,0.03,0.0,0.13,10.0,0.0,ok
+S186,Franky Rizardo,Shinjuku,77,3,0niU8VMrQzSNhrmsiLlmeS,Shinjuku,,NLML62600055,78.0,,,129.0,0.9,0.77,0.75,0.0,-7.66,0.04,0.94,0.13,8.0,0.0,ok
+S214,R3HAB; Korolova,Hi Hello,70,2,2Kaldx1TDzLaxn1dvIfaKX,Hi Hello,,AEA2D2600561,60.0,,,130.02,0.89,0.63,0.19,0.0,-6.19,0.05,0.03,0.1,2.0,1.0,ok
+S215,Olivia Bay,Admitelo,80,2,1ffQfEbZMUztGGJ0SIoPbM,Admítelo,,ES5022600896,50.0,,,123.02,0.67,0.69,0.43,0.51,-6.62,0.03,0.0,0.12,5.0,1.0,ok
+S201,Zoe Wees,Rise Again,72,3,6bCNNWrKOVLaDBhunGvFJe,Rise Again,,USZXT2661577,55.0,,,93.94,0.75,0.46,0.25,0.18,-3.11,0.04,0.0,0.1,10.0,0.0,ok
+S202,Temper City,Sex & Drugs,89,2,7CsXW2mwJHmItiGJuxwjwW,Sex & Drugs,,QT8CK2615434,67.0,,,112.02,0.72,0.76,0.47,0.03,-3.69,0.03,0.01,0.06,11.0,0.0,ok
+S216,Dove Cameron,Do The Math,81,2,4brpx6ZUKRDaEJZvbbBMl8,do the math,,USQX92606169,66.0,,,187.6,0.45,0.47,0.32,0.39,-5.76,0.04,0.0,0.12,8.0,1.0,ok
+S001,Ariana Grande,Petal,1,8,70pVCVMGjmIWPbWXDwf11e,petal,,USUM72601822,89.0,,,134.89,0.57,0.67,0.58,0.33,-6.46,0.05,0.0,0.4,0.0,0.0,ok
+S026,Livka,Poza Tobą Nic,1,8,4fxmxMlrViwVyolXZJUJ8Z,poza Tobą nic,,PLB382600454,67.0,,,124.98,0.81,0.65,0.38,0.34,-5.52,0.04,0.0,0.23,8.0,0.0,ok
+S002,Amara CTK100,Paradiso Nights,2,9,18UFEQ1MviWquW8oWqwMmx,Paradiso Nights,,QT6FH2649678,46.0,,,122.01,0.91,0.63,0.56,0.01,-3.41,0.13,0.42,0.14,11.0,0.0,ok
+S003,Nessa Barrett,"Too Fast To Live, Too Young To Die",3,8,3mWXq4lBomJgw79Sz7jeB3,"Too Fast To Live, Too Young To Die",,USWB12602541,64.0,,,127.96,0.6,0.56,0.36,0.34,-6.25,0.03,0.0,0.11,6.0,0.0,ok
+S007,Kasia DVD ✧,Syren,3,7,6EHCRmMbDquS2PRDkTGUed,SYREN,,PLI362444160,25.0,,,129.97,0.91,0.57,0.51,0.0,-4.98,0.04,0.2,0.21,7.0,0.0,ok
+S090,Florrie,Catch You If You Fall,3,7,56bWmjpsXV3kNSNqzWyWQ7,Catch You If You Fall,,UKQWC2600114,38.0,,,75.93,0.69,0.52,0.15,0.17,-4.9,0.03,0.0,0.11,3.0,1.0,ok
+S081,Nita,Tańcz I Kochaj,4,7,2JM1chl2LrZLp2O56Pgb82,Tańcz i kochaj,,PL44Y2600006,39.0,,,110.04,0.73,0.78,0.95,0.12,-5.3,0.06,0.0,0.05,10.0,0.0,ok
+S004,Valencia Grace,Guillotine,4,6,6Zqufsn9eQJIBbG8J19WV7,Guillotine,,QT3FA2632930,42.0,,,127.98,0.95,0.59,0.53,0.01,-5.46,0.07,0.0,0.35,0.0,1.0,ok
+S022,Fida,Kafejka Na Ochocie,5,7,2huAJcqnLg4SC4jvHKKohG,Kafejka na Ochocie,,PL8K22600005,44.0,,,127.97,0.68,0.71,0.58,0.22,-7.41,0.06,0.0,0.16,7.0,1.0,ok
+S005,Alice Pisano,Only Girl,5,6,7g1CPq2enxhjC3L9VB6v4B,Only Girl,,QMBZ92690891,42.0,,,130.04,0.68,0.63,0.44,0.06,-4.05,0.04,0.0,0.12,5.0,1.0,ok
+S011,Nessa Barrett,Bad Girls Never Die,6,9,0XeJjHtXi5gHqzuzjozPPh,Bad Girls Never Die,,USWB12602724,61.0,,,98.98,0.58,0.51,0.42,0.03,-6.91,0.03,0.0,0.11,9.0,0.0,ok
+S006,Katseye,Animal,6,5,3ouNEk0tv5TTi8VWMe1xbX,Animal,,USUM72602757,92.0,,,149.97,0.84,0.78,0.96,0.42,-4.12,0.05,0.0,0.24,0.0,0.0,ok
+S050,Lia Lia,Adore You,7,8,3H4hhFhMhXIn8gBeS0Jxfs,Adore You,,QZWH32600353,38.0,,,133.1,0.53,0.53,0.2,0.2,-7.55,0.03,0.33,0.28,4.0,0.0,ok
+S008,Luna,Away With The Fairies,8,6,6a35UAgzwJILqPKJ7YEmJd,Away With The Fairies,,PL2DY2600041,33.0,,,125.99,0.62,0.74,0.55,0.09,-7.63,0.04,0.0,0.15,7.0,1.0,ok
+S009,Lily Meola,Sleeping With My Boots On,9,7,6NIFqS0Rz2Zbjh1RN69hzX,Sleeping with My Boots On,,CAN112600464,48.0,,,106.64,0.77,0.62,0.85,0.12,-4.59,0.06,0.0,0.21,9.0,0.0,ok
+S010,Margaret,Primabalerina,9,7,4WH0yDfn9CfE1usPV3sBMu,Primabalerina,,PLB382600349,61.0,,,133.02,0.86,0.62,0.57,0.08,-5.72,0.03,0.0,0.12,0.0,1.0,ok
+S012,Gabriella Ekaputri,Mockingbird,12,5,7j6wCnpHT798vsPWQHouQK,Mockingbird,,IDUM72600124,23.0,,,106.01,0.5,0.58,0.33,0.18,-7.84,0.03,0.0,0.17,6.0,1.0,ok
+S013,Ana Farelo; Mía Berlín,21 De Enero,13,7,6bN2gia9DIeUImuOuQDwH8,21 de enero,,FRX202656906,23.0,,,130.01,0.75,0.62,0.51,0.17,-5.19,0.03,0.0,0.1,8.0,1.0,ok
+S014,Adéla,Ain't In LA,14,8,6U9VpmP3dEinuezxCJ2Zg9,Ain't In LA,,USUM72605978,92.0,,,139.0,0.78,0.66,0.47,0.01,-5.87,0.04,0.01,0.18,1.0,0.0,ok
+S015,Sofia Monroy,No Era De Oro,15,5,2Yj4rtiIjw5iGzHVTGEIbA,No Era De Oro,,MXUM72601794,36.0,,,128.05,0.67,0.8,0.67,0.41,-6.54,0.05,0.0,0.07,10.0,0.0,ok
+S018,Victor Leksell; Molly Sandén,Tänk Om,15,5,1HUiVQFHxfb3ZYoFletQV0,Tänk om,,SEBGA2600940,68.0,,,108.85,0.71,0.7,0.56,0.4,-5.8,0.19,0.0,0.1,10.0,1.0,ok
+S016,Slayyyter,Brand New Chanel$,16,7,3FZoov0ORtnr8TznSNI1y2,brand new chanel$,,USQX92603227,84.0,,,125.9,0.8,0.41,0.12,0.0,-5.03,0.05,0.0,0.28,6.0,1.0,ok
+S064,Marquise,Ironic,17,8,3ogfOAC1LbQnW1glXS0HTb,IRONIC,,QMDA62607877,57.0,,,109.97,0.67,0.77,0.53,0.08,-7.83,0.04,0.0,0.08,1.0,0.0,ok
+S017,Inna Truu,Test Drive,17,1,3MKs2ga5FIPGl8jAZF086Q,Test Drive,,QT6HJ2628035,32.0,,,121.94,0.93,0.66,0.23,0.0,-4.04,0.04,0.02,0.09,9.0,1.0,ok
+S029,Jacqline,Forever June,18,6,0dI91F5rGGIvG8ARfc9yJG,Forever June,,SEUM72601088,39.0,,,103.24,0.49,0.6,0.33,0.15,-8.78,0.04,0.0,0.37,6.0,0.0,ok
+S046,Effe,Tears Always Burn,18,6,5eRigJE4gYutJ6YY0aZL10,Tears Always Burn,,QT2JK2600045,48.0,,,171.89,0.8,0.46,0.57,0.15,-6.78,0.05,0.0,0.08,1.0,0.0,ok
+S019,Shaboozey; Leon Bridges,Burn It Down,19,3,4xej9vaOrovFRzZVKr8KlF,Burn it Down (feat. Leon Bridges),,USUYG1807423,69.0,,,122.05,0.75,0.64,0.55,0.01,-5.94,0.03,0.0,0.35,7.0,1.0,falscher Treffer: alte Version 2018
+S092,Natalie Imbruglia,Beautiful Love,20,7,2BupBRJwKdAEdkmBfSLYDx,Beautiful Love,,UK9AV2600086,41.0,,,119.93,0.68,0.57,0.35,0.01,-6.44,0.04,0.0,0.09,3.0,1.0,ok
+S020,Kacey Musgraves,Mexico Honey,20,5,7xKr077iMufVJwge6aO9xJ,Mexico Honey,,USUG12510477,82.0,,,108.97,0.66,0.7,0.66,0.35,-6.67,0.03,0.0,0.13,11.0,1.0,ok
+S077,Jain; Meryl,Fam,21,7,2ZwuG40MrzPtHSrta5wV9o,FAM,,FRZ052600108,52.0,,,111.05,0.79,0.82,0.71,0.04,-5.25,0.04,0.03,0.11,10.0,0.0,ok
+S105,Ivoris; Clara Benin,Lipgloss,21,6,6oAQWAZf1PNxRSrbKoY0SI,Lipgloss,,USHM92610753,47.0,,,99.99,0.63,0.71,0.6,0.15,-4.41,0.03,0.0,0.33,2.0,1.0,ok
+S021,Overmono,After The Rain,21,3,0rclr5nd7iwF4rJTYRLlJq,After The Rain,,GBBKS2600082,60.0,,,134.96,0.84,0.65,0.53,0.01,-5.13,0.08,0.76,0.34,11.0,1.0,ok
+S093,Vana,In Your Name,23,3,5MC8y7w5E0DUEqii0sP4Fm,In Your Name,,USYFZ2689001,58.0,,,129.9,0.91,0.29,0.27,0.01,-3.55,0.09,0.0,0.24,5.0,0.0,ok
+S036,Hi Hania; Kizo; Clearmind,Aioli,24,8,7rPpyQOTrwogcFW1PZ6DYQ,AIOLI,,PL4I52600079,61.0,,,128.0,0.91,0.79,0.67,0.12,-5.1,0.05,0.0,0.11,0.0,1.0,ok
+S024,тлен,Пътник,24,4,17DXCwaVJIpnHENtcrVhCw,пътник,,QT3EZ2674539,25.0,,,138.94,0.84,0.62,0.26,0.1,-7.35,0.05,0.69,0.13,2.0,0.0,ok
+S025,Martyna Baranowska,Tracimy Tylko Czas,25,4,3A9S5Pvld6KupTf9YNvB0n,Tracimy tylko czas,,PLUM72600399,34.0,,,123.02,0.75,0.67,0.86,0.09,-4.12,0.03,0.0,0.3,6.0,0.0,ok
+S035,Klara Hammarström,Gravity,27,6,27NCPgfAJ3i4epMbWcMfd1,Gravity,,SE6132654749,45.0,,,112.09,0.67,0.6,0.47,0.06,-5.78,0.07,0.0,0.07,3.0,1.0,ok
+S146,Cara Delevingne,Looking For You,27,4,0DC66w1mim0UhUQF9uL6Fx,Looking for You,,USWB12601522,47.0,,,,,,,,,,,,,,keine Audio-Features
+S027,Mollie Elizabeth,Puppet Show,27,3,3sXZgxkAkqbTYDZbBGr94W,Puppet Show,,USUG12606999,62.0,,,203.82,0.61,0.34,0.48,0.41,-5.47,0.04,0.0,0.17,7.0,1.0,ok
+S034,Girlset,Chat,28,6,1hNixpTJ3KtIQGYIdGWLoz,CHAT,,USUG12606223,75.0,,,160.02,0.9,0.63,0.75,0.0,-4.21,0.19,0.01,0.13,11.0,0.0,ok
+S098,Lisa,SaWaDiKa,28,6,1VWiDyYTrqQhhmnWANWkFa,SaWaDiKa,,USRC12601645,90.0,,,140.04,0.75,0.73,0.6,0.07,-5.88,0.03,0.0,0.57,9.0,1.0,ok
+S028,A6el,Comme Des Rats,28,3,30NnfTuqWG36upsxuT4QOG,Comme des rats,,QT6FN2696401,53.0,,,110.94,0.7,0.8,0.69,0.02,-4.99,0.08,0.0,0.09,10.0,0.0,ok
+S030,Molly Mae,Pretty & Broken,29,9,3EfZrjNEOUOWRyYftmlpzZ,Pretty & Broken,,USA2P2649993,35.0,,,121.92,0.53,0.54,0.29,0.01,-9.48,0.04,0.0,0.37,5.0,0.0,ok
+S045,Tove Lo,DNH,31,5,6qVRph9axcbxl5n6p5jflL,DNH,,USA2P2624776,63.0,,,152.04,0.73,0.63,0.4,0.22,-1.92,0.04,0.0,0.17,4.0,0.0,ok
+S129,Angie,Notte Malinconia,31,5,2nygN7TUKrJpnsjhbvvtFb,Notte Malinconia,,ITUM72600974,47.0,,,158.01,0.85,0.51,0.57,0.23,-5.6,0.12,0.0,0.33,4.0,1.0,ok
+S031,Alyssa Grace,Bloodstream,31,3,2oWFJJW9d1bIra3zHjR6GO,bloodstream,,QT2JK2600011,90.0,,,98.15,0.55,0.38,0.39,0.65,-5.97,0.04,0.0,0.13,8.0,0.0,ok
+S032,Ayra Starr; Theodora,Ms. Paper,32,3,0e6cXkbHc57qMSN3DwmfSI,Ms. Paper (feat. Theodora),,USUG12605167,67.0,,,153.82,0.84,0.75,0.71,0.13,-5.37,0.26,0.0,0.11,10.0,0.0,ok
+S039,Chloe Qisha,Baby Girl,33,6,3tlp0uCJYzXztr2vIZ19Lv,Baby Girl,,GBARL2600981,48.0,,,123.02,0.77,0.8,0.92,0.1,-3.28,0.04,0.0,0.07,1.0,0.0,ok
+S033,Angelina Mango; Marco Mengoni,Canto D'Amore,33,5,3JjyzXQ07ODREBhJknQgLS,Canto d’amore (con Marco Mengoni),,ITJG42600017,71.0,,,134.81,0.77,0.62,0.42,0.13,-4.72,0.1,0.0,0.16,3.0,0.0,ok
+S049,Martyna Wrochna,Francuskie Pocałunki,35,6,6y23ZdgplPyXUaF44n9pBJ,Francuskie pocałunki,,PLB382600365,17.0,,,123.02,0.59,0.71,0.49,0.11,-7.32,0.03,0.0,0.07,11.0,0.0,ok
+S123,Freya Skye,Bad Taste,35,4,3TDVbddsKv0TrYdnLdrZZs,bad taste,,USHR12653281,75.0,,,151.85,0.83,0.6,0.48,0.14,-4.99,0.28,0.0,0.07,5.0,0.0,ok
+S147,Illit,Swingin' Magic,37,4,1hRZJgqpTb8VzSALbDSUrk,Swingin’ Magic,,JPZ672600048,69.0,,,100.0,0.9,0.69,0.75,0.27,-3.45,0.05,0.0,0.3,5.0,0.0,ok
+S037,Atmos Bloom,It's Enough,37,2,3gJeAlw8DaNWm039NeqXMG,It's Enough,,QT4QS2600056,35.0,,,135.0,0.73,0.5,0.12,0.0,-7.6,0.03,0.0,0.11,1.0,1.0,ok
+S038,Shye,Smoke,38,2,5IGQIUoXm7ZsMXUkHRIsMg,Smoke,,QZTB52694835,44.0,,,122.97,0.61,0.39,0.15,0.0,-8.52,0.03,0.18,0.12,6.0,1.0,ok
+S096,Cassia,Together In My Head,39,7,2gFxCFg0NGBoKVqOGdZjB0,together in my head,,QMBZ92673267,44.0,,,126.93,0.73,0.68,0.67,0.07,-7.4,0.04,0.01,0.31,11.0,0.0,ok
+S040,Elley Duhé,Salt And Lime,40,3,0zMZWDPzIl4di7X7uOHdi3,Salt And Lime,,QZQAY2677459,42.0,,,125.94,0.8,0.69,0.78,0.12,-4.53,0.05,0.0,0.16,1.0,1.0,ok
+S041,Olivia Rodrigo,My Way,41,3,4Ilw2lD6z4WBqh65vUUZUf,my way,,USUG12601727,86.0,,,,,,,,,,,,,,keine Audio-Features
+S042,KiiiKiii,Pop Off Pop Off,42,6,3iHzvU39BS03PD0zpNa19b,Pop Off Pop Off,,QMDA62628507,74.0,,,131.08,0.97,0.82,0.78,0.11,-3.69,0.15,0.0,0.14,9.0,0.0,ok
+S043,Judeline,Besito,43,2,389oMzXEijK20cCw6pFfYl,BESITO,,USA2P2641394,61.0,,,190.02,0.6,0.53,0.32,0.48,-6.51,0.06,0.0,0.35,2.0,0.0,ok
+S044,FLO,Remedied,44,3,0kjt7clFnD75MjoN4mhdcj,Remedied,,GBUM72602368,54.0,,,131.99,0.8,0.69,0.78,0.0,-5.06,0.05,0.0,0.23,7.0,1.0,ok
+S051,Devon Cole,Serial Kisser,47,5,0XSj08H0vgkV8MFZiaL2D5,Serial Kisser,,QM24S2604393,54.0,,,93.98,0.85,0.75,0.96,0.1,-6.26,0.08,0.0,0.15,7.0,1.0,ok
+S047,Jorja Smith,Dancing,47,3,4rcF5dwIHEVOgQQhva1OOI,Dancing,,QM7282623289,60.0,,,126.03,0.9,0.73,0.72,0.0,-6.63,0.09,0.02,0.12,1.0,0.0,ok
+S048,Le Sserafim; Illit; Katseye,Iconic By Mistake,48,2,6fl4Gu0lJm5hc8FM5JzCZD,ICONIC BY MISTAKE,,USA2P2633014,88.0,,,150.04,0.57,0.77,0.32,0.11,-3.19,0.07,0.0,0.07,2.0,1.0,ok
+S082,Katariina Juselius,Päätyyn,51,2,1ldoqB49Q8kvyiMclTku2s,PÄÄTYYN,,FIFEK2600011,25.0,,,129.99,0.82,0.77,0.82,0.02,-3.44,0.05,0.0,0.15,1.0,0.0,ok
+S099,Eini,Pomona,52,7,3tcmHMvJi9rUvun9HDWwIG,Pomona,,FIBAR2600275,35.0,,,150.03,0.82,0.6,0.82,0.01,-5.11,0.04,0.0,0.08,1.0,0.0,ok
+S083,Ptazeta; Kristina; Juacko,Mujeres,52,5,1jnbmkP9jZZRr7s4XvxVky,Mujeres,,EEML32611020,42.0,,,94.99,0.87,0.72,0.84,0.08,-1.54,0.17,0.0,0.42,2.0,1.0,ok
+S052,Wasia Project,Whale Call,52,2,5sAktOKPSU85r1AeXoZcrl,Whale Call,,QM6N22654498,52.0,,,94.53,0.43,0.18,0.12,0.81,-8.13,0.03,0.0,0.1,11.0,1.0,ok
+S053,Hyolyn,Check,53,1,03OWSvT8tWcUSpUlke4buk,ChecK,,KRMIM2640634,58.0,,,134.61,0.86,0.78,0.77,0.23,-4.17,0.43,0.0,0.21,8.0,1.0,ok
+S056,Lilja Lundén,Liian Nuorii Kuolinilmotuksiin,54,3,5chWNStxbGubQxGS0ueMtd,Liian nuorii kuolinilmotuksiin,,FIBAR2600244,35.0,,,119.97,0.62,0.68,0.34,0.02,-7.31,0.04,0.0,0.11,10.0,1.0,ok
+S054,Charli XCX,Camera,54,1,1C95XJLGL9xyMlsES1uVDQ,Camera,,USAT22603057,63.0,,,126.01,0.58,0.69,0.45,0.1,-5.42,0.04,0.0,0.23,8.0,1.0,ok
+S058,Sarah Nimmo,Two Steps Away,55,3,6vZegZgBN1xd6RJsnbW7Op,Two Steps Away,,QM6P42645654,24.0,,,109.0,0.91,0.58,0.77,0.08,-4.96,0.03,0.03,0.06,3.0,0.0,ok
+S055,Dasha,Memo,55,2,74ULkLG9L8FiqL8PyxbsFG,Memo,,USWB12602583,64.0,,,122.83,0.82,0.58,0.51,0.07,-5.9,0.07,0.0,0.32,0.0,1.0,ok
+S111,Marshmello; Illenium; Sacha,Close My Eyes,56,6,4Kv3BQhoqR0YboA8xvTyWC,Close My Eyes (feat. SACHA),,USA2P2660861,69.0,,,106.01,0.76,0.58,0.29,0.02,-4.52,0.03,0.0,0.1,6.0,1.0,ok
+S112,Nelli Matula,Hoidan Sut (Vain Elämää Kausi 17),57,3,4qtkZWC90Vu9Zy4yzZvh9v,Hoidan sut - Vain elämää kausi 17,,FIUM72600180,56.0,,,176.0,0.79,0.51,0.39,0.01,-4.71,0.07,0.0,0.24,1.0,0.0,ok
+S057,Meg Stalter; Muna,Gay,57,1,6LCLR74dsJsjSEWeajW5sO,GAY - MUNA Remix,,CAENV2657267,39.0,,,131.93,0.86,0.65,0.51,0.0,-4.52,0.04,0.0,0.07,1.0,1.0,ok
+S137,Sofia Camara,Hallucinating,58,4,3stwOzw3rk7g8Et43UvIVw,Hallucinating,,CAUM72600394,63.0,,,114.03,0.66,0.65,0.48,0.07,-6.29,0.04,0.0,0.16,0.0,0.0,ok
+S131,Annalisa; Madame,Amica,59,3,7i8Er4LumB8lnNHwEMO1i2,Amica (con Madame),,ITQ002600648,63.0,,,98.03,0.74,0.63,0.34,0.5,-3.48,0.03,0.0,0.29,0.0,1.0,ok
+S059,Aespa,Serenade (Karina & Winter),59,2,2h81piRbzIJmjpxR4qnM2o,Serenade (KARINA & WINTER),,KRA302600350,70.0,,,118.98,0.84,0.74,0.56,0.02,-4.76,0.1,0.0,0.43,0.0,0.0,ok
+S085,Jaguar Jonze,Kawasaki Ninja,60,2,1hnhcTofHtpuZyxX3EN3U7,Kawasaki Ninja,,CAN112601299,25.0,,,139.96,0.81,0.74,0.53,0.0,-3.86,0.22,0.0,0.32,11.0,0.0,ok
+S060,ARTMS,Blue Blood,60,1,4rbJwK22VEJd4uQLTCUXn1,Blue Blood,,KRA382602395,56.0,,,177.03,0.92,0.55,0.68,0.03,-2.55,0.15,0.0,0.4,5.0,0.0,ok
+S065,Bryska,Szklane Oczy,61,4,34ZbBdoFqHbBG069yK9aiq,Szklane oczy,,PLA552600658,42.0,,,129.06,0.86,0.77,0.5,0.02,-4.67,0.06,0.0,0.14,1.0,1.0,ok
+S132,Red Velvet - Irene & Seulgi,Cheetah,61,4,0WMhpKFwel1RuR4wF7wuHa,Cheetah,,JP92E2601888,56.0,,,126.04,0.83,0.74,0.64,0.06,-4.4,0.05,0.0,0.08,8.0,0.0,ok
+S061,Varitda,Almost Said I Love You,61,1,7tMlvqjC3bV9q8DQRekajk,Almost Said I Love You,,THMUN2610085,37.0,,,128.0,0.75,0.82,0.98,0.41,-5.68,0.04,0.0,0.34,7.0,1.0,ok
+S100,Bryska,Po Drugiej Stronie Szkła,61,1,7uyrqEix2UJUrCqOOFsnKf,Po drugiej stronie szkła,,PLA552600723,37.0,,,134.99,0.63,0.68,0.41,0.01,-8.83,0.06,0.0,0.13,7.0,1.0,ok
+S113,RØRY,Grey,62,3,6hRWQS48H0n7MIaOoxVe33,GREY,,NL8RL2647004,44.0,,,164.2,0.86,0.36,0.36,0.0,-4.38,0.11,0.0,0.17,4.0,0.0,ok
+S062,Dandelion,Ononon,62,2,53nl3XgMuM4ZdAQ16BEt4n,ONONON,,SEUM72600992,42.0,,,137.02,0.9,0.55,0.11,0.62,-5.96,0.04,0.22,0.22,8.0,0.0,ok
+S086,Bea,Ballet Pumps,63,2,3iAua4ZysTvqch8Uyt3lZ4,Ballet Pumps,,GBAHT2602411,64.0,,,111.97,0.81,0.7,0.64,0.41,-4.54,0.15,0.0,0.67,8.0,0.0,ok
+S063,Gracie Abrams,Good Reason,63,1,11GUkH18CKNFLKCHORkceJ,Good Reason,,USUG12603698,77.0,,,,,,,,,,,,,,keine Audio-Features
+S134,Larissa Lambert,Yearning,65,3,2N1ppcmn1zJVTooSi27O1p,Yearning,,USA2P2629812,59.0,,,136.94,0.61,0.6,0.62,0.08,-5.92,0.04,0.0,0.13,1.0,1.0,ok
+S066,Peach PRC,Distant Lands,66,2,6QsCyT9FUno8E6z7mHRsvp,Distant Lands,,AUUM72500496,43.0,,,135.01,0.87,0.6,0.49,0.11,-4.52,0.05,0.0,0.4,2.0,1.0,ok
+S067,Florrie,Malibu (Falling Over The Edge),67,1,6q2U0BAMGZxSUAwz9tf1Lr,Malibu (Falling Over The Edge),,UKQWC2600118,41.0,,,126.0,0.8,0.61,0.73,0.0,-5.98,0.04,0.01,0.26,2.0,0.0,ok
+S087,Rudimental; Original Koffee; Winny,Send Shots,67,1,2l8RyIEP6A1aPkM2EVecNY,Send Shots,,USA2P2645149,54.0,,,86.39,0.91,0.55,0.5,0.0,-2.84,0.06,0.0,0.39,5.0,0.0,ok
+S089,Max McNown,Comets,68,4,6YAZ4sSUI3MrKduG40Wr2e,Comets,,QMGVJ2600229,64.0,,,113.02,0.63,0.62,0.19,0.11,-7.0,0.04,0.0,0.11,9.0,1.0,ok
+S068,Ana Mena; Lola Indigo,Pa Ti Toa <3,68,1,54NQtnCL950bGIHlZUMMDH,pa ti toa <3,,ES5022600597,78.0,,,115.0,0.72,0.83,0.8,0.34,-4.95,0.04,0.0,0.26,9.0,0.0,ok
+S088,Aliisa Syrjä,Kesä Ja Sä,68,1,1q7piprJt1lb32b96l7Zck,Kesä ja sä,,FIWMA2600187,49.0,,,120.0,0.72,0.66,0.26,0.47,-6.82,0.04,0.0,0.07,5.0,1.0,ok
+S069,Audrey Hobert,Sue Me,69,1,6ZAuQOgLrNQb9s7BXheuTy,Sue me,,USRC12500621,86.0,,,119.913,0.79,0.553,0.545,0.0215,-5.734,0.0749,0.0,0.0624,8.0,1.0,ok
+S133,Yvonnes,Big Spender,70,3,5HyoH4bna6iOoKG8NogVwm,Big Spender,,DEXW92600045,36.0,,,92.0,0.78,0.58,0.81,0.01,-8.11,0.04,0.49,0.19,5.0,1.0,ok
+S071,Ella Tiritiello,Vad Är Det Med Dig,71,1,60FHpRpzYLG4xj2ClDKRNo,Vad är det med dig,,SEBGA2600931,40.0,,,174.94,0.65,0.62,0.96,0.0,-6.05,0.07,0.0,0.04,1.0,1.0,ok
+S072,Wasia Project,Vogue,72,1,7gLPKqoXJue0AJeNVRaDXj,Vogue,,QM6N22654496,53.0,,,120.02,0.87,0.54,0.26,0.21,-5.3,0.08,0.12,0.13,4.0,0.0,ok
+S073,Pernilla Andersson,Rosor,73,1,0aDYLomq2NbOuqniPSJ65T,Rosor,,SEPQA2600137,36.0,,,124.01,0.57,0.78,0.92,0.23,-8.28,0.03,0.02,0.07,9.0,0.0,ok
+S115,Chloe Qisha,Question Of The Day,74,3,3Yw8Agaovn9g02SPGZOK48,Question Of The Day,,GBARL2601005,55.0,,,119.05,0.59,0.77,0.85,0.05,-4.41,0.11,0.0,0.1,1.0,1.0,ok
+S157,Kaskade; Brieanna Grace,Stay For Love,74,3,4jVuZjOuBL2yj4R3fgeBAf,Stay For Love,,NL8RL2695949,64.0,,,131.98,0.8,0.51,0.05,0.09,-6.89,0.04,0.03,0.23,4.0,0.0,ok
+S173,Miranda Lambert; Ella Langley,Snakeskin Boots,74,2,5pjlXLbWn4VzmLUepF7729,Snakeskin Boots,,USUG12604865,76.0,,,110.03,0.62,0.58,0.2,0.22,-6.62,0.03,0.0,0.12,0.0,1.0,ok
+S075,Crawlers,All We Have Is Us,75,1,6Za0pihy6NRahaPey98WVy,ALL WE HAVE IS US,,CAN112600975,42.0,,,100.04,0.69,0.66,0.72,0.02,-5.41,0.04,0.0,0.11,6.0,1.0,ok
+S116,Le Sserafim,Made My Night,75,1,5MOIAV008posdOGmxiJBsi,Made My Night,,USA2P2654734,80.0,,,124.03,0.93,0.82,0.73,0.09,-3.33,0.16,0.0,0.08,0.0,1.0,ok
+S135,Nita,Aquí,76,3,2wjLG7OlKvYUA9Nrocax0s,Aquí,,ES5152600858,38.0,,,134.01,0.74,0.69,0.42,0.51,-5.15,0.05,0.36,0.11,1.0,1.0,ok
+S185,Girl In Red,Blue,76,2,6V1bu6o1Yo5ZXnsCJU8Ovk,Girls Like You (feat. Cardi B) - Cardi B Version,,USUM71805272,70.0,,,124.939,0.541,0.779,0.447,0.566,-6.824,0.0658,0.0,0.13,0.0,1.0,falscher Treffer: falscher Song (2018)
+S136,Crawlers,Birthday,79,2,4M11DzgR9VUohJhhakKnic,BIRTHDAY,,CAN112601308,41.0,,,132.06,0.69,0.39,0.07,0.01,-5.68,0.04,0.0,0.12,7.0,1.0,ok
+S138,Petra,Licia,83,5,7p81n4TOcxazBYhwIhXka4,licia,,ITZ042600125,45.0,,,140.1,0.71,0.67,0.96,0.0,-7.26,0.05,0.0,0.28,0.0,1.0,ok
+S158,Phoebe Bridgers,On Video,85,3,1QA6xgUEZ1BqOj2xuroM3N,On Video,,USJ5G2641701,69.0,,,159.61,0.52,0.28,0.32,0.25,-8.29,0.03,0.01,0.23,4.0,0.0,ok
+S139,Klara Vibeke,Står For Skud </3,85,2,65m0grU6EDSCBoX2hS4kZ7,står for skud </3,,DKAZA2600136,35.0,,,96.02,0.76,0.65,0.81,0.6,-7.29,0.18,0.0,0.43,11.0,0.0,ok
+S140,Tove Lo,Source Of Life,86,3,6ngCpcD8t3eo8sd3n5YzCV,source of life,,USA2P2624784,67.0,,,107.04,0.78,0.81,0.83,0.01,-5.27,0.05,0.02,0.21,9.0,1.0,ok
+S141,The Buoys,Stay Up To Date On Politics,91,2,2zlODSgArTyLCLjqZDdZLT,Stay Up to Date On Politics,,AUBM02600070,38.0,,,125.93,0.68,0.7,0.61,0.4,-7.16,0.03,0.0,0.12,7.0,1.0,ok
+S142,Gioia Lucia,Una Canzone Allegra,94,1,3OIpE2rJEoTgRxHHCNMBuB,Una canzone allegra,,ITIWE2690045,43.0,,,125.96,0.68,0.77,0.83,0.24,-6.22,0.04,0.0,0.12,7.0,0.0,ok
+S144,Angelica,"Ahi, Che Giornata!",99,1,5yNxPJwAC3O9C4aAfqK33B,"Ahi, che giornata!",,ITB002600977,39.0,,,128.0,0.69,0.67,0.73,0.02,-7.05,0.03,0.0,0.09,2.0,1.0,ok
+S145,Felicia,Hulk,100,1,2VxAelqw7mN2YZ1Xjj41D0,HULK,,SEPQA2600159,50.0,,,101.91,0.66,0.74,0.57,0.03,-6.47,0.05,0.0,0.07,1.0,1.0,ok
+S217,Cobrah,Touch Of An Angel,9,1,68EONb3R2tW8LyJrmZh40n,Touch of an Angel,Cobrah,,,,,,,,,,,,,,,,ok-pool
+S218,Felicia,Popstar,17,1,3ZXZQ66qgemq9bIXXlq5lp,POPSTAR,FELICIA,,,,,,,,,,,,,,,,ok-pool
+S219,Emilia,Bodypainting,19,1,5fmF4ElhKPljPIGRY86WSl,BODYPAINTING,Emilia,,,,,,,,,,,,,,,,ok-pool
+S220,Blusher,Mrs Brightside,23,1,0AkoqnejiMuGx0MzNNq53B,mrs brightside,Blusher,,,,,,,,,,,,,,,,ok-pool
+S221,Sara Bee,Kiss To My Ex,25,1,7JAMj6SxlVPRwHu57nLH4l,Kiss To My Ex,Sara Bee,,,,,,,,,,,,,,,,ok-pool
+S222,ZAH1DE,Chayas & Cuzengs,30,1,60E2Hf6Sx8DMUOJAuW64ke,Chayas & Cuzengs,ZAH1DE,,,,,,,,,,,,,,,,ok-pool
+S223,Olga,Top Tier,47,1,6sEMr6wCHGQcXdEuy2O8yQ,TOP TIER,OLGA,,,,,,,,,,,,,,,,ok-pool
+S224,Chloe Qisha,He Likes Boys,67,1,5FvbcPcVuIp7kmQV7qTpTo,He Likes Boys,Chloe Qisha,,,,,,,,,,,,,,,,ok-pool
+S225,Otay:onii,Tears Won't Tell,71,1,,,,,,,,,,,,,,,,,,,nicht im NMF-Pool
+S226,Ebony,Femme Zombie,75,1,0q6eqNNH6K1G3ywPpcBypp,FEMME ZOMBIE,Ebony,,,,,,,,,,,,,,,,ok-pool
+S227,Svea S; Hanna Ferm; Oochie,Vill Ha Dig,77,1,1vJTlLaXQ4eUmzSbodIgh7,Vill Ha Dig (Feat. Hanna Ferm),"Svea S, Hanna Ferm, Oochie",,,,,,,,,,,,,,,,ok-pool
+S228,Ari Abdul,Nobody's Hero,80,1,4xK0It4Kdk80QGGVSW5ec9,NOBODY'S HERO,Ari Abdul,,,,,,,,,,,,,,,,ok-pool
+S229,Kasia DVD ✧,Lasy,87,1,6B8gA6pBJLSVz78CkV769A,LASY,Kasia DVD ✧,,,,,,,,,,,,,,,,ok-pool
+S230,PISS,Blocking A Scene You Can't Remember,88,1,,,,,,,,,,,,,,,,,,,nicht im NMF-Pool
+S231,Charlotte Fever,La Victoire,93,1,5rlEA8a56MmvUmIioXtLR4,La victoire,Charlotte Fever,,,,,,,,,,,,,,,,ok-pool
+S232,Fahlberg,The Inner Child,94,1,5taMfaLgItXTaAlm9kzDdz,The Inner Child,Fahlberg,,,,,,,,,,,,,,,,ok-pool

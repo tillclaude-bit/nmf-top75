@@ -54,8 +54,9 @@ def z(x):
 rd = lambda p: pd.read_csv(p, encoding="utf-8-sig")
 pool = rd(f"data/pools/pool_tracks_{DATE}.csv")
 pdesc = rd(f"data/pools/pool_descriptors_{DATE}.csv")
-cdesc = rd("data/analysis/preview_descriptors_2026-10-30.csv")
-cdesc = cdesc[cdesc.source == "chart"]
+import glob as _g
+cdesc = pd.concat([rd(f) for f in sorted(_g.glob("data/analysis/preview_descriptors_*.csv"))], ignore_index=True)
+cdesc = cdesc[cdesc.source == "chart"].drop_duplicates("track_id", keep="last")
 songs = rd("data/charts/songs.csv")
 feats = rd("data/charts/song_features.csv")
 arts = rd("data/charts/artists.csv")
@@ -86,7 +87,7 @@ Xp = pool[DESC].reset_index(drop=True)
 med = pd.concat([Xc, Xp]).median()
 Xc, Xp = Xc.fillna(med), Xp.fillna(med)
 neg = ~pool.is_chart.values
-likes = set(fb[fb.signal == "like"].track_id.astype(str)) if len(fb) else set()
+likes = (set(fb[fb.signal == "like"].track_id.astype(str)) if len(fb) else set()) - set(cd.spotify_track_id)  # Chartsongs sind schon Positive
 is_like = pool.track_id.isin(likes).values
 # Gefallene Songs (auch aus frueheren Wochen) zaehlen als zusaetzliche Positive (Gewicht 2), nie als Negative
 neutral = set(fb[fb.signal == "neutral"].track_id.astype(str)) if len(fb) else set()
