@@ -11,6 +11,9 @@ on:
       skip_playlist:
         description: "ja = keine Playlist anlegen (Probelauf)"
         default: "nein"
+      dataset:
+        description: "Nur Test: vorhandenes Apify-Dataset nutzen (kostenlos, ohne Frische-Pruefung)"
+        default: ""
 
 permissions:
   contents: write
@@ -50,6 +53,10 @@ jobs:
         env:
           APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
         run: |
+          if [ -n "${{ github.event.inputs.dataset }}" ]; then
+            python3 scripts/fetch_pool.py "$DATE" --dataset "${{ github.event.inputs.dataset }}" | tee fetch.txt
+            exit 0
+          fi
           for try in 1 2 3 4; do
             python3 scripts/fetch_pool.py "$DATE" | tee fetch.txt
             if python3 scripts/check_fresh.py "$DATE" | tee -a fetch.txt; then break; fi
