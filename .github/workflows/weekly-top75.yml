@@ -72,8 +72,6 @@ jobs:
           git commit -m "Archive pool $DATE" || echo "nothing to commit"
           git pull --rebase origin main
           git push origin HEAD:main
-      - name: Klang-Eigenschaften berechnen
-        run: python3 scripts/preview_features.py "data/pools/pool_descriptors_$DATE.csv" --pool "data/pools/pool_tracks_$DATE.csv" | tee desc.txt
       - name: Sprache der Songs erkennen
         run: python3 scripts/language_id.py "data/analysis/language_$DATE.csv" "data/pools/pool_tracks_$DATE.csv" | tee lang.txt
       - name: Stil-Tags der Kuenstler holen (MusicBrainz, nur neue Kuenstler)

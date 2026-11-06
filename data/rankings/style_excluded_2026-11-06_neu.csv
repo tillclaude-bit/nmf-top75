@@ -1,15 +1,15 @@
 track_id,name,artists,style_excl,style_tags,lf_tags,genres_sp,score
-5ABg64jiSnFeuzDkKmCZPX,Manny Made,"Suggz, Aitch",grime,,,"grime,uk grime,uk drill,drill",-1.9988634246089045
-3bhGt6n1v1htyY1pXDA4cz,Mayday,"Saint Ludo, Ceebo",grime,,,"grime,uk garage",0.9524663888643099
-4S0PpLsmk7lCKT0sAp1465,Ownership,Bugzy Malone,grime,grime:1;hip hop:1,grime:100;rap:45;hip hop:18;hip-hop:13,"grime,uk grime,uk drill,drill",-1.4241615676932646
-0bmJ5ITaI4S2cubiO86fQK,trampoline,"piri, t.o",grime,,british:100;pop:25;house:16;rap:16,"uk garage,rally house,liquid funk,drum and bass,grime,uk grime",0.3202927327073669
-1E3S4PrkKgzqQgJUzsUq2e,State of Mind,Future Static,metal,alternative rock:1;metalcore:1;alternative metal:1;melodic metalcore:1,alternative metal:100;metalcore:77,,1.1427900145787158
-2aKLCTMnLC5H6sya2V2uRk,DISCONNECT,Outloved,metal,post-rock:1,metalcore:100;australian:56;alternative rock:17,metalcore,0.3138803530497858
-53oWYKd4JECrSqgp0ZLK7z,Automatic,"msft, Rakjay",grime,,italy:100;garage:100;bassline:66,"uk garage,bassline,breakbeat,bass music,dubstep,grime",-2.089145982469815
-36uTmaG8pmYQIPhWVPtPNE,Berserker,Sabaton,metal,power metal:23;heavy metal:9;swedish:9;metal:8;sweden:3;pop metal:3;speed metal:2;history:0,power metal:100;heavy metal:53;metal:23;swedish:23;war metal:10,"power metal,metal,heavy metal,symphonic metal,folk metal",1.7380126869457693
-62M8sK777GUaGmU2OFOtOq,Troll Brigade,Trollfest,metal,folk metal:2,folk metal:100;troll metal:44;norwegian:24;viking metal:24,folk metal,0.25594512773585176
-6U2dmcIOpqRHPIW2UeqXb3,don't be fooled,thrown,metal,hardcore:2;metalcore:2;beatdown hardcore:2;nu metal:1,metalcore:100;hardcore:59;nu metalcore:39;swedish:25;nu metal:13;doom metal:11,"metalcore,deathcore",-0.16052453803750355
-1IGVmPuyttwxqNnbbD9Goj,Sadness Will Reign,"Cult Of Luna, Joe Duplantier",metal,post-metal:9;sludge metal:7;atmospheric sludge metal:6;post metal:4;post-rock:1;progressive metal:1;doom metal:1;sludge:1;post-core:0,post-metal:100;sludge:90;doom metal:30;progressive metal:27;post-rock:10,"sludge metal,post-rock,drone metal,doom metal,stoner metal,progressive metal,drone",-0.4621274804776717
-7vhhm3HcvenNctpvANSWq2,Ride the Lion,King Satan,metal,blackened death metal:1;ebm:1;industrial metal:1,industrial metal:100;finnish:25,"industrial metal,industrial rock,industrial",1.114358820712934
-4NGVWOyR56x8KPIYbfTuHh,nie wchodzę z kopa,"Siemek, Zdot",grime,,hiphop:100;rap:100;underground:66;polish:66,"grime,uk grime",-2.9180611747220073
-7gl1TEeJaXnR9MWNRTvAgm,Lost In Motion,Moss,metal,,doom metal:100;drone:67;sludge:43;drone doom:28;funeral doom:11,drone metal,-1.2782338390237866
+5ABg64jiSnFeuzDkKmCZPX,Manny Made,"Suggz, Aitch",grime,,,"grime,uk grime,uk drill,drill",-1.3845268193410605
+3bhGt6n1v1htyY1pXDA4cz,Mayday,"Saint Ludo, Ceebo",grime,,,"grime,uk garage",0.96961222703643
+4S0PpLsmk7lCKT0sAp1465,Ownership,Bugzy Malone,grime,grime:1;hip hop:1,grime:100;rap:45;hip hop:18;hip-hop:13,"grime,uk grime,uk drill,drill",-1.219560526579304
+0bmJ5ITaI4S2cubiO86fQK,trampoline,"piri, t.o",grime,,british:100;pop:25;house:16;rap:16,"uk garage,rally house,liquid funk,drum and bass,grime,uk grime",0.4404439495937259
+1E3S4PrkKgzqQgJUzsUq2e,State of Mind,Future Static,metal,alternative rock:1;metalcore:1;alternative metal:1;melodic metalcore:1,alternative metal:100;metalcore:77,,0.5472656237521685
+2aKLCTMnLC5H6sya2V2uRk,DISCONNECT,Outloved,metal,post-rock:1,metalcore:100;australian:56;alternative rock:17,metalcore,-0.41467456891764265
+53oWYKd4JECrSqgp0ZLK7z,Automatic,"msft, Rakjay",grime,,italy:100;garage:100;bassline:66,"uk garage,bassline,breakbeat,bass music,dubstep,grime",-1.366555120333823
+36uTmaG8pmYQIPhWVPtPNE,Berserker,Sabaton,metal,power metal:23;heavy metal:9;swedish:9;metal:8;sweden:3;pop metal:3;speed metal:2;history:0,power metal:100;heavy metal:53;metal:23;swedish:23;war metal:10,"power metal,metal,heavy metal,symphonic metal,folk metal",1.164380821284171
+62M8sK777GUaGmU2OFOtOq,Troll Brigade,Trollfest,metal,folk metal:2,folk metal:100;troll metal:44;norwegian:24;viking metal:24,folk metal,0.18734849399322995
+6U2dmcIOpqRHPIW2UeqXb3,don't be fooled,thrown,metal,hardcore:2;metalcore:2;beatdown hardcore:2;nu metal:1,metalcore:100;hardcore:59;nu metalcore:39;swedish:25;nu metal:13;doom metal:11,"metalcore,deathcore",-0.3417338195952017
+1IGVmPuyttwxqNnbbD9Goj,Sadness Will Reign,"Cult Of Luna, Joe Duplantier",metal,post-metal:9;sludge metal:7;atmospheric sludge metal:6;post metal:4;post-rock:1;progressive metal:1;doom metal:1;sludge:1;post-core:0,post-metal:100;sludge:90;doom metal:30;progressive metal:27;post-rock:10,"sludge metal,post-rock,drone metal,doom metal,stoner metal,progressive metal,drone",-0.53277397147744
+7vhhm3HcvenNctpvANSWq2,Ride the Lion,King Satan,metal,blackened death metal:1;ebm:1;industrial metal:1,industrial metal:100;finnish:25,"industrial metal,industrial rock,industrial",0.3265111408927035
+4NGVWOyR56x8KPIYbfTuHh,nie wchodzę z kopa,"Siemek, Zdot",grime,,hiphop:100;rap:100;underground:66;polish:66,"grime,uk grime",-2.372804743055895
+7gl1TEeJaXnR9MWNRTvAgm,Lost In Motion,Moss,metal,,doom metal:100;drone:67;sludge:43;drone doom:28;funeral doom:11,drone metal,-1.4479666024045446

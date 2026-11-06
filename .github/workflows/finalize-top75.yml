@@ -38,7 +38,7 @@ jobs:
         run: pip install -q numpy scipy pandas scikit-learn
       - name: Pruefen
         run: |
-          test -f "data/pools/pool_descriptors_$DATE.csv" || { echo "::error::Kein Pool fuer $DATE (erst weekly-top75 laufen lassen)"; exit 1; }
+          test -f "data/pools/pool_tracks_$DATE.csv" || { echo "::error::Kein Pool fuer $DATE (erst weekly-top75 laufen lassen)"; exit 1; }
           if [ -z "${{ github.event.inputs.suffix }}" ] && grep -q "^$DATE," data/playlist_ids.csv; then echo "::error::Fuer $DATE gibt es schon eine Playlist"; exit 1; fi
       - name: Neu bewerten mit Recherche-Urteilen und Top 75 waehlen
         run: python3 scripts/score_pool.py "$DATE" "${{ github.event.inputs.suffix }}" | tee score.txt

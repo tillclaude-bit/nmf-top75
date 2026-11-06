@@ -24,7 +24,7 @@ from sklearn.preprocessing import StandardScaler
 
 DATE = sys.argv[1]
 SUFFIX = sys.argv[2] if len(sys.argv) > 2 else ""
-W = {"taste": 1.0, "feat": 0.0, "breadth": 0.0, "pos": 0.25, "artist": 0.5, "stylefit": 0.5}  # style: Stil-Tags der Kuenstler (MusicBrainz) gegen die Stile der Chart-Kuenstler; ohne Tags neutral (0)  # breadth bleibt drin (Till, 2026-10-31); Vorwochen-Backtest: Breite sagt Chart-Einstiege vorher
+W = {"feat": 0.0, "breadth": 0.0, "pos": 0.25, "artist": 0.5, "stylefit": 0.5}  # style: Stil-Tags der Kuenstler (MusicBrainz) gegen die Stile der Chart-Kuenstler; ohne Tags neutral (0)  # breadth bleibt drin (Till, 2026-10-31); Vorwochen-Backtest: Breite sagt Chart-Einstiege vorher
 MAX_PER_ARTIST = 1  # Till, 2026-11-06: kein Hauptkuenstler doppelt; Feature-Gaeste zaehlen nicht
 N = 75
 # Weihnachtslieder sind ausgeschlossen (Titel-Stichworte in den NMF-Sprachen; Kuenstlernamen zaehlen nicht)
@@ -55,73 +55,31 @@ def z(x):
 
 rd = lambda p: pd.read_csv(p, encoding="utf-8-sig")
 pool = rd(f"data/pools/pool_tracks_{DATE}.csv")
-pdesc = rd(f"data/pools/pool_descriptors_{DATE}.csv")
-import glob as _g
-cdesc = pd.concat([rd(f) for f in sorted(_g.glob("data/analysis/preview_descriptors_*.csv"))], ignore_index=True)
-cdesc = cdesc[cdesc.source == "chart"].drop_duplicates("track_id", keep="last")
 songs = rd("data/charts/songs.csv")
 feats = rd("data/charts/song_features.csv")
 arts = rd("data/charts/artists.csv")
 fb = rd("data/feedback.csv")  # track_id, signal (like/dislike), artist, title, reason, date
+import glob
 
-DESC = [c for c in pdesc.columns if c not in ("track_id", "source", "preview_ok", "error", "dur", "preview_src")]
-
-# --- Chart-Songs mit Erfolgsgewicht (hoher Peak / lange in den Charts = staerkeres Signal)
-cs = feats[["song_id", "spotify_track_id"]].merge(songs[["song_id", "peak_pos", "weeks_in_10_charts"]], on="song_id")
-cs["w"] = 1 + 0.5 * (cs.peak_pos <= 10) + 0.5 * (cs.weeks_in_10_charts >= 4)
-cd = cdesc.rename(columns={"track_id": "spotify_track_id"}).merge(cs, on="spotify_track_id")
-cd = cd[cd.preview_ok == 1]
+# Der Klang-Check aus eigenen 30-s-Vorschauen (librosa-Deskriptoren) ist entfernt (Till, 2026-11-06): aufwendig und schwaecher als die Spotify-Tags/-Features.
+# Klang kommt nur noch aus den Spotify-Features des Exportify-Exports (Abschnitt "Echte Spotify-Features").
 
 # --- Pool: Chartsongs und Kuenstler/Titel-Duplikate ausschliessen (keine Eigen-Treffer als Negativ)
 pool["tkey"] = pool.artists.map(lambda a: artist_tokens(a)[0] if artist_tokens(a) else "") + "|" + pool.name.map(norm)
 chart_keys = set(
     songs.artist.map(lambda a: artist_tokens(a)[0] if artist_tokens(a) else "") + "|" + songs.title.map(norm)
 )
-pool = pool.merge(pdesc.drop(columns=["source"], errors="ignore"), on="track_id", how="left")
 pool["is_chart"] = pool.tkey.isin(chart_keys)
-print(f"Pool: {len(pool)} Tracks, davon bereits in deinen Charts: {pool.is_chart.sum()}, "
-      f"ohne Deskriptoren: {(pool.preview_ok != 1).sum()}")
+pool["preview_ok"] = 0
+print(f"Pool: {len(pool)} Tracks, davon bereits in deinen Charts: {pool.is_chart.sum()}")
 
-# --- Nur Audio-Deskriptoren (gleiche Abdeckung fuer alle Songs; Genre-Labels waren
-# bei Chart- und Pool-Songs ungleich verfuegbar und wuerden das Modell verfaelschen)
-Xc = cd[DESC].reset_index(drop=True)
-Xp = pool[DESC].reset_index(drop=True)
-med = pd.concat([Xc, Xp]).median()
-Xc, Xp = Xc.fillna(med), Xp.fillna(med)
 neg = ~pool.is_chart.values
-likes = (set(fb[fb.signal == "like"].track_id.astype(str)) if len(fb) else set()) - set(cd.spotify_track_id)  # Chartsongs sind schon Positive
+likes = (set(fb[fb.signal == "like"].track_id.astype(str)) if len(fb) else set()) - set(feats.spotify_track_id.dropna().astype(str))  # Chartsongs sind schon Positive
 is_like = pool.track_id.isin(likes).values
-# Gefallene Songs (auch aus frueheren Wochen) zaehlen als zusaetzliche Positive (Gewicht 2), nie als Negative
 neutral = set(fb[fb.signal == "neutral"].track_id.astype(str)) if len(fb) else set()
 weak = set(fb[fb.signal == "weak_dislike"].track_id.astype(str)) if len(fb) else set()
 neg = neg & ~is_like & ~pool.track_id.isin(neutral).values  # neutral: weder Positiv noch Negativ
-import glob
-hist = pd.concat([rd(f) for f in sorted(glob.glob("data/pools/pool_descriptors_*.csv"))], ignore_index=True)
-hist = hist[hist.track_id.isin(likes) & (hist.preview_ok == 1)].drop_duplicates("track_id")
-Xl = hist[DESC].reset_index(drop=True)
-Xl = Xl.fillna(pd.concat([Xc, Xp]).median())
-X = pd.concat([Xc, Xl, Xp[neg]], ignore_index=True)
-y = np.r_[np.ones(len(Xc) + len(Xl)), np.zeros(neg.sum())]
-w = np.r_[cd.w.values, np.full(len(Xl), 2.0), np.where(pool.track_id[neg].isin(weak).values, 2.0, 1.0)]
-off = len(Xc) + len(Xl)
-print(f"Zusaetzliche Positive aus deinem Feedback: {len(Xl)}")
-
-
-def model():
-    return make_pipeline(StandardScaler(), LogisticRegression(C=0.02, class_weight="balanced", max_iter=3000))
-
-
-oof = np.zeros(len(X))
-for tr, te in StratifiedKFold(10, shuffle=True, random_state=0).split(X, y):
-    m = model()
-    m.fit(X.iloc[tr], y[tr], logisticregression__sample_weight=w[tr])
-    oof[te] = m.decision_function(X.iloc[te])
-print(f"Passungsmass CV-AUC (Chartsongs vs. Pool): {roc_auc_score(y, oof):.3f}")
 pool["taste"] = np.nan
-pool.loc[neg, "taste"] = oof[off:]
-# Pool-Songs, die schon in den Charts sind, nur zur Anzeige: mit Gesamtmodell
-mfull = model().fit(X, y, logisticregression__sample_weight=w)
-pool.loc[~neg, "taste"] = mfull.decision_function(Xp[~neg])
 
 # --- Echte Spotify-Features aus Exportify-CSVs (data/exportify/*.csv und data/feedback/user_playlist_*.csv)
 # Positive: deine Top-100 (Exportify-Export, Gewicht 1) und gefallene Songs (Gewicht 2); Negative: Pool-Songs (Dislikes/schwache Dislikes Gewicht 2).
@@ -181,7 +139,9 @@ if len(_top) >= 30 and _negf.sum() >= 100:
 else:
     print("Keine Exportify-Daten: Geschmackswert nur aus eigenen Vorschau-Deskriptoren")
 if HAVE_FEAT:
-    W.update({"taste": 0.5, "feat": 1.0, "stylefit": 0.75})
+    W.update({"feat": 1.0, "stylefit": 0.75})
+else:
+    W.update({"stylefit": 1.0})  # ohne Exportify-Features: Stil-Passung (Last.fm) traegt den Geschmack
 
 # --- Weitere Signale
 pool["breadth"] = np.log(pool.n_playlists)
@@ -268,13 +228,9 @@ if _os1.path.exists("data/analysis/lastfm_tags.csv"):
         pool["lf_tags"] = [dict(zip(_lf.key.astype(str), _lf.tags)).get(_nk(a), "") for a in pool.artists]
         print(f"Songs mit Stil-Passung (Last.fm): {pool.stylefit.notna().sum()} von {len(pool)}")
 
-# Breitenbonus nur, wenn der Klang passt (Till, 2026-11-06): bei unterdurchschnittlichem Passungsmass wird ein
-# positiver Breitenbeitrag gedaempft (Faktor 1 + z_taste/2, mindestens 0); Backtest 30.10.: etwas mehr Likes, weniger Dislikes in den Top 75
-_zs = {k: np.nan_to_num(z(pool[k]), nan=0.0) for k in W}  # fehlende Stil-Passung (keine Tags) zaehlt neutral
-_g = np.clip(1 + _zs["taste"] / 2.0, 0, 1)
-_zs["breadth"] = np.where((_zs["breadth"] > 0) & (_zs["taste"] < 0), _zs["breadth"] * _g, _zs["breadth"])
+_zs = {k: np.nan_to_num(z(pool[k]), nan=0.0) for k in W}  # fehlende Werte (z.B. keine Tags) zaehlen neutral
 pool["score"] = sum(W[k] * _zs[k] for k in W)
-pool.loc[(pool.preview_ok != 1) & pool.feat.isna(), "score"] -= 0.5  # weder Deskriptoren noch Features: vorsichtiger Abschlag
+pool.loc[pool.feat.isna() & HAVE_FEAT, "score"] -= 0.5  # Features erwartet, aber fuer diesen Song nicht im Export: vorsichtiger Abschlag
 
 # --- Feedback / Ausschluesse
 bad = set(fb[fb.signal == "dislike"].track_id.astype(str)) if len(fb) else set()
@@ -284,9 +240,12 @@ if len(fb) and "date" in fb.columns:  # Neuberechnung einer schon bewerteten Woc
 import os as _os2
 _vf = f"data/research/verdicts_{DATE}.csv"
 verdict = {}
+verdict_voice = {}
 if _os2.path.exists(_vf):
     _v = rd(_vf).fillna("")
     verdict = dict(zip(_v.track_id.astype(str), _v.verdict.str.lower().str.strip()))
+    if "voice" in _v.columns:
+        verdict_voice = dict(zip(_v.track_id.astype(str), _v.voice.str.lower().str.strip()))
     bad |= {t for t, v in verdict.items() if v == "no"}
     print(f"Recherche-Urteile: {len(verdict)} (no: {sum(v == 'no' for v in verdict.values())}, ok: {sum(v == 'ok' for v in verdict.values())}, unsure: {sum(v == 'unsure' for v in verdict.values())})")
 else:
@@ -373,24 +332,24 @@ else:
     EN_SHARE = None
     print("Keine Sprachdaten, Auswahl ohne Sprachquote")
 
-# --- Stimme (MusicBrainz-Geschlecht der Kuenstler, nur wo bekannt): maennliche Stimmen sollen seltener vorkommen als weibliche (Till, 2026-11-06).
-# Zielanteil Maenner (unter Kuenstlern mit bekanntem Geschlecht) = min(2 x Anteil in deinen Charts, 50 %). Umsetzung als kleinster Score-Abzug fuer maennliche
-# Solokuenstler (0 bis 2,0 in 0,25-Schritten), mit dem der Zielanteil in der Auswahl erreicht wird.
+# --- Stimme: maennliche Stimmen sollen seltener vorkommen als weibliche (Till, 2026-11-06): hoechstens 15 % unter den Songs mit bekannter Stimme.
+# Quelle: Web-Recherche der woechentlichen Song-Recherche (Spalte voice in verdicts_DATUM.csv: female | male | mixed; bei Bands Geschlecht der Leadstimme, mixed bei
+# gemischter Leadstimme); ohne Urteil Rueckfall auf MusicBrainz (nur Einzelpersonen). Umsetzung als kleinster Score-Abzug fuer maennliche Stimmen
+# (0 bis 3,0 in 0,25-Schritten), mit dem der Hoechstanteil in der Auswahl erreicht wird.
+MALE_MAX_SHARE = 0.15
 pool["voice"] = "unknown"
-MALE_CAP = None
 PEN = 0.0
 if _os1.path.exists("data/analysis/mb_gender.csv"):
     _gd = rd("data/analysis/mb_gender.csv").fillna("")
-    _vm = {r.key: ("male" if r.gender == "male" else "female" if r.gender == "female" else "group" if r.type == "Group" else "unknown") for r in _gd.itertuples()}
+    _vm = {r.key: ("male" if r.gender == "male" else "female" if r.gender == "female" else "unknown") for r in _gd.itertuples()}
     pool["voice"] = [_vm.get(_nk(a), "unknown") for a in pool.artists]
-    _mbt = rd("data/analysis/mb_tags.csv").fillna("")
-    _chart_keys = set(_mbt[_mbt.groups.str.contains("chart")].key.astype(str))
-    _cv_ = [v for k, v in _vm.items() if k in _chart_keys and v in ("male", "female")]
-    if len(_cv_) >= 20:
-        _chart_male = _cv_.count("male") / len(_cv_)
-        MALE_CAP = min(2 * _chart_male, 0.5)  # doppelt so viele Maenner wie in deinen Charts, hoechstens die Haelfte (Till entscheidet ueber den Faktor)
-        print(f"Stimmen: Chart-Kuenstler mit Geschlecht {len(_cv_)}, Maenneranteil {_chart_male:.0%} -> Zielanteil Maenner in der Auswahl {MALE_CAP:.0%}")
-    print("Stimmen im Pool (Songs):", pool.voice.value_counts().to_dict())
+pool["voice_src"] = np.where(pool.voice != "unknown", "mb", "")
+_wv = pool.track_id.astype(str).map(verdict_voice).fillna("")
+_wv = _wv.where(_wv.isin(["male", "female", "mixed"]), "")
+pool.loc[_wv != "", "voice"] = _wv[_wv != ""]
+pool.loc[_wv != "", "voice_src"] = "web"
+print("Stimmen im Pool (Songs):", pool.voice.value_counts().to_dict(), "| Quelle Web-Recherche:", int((pool.voice_src == "web").sum()))
+MALE_CAP = MALE_MAX_SHARE
 
 # --- Auswahl: keine Chart-Duplikate, max. 2 pro Kuenstler, keine Doppelversionen
 # Erst die besten nicht-englischen Songs bis zum Zielanteil (aus den aktuellen Charts), dann der Rest nach Score
@@ -404,8 +363,6 @@ def _select(N):
 
     def take(i, r, strict=True):
         if r.is_xmas:
-            return False
-        if strict and r.preview_ok == 1 and r.taste < TASTE_MIN:
             return False
         toks = (artist_tokens(r.artists) or [str(r.artists)])[:1]  # nur der Hauptkuenstler (erster genannter) zaehlt
         if r.is_chart or r.tkey in seen or any(per_artist.get(t, 0) >= MAX_PER_ARTIST for t in toks):
@@ -461,7 +418,7 @@ def _male_share(ids):
 
 
 if MALE_CAP is not None:
-    for PEN in np.arange(0.0, 2.01, 0.25):
+    for PEN in np.arange(0.0, 3.01, 0.25):
         _t = _select(N)
         _sh = _male_share(_t)
         if _sh[0] <= MALE_CAP or np.isnan(_sh[0]):
@@ -475,12 +432,12 @@ pool["selected"] = pool.index.isin(sel)
 import os
 
 os.makedirs("data/rankings", exist_ok=True)
-keep_cols = ["rank", "selected", "quota_pick", "lang", "score", "taste", "breadth", "pos", "artist_hits", "track_id", "name", "artists",
-             "n_playlists", "best_pos", "preview_ok", "is_chart", "tempo", "rms_db_mean", "playlists", "feat", "stylefit", "voice"]
+keep_cols = ["rank", "selected", "quota_pick", "lang", "score", "breadth", "pos", "artist_hits", "track_id", "name", "artists",
+             "n_playlists", "best_pos", "is_chart", "playlists", "feat", "stylefit", "voice"]
 pool[keep_cols].to_csv(f"data/rankings/ranking_{DATE}{SUFFIX}.csv", index=False)
 _c = pool[pool.candidate].reset_index(drop=True)
 _c.insert(0, "nr", np.arange(1, len(_c) + 1))
-_c[["nr", "track_id", "name", "artists", "score", "taste", "feat", "stylefit", "n_playlists", "best_pos", "lang", "voice", "style_tags", "style_flag", "genres_sp", "lf_tags", "playlists", "selected"]].to_csv(
+_c[["nr", "track_id", "name", "artists", "score", "feat", "stylefit", "n_playlists", "best_pos", "lang", "voice", "voice_src", "style_tags", "style_flag", "genres_sp", "lf_tags", "playlists", "selected"]].to_csv(
     f"data/rankings/candidates_{DATE}{SUFFIX}.csv", index=False)
 print(f"Kandidatenliste: {len(_c)} Songs, davon {int(_c.selected.sum())} in den Top 75")
 top = pool[pool.selected].reset_index(drop=True)
@@ -489,4 +446,4 @@ top[["nr", "track_id", "name", "artists", "score", "n_playlists", "best_pos", "l
     f"data/rankings/playlist_{DATE}{SUFFIX}.csv", index=False
 )
 print(f"{len(top)} Songs ausgewaehlt, {top.artists.nunique()} Kuenstler")
-print(top[["nr", "name", "artists", "n_playlists", "best_pos", "taste"]].to_string(max_colwidth=38))
+print(top[["nr", "name", "artists", "n_playlists", "best_pos", "feat"]].to_string(max_colwidth=38))
