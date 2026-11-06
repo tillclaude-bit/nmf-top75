@@ -1,0 +1,47 @@
+name: Woche neu rechnen (alle Vorschauen, neue Regeln)
+
+on:
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Datum des Pools"
+        default: "2026-11-06"
+      suffix:
+        description: "Suffix fuer die neuen Ergebnisdateien"
+        default: "_neu"
+
+permissions:
+  contents: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Abhaengigkeiten
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg libsndfile1
+          pip install -q librosa pyloudnorm numpy scipy pandas scikit-learn faster-whisper
+      - name: Klang-Eigenschaften aller Songs (mit Wiederholungen und Deezer-Reserve)
+        run: python3 scripts/preview_features.py "data/pools/pool_descriptors_${{ github.event.inputs.date }}.csv" --pool "data/pools/pool_tracks_${{ github.event.inputs.date }}.csv" | tee desc.txt
+      - name: Sprache erkennen
+        run: python3 scripts/language_id.py "data/analysis/language_${{ github.event.inputs.date }}.csv" "data/pools/pool_tracks_${{ github.event.inputs.date }}.csv" | tee lang.txt
+      - name: Bewerten
+        run: python3 scripts/score_pool.py "${{ github.event.inputs.date }}" "${{ github.event.inputs.suffix }}" | tee score.txt
+      - name: Ergebnis speichern
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@users.noreply.github.com"
+          git add "data/pools/pool_descriptors_${{ github.event.inputs.date }}.csv" "data/analysis/language_${{ github.event.inputs.date }}.csv" data/rankings
+          git commit -m "Recompute ${{ github.event.inputs.date }}${{ github.event.inputs.suffix }}" || echo "nothing to commit"
+          git pull --rebase origin main
+          git push origin HEAD:main
+      - name: Zusammenfassung
+        if: always()
+        run: |
+          for f in desc.txt lang.txt score.txt; do [ -f "$f" ] && while IFS= read -r line; do echo "::notice::${line}"; done < <(head -30 "$f"); done || true
+          exit 0
