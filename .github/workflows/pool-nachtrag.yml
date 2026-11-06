@@ -1,0 +1,48 @@
+name: Pool-Nachtrag (spaeter hinzugekommene Songs)
+on:
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Datum der NMF-Woche"
+        default: "2026-11-06"
+permissions:
+  contents: write
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -q pandas
+      - name: Listen neu abrufen
+        env:
+          APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
+        run: python3 scripts/fetch_pool.py "${{ github.event.inputs.date }}_voll" | tee fetch.txt
+      - name: Mit dem Pool der Woche vergleichen
+        run: python3 scripts/pool_nachtrag.py "${{ github.event.inputs.date }}" | tee diff.txt
+      - name: Nachtrags-Playlist anlegen
+        env:
+          SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
+          SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
+        run: |
+          if [ -f "data/pools/pool_tracks_${{ github.event.inputs.date }}_nachtrag.csv" ]; then
+            python3 scripts/create_pool_playlist.py "${{ github.event.inputs.date }}_nachtrag" | tee poolpl.txt
+          else
+            echo "Keine neuen Songs, keine Nachtrags-Playlist" | tee poolpl.txt
+          fi
+      - name: Speichern
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/pools data/pool_playlist_ids.csv
+          git commit -m "Pool-Nachtrag ${{ github.event.inputs.date }}" || echo "nothing to commit"
+          git pull --rebase origin main
+          git push origin HEAD:main
+      - name: Zusammenfassung
+        if: always()
+        run: |
+          for f in fetch.txt diff.txt poolpl.txt; do [ -f "$f" ] && while IFS= read -r line; do echo "::notice::${line}"; done < <(head -60 "$f"); done || true
+          exit 0
