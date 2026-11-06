@@ -139,6 +139,29 @@ pool.loc[pool.preview_ok != 1, "score"] -= 0.5  # keine Deskriptoren: vorsichtig
 # --- Feedback / Ausschluesse
 bad = set(fb[fb.signal == "dislike"].track_id.astype(str)) if len(fb) else set()
 pool = pool[~pool.track_id.isin(bad)].reset_index(drop=True)
+
+# --- Stil-Regeln (data/style_rules.csv, von Till): Ausschluss, wenn ein MusicBrainz-Stil-Tag des Hauptkuenstlers den Begriff enthaelt
+import os as _os0, unicodedata as _ud
+def _nk(a):
+    m = re.split(r",|;| feat\.| ft\.| x | & ", str(a))[0]
+    m = _ud.normalize("NFKD", m).encode("ascii", "ignore").decode().lower()
+    return re.sub(r"[^a-z0-9]+", " ", m).strip()
+pool["style_tags"] = ""
+if _os0.path.exists("data/analysis/mb_tags.csv"):
+    _mb = rd("data/analysis/mb_tags.csv").fillna("")
+    _tg = dict(zip(_mb.key.astype(str), _mb.tags))
+    pool["style_tags"] = pool.artists.map(lambda a: _tg.get(_nk(a), ""))
+pool["style_excl"] = ""
+if _os0.path.exists("data/style_rules.csv"):
+    for _, _r in rd("data/style_rules.csv").iterrows():
+        if _r.effect != "exclude":
+            continue
+        hit = pool.style_tags.str.lower().apply(lambda t: any(x.split(":")[0].strip() == _r.term.lower() or x.split(":")[0].strip().replace("-", " ") == _r.term.lower() for x in t.split(";") if x))
+        pool.loc[hit & (pool.style_excl == ""), "style_excl"] = _r.term
+    _ex = pool[pool.style_excl != ""]
+    print(f"Stil-Ausschluesse: {len(_ex)}")
+    _ex[["track_id", "name", "artists", "style_excl", "style_tags", "score"]].to_csv(f"data/rankings/style_excluded_{DATE}{SUFFIX}.csv", index=False)
+    pool = pool[pool.style_excl == ""].reset_index(drop=True)
 pool = pool.sort_values("score", ascending=False).reset_index(drop=True)
 pool["rank"] = np.arange(1, len(pool) + 1)
 

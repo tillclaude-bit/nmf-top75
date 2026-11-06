@@ -76,6 +76,10 @@ jobs:
         run: python3 scripts/preview_features.py "data/pools/pool_descriptors_$DATE.csv" --pool "data/pools/pool_tracks_$DATE.csv" | tee desc.txt
       - name: Sprache der Songs erkennen
         run: python3 scripts/language_id.py "data/analysis/language_$DATE.csv" "data/pools/pool_tracks_$DATE.csv" | tee lang.txt
+      - name: Stil-Tags der Kuenstler holen (MusicBrainz, nur neue Kuenstler)
+        continue-on-error: true
+        timeout-minutes: 40
+        run: python3 scripts/mb_tags.py "data/pools/pool_tracks_$DATE.csv" data/analysis/mb_tags.csv | tee mb.txt
       - name: Bewerten und Top 75 waehlen
         run: python3 scripts/score_pool.py "$DATE" | tee score.txt
       - name: Ergebnis archivieren
