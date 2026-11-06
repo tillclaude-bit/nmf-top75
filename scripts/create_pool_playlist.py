@@ -41,7 +41,7 @@ if s != 200:
 tok = t["access_token"]
 s, me = call("https://api.spotify.com/v1/me", token=tok)
 print("me:", s, me.get("id") if isinstance(me, dict) else me)
-ids = list(dict.fromkeys(r["track_id"] for r in csv.DictReader(open(f"data/pools/pool_tracks_{date}.csv", encoding="utf-8-sig"))]
+ids = list(dict.fromkeys(r["track_id"] for r in csv.DictReader(open(f"data/pools/pool_tracks_{date}.csv", encoding="utf-8-sig"))))
 name = f"Pool – {date}"
 desc = "Alle Songs der New-Music-Friday-Listen von 14 Ländern (zum Export mit Exportify)."
 for url in ("https://api.spotify.com/v1/me/playlists", f"https://api.spotify.com/v1/users/{me.get('id')}/playlists"):
