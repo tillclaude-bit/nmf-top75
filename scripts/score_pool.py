@@ -24,7 +24,7 @@ from sklearn.preprocessing import StandardScaler
 
 DATE = sys.argv[1]
 SUFFIX = sys.argv[2] if len(sys.argv) > 2 else ""
-W = {"taste": 1.0, "breadth": 0.0, "pos": 0.25, "artist": 0.5, "stylefit": 0.5}  # style: Stil-Tags der Kuenstler (MusicBrainz) gegen die Stile der Chart-Kuenstler; ohne Tags neutral (0)  # breadth bleibt drin (Till, 2026-10-31); Vorwochen-Backtest: Breite sagt Chart-Einstiege vorher
+W = {"taste": 1.0, "feat": 0.0, "breadth": 0.0, "pos": 0.25, "artist": 0.5, "stylefit": 0.5}  # style: Stil-Tags der Kuenstler (MusicBrainz) gegen die Stile der Chart-Kuenstler; ohne Tags neutral (0)  # breadth bleibt drin (Till, 2026-10-31); Vorwochen-Backtest: Breite sagt Chart-Einstiege vorher
 MAX_PER_ARTIST = 1  # Till, 2026-11-06: kein Hauptkuenstler doppelt; Feature-Gaeste zaehlen nicht
 N = 75
 # Weihnachtslieder sind ausgeschlossen (Titel-Stichworte in den NMF-Sprachen; Kuenstlernamen zaehlen nicht)
@@ -123,6 +123,66 @@ pool.loc[neg, "taste"] = oof[off:]
 mfull = model().fit(X, y, logisticregression__sample_weight=w)
 pool.loc[~neg, "taste"] = mfull.decision_function(Xp[~neg])
 
+# --- Echte Spotify-Features aus Exportify-CSVs (data/exportify/*.csv und data/feedback/user_playlist_*.csv)
+# Positive: deine Top-100 (Exportify-Export, Gewicht 1) und gefallene Songs (Gewicht 2); Negative: Pool-Songs (Dislikes/schwache Dislikes Gewicht 2).
+# Ohne Export dieser Woche bleibt das Signal aus, und der Klang-Deskriptor-Geschmackswert zaehlt voll (siehe W unten).
+FEAT_COLS = ["Danceability", "Energy", "Loudness", "Speechiness", "Acousticness", "Instrumentalness", "Liveness", "Valence", "Tempo", "Mode"]
+
+
+def _load_exp(files):
+    out = []
+    for f in files:
+        d = rd(f)
+        if "Danceability" in d.columns:
+            d["tid"] = d["Track URI"].str.split(":").str[-1]
+            out.append(d)
+    return pd.concat(out, ignore_index=True).drop_duplicates("tid", keep="last") if out else pd.DataFrame(columns=["tid"] + FEAT_COLS)
+
+
+_exp_all = _load_exp(sorted(glob.glob("data/exportify/*.csv")) + sorted(glob.glob("data/feedback/user_playlist_*.csv")))
+_top = _load_exp(sorted(glob.glob("data/exportify/top100_*.csv")))
+pool["genres_sp"] = pool.track_id.astype(str).map(dict(zip(_exp_all.tid, _exp_all.get("Genres", pd.Series(dtype=str)).fillna(""))) if len(_exp_all) else {}).fillna("")
+pool["feat"] = np.nan
+HAVE_FEAT = False
+_fe = _exp_all.set_index("tid")[FEAT_COLS] if len(_exp_all) else pd.DataFrame(columns=FEAT_COLS)
+_has = pool.track_id.astype(str).isin(_fe.index).values
+_negf = neg & _has
+if len(_top) >= 30 and _negf.sum() >= 100:
+    _dis = set(fb[fb.signal.isin(["dislike", "weak_dislike"])].track_id.astype(str)) if len(fb) else set()
+    _pos_ids = list(dict.fromkeys(_top.tid))
+    _pos_w = [1.0] * len(_pos_ids)
+    for t in sorted(likes):
+        if t in _fe.index and t not in _pos_ids:
+            _pos_ids.append(t)
+            _pos_w.append(2.0)
+    _pool_ids = pool.track_id.astype(str)[_negf].tolist()
+    _old_neg = [t for t in sorted(_dis) if t in _fe.index and t not in set(_pool_ids) and t not in set(_pos_ids)]
+    _Xf = pd.concat([_fe.loc[_pos_ids], _fe.loc[_pool_ids], _fe.loc[_old_neg]], ignore_index=True)
+    _yf = np.r_[np.ones(len(_pos_ids)), np.zeros(len(_pool_ids) + len(_old_neg))]
+    _wf = np.r_[_pos_w, [2.0 if t in _dis else 1.0 for t in _pool_ids], np.full(len(_old_neg), 2.0)]
+
+    def _fmodel():
+        return make_pipeline(StandardScaler(), LogisticRegression(C=0.1, class_weight="balanced", max_iter=3000))
+
+    _oof = np.zeros(len(_Xf))
+    for tr, te in StratifiedKFold(10, shuffle=True, random_state=0).split(_Xf, _yf):
+        m_ = _fmodel()
+        m_.fit(_Xf.iloc[tr], _yf[tr], logisticregression__sample_weight=_wf[tr])
+        _oof[te] = m_.decision_function(_Xf.iloc[te])
+    print(f"Spotify-Features: {len(_pos_ids)} Positive, {len(_pool_ids) + len(_old_neg)} Negative, CV-AUC {roc_auc_score(_yf, _oof):.3f}")
+    _mf = _fmodel().fit(_Xf, _yf, logisticregression__sample_weight=_wf)
+    _allf = _fe.reindex(pool.track_id.astype(str)).reset_index(drop=True)
+    _okf = _allf.notna().all(axis=1).values
+    pool.loc[_okf, "feat"] = _mf.decision_function(_allf[_okf])
+    _idx = np.where(_negf)[0]
+    pool.loc[_idx, "feat"] = _oof[len(_pos_ids):len(_pos_ids) + len(_pool_ids)]  # Out-of-fold fuer die Negativ-Klasse
+    HAVE_FEAT = True
+    print(f"Songs mit Spotify-Features: {pool.feat.notna().sum()} von {len(pool)}")
+else:
+    print("Keine Exportify-Daten: Geschmackswert nur aus eigenen Vorschau-Deskriptoren")
+if HAVE_FEAT:
+    W.update({"taste": 0.5, "feat": 1.0, "stylefit": 0.75})
+
 # --- Weitere Signale
 pool["breadth"] = np.log(pool.n_playlists)
 pool["pos"] = -np.log(pool.best_pos)
@@ -185,13 +245,36 @@ if _os1.path.exists("data/analysis/mb_tags.csv"):
         pool["stylefit"] = [(_fit.get(_nk(a)) if t else np.nan) for a, t in zip(pool.artists, pool.style_tags)]
         print(f"Songs mit Stil-Passung: {pool.stylefit.notna().sum()} von {len(pool)}")
 
+# --- Stil-Tags aus Last.fm (gleiche Abfrage fuer alle Kuenstler): ueberschreibt die MusicBrainz-Stil-Passung, wenn vorhanden
+pool["lf_tags"] = ""
+if _os1.path.exists("data/analysis/lastfm_tags.csv"):
+    from sklearn.feature_extraction.text import CountVectorizer as _CV2
+    from sklearn.model_selection import cross_val_predict as _cvp2
+    _lf = rd("data/analysis/lastfm_tags.csv").fillna("")
+    # Namensverwechslungen (z.B. "Oria" -> "Orla") ausschliessen: Last.fm-Name muss dem Kuenstlernamen entsprechen
+    _lf["ok"] = [(_nk(n) == k or n == "") and t not in ("", "ERR") for n, k, t in zip(_lf.lfm_name, _lf.key, _lf.tags)]
+    _lf = _lf[_lf.ok].copy()
+    _lf["doc"] = _lf.tags.map(lambda t: " ".join(re.sub(r"[^a-z0-9]+", "_", x.rsplit(":", 1)[0]) for x in [y for y in t.split(";") if y][:8] if int(x.rsplit(":", 1)[1]) >= 10))
+    _lf = _lf[_lf.doc != ""].reset_index(drop=True)
+    _lf["y"] = _lf.groups.str.contains("chart").astype(int)
+    if _lf.y.sum() >= 20 and (1 - _lf.y).sum() >= 20:
+        _cv2 = _CV2(token_pattern=r"\S+", binary=True, min_df=2).fit(_lf.doc)
+        _X2 = _cv2.transform(_lf.doc)
+        _clf2 = LogisticRegression(C=0.1, class_weight="balanced", max_iter=2000)
+        _lf["fit"] = _cvp2(_clf2, _X2, _lf.y, cv=StratifiedKFold(5, shuffle=True, random_state=0), method="decision_function")
+        print(f"Stil-Passung Last.fm CV-AUC (Chart-Kuenstler vs. Rest): {roc_auc_score(_lf.y, _lf.fit):.3f} ({len(_lf)} Kuenstler mit Tags)")
+        _fit2 = dict(zip(_lf.key.astype(str), _lf.fit))
+        pool["stylefit"] = [_fit2.get(_nk(a), np.nan) for a in pool.artists]
+        pool["lf_tags"] = [dict(zip(_lf.key.astype(str), _lf.tags)).get(_nk(a), "") for a in pool.artists]
+        print(f"Songs mit Stil-Passung (Last.fm): {pool.stylefit.notna().sum()} von {len(pool)}")
+
 # Breitenbonus nur, wenn der Klang passt (Till, 2026-11-06): bei unterdurchschnittlichem Passungsmass wird ein
 # positiver Breitenbeitrag gedaempft (Faktor 1 + z_taste/2, mindestens 0); Backtest 30.10.: etwas mehr Likes, weniger Dislikes in den Top 75
 _zs = {k: np.nan_to_num(z(pool[k]), nan=0.0) for k in W}  # fehlende Stil-Passung (keine Tags) zaehlt neutral
 _g = np.clip(1 + _zs["taste"] / 2.0, 0, 1)
 _zs["breadth"] = np.where((_zs["breadth"] > 0) & (_zs["taste"] < 0), _zs["breadth"] * _g, _zs["breadth"])
 pool["score"] = sum(W[k] * _zs[k] for k in W)
-pool.loc[pool.preview_ok != 1, "score"] -= 0.5  # keine Deskriptoren: vorsichtiger Abschlag
+pool.loc[(pool.preview_ok != 1) & pool.feat.isna(), "score"] -= 0.5  # weder Deskriptoren noch Features: vorsichtiger Abschlag
 
 # --- Feedback / Ausschluesse
 bad = set(fb[fb.signal == "dislike"].track_id.astype(str)) if len(fb) else set()
@@ -211,6 +294,8 @@ bad_keys = set(pool[pool.track_id.astype(str).isin(bad)].tkey)
 pool = pool[~(pool.track_id.astype(str).isin(bad) | pool.tkey.isin(bad_keys))].reset_index(drop=True)
 
 pool["style_excl"] = ""
+pool["style_flag"] = ""
+y_c = lambda x: x.rsplit(":", 1)[1] if ":" in x else "0"
 if _os0.path.exists("data/style_rules.csv"):
     for _, _r in rd("data/style_rules.csv").iterrows():
         if _r.effect != "exclude":
@@ -220,12 +305,23 @@ if _os0.path.exists("data/style_rules.csv"):
         def _m(tag):
             tag = tag.split(":")[0].strip().lower().replace("-", " ")
             return (_t.replace("-", " ") in tag) if _contains else (tag == _t.replace("-", " "))
-        hit = pool.style_tags.apply(lambda t: any(_m(x) for x in [y for y in t.split(";") if y][:2]))  # nur die 2 haeufigsten Tags (schuetzt vor Namensverwechslungen und Randtags)
+        # Spotify-Genres des Kuenstlers (Exportify) sind massgeblich: sie sind je Kuenstler eindeutig (keine Namensverwechslung).
+        # Ohne Spotify-Genres entscheidet MusicBrainz (mit Laender-Check). Last.fm allein (Namensabgleich ist unsicher) schliesst nicht aus,
+        # sondern gibt Abzug und Markierung "style_flag", die die woechentliche Recherche pruefen muss.
+        sp_has = pool.genres_sp != ""
+        sp_hit = pool.genres_sp.apply(lambda g: any(_m(x) for x in g.split(",") if x))
+        mb_hit = pool.style_tags.apply(lambda t: any(_m(x) for x in [y for y in t.split(";") if y][:2]))  # nur die 2 haeufigsten Tags
+        lf_hit = pool.lf_tags.apply(lambda t: any(_m(x) for x in [y for y in t.split(";") if y][:2] if int(y_c(x)) >= 30))
+        hit = np.where(sp_has, sp_hit, mb_hit)
+        hit = pd.Series(hit, index=pool.index).astype(bool)
+        flag = lf_hit & ~sp_has & ~hit
+        pool.loc[flag & (pool.style_flag == ""), "style_flag"] = _r.term
         pool.loc[hit & (pool.style_excl == ""), "style_excl"] = _r.term
     _ex = pool[pool.style_excl != ""]
     print(f"Stil-Ausschluesse: {len(_ex)}")
-    _ex[["track_id", "name", "artists", "style_excl", "style_tags", "score"]].to_csv(f"data/rankings/style_excluded_{DATE}{SUFFIX}.csv", index=False)
+    _ex[["track_id", "name", "artists", "style_excl", "style_tags", "lf_tags", "genres_sp", "score"]].to_csv(f"data/rankings/style_excluded_{DATE}{SUFFIX}.csv", index=False)
     pool = pool[pool.style_excl == ""].reset_index(drop=True)
+pool.loc[pool.style_flag != "", "score"] -= 1.5  # nur Last.fm meldet einen unerwuenschten Stil: Abzug, Recherche prueft
 pool["score"] = pool.score + 0.5 * pool.track_id.astype(str).map(lambda t: 1.0 if verdict.get(t) == "ok" else 0.0)
 pool = pool.sort_values("score", ascending=False).reset_index(drop=True)
 pool["rank"] = np.arange(1, len(pool) + 1)
@@ -345,7 +441,7 @@ keep_cols = ["rank", "selected", "quota_pick", "lang", "score", "taste", "breadt
 pool[keep_cols].to_csv(f"data/rankings/ranking_{DATE}{SUFFIX}.csv", index=False)
 _c = pool[pool.candidate].reset_index(drop=True)
 _c.insert(0, "nr", np.arange(1, len(_c) + 1))
-_c[["nr", "track_id", "name", "artists", "score", "taste", "stylefit", "n_playlists", "best_pos", "lang", "style_tags", "playlists", "selected"]].to_csv(
+_c[["nr", "track_id", "name", "artists", "score", "taste", "feat", "stylefit", "n_playlists", "best_pos", "lang", "style_tags", "style_flag", "genres_sp", "lf_tags", "playlists", "selected"]].to_csv(
     f"data/rankings/candidates_{DATE}{SUFFIX}.csv", index=False)
 print(f"Kandidatenliste: {len(_c)} Songs, davon {int(_c.selected.sum())} in den Top 75")
 top = pool[pool.selected].reset_index(drop=True)
