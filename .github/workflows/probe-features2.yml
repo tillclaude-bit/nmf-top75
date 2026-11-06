@@ -1,0 +1,15 @@
+name: Probe Eigenschaften und Genres (kostenlos)
+on:
+  workflow_dispatch:
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Probe
+        env:
+          SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
+          SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
+        run: |
+          python3 scripts/probe_features2.py | tee o.txt
+          while IFS= read -r line; do echo "::notice::${line}"; done < o.txt
