@@ -155,7 +155,20 @@ pool["style_tags"] = ""
 if _os0.path.exists("data/analysis/mb_tags.csv"):
     _mb = rd("data/analysis/mb_tags.csv").fillna("")
     _tg = dict(zip(_mb.key.astype(str), _mb.tags))
-    pool["style_tags"] = pool.artists.map(lambda a: _tg.get(_nk(a), ""))
+    _ct = dict(zip(_mb.key.astype(str), _mb.country))
+    # Namensverwechslungen vermeiden: Herkunftsland des MusicBrainz-Kuenstlers muss zu den NMF-Laendern des Songs passen
+    _EN = {"GB", "IE", "US", "CA", "AU", "NZ"}
+    _MC = {"UK & Ireland": _EN, "AU & NZ": _EN, "France": {"FR", "BE", "CH", "CA"}, "Deutschland": {"DE", "AT", "CH"}, "Espa": {"ES", "MX", "AR", "CO", "CL", "PR", "US"},
+           "Italia": {"IT", "CH"}, "Greece": {"GR", "CY"}, "Denmark": {"DK"}, "Norway": {"NO"}, "Sweden": {"SE"}, "Suomi": {"FI"},
+           "Korea": {"KR"}, "Polska": {"PL"}, "NL": {"NL", "BE"}}
+    def _tags_ok(r):
+        k = _nk(r.artists)
+        c = _ct.get(k, "")
+        if not c:
+            return _tg.get(k, "")
+        allowed = set().union(*[v for m, v in _MC.items() if m in r.playlists]) if any(m in r.playlists for m in _MC) else set()
+        return _tg.get(k, "") if c in allowed else ""
+    pool["style_tags"] = pool.apply(_tags_ok, axis=1)
 pool["style_excl"] = ""
 if _os0.path.exists("data/style_rules.csv"):
     for _, _r in rd("data/style_rules.csv").iterrows():
