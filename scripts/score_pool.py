@@ -161,7 +161,7 @@ if _os0.path.exists("data/style_rules.csv"):
     for _, _r in rd("data/style_rules.csv").iterrows():
         if _r.effect != "exclude":
             continue
-        hit = pool.style_tags.str.lower().apply(lambda t: any(x.split(":")[0].strip() == _r.term.lower() or x.split(":")[0].strip().replace("-", " ") == _r.term.lower() for x in t.split(";") if x))
+        hit = pool.style_tags.str.lower().apply(lambda t: any(x.split(":")[0].strip() == _r.term.lower() or x.split(":")[0].strip().replace("-", " ") == _r.term.lower() for x in [y for y in t.split(";") if y][:2]))  # nur die 2 haeufigsten Tags (schuetzt vor Namensverwechslungen und Randtags)
         pool.loc[hit & (pool.style_excl == ""), "style_excl"] = _r.term
     _ex = pool[pool.style_excl != ""]
     print(f"Stil-Ausschluesse: {len(_ex)}")
