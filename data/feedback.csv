@@ -90,24 +90,79 @@ track_id,signal,artist,title,reason,date
 6pahtfyWIYs5qYHNrx9Yjv,weak_dislike,waterbaby,Creek,Rang 88 von 90 in eigener Liste,2026-10-30
 4ZlBJ0KOEOz2WbaO3BN50C,weak_dislike,Gigi Perez;The Hunger Games,Favor - From The Hunger Games: Sunrise on the Reaping - The Album,Rang 89 von 90 in eigener Liste,2026-10-30
 30LAPViPx3cUA8KUGNk4rP,dislike,Royal Blood,Mother Never Told You,"Hardrock; Komplettausschluss, grausam",2026-11-06
-2dk8LiJ7yViAjfvyzpfA9i,dislike,Skepta;Central Cee;Jorja Smith,Broken Hearts (feat. Central Cee & Jorja Smith),"Skepta raus: keine Aehnlichkeit zu Songs aus meinen Charts",2026-11-06
-2nVP6HXSfFSD5ISwQmaQ8w,dislike,Skepta,Currency,"Skepta raus: keine Aehnlichkeit zu Songs aus meinen Charts",2026-11-06
-7BEBRhzb1YqL6yEgOQGvFb,dislike,Novelist;Skepta,DIAMONDS DANCING,"Skepta raus: keine Aehnlichkeit zu Songs aus meinen Charts",2026-11-06
-5VxGvEGKHDw8AfoRqdfmcR,dislike,Becky and the Birds,Way back to You,"belangloser Song",2026-11-06
-5tHdQAVrdRW6NkNDniaKY9,dislike,Christine and the Queens,Rendez-vous in your arms,"zu soulig",2026-11-06
-7hRlKQepxO18TKr5DreeET,dislike,Christine and the Queens,Rendez-vous avec toi,"zu soulig",2026-11-06
-4VWzfEueTiY8nkGvQ0IEj5,dislike,Małe TGD,Razem,"klingt wie ein Kinderlied",2026-11-06
-1I0bdA0ZAyDYDriO2aLZ34,dislike,Petra,I Am God,"langweilig",2026-11-06
-4lYmmth0qGELlYGE5LPzkx,dislike,Shimza;Ayra Starr;Alok;Something Else,All The People,"generic dance",2026-11-06
-0ohMHpcILg4L9Af3jYskMs,dislike,ATRIP;Izza Gara,out of touch,"generic dance",2026-11-06
-1M2eFR96x0IwVDD2G6Gdns,dislike,Robert van Hemert,Onderweg,"Stimme nicht meins",2026-11-06
-6WRtH6rqypQWqfFjsiIkPp,dislike,Manuel Turizo;J Balvin,COMO FUERA,"raus",2026-11-06
-7AzErgLuGGqMfLcpdaj3N5,dislike,Manuel Turizo;J Balvin,COMO FUERA,"raus (zweite Version)",2026-11-06
-1sTGDnMOSEFYMW3zDPYF7M,dislike,Cage The Elephant,Make It Easy,"raus",2026-11-06
-5kXvOyOqtJme6oUyqDHbbZ,dislike,Sofia Monroy,El Amor Es Aburrido,"raus",2026-11-06
+2dk8LiJ7yViAjfvyzpfA9i,dislike,Skepta;Central Cee;Jorja Smith,Broken Hearts (feat. Central Cee & Jorja Smith),Skepta raus: keine Aehnlichkeit zu Songs aus meinen Charts,2026-11-06
+2nVP6HXSfFSD5ISwQmaQ8w,dislike,Skepta,Currency,Skepta raus: keine Aehnlichkeit zu Songs aus meinen Charts,2026-11-06
+7BEBRhzb1YqL6yEgOQGvFb,dislike,Novelist;Skepta,DIAMONDS DANCING,Skepta raus: keine Aehnlichkeit zu Songs aus meinen Charts,2026-11-06
+5VxGvEGKHDw8AfoRqdfmcR,dislike,Becky and the Birds,Way back to You,belangloser Song,2026-11-06
+5tHdQAVrdRW6NkNDniaKY9,dislike,Christine and the Queens,Rendez-vous in your arms,zu soulig,2026-11-06
+7hRlKQepxO18TKr5DreeET,dislike,Christine and the Queens,Rendez-vous avec toi,zu soulig,2026-11-06
+4VWzfEueTiY8nkGvQ0IEj5,dislike,Małe TGD,Razem,klingt wie ein Kinderlied,2026-11-06
+1I0bdA0ZAyDYDriO2aLZ34,dislike,Petra,I Am God,langweilig,2026-11-06
+4lYmmth0qGELlYGE5LPzkx,dislike,Shimza;Ayra Starr;Alok;Something Else,All The People,generic dance,2026-11-06
+0ohMHpcILg4L9Af3jYskMs,dislike,ATRIP;Izza Gara,out of touch,generic dance,2026-11-06
+1M2eFR96x0IwVDD2G6Gdns,dislike,Robert van Hemert,Onderweg,Stimme nicht meins,2026-11-06
+6WRtH6rqypQWqfFjsiIkPp,dislike,Manuel Turizo;J Balvin,COMO FUERA,raus,2026-11-06
+7AzErgLuGGqMfLcpdaj3N5,dislike,Manuel Turizo;J Balvin,COMO FUERA,raus (zweite Version),2026-11-06
+1sTGDnMOSEFYMW3zDPYF7M,dislike,Cage The Elephant,Make It Easy,raus,2026-11-06
+5kXvOyOqtJme6oUyqDHbbZ,dislike,Sofia Monroy,El Amor Es Aburrido,raus,2026-11-06
 1FcuNoGjKXQ7XvwuV0B9ke,dislike,Jack Harlow;Babyface,TOO SOON (feat. Babyface),"passt ueberhaupt nicht, null Aehnlichkeit",2026-11-06
-1y4RkrrWmP7X7Sr5gkueim,dislike,Neema Nekesa;Austin Marc,The Light,"fast kein Soul in meinen Charts",2026-11-06
-74lMprSEbZ1swwCOiTGUGm,dislike,Ecco2k,Sky Burial,"raus",2026-11-06
-0yQKZCTATuLTAeg89LccWn,dislike,Kings of Leon,Rose,"raus",2026-11-06
-2CogABm63uPyd2qAo259RW,dislike,Lizzy McAlpine;The Hunger Games,The Wheel - From The Hunger Games: Sunrise on the Reaping - The Album,"raus",2026-11-06
-3JJr1Ws0CybwNYxfY5SgH5,dislike,We Came As Romans;Make Them Suffer,DEAD SILENT,"Metalcore: nie auswaehlen",2026-11-06
+1y4RkrrWmP7X7Sr5gkueim,dislike,Neema Nekesa;Austin Marc,The Light,fast kein Soul in meinen Charts,2026-11-06
+74lMprSEbZ1swwCOiTGUGm,dislike,Ecco2k,Sky Burial,raus,2026-11-06
+0yQKZCTATuLTAeg89LccWn,dislike,Kings of Leon,Rose,raus,2026-11-06
+2CogABm63uPyd2qAo259RW,dislike,Lizzy McAlpine;The Hunger Games,The Wheel - From The Hunger Games: Sunrise on the Reaping - The Album,raus,2026-11-06
+3JJr1Ws0CybwNYxfY5SgH5,dislike,We Came As Romans;Make Them Suffer,DEAD SILENT,Metalcore: nie auswaehlen,2026-11-06
+7CyqGGsu0bV0fvwzQA7z9F,like,Shygirl,Eternal,"behalten in Top-75-Durchsicht, Rang 1 von 20",2026-11-06
+6GLo8QFCRc0cJZdRwYSfrp,like,BOM;Miranda!;Lali,EN ITALIA,"behalten in Top-75-Durchsicht, Rang 2 von 20",2026-11-06
+4W71gGoFVlggStxF27m3nU,like,Dove Cameron,breaks open,"behalten in Top-75-Durchsicht, Rang 3 von 20",2026-11-06
+6HUlCUZK5DzmHIeX8lC3a1,like,daine,White Collar,"behalten in Top-75-Durchsicht, Rang 4 von 20",2026-11-06
+02q72hZq4Ds2pWiBrK8HZo,like,Slayyyter,hey boyyy,"behalten in Top-75-Durchsicht, Rang 5 von 20",2026-11-06
+6GNvsmhrkdPp5skYLq42nY,like,RESCENE,With,"behalten in Top-75-Durchsicht, Rang 6 von 20",2026-11-06
+20eth2UwZL2p2m7zWu33tb,like,IFULKI,Moment,"behalten in Top-75-Durchsicht, Rang 7 von 20",2026-11-06
+0YeK0NtP7eotOxz07eJaLX,like,Rosi,"Taistele, pakene","behalten in Top-75-Durchsicht, Rang 8 von 20",2026-11-06
+2nyJyP0eAg24k8JFGizPIJ,like,Alyssa Grace,washing skin,"behalten in Top-75-Durchsicht, Rang 9 von 20",2026-11-06
+23rcMbTChRPIwtCycyb3E4,like,XG,DEPENDS,"behalten in Top-75-Durchsicht, Rang 10 von 20",2026-11-06
+3P0SZZaWGCH2ODSUUfO6vB,like,JOVI,IMPAS,"behalten in Top-75-Durchsicht, Rang 11 von 20",2026-11-06
+7ArKXOg6lAKARi5xC1QkEZ,like,Nita,Parasolka,"behalten in Top-75-Durchsicht, Rang 12 von 20",2026-11-06
+4HEI5dcVYgBAyIZZp0vKXa,like,Olivia Bay,El amor no está de moda,"behalten in Top-75-Durchsicht, Rang 13 von 20",2026-11-06
+5Rk5KhCnpwntLTILwbaAPf,like,KURT.,GOOD KID.,"behalten in Top-75-Durchsicht, Rang 14 von 20",2026-11-06
+26Jvuu9ac1YtM8dG5VaRuF,like,Cariño,Imagino,"behalten in Top-75-Durchsicht, Rang 15 von 20",2026-11-06
+0jFRmX3j6XHuQZ3oparXDd,like,YAMASHITA TOMOHISA,One More Dance,"behalten in Top-75-Durchsicht, Rang 16 von 20",2026-11-06
+0EjpqnjWFa8nxSnJ7M1SJa,like,Sarah Toscano,Affinché Nessuno Ci Cancelli,"behalten in Top-75-Durchsicht, Rang 17 von 20",2026-11-06
+3SFEZxI9Z18qNGc1KAs3R7,like,Izabela Zabielska,nie wracaj lassie,"behalten in Top-75-Durchsicht, Rang 18 von 20",2026-11-06
+6TlY3Ck6CEWUehVfbr8Lfn,like,Sillyelly,KINK X IL PINK,"behalten in Top-75-Durchsicht, Rang 19 von 20",2026-11-06
+2rF3bQNVKNGKZgc8mmzeQd,like,LAUREL,Bow Down,"behalten in Top-75-Durchsicht, Rang 20 von 20",2026-11-06
+3AMpOnSdrXqi87gaKjPxcl,weak_dislike,"Lasso, Ana Mena",Borracho Otra Vez,aus Top-75-Durchsicht entfernt,2026-11-06
+1415LHNNQk0H9QxA1czv9q,weak_dislike,Ane Brun,Shock Treatment,aus Top-75-Durchsicht entfernt,2026-11-06
+2DnBJyg8Ta31f3z64tPKX4,weak_dislike,LUNA,Ik Hoop Dat Je Huilt,aus Top-75-Durchsicht entfernt,2026-11-06
+7K04ooT8CNK1ZPwiKa9XPo,weak_dislike,Tove Styrke,Look at me,aus Top-75-Durchsicht entfernt,2026-11-06
+58nlyjI5NP7bpZ7afHGuiL,weak_dislike,Love Remain,Shadow Swim,aus Top-75-Durchsicht entfernt,2026-11-06
+04NRUyI8Z1LJyczi3gbvpc,weak_dislike,"Nelli Matula, Jaakko Kulta",Kaksi lensi yli käenpesän - Vain elämää kausi 17,aus Top-75-Durchsicht entfernt,2026-11-06
+2jc9GOMKWlDfjqnPjGIrBr,weak_dislike,Margaret,Połamane skrzydła,aus Top-75-Durchsicht entfernt,2026-11-06
+3oKvVl5AEH2GyHmwHSof8p,weak_dislike,BoA,歩幅,aus Top-75-Durchsicht entfernt,2026-11-06
+3K9BQAQcMQRClXvuHsuuwO,weak_dislike,"Rex Orange County, Brendan Yates",Elvis (feat. Brendan Yates),aus Top-75-Durchsicht entfernt,2026-11-06
+3og7sTs5RJ5hsOxoYSqKe2,weak_dislike,LUNA,Track 1,aus Top-75-Durchsicht entfernt,2026-11-06
+67e7NN5Q1IjyGj3SVPZUCg,weak_dislike,Pania,Heaven Can Wait,aus Top-75-Durchsicht entfernt,2026-11-06
+2tQxtlI8RoU8UyjLijC0zJ,weak_dislike,DWOJE.,Było warto (Kayax Talent Hunt),aus Top-75-Durchsicht entfernt,2026-11-06
+1UqlK0fTOd4a5ocm27n6OF,weak_dislike,Everything Everything,Poison Pop,aus Top-75-Durchsicht entfernt,2026-11-06
+2rhmjUU57blXd38ket5gNE,weak_dislike,"Marlon Hoffstadt, Niko Rubio",Water,aus Top-75-Durchsicht entfernt,2026-11-06
+76NXZbJq6nsXOHR4iJDbZY,weak_dislike,Lil Baby,Mr. Do Something,aus Top-75-Durchsicht entfernt,2026-11-06
+3qS6XGXooGQac24zVRDOrj,weak_dislike,luv,"easy, no way!!",aus Top-75-Durchsicht entfernt,2026-11-06
+4XOiu5FCyjz7TIjeJ9qKle,weak_dislike,Britney Spears,My Big Secret,aus Top-75-Durchsicht entfernt,2026-11-06
+6zhR2wbiqSEZwjP28aHEDY,weak_dislike,Sam Fender,You Can't Always Get What You Want,aus Top-75-Durchsicht entfernt,2026-11-06
+0Ns5tQE90HOGJfyfmRWIrz,weak_dislike,"Aleesha, Maikel Delacalle",LALALA,aus Top-75-Durchsicht entfernt,2026-11-06
+0dQbsj0KMwoaa5xzzx4nwK,weak_dislike,James Blunt,"Hey, People",aus Top-75-Durchsicht entfernt,2026-11-06
+5jojskteXhiCAVOe6WX9hX,weak_dislike,"Charles Doré, Anisha Jo",J'oublierai ton nom,aus Top-75-Durchsicht entfernt,2026-11-06
+55N4eVKoSSdo2nQAL1ORcf,weak_dislike,Koven,sHow me heAVEn,aus Top-75-Durchsicht entfernt,2026-11-06
+6yjP7feIiJafzKx2nDfvaO,weak_dislike,Nordstrøm,Dobbeltgænger,aus Top-75-Durchsicht entfernt,2026-11-06
+3Wqp1uFqEP2yhdj7OnpvGG,weak_dislike,Jennifer Rostock,Alles anders,aus Top-75-Durchsicht entfernt,2026-11-06
+3piymdCmCYONn6VT8mOjlW,weak_dislike,Saya Gray,FERAL CHILD ;-0,aus Top-75-Durchsicht entfernt,2026-11-06
+10K0kDK6vrxIfaButo3K2s,weak_dislike,Leiva,Memoria,aus Top-75-Durchsicht entfernt,2026-11-06
+1rm5dH9ImBKUgpx6xzPdAI,weak_dislike,Dasha,Something To Believe In,aus Top-75-Durchsicht entfernt,2026-11-06
+2roMAjSYH4LosdF1VtvCjy,weak_dislike,"Shenseea, Asake",Playtime,aus Top-75-Durchsicht entfernt,2026-11-06
+20CGzZk4p1bmcWF27GMa2A,weak_dislike,"Julia Wieniawa, Malik Montana",Chwila zapomnienia,aus Top-75-Durchsicht entfernt,2026-11-06
+0wOJD6ahoCXJJzyybnYOX2,weak_dislike,Pinguini Tattici Nucleari,Nella Borsa Di Anna,aus Top-75-Durchsicht entfernt,2026-11-06
+5Sd6rJ8Ew7T6OPk3rVlPAL,weak_dislike,"NISI, Dahili",RÍO,aus Top-75-Durchsicht entfernt,2026-11-06
+2CQhZ1HZd2GrfJKxe1aW9Z,weak_dislike,TWS,Call My Name,aus Top-75-Durchsicht entfernt,2026-11-06
+2XS8lNsfEp19keGZNhdazo,weak_dislike,Zira,Lov Mig Du Venter,aus Top-75-Durchsicht entfernt,2026-11-06
+35mN0UFFpdbPwCmNJlkZl7,weak_dislike,Odet,Raport,aus Top-75-Durchsicht entfernt,2026-11-06
+5kWBBObGHpO26IH4FlQgkE,weak_dislike,Bassvictim,Jagódki (Blueberries),aus Top-75-Durchsicht entfernt,2026-11-06

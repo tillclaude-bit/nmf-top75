@@ -24,8 +24,15 @@ for r in his[~his.track_id.isin(mine.track_id)].itertuples():
                          reason=f"ergaenzt, Rang {r.pos} in eigener Liste", date=date))
 for r in mine[~mine.track_id.isin(his.track_id)].itertuples():
     if r.track_id not in known:
-        rows.append(dict(track_id=r.track_id, signal="dislike", artist=r.artists, title=r.name,
-                         reason="aus Auswahl entfernt", date=date))
+        rows.append(dict(track_id=r.track_id, signal="weak_dislike", artist=r.artists, title=r.name,
+                         reason="aus Auswahl entfernt", date=date))  # Entfernen = schwaches Negativsignal (Till streicht auch Mittelmaessiges)
+# Hat er die Liste deutlich gekuerzt, sind die behaltenen Songs seine Likes
+if len(his) < 0.6 * len(mine):
+    for r in his[his.track_id.isin(mine.track_id)].itertuples():
+        if r.track_id not in known:
+            rows.append(dict(track_id=r.track_id, signal="like", artist=r.artists, title=r.name,
+                             reason=f"behalten, Rang {r.pos} von {len(his)}", date=date))
+            known.add(r.track_id)
 # Gestuftes Ranking: nur wenn die Reihenfolge deutlich von meiner abweicht (er hat sortiert)
 from scipy.stats import spearmanr
 m = his.merge(mine[["track_id", "nr"]], on="track_id")
