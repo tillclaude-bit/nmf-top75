@@ -133,7 +133,12 @@ for _, r in arts.iterrows():
 pool["artist_hits"] = pool.artists.map(lambda a: max([hits.get(t, 0) for t in artist_tokens(a)] or [0]))
 pool["artist"] = np.log1p(pool.artist_hits)
 
-pool["score"] = sum(W[k] * z(pool[k]) for k in W)
+# Breitenbonus nur, wenn der Klang passt (Till, 2026-11-06): bei unterdurchschnittlichem Passungsmass wird ein
+# positiver Breitenbeitrag gedaempft (Faktor 1 + z_taste/2, mindestens 0); Backtest 30.10.: etwas mehr Likes, weniger Dislikes in den Top 75
+_zs = {k: z(pool[k]) for k in W}
+_g = np.clip(1 + _zs["taste"] / 2.0, 0, 1)
+_zs["breadth"] = np.where((_zs["breadth"] > 0) & (_zs["taste"] < 0), _zs["breadth"] * _g, _zs["breadth"])
+pool["score"] = sum(W[k] * _zs[k] for k in W)
 pool.loc[pool.preview_ok != 1, "score"] -= 0.5  # keine Deskriptoren: vorsichtiger Abschlag
 
 # --- Feedback / Ausschluesse
