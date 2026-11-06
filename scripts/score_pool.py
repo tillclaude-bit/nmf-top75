@@ -206,7 +206,9 @@ if _os2.path.exists(_vf):
     print(f"Recherche-Urteile: {len(verdict)} (no: {sum(v == 'no' for v in verdict.values())}, ok: {sum(v == 'ok' for v in verdict.values())}, unsure: {sum(v == 'unsure' for v in verdict.values())})")
 else:
     print("Recherche-Urteile: keine Datei, Auswahl ohne Recherche")
-pool = pool[~pool.track_id.isin(bad)].reset_index(drop=True)
+# Ausschluss gilt fuer alle Spotify-Versionen desselben Songs (gleicher Kuenstler|Titel), nicht nur fuer die markierte Track-ID
+bad_keys = set(pool[pool.track_id.astype(str).isin(bad)].tkey)
+pool = pool[~(pool.track_id.astype(str).isin(bad) | pool.tkey.isin(bad_keys))].reset_index(drop=True)
 
 pool["style_excl"] = ""
 if _os0.path.exists("data/style_rules.csv"):
