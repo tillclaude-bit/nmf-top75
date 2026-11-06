@@ -1,0 +1,769 @@
+rank,selected,quota_pick,lang,score,taste,breadth,pos,artist_hits,track_id,name,artists,n_playlists,best_pos,preview_ok,is_chart,tempo,rms_db_mean,playlists
+1,True,False,unknown,7.928320663630162,-0.7239852456372318,2.6390573296152584,-0.0,2,02q72hZq4Ds2pWiBrK8HZo,hey boyyy,Slayyyter,14,1,0,False,,,New Music Friday UK & Ireland;New Music Friday Deutschland;New Music Friday AU & NZ;New Music Friday France;Novedades Viernes España;New Music Friday Italia;New Music Friday Greece;New Music Friday Denmark;New Music Friday Norway;New Music Friday Sweden;New Music Friday Suomi;New Music Friday Korea;New Music Friday Polska;New Music Friday NL
+2,False,False,en,6.677051342861911,2.029996233982288,0.0,-2.995732273553991,2,3nrUKnd4qaIwHzess0o839,when in rome,Dove Cameron,1,20,1,True,129.19922,-16.81108,New Music Friday AU & NZ
+3,True,False,en,6.103169944531219,1.3058200060891094,0.6931471805599453,-3.1354942159291497,2,2t69PxrYhMSccA0Gm8bOBa,breaks open,Dove Cameron,2,23,1,False,117.45384,-16.55434,New Music Friday Italia;New Music Friday Polska
+4,True,True,pl,5.747401251493031,0.9713434564075443,0.0,-3.1354942159291497,2,7ArKXOg6lAKARi5xC1QkEZ,Parasolka,Nita,1,23,1,False,95.70312,-17.62149,New Music Friday Polska
+5,True,True,ko,5.685786871473749,0.6335555278541949,2.4849066497880004,-1.791759469228055,1,7CyqGGsu0bV0fvwzQA7z9F,Eternal,Shygirl,12,6,1,False,117.45384,-16.14859,New Music Friday UK & Ireland;New Music Friday AU & NZ;New Music Friday France;New Music Friday Italia;New Music Friday Greece;New Music Friday Denmark;New Music Friday Norway;New Music Friday Sweden;New Music Friday Suomi;New Music Friday Korea;New Music Friday Polska;New Music Friday NL
+6,True,True,es,5.386234181689293,2.981784533841991,0.0,-3.1780538303479458,1,3AMpOnSdrXqi87gaKjPxcl,Borracho Otra Vez,"Lasso, Ana Mena",1,24,1,False,129.19922,-18.1564,Novedades Viernes España
+7,True,True,es,4.978307828407404,5.801247866829847,0.0,-4.382026634673881,0,6GLo8QFCRc0cJZdRwYSfrp,EN ITALIA,"BOM, Miranda!, Lali",1,80,1,False,123.04688,-18.69444,Novedades Viernes España
+8,True,True,nl,4.728160619288987,1.9231166739542864,0.0,-2.302585092994046,1,2DnBJyg8Ta31f3z64tPKX4,Ik Hoop Dat Je Huilt,LUNA,1,10,1,False,123.04688,-16.39539,New Music Friday NL
+9,True,False,unknown,4.6842415698465585,-0.7611258336775335,1.3862943611198906,-1.6094379124341003,2,1415LHNNQk0H9QxA1czv9q,Shock Treatment,Ane Brun,4,5,0,False,,,New Music Friday Denmark;New Music Friday Norway;New Music Friday Sweden;New Music Friday Suomi
+10,True,False,en,4.628842543966358,2.9856434667044516,1.0986122886681098,-4.007333185232471,0,2rF3bQNVKNGKZgc8mmzeQd,Bow Down,LAUREL,3,55,1,False,123.04688,-16.14875,New Music Friday UK & Ireland;New Music Friday Sweden;New Music Friday Suomi
+11,True,False,unknown,4.594951719010553,-0.7297111221205599,1.791759469228055,-0.0,1,7K04ooT8CNK1ZPwiKa9XPo,Look at me,Tove Styrke,6,1,0,False,,,New Music Friday UK & Ireland;New Music Friday Deutschland;New Music Friday Denmark;New Music Friday Norway;New Music Friday Sweden;New Music Friday Suomi
+12,True,False,unknown,4.245154581872506,-0.7873043024057914,0.0,-0.6931471805599453,2,04NRUyI8Z1LJyczi3gbvpc,Kaksi lensi yli käenpesän - Vain elämää kausi 17,"Nelli Matula, Jaakko Kulta",1,2,0,False,,,New Music Friday Suomi
+13,True,True,es,4.132741185924226,1.6850241143330993,0.0,-3.912023005428146,1,4HEI5dcVYgBAyIZZp0vKXa,El amor no está de moda,Olivia Bay,1,50,1,False,107.66602,-17.66298,Novedades Viernes España
+14,True,False,unknown,3.972257673177553,4.526258261489662,0.0,-4.189654742026425,0,58nlyjI5NP7bpZ7afHGuiL,Shadow Swim,Love Remain,1,66,1,False,123.04688,-16.09199,New Music Friday UK & Ireland
+15,True,False,unknown,3.877728761583195,-0.7817707910761851,2.0794415416798357,-2.5649493574615367,1,2nyJyP0eAg24k8JFGizPIJ,washing skin,Alyssa Grace,8,13,0,False,,,New Music Friday Deutschland;New Music Friday AU & NZ;New Music Friday Greece;New Music Friday Denmark;New Music Friday Norway;New Music Friday Suomi;New Music Friday Korea;New Music Friday NL
+16,False,False,en,3.862652285176828,1.1038457139553337,0.0,-2.8903717578961645,1,3euSjq80NLhMubWCmg63fE,bloodstream,Alyssa Grace,1,18,1,True,103.35938,-16.88971,New Music Friday Sweden
+17,True,False,unknown,3.452051195649397,-0.7239852456372318,2.3978952727983707,-2.4849066497880004,0,4XOiu5FCyjz7TIjeJ9qKle,My Big Secret,Britney Spears,11,12,0,False,,,New Music Friday UK & Ireland;New Music Friday Deutschland;New Music Friday France;New Music Friday Italia;New Music Friday Greece;New Music Friday Denmark;New Music Friday Sweden;New Music Friday Suomi;New Music Friday Korea;New Music Friday Polska;New Music Friday NL
+18,True,True,ja,3.0556607041682624,2.3122609395903533,0.0,-3.8066624897703196,0,3oKvVl5AEH2GyHmwHSof8p,歩幅,BoA,1,45,1,False,112.34715,-17.71695,New Music Friday Korea
+19,True,False,unknown,3.037802795235674,-0.8067429665510699,2.4849066497880004,-1.0986122886681098,0,3K9BQAQcMQRClXvuHsuuwO,Elvis (feat. Brendan Yates),"Rex Orange County, Brendan Yates",12,3,0,False,,,New Music Friday UK & Ireland;New Music Friday Deutschland;New Music Friday AU & NZ;New Music Friday France;New Music Friday Greece;New Music Friday Denmark;New Music Friday Norway;New Music Friday Sweden;New Music Friday Suomi;New Music Friday Korea;New Music Friday Polska;New Music Friday NL
+20,True,False,unknown,2.984366848820935,-0.7611258336775335,2.3978952727983707,-2.9444389791664403,0,0dQbsj0KMwoaa5xzzx4nwK,"Hey, People",James Blunt,11,19,0,False,,,New Music Friday UK & Ireland;New Music Friday Deutschland;New Music Friday France;New Music Friday Greece;New Music Friday Denmark;New Music Friday Norway;New Music Friday Sweden;New Music Friday Suomi;New Music Friday Korea;New Music Friday Polska;New Music Friday NL
+21,True,True,ko,2.927905352390163,1.4076339535028706,0.0,-0.0,0,6GNvsmhrkdPp5skYLq42nY,With,RESCENE,1,1,1,False,107.66602,-17.24617,New Music Friday Korea
+22,True,False,unknown,2.7169356627302164,-0.7880112925734104,0.0,-1.0986122886681098,1,2jc9GOMKWlDfjqnPjGIrBr,Połamane skrzydła,Margaret,1,3,0,False,,,New Music Friday Polska
+23,True,False,unknown,2.3072306483875344,-0.7671098866643628,1.6094379124341003,-2.4849066497880004,0,6dwEUTQ8cwx6EDfJqGwK90,Morning Shall Come,"AURORA, Bear McCreary",5,12,0,False,,,New Music Friday Denmark;New Music Friday Norway;New Music Friday Sweden;New Music Friday Suomi;New Music Friday Korea
+24,True,False,en,2.2988753275496485,1.539990298485001,0.6931471805599453,-3.6635616461296463,0,5Rk5KhCnpwntLTILwbaAPf,GOOD KID.,KURT.,2,39,1,False,161.49902,-15.26928,New Music Friday Denmark;New Music Friday Sweden
+25,True,True,ko,2.2928334999513647,2.336456756660875,0.0,-3.6635616461296463,0,0jFRmX3j6XHuQZ3oparXDd,One More Dance,YAMASHITA TOMOHISA,1,39,1,False,123.04688,-17.86103,New Music Friday Korea
+26,True,False,unknown,2.2595888835932287,-0.7297111221205599,2.0794415416798357,-1.6094379124341003,0,23rcMbTChRPIwtCycyb3E4,DEPENDS,XG,8,5,0,False,,,New Music Friday AU & NZ;New Music Friday Greece;New Music Friday Denmark;New Music Friday Norway;New Music Friday Sweden;New Music Friday Suomi;New Music Friday Korea;New Music Friday Polska
+27,True,True,pl,2.179044195842591,0.29834705324840016,0.0,-0.0,0,20CGzZk4p1bmcWF27GMa2A,Chwila zapomnienia,"Julia Wieniawa, Malik Montana",1,1,1,False,129.19922,-16.10757,New Music Friday Polska
+28,False,False,unknown,2.0981474928494475,-0.7611258336775335,0.0,-1.9459101490553132,1,3og7sTs5RJ5hsOxoYSqKe2,Track 1,LUNA,1,7,0,False,,,New Music Friday Deutschland
+29,True,False,en,2.063561026091646,1.8101666859192962,0.0,-2.833213344056216,0,67e7NN5Q1IjyGj3SVPZUCg,Heaven Can Wait,Pania,1,17,1,False,95.70312,-16.71943,New Music Friday AU & NZ
+30,True,True,pl,2.059092335286018,1.0890332526642064,0.0,-3.8918202981106265,0,5kWBBObGHpO26IH4FlQgkE,Jagódki (Blueberries),Bassvictim,1,49,1,False,151.99908,-16.82617,New Music Friday UK & Ireland
+31,True,True,it,2.026912952057346,0.48087349233319604,0.0,-0.6931471805599453,0,0wOJD6ahoCXJJzyybnYOX2,Nella Borsa Di Anna,Pinguini Tattici Nucleari,1,2,1,False,151.99908,-16.08015,New Music Friday Italia
+32,True,True,pl,1.9682132556326404,2.2041257279975452,0.0,-4.532599493153256,0,2tQxtlI8RoU8UyjLijC0zJ,Było warto (Kayax Talent Hunt),DWOJE.,1,93,1,False,123.04688,-16.7019,New Music Friday Polska
+33,True,False,en,1.9556176569876083,0.5660409102142849,1.0986122886681098,-3.4011973816621555,0,1UqlK0fTOd4a5ocm27n6OF,Poison Pop,Everything Everything,3,30,1,False,129.19922,-16.57825,New Music Friday UK & Ireland;New Music Friday Italia;New Music Friday NL
+34,True,False,unknown,1.9285973054195646,-0.7297111221205599,2.1972245773362196,-1.3862943611198906,0,2rhmjUU57blXd38ket5gNE,Water,"Marlon Hoffstadt, Niko Rubio",9,4,0,False,,,New Music Friday Deutschland;New Music Friday AU & NZ;New Music Friday France;New Music Friday Italia;New Music Friday Denmark;New Music Friday Norway;New Music Friday Sweden;New Music Friday Suomi;New Music Friday NL
+35,True,False,unknown,1.9104004551838623,-0.7611258336775335,0.0,-2.0794415416798357,1,0YeK0NtP7eotOxz07eJaLX,Track 8,Rosi,1,8,0,False,,,New Music Friday Suomi
+36,True,False,unknown,1.8761488656326604,1.8544745304070487,0.0,-3.7376696182833684,0,3qS6XGXooGQac24zVRDOrj,"easy, no way!!",luv,1,42,1,False,123.04688,-17.02766,New Music Friday Korea
+37,True,True,es,1.7947038317041606,1.6550793746789223,0.0,-3.4011973816621555,0,26Jvuu9ac1YtM8dG5VaRuF,Imagino,Cariño,1,30,1,False,143.55469,-16.87325,Novedades Viernes España
+38,False,False,en,1.7533399655501793,-1.4429322226322705,2.302585092994046,-2.9444389791664403,0,3piymdCmCYONn6VT8mOjlW,FERAL CHILD ;-0,Saya Gray,10,19,1,False,129.19922,-16.4203,New Music Friday UK & Ireland;New Music Friday AU & NZ;New Music Friday France;New Music Friday Italia;New Music Friday Denmark;New Music Friday Norway;New Music Friday Sweden;New Music Friday Suomi;New Music Friday Korea;New Music Friday NL
+39,True,False,unknown,1.7330474449974917,-0.7611258336775335,1.9459101490553132,-1.0986122886681098,0,6HUlCUZK5DzmHIeX8lC3a1,White Collar,daine,7,3,0,False,,,New Music Friday UK & Ireland;New Music Friday AU & NZ;New Music Friday France;New Music Friday Denmark;New Music Friday Norway;New Music Friday Sweden;New Music Friday Suomi
+40,True,True,es,1.7259774121555147,1.7309566564656071,0.0,-3.9318256327243257,0,0Ns5tQE90HOGJfyfmRWIrz,LALALA,"Aleesha, Maikel Delacalle",1,51,1,False,151.99908,-16.73045,Novedades Viernes España
+41,True,True,fr,1.6737406813150704,1.8100821724460476,0.0,-4.406719247264253,0,5jojskteXhiCAVOe6WX9hX,J'oublierai ton nom,"Charles Doré, Anisha Jo",1,82,1,False,129.19922,-17.40207,New Music Friday France
+42,False,False,unknown,1.6274114155050317,-0.7239852456372318,0.0,-3.970291913552122,1,13bvOqa51xIYWBcOmjOrIk,Look at me,Tove Styrke,1,53,0,False,,,New Music Friday Korea
+43,True,False,en,1.6257084197406424,0.7981779876731452,0.0,-3.1780538303479458,0,7CaUJD3n3BJxWkWmIbaJqV,Baby Dopamine,Katerine Duska,1,24,1,False,129.19922,-17.0722,New Music Friday Greece
+44,True,True,de,1.6184672158979219,1.4282552805062312,0.0,-3.5263605246161616,0,3Wqp1uFqEP2yhdj7OnpvGG,Alles anders,Jennifer Rostock,1,34,1,False,123.04688,-17.86617,New Music Friday Deutschland
+45,True,False,en,1.618247412840941,0.3085175704043744,0.6931471805599453,-2.302585092994046,0,20eth2UwZL2p2m7zWu33tb,Moment,IFULKI,2,10,1,False,143.55469,-17.73005,New Music Friday UK & Ireland;New Music Friday NL
+46,True,True,da,1.5938600576962634,1.5056792496659086,0.0,-3.713572066704308,0,6yjP7feIiJafzKx2nDfvaO,Dobbeltgænger,Nordstrøm,1,41,1,False,129.19922,-16.17779,New Music Friday Denmark
+47,True,True,it,1.5893449209748447,1.1988461986125545,0.0,-2.70805020110221,0,6TlY3Ck6CEWUehVfbr8Lfn,KINK X IL PINK,Sillyelly,1,15,1,False,151.99908,-17.82557,New Music Friday Italia
+48,True,True,pl,1.5849129152095767,1.5091279246999239,0.0,-3.7612001156935624,0,3SFEZxI9Z18qNGc1KAs3R7,nie wracaj lassie,Izabela Zabielska,1,43,1,False,103.35938,-17.72837,New Music Friday Polska
+49,True,False,unknown,1.5655814493046605,-0.7239852456372318,1.6094379124341003,-2.70805020110221,0,57QLRAvrHOIkoU8yAU5WnZ,Good Faith,Sam Barber,5,15,0,False,,,New Music Friday AU & NZ;New Music Friday France;New Music Friday Denmark;New Music Friday Sweden;New Music Friday Suomi
+50,False,False,en,1.537516830816368,-0.36587337433215106,1.0986122886681098,-1.0986122886681098,0,6zhR2wbiqSEZwjP28aHEDY,You Can't Always Get What You Want,Sam Fender,3,3,1,False,107.66602,-16.57343,New Music Friday UK & Ireland;New Music Friday Norway;New Music Friday NL
+51,True,False,unknown,1.5315075637751496,-0.7873043024057914,2.1972245773362196,-2.8903717578961645,0,1I0sZGVFzmh4OgrpMNHEZP,Track 14,Passenger,9,18,0,False,,,New Music Friday UK & Ireland;New Music Friday Deutschland;New Music Friday AU & NZ;New Music Friday France;New Music Friday Greece;New Music Friday Denmark;New Music Friday Sweden;New Music Friday Korea;New Music Friday NL
+52,True,False,unknown,1.5285422429735975,-0.7239852456372317,0.0,-4.3694478524670215,1,1rm5dH9ImBKUgpx6xzPdAI,Something To Believe In,Dasha,1,79,0,False,,,New Music Friday NL
+53,True,False,unknown,1.520794740302148,-0.7239852456372318,1.9459101490553132,-2.0794415416798357,0,2roMAjSYH4LosdF1VtvCjy,Playtime,"Shenseea, Asake",7,8,0,False,,,New Music Friday UK & Ireland;New Music Friday AU & NZ;New Music Friday France;New Music Friday Denmark;New Music Friday Sweden;New Music Friday Suomi;New Music Friday NL
+54,True,False,en,1.5034560709581783,1.4035117167089004,0.0,-3.7376696182833684,0,1J4idnXaAMDciYxObpIJ9T,ME + U,Dylan Atlantis,1,42,1,False,99.38401,-15.11539,New Music Friday AU & NZ
+55,True,False,unknown,1.501442429119383,1.2205943676760185,0.0,-3.1354942159291497,0,1so0w64iWBDvUDqjinTXAl,MOSQUITO,Ultraligera,1,23,1,False,117.45384,-17.65072,Novedades Viernes España
+56,True,False,unknown,1.5005753675870661,-0.7817707910761851,2.0794415416798357,-2.4849066497880004,0,2zEijNLi5hVvLXiHCgbsqu,LOCKED IN (feat. Nono La Grinta),"Nemzzz, Nono La Grinta",8,12,0,False,,,New Music Friday UK & Ireland;New Music Friday AU & NZ;New Music Friday France;New Music Friday Denmark;New Music Friday Norway;New Music Friday Sweden;New Music Friday Suomi;New Music Friday NL
+57,True,False,unknown,1.4918524479783213,-0.7873043024057914,1.791759469228055,-3.9512437185814275,0,5afeeD2PkqFC3qEez2aRto,Night Vision,La Roux,6,52,0,False,,,New Music Friday UK & Ireland;New Music Friday Deutschland;New Music Friday France;New Music Friday Italia;New Music Friday Norway;New Music Friday NL
+58,True,False,en,1.488010664522372,1.5075059173445904,0.0,-3.6888794541139363,0,55N4eVKoSSdo2nQAL1ORcf,sHow me heAVEn,Koven,1,40,1,False,172.26562,-17.02794,New Music Friday UK & Ireland
+59,True,True,es,1.4436691625688647,0.8707842209040235,0.0,-1.791759469228055,0,10K0kDK6vrxIfaButo3K2s,Memoria,Leiva,1,6,1,False,123.04688,-16.48923,Novedades Viernes España
+60,True,True,fr,1.4102852574282534,0.5783353716840238,0.0,-3.9318256327243257,0,5jq1eujl7TXy00gCWsprGF,Salma ya Salama,Jenifer,1,51,1,False,99.38401,-16.78549,New Music Friday France
+61,True,True,ko,1.4091113886053255,0.9381632510276896,0.0,-3.4965075614664802,0,0M3FPjAzIlSz5HVyHMC5gg,Letter to me,Punch,1,33,1,False,107.66602,-18.98132,New Music Friday Korea
+62,True,False,en,1.375138323967332,1.4450921618158061,0.0,-4.394449154672439,0,0w52QD7J9TfnYU6ZTxeTXr,Sexy When I Cry,Sabyna,1,81,1,False,129.19922,-15.71552,New Music Friday UK & Ireland
+63,False,False,es,1.3360539995662561,-0.8899299638697555,0.0,-4.219507705176107,0,3zFTDsEyggf19kagkUulCL,Promesas,"Marina, Moncho Chavea",1,68,1,False,95.70312,-17.40632,Novedades Viernes España
+64,True,True,es,1.3266318867598526,1.3789055252296234,0.0,-4.3694478524670215,0,5Sd6rJ8Ew7T6OPk3rVlPAL,RÍO,"NISI, Dahili",1,79,1,False,107.66602,-18.16804,Novedades Viernes España
+65,True,False,unknown,1.3161986694055932,-0.7891203879307643,1.6094379124341003,-1.3862943611198906,0,3Yn80jpGklseXdxuO34g7W,Pale and Brief,Coco O.,5,4,0,False,,,New Music Friday AU & NZ;New Music Friday Denmark;New Music Friday Norway;New Music Friday Sweden;New Music Friday Suomi
+66,True,False,unknown,1.2884088378979903,-0.7817707910761851,0.6931471805599453,-1.791759469228055,0,4DLTwEDeuydMP30yHSjNtZ,She's Back,ALICJA,2,6,0,False,,,New Music Friday Korea;New Music Friday Polska
+67,True,False,en,1.2878034098654498,1.1279462450926179,0.0,-3.6888794541139363,0,7LjB65lhMbIUWkf0hd6jtM,call back,Nameless Kids,1,40,1,False,95.70312,-17.44984,New Music Friday Korea
+68,True,True,da,1.2699699707689898,0.5839740507497482,0.0,-1.9459101490553132,0,2XS8lNsfEp19keGZNhdazo,Lov Mig Du Venter,Zira,1,7,1,False,135.99918,-17.13731,New Music Friday Denmark
+69,True,False,unknown,1.2594764079094902,-0.8067429665510699,1.3862943611198906,-0.6931471805599453,0,0lMmT7EMxbkxLiG7mwpC5z,Track 2,DMA'S,4,2,0,False,,,New Music Friday UK & Ireland;New Music Friday AU & NZ;New Music Friday Italia;New Music Friday Suomi
+70,True,True,pl,1.246288563602366,1.3207604798600612,0.0,-4.499809670330265,0,3P0SZZaWGCH2ODSUUfO6vB,IMPAS,JOVI,1,90,1,False,117.45384,-16.57271,New Music Friday Polska
+71,True,True,it,1.2461846263130512,0.44948964308280265,0.0,-1.791759469228055,0,0EjpqnjWFa8nxSnJ7M1SJa,Affinché Nessuno Ci Cancelli,Sarah Toscano,1,6,1,False,129.19922,-15.33011,New Music Friday Italia
+72,True,False,en,1.238592261668473,0.0005457803231632696,1.0986122886681098,-3.7376696182833684,0,0RWObFtXnP27I1XHL7pc2a,Closer,Shout Out Louds,3,42,1,False,117.45384,-16.95497,New Music Friday Denmark;New Music Friday Sweden;New Music Friday Suomi
+73,True,True,ko,1.2332822396631729,0.7054697900570261,0.0,-2.1972245773362196,0,2CQhZ1HZd2GrfJKxe1aW9Z,Call My Name,TWS,1,9,1,False,112.34715,-17.02015,New Music Friday Korea
+74,True,False,unknown,1.233265915104874,0.0017223617548168813,0.6931471805599453,-2.833213344056216,0,7czDMYoS1wy02sqmvI46mR,Pilots Licence,Dermot Henry,2,17,1,False,112.34715,-16.69878,New Music Friday UK & Ireland;New Music Friday NL
+75,True,False,en,1.2331266825787288,0.07882906193323863,0.6931471805599453,-3.091042453358316,0,1T3rqTJmUAqEb3zevVY8Fr,Say Less,Joshua Idehen,2,22,1,False,117.45384,-15.22514,New Music Friday Sweden;New Music Friday Suomi
+76,True,False,en,1.232521464979561,0.21725595567546446,0.6931471805599453,-3.5553480614894135,0,6TOiGioOU8M1tw2Hs8so8W,honestygirl,Zoumer,2,35,1,False,123.04688,-13.33413,New Music Friday Denmark;New Music Friday Sweden
+77,True,True,pl,1.2219052836159146,0.9619861659580409,0.0,-3.4011973816621555,0,35mN0UFFpdbPwCmNJlkZl7,Raport,Odet,1,30,1,False,112.34715,-17.2226,New Music Friday Polska
+78,True,True,es,1.206539208500415,0.7250020121975302,0.0,-4.189654742026425,0,30RQ0dBEbRWaIxb8Sfq9pa,Chulalai,"Kenia Os, El Bogueto",1,66,1,False,172.26562,-16.15114,Novedades Viernes España
+79,True,False,unknown,1.1989773836851196,-0.7891203879307643,1.791759469228055,-2.5649493574615367,0,5tv0vXUn1l1zjc1mgwmmKh,Still a body,Chezka,6,13,0,False,,,New Music Friday Deutschland;New Music Friday AU & NZ;New Music Friday Italia;New Music Friday Greece;New Music Friday Suomi;New Music Friday Korea
+80,True,True,it,1.1750421561787912,0.78375736008448,0.0,-2.995732273553991,0,2MmIB4Z96yrGXJIY8laqbO,Não tenho medo :),Yaraki,1,20,1,False,107.66602,-17.50645,New Music Friday Italia
+81,True,False,unknown,1.1711629746995251,-0.7671098866643628,1.0986122886681098,-3.1354942159291497,0,5RbhZUHxGRdZkpJ7FH0sph,Track 1,RANI,3,23,0,False,,,New Music Friday Deutschland;New Music Friday France;New Music Friday NL
+82,True,False,unknown,1.164551239663248,-0.8067429665510699,2.0794415416798357,-3.295836866004329,0,4MOPyeRAt2S2VobQjA47f3,GO 2 WAR,Jessie Reyez,8,27,0,False,,,New Music Friday AU & NZ;New Music Friday France;New Music Friday Greece;New Music Friday Denmark;New Music Friday Norway;New Music Friday Sweden;New Music Friday Suomi;New Music Friday Korea
+83,False,False,en,1.1534544494589303,-0.07771926557341796,0.6931471805599453,-2.8903717578961645,0,2mYWt5RW0iigksPotprfc1,eternity,Molly Payton,2,18,1,False,135.99918,-17.95011,New Music Friday UK & Ireland;New Music Friday AU & NZ
+84,False,False,en,1.1529583556516048,1.1649403673825658,0.0,-4.356708826689592,0,2Bbpq1foFri3qn8KkQSPq2,CAVITIES,"Darby, STRAWBRY",1,78,1,False,143.55469,-16.91475,New Music Friday AU & NZ
+85,False,False,en,1.1329133927902066,1.180226342078134,0.0,-4.48863636973214,0,1dHttvTWyZpPzy6gInyZmj,Roadkill,Katie Gregson-MacLeod,1,89,1,False,151.99908,-15.5685,New Music Friday UK & Ireland
+86,False,False,pl,1.1106733093635226,0.29037747905741645,0.0,-1.6094379124341003,0,7Fc2RgdJThDPlp3z0XHmkt,Red Alabaster (Intro),Young Multi,1,5,1,False,143.55469,-14.3067,New Music Friday Polska
+87,False,False,en,1.1016670850289987,0.7958183059732924,0.0,-3.332204510175204,0,5vUb0HVaM23wWt0hoPab1a,Who Can I Turn To,PREP,1,28,1,False,123.04688,-16.45637,New Music Friday Korea
+88,False,False,es,1.0893799201893657,0.6647316586822218,0.0,-2.9444389791664403,0,0R17eqNyMaqzuIQ7uiPtWI,Pa Que Se La Gocen - Glorious Track,"Kaydy Cain, JAKOBB",1,19,1,False,92.28516,-16.82291,Novedades Viernes España
+89,False,False,en,1.0718497595014278,0.20837638662648744,0.6931471805599453,-4.174387269895637,0,3I71JlX8SqX4YFVbxfAPtI,Look to the Moon,Purple Pilgrims,2,65,1,False,161.49902,-17.77872,New Music Friday UK & Ireland;New Music Friday Norway
+90,False,False,unknown,1.071563802428519,-0.7239852456372318,1.0986122886681098,-0.0,0,1RmBkMzT0VUNI5Fi97Yrob,Honesty,"Scarlet Pleasure, Giift",3,1,0,False,,,New Music Friday Denmark;New Music Friday Norway;New Music Friday Sweden
+91,False,False,fr,1.0606510577490473,-0.3687120651398329,0.0,-2.302585092994046,0,0ZSNeztLgSovD9ZuI3pHaq,Toi ou la Mer,Feu! Chatterton,1,10,1,False,151.99908,-16.15306,New Music Friday France
+92,False,False,ja,1.0299852234812579,0.7672737927414925,0.0,-3.5263605246161616,0,1DylgKBuLrlohfQJcRl6eE,Shinka,Ado,1,34,1,False,129.19922,-18.64799,New Music Friday Korea
+93,False,False,en,1.0231599819546953,0.9390759227040957,0.0,-4.127134385045092,0,2tUG60GZjYMbZTYFBBSvw7,WANT,Another Country $$$$,1,62,1,False,151.99908,-16.51904,New Music Friday UK & Ireland
+94,False,False,es,1.010710259146675,0.7023173646155383,0.0,-2.772588722239781,0,0bsb9BGRInq2XnRLOCn1Zc,Cosas del amor,Camela,1,16,1,False,95.70312,-17.38529,Novedades Viernes España
+95,False,False,unknown,0.9823084675921172,-0.720743024399898,0.6931471805599453,-1.6094379124341003,0,5MA0AMoM38Nx7tNZFdUYUA,Mirage,Omar Rudberg,2,5,0,False,,,New Music Friday Sweden;New Music Friday Suomi
+96,False,False,unknown,0.9487025790302264,0.4236611743089514,0.0,-2.70805020110221,0,5Z7D0AssXUHuYFnXsp3RyS,Question Mark,HANRORO,1,15,1,False,86.13281,-17.46615,New Music Friday Korea
+97,False,False,unknown,0.9329054216956685,-0.7891203879307643,1.0986122886681098,-2.9444389791664403,0,1G8XLeXdtscwDHX89pidGR,Pollination,Skott,3,19,0,False,,,New Music Friday Denmark;New Music Friday Sweden;New Music Friday Korea
+98,False,False,nl,0.924018831313409,0.716328342839071,0.0,-3.784189633918261,0,5VXbzZZQAemCYoNuullSOt,Neem Me Mee,Julia Kleijn,1,44,1,False,129.19922,-14.90115,New Music Friday NL
+99,False,False,pl,0.9212871233996003,0.36980996207509237,0.0,-2.6390573296152584,0,2XbREMxsoeRTxkS5PQz3GN,Terima Kasih,"DrySkull, Błażej Król",1,14,1,False,135.99918,-15.41305,New Music Friday Polska
+100,False,False,unknown,0.9160973848101026,-0.8067429665510699,1.3862943611198906,-2.0794415416798357,0,3aLDkLDk8ef2va9Lpg23hD,Perfect,Emelie Trahan,4,8,0,False,,,New Music Friday France;New Music Friday Denmark;New Music Friday Norway;New Music Friday Sweden
+101,False,False,unknown,0.9082914126804784,-0.720743024399898,1.3862943611198906,-2.3978952727983707,0,76E1JjXTpcpEfkBNpPpITW,I like to be disappointed by you,JÁNA,4,11,0,False,,,New Music Friday Denmark;New Music Friday Norway;New Music Friday Sweden;New Music Friday Suomi
+102,False,False,ja,0.9066891578249965,0.23694570776304885,0.0,-3.828641396489095,0,1CZpiMAkqVZaLt6Vp1NPiW,See You,tripleS,1,46,1,False,172.26562,-17.50306,New Music Friday Korea
+103,False,False,unknown,0.8813014680098725,0.8984647990280215,0.0,-4.564348191467836,0,6ALwG84OOitEvkAK8Kf7Hl,Safe Place,"OS.SO, Michał Kowalski, Greg Lapinski",1,96,1,False,143.55469,-15.2489,New Music Friday Polska
+104,False,False,es,0.8732424233531376,0.10392889395920363,0.0,-1.9459101490553132,0,2pqccEUjg4PrPHodtpaYcs,Mi colección de duelos,Vetusta Morla,1,7,1,False,123.04688,-16.98951,Novedades Viernes España
+105,False,False,unknown,0.8657339136063849,-0.7891203879307643,1.9459101490553132,-3.1780538303479458,0,3IWZTh5IP1bcrJoTLu4hWH,Rising Up,"Carlita, Cleo Simone",7,24,0,False,,,New Music Friday AU & NZ;New Music Friday France;New Music Friday Italia;New Music Friday Denmark;New Music Friday Norway;New Music Friday Sweden;New Music Friday Korea
+106,False,False,en,0.8579967869167968,0.8542345065349926,0.0,-4.51085950651685,0,2CfGgQc1ooi0lxeqyRDnn2,Just Like That,Silver Gore,1,91,1,False,143.55469,-16.04614,New Music Friday UK & Ireland
+107,False,False,en,0.8483662919729222,-0.12552586505321628,0.0,-4.543294782270004,0,4xhhCTIxo5GZR2LjIuh2pp,Tip of My Tongue,Big Softy,1,94,1,False,92.28516,-18.64316,New Music Friday UK & Ireland
+108,False,False,unknown,0.8365920369248858,-0.7880112925734104,1.9459101490553132,-2.302585092994046,0,3oiFhiHsLKdWjsQpHWmwhz,TESORIIITO,Nicky Jam,7,10,0,False,,,New Music Friday Deutschland;New Music Friday France;Novedades Viernes España;New Music Friday Italia;New Music Friday Greece;New Music Friday Norway;New Music Friday NL
+109,False,False,unknown,0.81793635922445,0.17247446797103755,0.0,-2.3978952727983707,0,2adYJHk0xOBk4AXBAOoH2W,Palę się,"Holak, SHDØW",1,11,1,False,117.45384,-16.47127,New Music Friday Polska
+110,False,False,es,0.8043749662339068,0.6543550080770073,0.0,-4.060443010546419,0,0Dbcv5NW0ZkBVxfJ8vRSvx,Era yo la que apuntaba,Las Petunias,1,58,1,False,129.19922,-17.302,Novedades Viernes España
+111,False,False,el,0.7957806273095428,0.5934170483960124,0.0,-3.8918202981106265,0,2SOTJrBFLCR8WkUs9tD94f,IRO!NI,Vemily,1,49,1,False,129.19922,-17.11252,New Music Friday Greece
+112,False,False,en,0.7818754591822686,-0.34669120297471756,0.0,-3.9318256327243257,0,1R8uHuQGQAuslKdmypbZNQ,shut me up!,"Charlie Pittman, Charley",1,51,1,False,99.38401,-16.92161,New Music Friday AU & NZ
+113,False,False,unknown,0.7603937814210651,-0.8067429665510699,1.3862943611198906,-2.70805020110221,0,2vaDXEwnLHbnNtmf0o9NhS,On And On,Jubël,4,15,0,False,,,New Music Friday Denmark;New Music Friday Norway;New Music Friday Sweden;New Music Friday Suomi
+114,False,False,nl,0.751562450949115,-0.41877682515809467,0.0,-0.6931471805599453,0,3urXPhe8sZOz3yVAr3Z1H4,Waar Ben Jij,Rutger van Barneveld,1,2,1,False,135.99918,-17.99528,New Music Friday NL
+115,False,False,unknown,0.722694757859082,0.428784549987187,0.0,-3.6375861597263857,0,5b9sdOfsG30qP4ig5zYwDh,Traces,Michael Kaneko,1,38,1,False,129.19922,-16.43254,New Music Friday Korea
+116,False,False,unknown,0.7223653296651644,-0.7611258336775335,0.0,-0.0,0,08vkNt7YE2roKvCANAUqXO,Lucky Me,"Isac Elliot, Mikael Gabriel",1,1,0,False,,,New Music Friday Suomi
+117,False,False,el,0.7182493020095002,0.4072007535396493,0.0,-3.58351893845611,0,39enbnaehlh32bQ5zztfXS,Oi Dyo Pio Eutixismenoi Anthropoi Sti Gi,"Manolis Famellos, Mariza Rizou",1,36,1,False,117.45384,-17.35763,New Music Friday Greece
+118,False,False,en,0.6782344228583889,0.29199772792314677,0.0,-4.276666119016055,0,0pWg08rBtNbmc9CSoChvZW,House Music,Airwolf Paradise,1,72,1,False,135.99918,-18.82792,New Music Friday AU & NZ
+119,False,False,unknown,0.674674098159296,-0.7239852456372318,0.6931471805599453,-2.5649493574615367,0,2Um8KlpkHZ1OlnFvZe2xaF,Retro Mirage,"Gabry Ponte, DJs From Mars, Damae",2,13,0,False,,,New Music Friday France;New Music Friday Italia
+120,False,False,ja,0.6579977494213615,0.3425075174487628,0.0,-3.6109179126442243,0,73PjaJWkRvlTqGekbZ3rjZ,僕らの事にさせて (Prod. Vaundy),"Jeremy Quartus, Vaundy",1,37,1,False,117.45384,-17.42333,New Music Friday Korea
+121,False,False,unknown,0.6562489738961655,0.002909353960846739,0.0,-2.4849066497880004,0,3gU1uRuFRxwBjbeBXj9AnV,Kragion,Sakis Rouvas,1,12,1,False,129.19922,-13.80515,New Music Friday Greece
+122,False,False,en,0.6397365193094631,-0.0717153669384652,0.0,-2.302585092994046,0,6QwvZiYsfbndQd72JE07ih,Blink,Odette,1,10,1,False,112.34715,-17.36116,New Music Friday AU & NZ
+123,False,False,en,0.6120444039822801,-0.6042191618651827,0.6931471805599453,-3.828641396489095,0,0qNaUIRzOcpqlrVQEkVB7m,Clean Slate,Frameworks,2,46,1,False,117.45384,-16.60071,New Music Friday UK & Ireland;New Music Friday Suomi
+124,False,False,pl,0.6013122368690138,0.5232000646054331,0.0,-4.442651256490317,0,6GA9gCj2RFc0FDWBAq3kNn,To mnie najbardziej Ci brak,Saszan,1,85,1,False,123.04688,-16.83581,New Music Friday Polska
+125,False,False,es,0.5867513476962206,0.3215534328360135,0.0,-3.828641396489095,0,3bU97egdRHkr69dGu4clrf,Pobre de mí,Juanjo Bona,1,46,1,False,117.45384,-17.48765,Novedades Viernes España
+126,False,False,en,0.5745823869148532,-1.1760389572753758,1.6094379124341003,-2.6390573296152584,0,219b8va1KpTSrCxI7djbDF,Disappear (feat. Sissa),"Adriatique, Sissa",5,14,1,False,129.19922,-17.98569,New Music Friday Deutschland;New Music Friday France;New Music Friday Denmark;New Music Friday Norway;New Music Friday Sweden
+127,False,False,es,0.5707575231814475,0.47545913824424196,0.0,-4.406719247264253,0,3KavB9Dq44BTTWQ4HXqS72,PELIGRO,Manu Torres,1,82,1,False,117.45384,-14.71186,Novedades Viernes España
+128,False,False,unknown,0.5703571070528749,0.036707743194418885,0.0,-2.9444389791664403,0,1FrX7wkdHph4s5pcWR8RcA,zimne jabłko,shama,1,19,1,False,92.28516,-17.5432,New Music Friday Polska
+129,False,False,unknown,0.5664589371152102,-0.8067429665510699,2.302585092994046,-1.6094379124341003,0,76NXZbJq6nsXOHR4iJDbZY,Mr. Do Something,Lil Baby,10,5,0,False,,,New Music Friday UK & Ireland;New Music Friday France;New Music Friday Italia;New Music Friday Greece;New Music Friday Denmark;New Music Friday Norway;New Music Friday Sweden;New Music Friday Suomi;New Music Friday Polska;New Music Friday NL
+130,False,False,pl,0.5528634496962814,0.14227661774242306,0.0,-3.367295829986474,0,1ZGpnuIWGQo9QMeoU7wmmi,Za Twoje Kłamstwa,"Playboys, Klaudia Zielińska",1,29,1,False,135.99918,-16.93877,New Music Friday Polska
+131,False,False,en,0.5517253525430641,1.0155811377307908,0.0,-4.477336814478207,0,3IiOZ9DA56vcMNP6sJFyNo,eleanor,Kynsy,1,88,1,False,112.34715,-16.38506,New Music Friday UK & Ireland
+132,False,False,unknown,0.5453635246569788,-0.7239852456372318,0.6931471805599453,-1.9459101490553132,0,2THy2FArKeXlUHEe2AQJPJ,Monde arabe,GIMS,2,7,0,False,,,New Music Friday France;New Music Friday NL
+133,False,False,es,0.5373038545047015,-0.22723823195503134,0.0,-2.1972245773362196,0,0zBsbfsDkimuGdHQal0fTj,Cuestión De Tiempo,Cano,1,9,1,False,95.70312,-16.42951,Novedades Viernes España
+134,False,False,it,0.5268963383747317,-0.6765972728662315,0.0,-0.0,0,05cxuAZUr1KgLBP2wL2S6l,BUONANOTTE ANCHE STANOTTE,Tananai,1,1,1,False,143.55469,-15.97278,New Music Friday Italia
+135,False,False,unknown,0.5223957414462097,-0.7611258336775335,1.0986122886681098,-2.70805020110221,0,0EZEpYbfFuttJuXqQIRqv2,Town Mouse,Resa Saffa Park,3,15,0,False,,,New Music Friday Denmark;New Music Friday Norway;New Music Friday Sweden
+136,False,False,it,0.5213065296488795,-0.5143239375651001,0.0,-3.9318256327243257,0,3PNKTUV1BYYaI7ecG5DZKT,Bonnie & Clyde,Modà,1,51,1,False,123.04688,-17.26105,New Music Friday Italia
+137,False,False,unknown,0.515598024423227,-0.7873043024057914,1.3862943611198906,-3.7612001156935624,0,4aZG7j9Gvd8D7aeiWy7avv,Laissez-Moi,Emma Kok,4,43,0,False,,,New Music Friday Deutschland;New Music Friday Norway;New Music Friday Suomi;New Music Friday NL
+138,False,False,en,0.5045250224184366,0.4060863581363802,0.0,-4.442651256490317,0,1R8708aCuW70VWa0ohvYIT,Little Deaths,twst,1,85,1,False,123.04688,-11.9891,New Music Friday UK & Ireland
+139,False,False,unknown,0.47982677090098924,-0.7611258336775335,0.0,-1.9459101490553132,0,3x8kFrynt8vnHk3x8yrsjK,Heal Me,Duncan Laurence,1,7,0,False,,,New Music Friday NL
+140,False,False,en,0.47957186613195657,0.3896751498422157,0.0,-4.48863636973214,0,4FzVSlf2EpTfm6jJhz5TYF,PLAY ME,"Evar, EQ",1,89,1,False,135.99918,-16.8637,New Music Friday AU & NZ
+141,False,False,unknown,0.4743316040004697,-0.7817707910761851,1.0986122886681098,-2.833213344056216,0,0FTLZJk8x9qJrI7Dgwotr9,Så lätt,Genom Natten,3,17,0,False,,,New Music Friday Norway;New Music Friday Sweden;New Music Friday Suomi
+142,False,False,unknown,0.473098162770601,-0.7817707910761851,1.3862943611198906,-3.9512437185814275,0,5a6nX0L9raFnoGjAeH02dh,Kilowatt,LLL,4,52,0,False,,,New Music Friday Denmark;New Music Friday Norway;New Music Friday Sweden;New Music Friday Suomi
+143,False,False,unknown,0.46121467262626537,-0.7611258336775335,0.6931471805599453,-1.3862943611198906,0,3z9tPofXg7zmqZlTCjHl7H,Inte Redo (Feat. Sleiken),"Papi Santana, Sleiken",2,4,0,False,,,New Music Friday Norway;New Music Friday Sweden
+144,False,False,unknown,0.458897830968354,-0.7671098866643628,1.0986122886681098,-2.9444389791664403,0,0HfuKr8Uv7Zvvp6JMuFkVG,Exist,School of X,3,19,0,False,,,New Music Friday Denmark;New Music Friday Norway;New Music Friday Sweden
+145,False,False,pl,0.4340066047682801,0.1367304364361301,0.0,-3.828641396489095,0,09AixiYOz1VlMZgRenmFKW,"Hej Górale, Hej Polacy",Mała Armia Janosika,1,46,1,False,112.34715,-18.16525,New Music Friday Polska
+146,False,False,fi,0.4332040791863463,0.3467459579719187,0.0,-4.532599493153256,0,0WxG3I7cO00wbigMd85nwj,1998,VALE,1,93,1,False,117.45384,-17.00743,New Music Friday Suomi
+147,False,False,unknown,0.42525027931713566,-0.8067429665510699,1.0986122886681098,-2.8903717578961645,0,0k66KVUV7hzKPsemb6Wmf5,how to make your love (stay),untitled (halo),3,18,0,False,,,New Music Friday UK & Ireland;New Music Friday France;New Music Friday NL
+148,False,False,unknown,0.4118547910000583,-0.7880112925734104,1.6094379124341003,-3.332204510175204,0,4QYMDDTvN9aSYAeXjmCv29,Throw That Money,Flo Milli,5,28,0,False,,,New Music Friday Deutschland;New Music Friday AU & NZ;New Music Friday Denmark;New Music Friday Sweden;New Music Friday Suomi
+149,False,False,es,0.4114379798163599,0.18401992909476161,0.0,-4.07753744390572,0,2D4ZHZqsiyjOMLBTD8lkl8,Si de algo hay que morir,Standstill,1,59,1,False,107.66602,-15.88422,Novedades Viernes España
+150,False,False,unknown,0.3812062315735639,-0.7671098866643628,1.0986122886681098,-3.258096538021482,0,7ixaYVV4UsuJKzH0ERAi91,"OT, Wouldn’t Be Right",Slackin Beats,3,26,0,False,,,New Music Friday Denmark;New Music Friday Sweden;New Music Friday Suomi
+151,False,False,en,0.3759930779408899,0.36660466562768085,0.0,-3.912023005428146,0,4uMysPrBfE2pDVwAoSV4gn,Ten Thousand Times,"Punctual, Jem Cooke",1,50,1,False,129.19922,-18.23742,New Music Friday UK & Ireland
+152,False,False,en,0.3635800321697875,0.37516835228101936,0.0,-4.204692619390966,0,0XtWqGX9BQuefHIFCYVyeX,Say Hi,Jeanne Added,1,67,1,False,112.34715,-15.49941,New Music Friday France
+153,False,False,en,0.36000795988906076,0.06612682159050026,0.0,-3.8918202981106265,0,7JLLi5uTXX6fgqZOxwMWVq,Go Man Go,Pixies,1,49,1,False,92.28516,-17.22418,New Music Friday Norway
+154,False,False,unknown,0.3511255061780967,-0.720743024399898,0.0,-2.4849066497880004,0,7u6R6LePRlC81qQmCzxjC5,Fra Starten (feat. BUKURU),"Holdo, BUKURU",1,12,0,False,,,New Music Friday Denmark
+155,False,False,es,0.34870540573233094,0.07026066604371234,0.0,-3.9512437185814275,0,58IKIz1aj2vzOVivB6Uul3,VOLVER A COMENZAR,"Kidd Voodoo, Macha Y El Bloque Depresivo",1,52,1,False,86.13281,-16.46308,Novedades Viernes España
+156,False,False,pl,0.341613293557231,0.17933563579870404,0.0,-4.343805421853684,0,1FTi52ocGdV1NZF3QDJCnp,na czymś >_<,jedrek hibob,1,77,1,False,117.45384,-17.76122,New Music Friday Polska
+157,False,False,unknown,0.3389198683732465,-0.720743024399898,1.0986122886681098,-3.58351893845611,0,14em6BQkTHQ3S0cF5lmfd8,Ycore,"Boys Noize, Mayah Alkhateri",3,36,0,False,,,New Music Friday AU & NZ;New Music Friday France;New Music Friday Norway
+158,False,False,en,0.3345929319022336,0.13796253513939266,0.0,-4.23410650459726,0,6LIJrLuXNtZ8KRTJwpH3MQ,Gentle,Marnix Emanuel,1,69,1,False,103.35938,-16.36251,New Music Friday NL
+159,False,False,pl,0.32666163896895406,-0.07506830649161289,0.0,-3.5553480614894135,0,4fLRJkYBUSmkHjU7FmJTtL,Toniemy,Zui,1,35,1,False,135.99918,-18.2685,New Music Friday Polska
+160,False,False,unknown,0.2949957111041567,-0.7880112925734104,0.6931471805599453,-3.713572066704308,0,7Fib92j6rWWhyIkN8goIxg,Rends-moi mes secondes,Nuit Incolore,2,41,0,False,,,New Music Friday Deutschland;New Music Friday France
+161,False,False,unknown,0.27562361296297655,-0.7891203879307643,1.0986122886681098,-3.6109179126442243,0,5tfmqHZHj1Py9L5XTfcxbk,Hysteric,Sylvie's Head,3,37,0,False,,,New Music Friday Denmark;New Music Friday Sweden;New Music Friday Suomi
+162,False,False,es,0.2601856056185926,-0.11548379442353118,0.0,-3.6888794541139363,0,2FIOnDyX60sRK1FG2ywfcd,Para Todos,Elefantes,1,40,1,False,129.19922,-19.45964,Novedades Viernes España
+163,False,False,pl,0.25257098914364046,0.11161468546245551,0.0,-4.477336814478207,0,4FAOvg6EYtdxpALxJsKVfv,poWietrze,"złośnice, Chrust",1,88,1,False,129.19922,-16.31955,New Music Friday Polska
+164,False,False,en,0.24880965389377585,-1.3094514820574332,1.791759469228055,-3.9889840465642745,0,2Gipt0Zxq7hiWqrMykcnIL,Rolen (feat. Helena Gao),"Cruel Santino, Helena Gao",6,54,1,False,123.04688,-14.60512,New Music Friday UK & Ireland;New Music Friday AU & NZ;New Music Friday France;Novedades Viernes España;New Music Friday Korea;New Music Friday NL
+165,False,False,unknown,0.24880430780463336,-0.7891203879307643,0.6931471805599453,-3.5263605246161616,0,32AkYmvP99jGqd5SfblUYD,Charger,Kelbin,2,34,0,False,,,New Music Friday AU & NZ;New Music Friday Italia
+166,False,False,unknown,0.24675323403751387,0.0941793595538189,0.0,-4.442651256490317,0,6kDe2WC8P0MxO0HFIBzKd1,Keep On,Dam Swindle,1,85,1,False,123.04688,-15.81324,New Music Friday NL
+167,False,False,unknown,0.24392420248735003,-0.7611258336775335,0.0,-2.8903717578961645,0,6h3v6xs904Cajgkh0ia2mv,Tähdet näyttää tien (Vain elämää kausi 17),Jippu,1,18,0,False,,,New Music Friday Suomi
+168,False,False,unknown,0.23848794234954374,-0.720743024399898,1.0986122886681098,-3.9889840465642745,0,103Du0Hf6K2DcUDHov6IXX,Same Fire,MOON,3,54,0,False,,,New Music Friday Denmark;New Music Friday Norway;New Music Friday Sweden
+169,False,False,fr,0.22160814422630393,-1.0667657157559498,0.6931471805599453,-3.1780538303479458,0,78mrAmRMY1Pv0aD6JqD4RE,Carottes,"1tbsp, miki",2,24,1,False,129.19922,-15.2967,New Music Friday AU & NZ;New Music Friday France
+170,False,False,it,0.22104839989434238,-0.31594223604049054,0.0,-3.1780538303479458,0,1plUsFmbbB9uCSdXmeJ2pv,"FORSE, FORSE - THE OFFICE Live Session","Shablo, SarahJae, Mimì, Onnah",1,24,1,False,112.34715,-16.37073,New Music Friday Italia
+171,False,False,unknown,0.21432649458479758,-0.7671098866643628,1.0986122886681098,-3.9318256327243257,0,50IkSdPemCf6eo6crVrVaF,Oops All Sixes,Per Hammar,3,51,0,False,,,New Music Friday Denmark;New Music Friday Norway;New Music Friday Sweden
+172,False,False,unknown,0.2091420783310095,-0.7297111221205599,1.0986122886681098,-4.07753744390572,0,0NzbtRLMvZtW733b10AWJT,Raw,"Âme, Rhye",3,59,0,False,,,New Music Friday AU & NZ;New Music Friday Italia;New Music Friday NL
+173,False,False,unknown,0.20713049430482866,-0.8067429665510699,1.0986122886681098,-3.828641396489095,0,7eaXuBTPKvrUdeUSKrsXEy,Royal Blue,Stephanie Gilbert,3,46,0,False,,,New Music Friday Denmark;New Music Friday Sweden;New Music Friday Suomi
+174,False,False,unknown,0.20618030408646193,-0.720743024399898,0.0,-1.6094379124341003,0,3p0A7P4I51QZLubwxv8nzb,Onomatopee,Pommelien Thijs,1,5,0,False,,,New Music Friday NL
+175,False,False,unknown,0.20030549615793536,-0.720743024399898,1.0986122886681098,-4.143134726391533,0,6P8Wcb3hyadDDypoMvjrk7,Speak Your Heart,Karl F Eugen,3,63,0,False,,,New Music Friday Denmark;New Music Friday Norway;New Music Friday Sweden
+176,False,False,pl,0.19787381145437455,-2.8519242891300314,0.0,-0.6931471805599453,1,5CcPa59snGH96ap1pAyfYr,Paragony grozy,"Kaz Bałagane, Kizo, DR AP",1,2,1,False,112.34715,-15.24315,New Music Friday Polska
+177,False,False,unknown,0.19532171937438225,-0.720743024399898,0.6931471805599453,-3.2188758248682006,0,0WvGHCpwn8nqHYJK7kzG8z,Nowhere Bound,Hudson Westbrook,2,25,0,False,,,New Music Friday AU & NZ;New Music Friday Sweden
+178,False,False,de,0.1812788997811411,-0.8342010584661494,0.0,-1.6094379124341003,0,2zJ0ioq63VFn1VeLW4N44g,GRAVE DIGGER,Summer Cem,1,5,1,False,117.45384,-16.27026,New Music Friday Deutschland
+179,False,False,unknown,0.173140311145755,-0.7239852456372318,0.0,-3.2188758248682006,0,6guCj8Faa9ZMZ9koRfXhZ4,heimweh nach mir selbst.,Luca Noel,1,25,0,False,,,New Music Friday Deutschland
+180,False,False,unknown,0.1672303568235527,-0.720743024399898,1.0986122886681098,-4.276666119016055,0,6uUTso9pC7tvOejsE5ESrz,These are the Things,Vendela Brask,3,72,0,False,,,New Music Friday Denmark;New Music Friday Norway;New Music Friday Sweden
+181,False,False,de,0.15512213915427306,-0.14176619221298764,0.0,-4.02535169073515,0,1btpQH1Drooqqmn2fZpvQ7,GLÜCKLICH,CARLI,1,56,1,False,161.49902,-17.47869,New Music Friday Deutschland
+182,False,False,unknown,0.1530321747617086,-0.7297111221205599,1.0986122886681098,-4.30406509320417,0,5yeivWV4zHgfYrmn2JH3Xp,my brain is a heatwave,"Sebastian Falk, Emma Sveder",3,74,0,False,,,New Music Friday Denmark;New Music Friday Norway;New Music Friday Sweden
+183,False,False,es,0.15097333235644872,-0.3145113748948468,0.0,-3.4657359027997265,0,6Mi2Udl7eOQ1hg2l5YXqhF,Vivir para siempre,Barry B,1,32,1,False,135.99918,-17.41357,Novedades Viernes España
+184,False,False,unknown,0.14596534022692054,-0.7671098866643628,0.6931471805599453,-2.6390573296152584,0,1Zkmk5bt3ZDPXZRTkXau8D,Why'd You Have To Leave,The Neighbourhood,2,14,0,False,,,New Music Friday France;New Music Friday Norway
+185,False,False,unknown,0.14424872904853692,-0.720743024399898,1.0986122886681098,-4.3694478524670215,0,1Sw8qioMyszeUZZr79VF6F,Borderline,BBYBLUE,3,79,0,False,,,New Music Friday Denmark;New Music Friday Norway;New Music Friday Sweden
+186,False,False,unknown,0.13510668602176323,-0.8067429665510699,0.0,-1.6094379124341003,0,4qMtVV1hvIyPqiUMpxydMa,Venus (Vain elämää kausi 17),BESS,1,5,0,False,,,New Music Friday Suomi
+187,False,False,unknown,0.12841720482175978,-0.7611258336775335,0.0,-2.3978952727983707,0,1QDiquRGnKLilWcZ7WcLwm,Hall Of Fame,"Isac Elliot, Mikael Gabriel",1,11,0,False,,,New Music Friday Suomi
+188,False,False,unknown,0.1252487025089335,-0.8067429665510699,0.0,-2.8903717578961645,0,3pjFuRR7FdrpCM7q5acSzQ,Poppelvej,Søren Torpegaard Lund,1,18,0,False,,,New Music Friday Denmark
+189,False,False,en,0.11769471649096752,-0.02550865617289727,0.0,-4.564348191467836,0,6VhyWjEmasSiqhUkL4NTaB,All my friends,GIRLBAND!,1,96,1,False,143.55469,-18.30863,New Music Friday UK & Ireland
+190,False,False,es,0.10324830176735361,-0.09391023190332887,0.0,-4.394449154672439,0,1Wqw1spmVG9hmU8MeKH402,¡Pop!,Catalina Ammaturo,1,81,1,False,123.04688,-16.54581,Novedades Viernes España
+191,False,False,unknown,0.09050944719537357,-0.720743024399898,0.6931471805599453,-3.044522437723423,0,6wlkkcVW3dqo0zoS3tsiqJ,Set Me Free,Vinnie Who,2,21,0,False,,,New Music Friday Denmark;New Music Friday Norway
+192,False,False,unknown,0.08490017402617234,-0.7671098866643628,1.0986122886681098,-4.454347296253507,0,27CLqXi7m0g4C412eMaIhv,Thank God For Tequila,Northlake Shivers,3,86,0,False,,,New Music Friday Denmark;New Music Friday Norway;New Music Friday Sweden
+193,False,False,unknown,0.08246296497664529,-0.7880112925734104,1.0986122886681098,-4.394449154672439,0,52XVwx0xiOgoAHmja3FKHD,Barn Sour,Robin Winther,3,81,0,False,,,New Music Friday Denmark;New Music Friday Norway;New Music Friday Sweden
+194,False,False,de,0.07841901369242527,-0.33542358103234354,0.0,-3.6888794541139363,0,1MO6DrAce5UOrlqMVLz9BV,Egoist,Sandra Hesch,1,40,1,False,117.45384,-18.22272,New Music Friday Deutschland
+195,False,False,unknown,0.06328760360076446,-0.7671098866643628,0.0,-3.7376696182833684,0,4r6ZKQ64i2BVf1ZRl4yWRu,God I Wonder,Bassvictim,1,42,0,False,,,New Music Friday Polska
+196,False,False,pl,0.0504153469472885,-0.17693531567959586,0.0,-4.330733340286331,0,4wMYtnm6XVUMAiZZDt9H5O,Chore drzewa,Jagoda Kret,1,76,1,False,117.45384,-16.16381,New Music Friday Polska
+197,False,False,unknown,0.023978514726643516,-0.40888536594084646,0.0,-3.6635616461296463,0,2Ntx2CLUFKQ3VKDhYaBbiw,El rey que rabió - Introducción,"Tu Otra Bonita, Niño de Elche",1,39,1,False,123.04688,-15.62596,Novedades Viernes España
+198,False,False,unknown,0.018687149188203023,-0.7297111221205599,1.0986122886681098,-4.204692619390966,0,2w4fJwRAmKTFS4B1Rh1HqV,Empire State of Confusion,Juli von Lou,3,67,0,False,,,New Music Friday Denmark;New Music Friday Norway;New Music Friday Sweden
+199,False,False,fi,0.017177988159256086,-0.20936768897475652,0.0,-4.356708826689592,0,3jxxDGQ7KbKCzi8C2lO0lv,Keilaranta,Suosikki,1,78,1,False,143.55469,-17.80301,New Music Friday Suomi
+200,False,False,unknown,0.014191693618280321,-0.7297111221205599,0.6931471805599453,-3.295836866004329,0,53HKqlnK96baqCPI1X0EN9,Sweetest Salvation,JJ,2,27,0,False,,,New Music Friday Deutschland;New Music Friday Korea
+201,False,False,unknown,0.011409504298786954,-0.7880112925734104,0.0,-3.5553480614894135,0,4LFswwlA7EKowHdMIX4tFz,Track 1,Joyce Jonathan,1,35,0,False,,,New Music Friday France
+202,False,False,en,-0.0037967059755427135,-1.4519138955885589,1.3862943611198906,-2.995732273553991,0,3SRPlp6MkmEE2rmaaIP0S9,Rolen (feat. Helena Gao),"Cruel Santino, Helena Gao",4,20,1,False,123.04688,-14.60512,New Music Friday Denmark;New Music Friday Norway;New Music Friday Sweden;New Music Friday Suomi
+203,False,False,en,-0.004163567139907981,-0.26762443208264275,0.0,-4.248495242049359,0,5Z8WVi09JPPWcnG1l18kHw,Feb 27,Kaitlin Keegan,1,70,1,False,172.26562,-16.00448,New Music Friday AU & NZ
+204,False,False,unknown,-0.005405459874354368,-0.7297111221205599,0.0,-0.6931471805599453,0,0Q5jvNzF9F8yP2UOTn4aYM,Sunshine,Norlie & KKV,1,2,0,False,,,New Music Friday Sweden
+205,False,False,unknown,-0.00717356148181858,-0.7239852456372318,0.6931471805599453,-3.4011973816621555,0,2r4p0uj9QaQrUAisBU7Acd,"ZOLA (The Italian job, pt.1)",Materazi Future Club,2,30,0,False,,,New Music Friday AU & NZ;New Music Friday Italia
+206,False,False,unknown,-0.009337834576376047,-0.8067429665510699,0.0,-2.8903717578961645,0,60DdLNg1ntxziro6igfyhC,Wie lang noch,Adel Tawil,1,18,0,False,,,New Music Friday Deutschland
+207,False,False,es,-0.014350223777609944,-0.524070439716932,0.0,-3.4339872044851463,0,2a29A23qyw3AX5O81j8gfa,DRAMA,"J Abecia, Big Papa313",1,31,1,False,103.35938,-15.29025,Novedades Viernes España
+208,False,False,ko,-0.019887697118040115,-0.6672528489220094,0.0,-2.302585092994046,0,2svjqad0qwiEYps5QLR7rZ,SHOCK,TREASURE,1,10,1,False,161.49902,-17.91018,New Music Friday Korea
+209,False,False,unknown,-0.03272473215529842,-0.7891203879307643,0.0,-3.091042453358316,0,6UJhLeYdYqiEQJGBqBAlSN,Raw,"Âme, Rhye",1,22,0,False,,,New Music Friday Deutschland
+210,False,False,en,-0.03876669923983743,-1.8238417065699402,1.6094379124341003,-3.2188758248682006,0,3bhGt6n1v1htyY1pXDA4cz,Mayday,"Saint Ludo, Ceebo",5,25,1,False,143.55469,-14.77983,New Music Friday UK & Ireland;New Music Friday AU & NZ;New Music Friday France;New Music Friday Italia;New Music Friday NL
+211,False,False,fr,-0.03975310729174296,-0.4365245763258342,0.0,-3.828641396489095,0,07gZxFSn1q40gylYxUguXZ,Toutes !, (D)Juno,1,46,1,False,123.04688,-17.72507,New Music Friday France
+212,False,False,unknown,-0.0433013923332524,-0.5504537095493726,0.0,-3.6109179126442243,0,5iWaePwjnCVHEvY9iRj6zC,Nächstenliebe,"Boys Noize, Brutalismus 3000",1,37,1,False,161.49902,-16.38884,New Music Friday Deutschland
+213,False,False,unknown,-0.04637692670805882,-0.7873043024057914,0.0,-1.791759469228055,0,7DaF6ltSzuUuVz19XBlnV6,Song 2,Sound Of Legend,1,6,0,False,,,New Music Friday France
+214,False,False,unknown,-0.04965431538542908,-0.720743024399898,0.6931471805599453,-3.58351893845611,0,0hySLRZwWdIZtf3vq9rA7p,Dimmed,Klara Zangerl,2,36,0,False,,,New Music Friday Denmark;New Music Friday Sweden
+215,False,False,unknown,-0.05300265117860581,-0.7873043024057914,0.0,-0.6931471805599453,0,4Rxix9cTsegJUD5lx88Td5,Ser du månen?,Ruben,1,2,0,False,,,New Music Friday Norway
+216,False,False,unknown,-0.054503533222780454,-0.7891203879307643,0.0,-0.6931471805599453,0,1824ElVTa8XiWOjOlujl81,Hong Kong (feat. 王菲季候風),The Weeknd,1,2,0,False,,,New Music Friday Korea
+217,False,False,unknown,-0.056344466153158745,-0.7671098866643628,0.0,-3.1354942159291497,0,0tiMjPUTLeggS7TkfqutFH,Ik´Jaloux,Sissal,1,23,0,False,,,New Music Friday Denmark
+218,False,False,unknown,-0.05659300685640467,-0.7297111221205599,0.0,-3.784189633918261,0,1ZlgnlatnJnpm0o4cICwmk,Luca Wanted a Cash Cow but All He Got Was This Song (We Both Deserved Better),Lonely Spring,1,44,0,False,,,New Music Friday Deutschland
+219,False,False,unknown,-0.05847845361803339,-0.8067429665510699,0.6931471805599453,-3.332204510175204,0,3cB4a7ZneTEFrV2ae3RtsO,momma,MASAKA,2,28,0,False,,,New Music Friday Denmark;New Music Friday Sweden
+220,False,False,en,-0.06054479635508864,-0.29959513014355055,0.0,-4.3694478524670215,0,1Qs1Iy1tIeu8RU1PfDmfqW,CAN'T STOP,"HUUE, Arky Waters",1,79,1,False,143.55469,-14.37696,New Music Friday AU & NZ
+221,False,False,unknown,-0.074910164167039,-0.7880112925734104,0.6931471805599453,-2.6390573296152584,0,5ZuIWk2CWo9NTh3Ijzbn3r,Feel Love,"Dimitri Vegas & Like Mike, Maddix, The Rocketman, Dimitri Vegas, Like Mike",2,14,0,False,,,New Music Friday Deutschland;New Music Friday NL
+222,False,False,unknown,-0.08799451031352101,-0.7671098866643628,0.6931471805599453,-4.127134385045092,0,0X8nbNbADnSadcvtQzT8w6,neversince,Bad Computer,2,62,0,False,,,New Music Friday Norway;New Music Friday Suomi
+223,False,False,it,-0.08970056055160885,-0.3754377503636305,0.0,-4.23410650459726,0,02oCXv6y35fkdDH1HBKeyX,IL NECESSARIO (feat. LILCR),"BIG P, LILCR",1,69,1,False,123.04688,-17.29852,New Music Friday Italia
+224,False,False,unknown,-0.09634465716812818,-0.7239852456372318,0.6931471805599453,-3.7612001156935624,0,1qeLlMkDuVySs1febJY0fI,Tiptoes,Eileen Alister,2,43,0,False,,,New Music Friday Deutschland;New Music Friday Korea
+225,False,False,unknown,-0.10161152146426639,-0.7891203879307643,0.0,-3.1354942159291497,0,5GQpl8aWM75dq8rDCSfz8u,Be There In A Minute,Thomas Rhett,1,23,0,False,,,New Music Friday AU & NZ
+226,False,False,unknown,-0.1046630832119621,-0.7873043024057914,0.6931471805599453,-3.58351893845611,0,2lqIo3RA26lhBY2DMDSZxG,Mi Amor,"ARTBAT, 7 SKIES, Sadie Rose Van",2,36,0,False,,,New Music Friday France;New Music Friday Norway
+227,False,False,it,-0.1186995099544198,-0.42384967830883136,0.0,-4.189654742026425,0,2PxJmxcMlhimnKmPEWUCTc,Parolacce,OCCHI,1,66,1,False,172.26562,-18.02867,New Music Friday Italia
+228,False,False,unknown,-0.1317996965108741,-0.7611258336775335,0.0,-1.0986122886681098,0,6esvwn0nlztEM3IBi9y5FF,Går meg vill,Sval,1,3,0,False,,,New Music Friday Norway
+229,False,False,unknown,-0.1334307842909277,-0.7297111221205599,0.6931471805599453,-3.8918202981106265,0,1tGxrIMWFX6SMJANSP8poA,Wanna Know,"Naliyah, Braye",2,49,0,False,,,New Music Friday Denmark;New Music Friday Sweden
+230,False,False,unknown,-0.15276573616388933,-0.7239852456372318,0.6931471805599453,-3.9889840465642745,0,1BxEN3X6zkhtxjn6lK2qrl,Sand Drawing / Shifting Places,"SYML, Judah Earl",2,54,0,False,,,New Music Friday France;New Music Friday NL
+231,False,False,unknown,-0.152862514449985,-0.7817707910761851,0.0,-4.584967478670572,0,0TIyWgDFOsWtnYjI0Y7b7v,Loosen Up (feat. Flozigg),"IKNOWNOA, Flozigg",1,98,0,False,,,New Music Friday NL
+232,False,False,unknown,-0.15401886072497084,-0.7880112925734104,0.0,-1.0986122886681098,0,1ZZztoTXn9uU4fQyKSJ7kU,Helikopterpiloot,Bente,1,3,0,False,,,New Music Friday NL
+233,False,False,unknown,-0.1549354592464831,-0.7891203879307643,0.0,-1.0986122886681098,0,4kSsO50b4j4gFy6EXquXho,No Mercy,"GUSTO, ozzy, Noah Carter",1,3,0,False,,,New Music Friday Denmark
+234,False,False,unknown,-0.15763990776622216,-0.7817707910761851,0.0,-0.0,0,3wVbETbMyhuwdAWeBrCxHh,Les évadés,Vianney,1,1,0,False,,,New Music Friday France
+235,False,False,unknown,-0.16284273021775675,-0.8067429665510699,0.0,-1.0986122886681098,0,3qfrRwgjq4qyb0bywkTWOR,Anders,JEREMIAS,1,3,0,False,,,New Music Friday Deutschland
+236,False,False,unknown,-0.16949942744047397,-0.8067429665510699,0.0,-1.0986122886681098,0,58pP6nPCciYCrJiSodLxva,Voitin maailman (Vain elämää kausi 17),Ares,1,3,0,False,,,New Music Friday Suomi
+237,False,False,unknown,-0.17523219007793978,-0.720743024399898,0.0,-2.4849066497880004,0,2Bbklc66lgJLYUD6MXIHPZ,Vivere,Ornella Vanoni,1,12,0,False,,,New Music Friday Italia
+238,False,False,pl,-0.1813450073525224,-0.8428644729322581,0.0,-3.044522437723423,0,4kxMyBIRgm1hWnmPaWIh2V,ODDAJCIE MI ŚWIĘTA,"Lanberry, Radek Łukasiewicz",1,21,1,False,95.70312,-15.95412,New Music Friday Polska
+239,False,False,pl,-0.18746284300524324,-0.4010630301878447,0.0,-4.543294782270004,0,0FTouIHIlWOFrDInIVBjml,Niosę ci deszcz,BAiKA,1,94,1,False,117.45384,-18.54425,New Music Friday Polska
+240,False,False,en,-0.1943482792866446,-0.4395588355967338,0.0,-4.442651256490317,0,2jGo7NhWGWX4TLGzpuXDWR,Yaar Hazaar,"Rusha & Blizza, Mitika Kanwar",1,85,1,False,95.70312,-15.86342,New Music Friday AU & NZ
+241,False,False,unknown,-0.21821357393513285,-0.7297111221205599,0.6931471805599453,-4.23410650459726,0,0nilmQ9FpdpKSHRxSYtgg9,Loom,Ciarán,2,69,0,False,,,New Music Friday AU & NZ;New Music Friday Norway
+242,False,False,fr,-0.21956985183071645,-0.47362420596397653,0.0,-4.430816798843313,0,2plYnC5mpnMLBnkh0gMrLQ,Yamas,"Myra, Johan Papaconstantino",1,84,1,False,112.34715,-16.16666,New Music Friday France
+243,False,False,unknown,-0.22011905882892957,-0.7817707910761851,0.0,-1.3862943611198906,0,4BU2hIwZzZtE9QBF7a9M32,HUOMIOO,"Sonia, Sointu Borg",1,4,0,False,,,New Music Friday Suomi
+244,False,False,pl,-0.22178930867853444,-0.9064256986042452,0.0,-2.995732273553991,0,0aKg8U4AjxVEbvWTtF8bWN,DOM,"QMPLE, Filipek, shhieda, przyłu, Bober, Szymi Szyms, OsaKa, MØJI",1,20,1,False,107.66602,-14.855,New Music Friday Polska
+245,False,False,unknown,-0.2249550722671012,-0.720743024399898,0.0,-1.6094379124341003,0,4kyqzxvXL7Gd7mj1BrSQZy,elsker når vi fucker op,Speedy,1,5,0,False,,,New Music Friday Denmark
+246,False,False,unknown,-0.22570486051207372,-0.8067429665510699,0.6931471805599453,-4.007333185232471,0,5tLpP3TAbsAUfNv8okfcwx,Rest Don't Matter,cortex,2,55,0,False,,,New Music Friday Denmark;New Music Friday Sweden
+247,False,False,pl,-0.2302386071054995,-1.0697513992102627,0.0,-2.4849066497880004,0,6eS1XCGyY5I1mAfq8AgmTe,KAŻDY CHCE MNIE WIĘCEJ,"vkie, Fresku, Def Jam World Tour",1,12,1,False,103.35938,-17.01278,New Music Friday Polska
+248,False,False,unknown,-0.24176435534300933,-0.720743024399898,0.6931471805599453,-3.8501476017100584,0,156QdHdgJMAyy1B8oHzAcJ,Somebody,Ojerime,2,47,0,False,,,New Music Friday UK & Ireland;New Music Friday AU & NZ
+249,False,False,unknown,-0.24309414697008302,-0.8067429665510699,0.6931471805599453,-4.07753744390572,0,2aZUuoRC4vhh8fJuW8FBMh,Trouble,Pom Femme,2,59,0,False,,,New Music Friday Denmark;New Music Friday Sweden
+250,False,False,en,-0.2451712976143125,-0.7669931135491209,0.0,-3.5553480614894135,0,45jqNIUibsVWMwaF6LVzrt,Texas in Flaming Tongues,Hudson Freeman,1,35,1,False,89.10291,-17.40798,New Music Friday Norway
+251,False,False,unknown,-0.24867913630811905,-0.7891203879307643,0.6931471805599453,-4.1588830833596715,0,6sbxBxrqmiwJUTxppLB47Q,The Ultimate,"Wahlstedt, BUTTER",2,64,0,False,,,New Music Friday Denmark;New Music Friday Sweden
+252,False,False,es,-0.2546577243776319,-0.8562511244706377,0.0,-3.295836866004329,0,00mZ0Ic1WKL41QD1dIXr0g,Traigo,"La Plazuela, DeLasRosas",1,27,1,False,107.66602,-17.44861,Novedades Viernes España
+253,False,False,unknown,-0.2583289594022,-0.7611258336775335,0.0,-1.6094379124341003,0,4pod9adi7EYyk2Asi8HcHf,Io non sono lei,Emili Kasa,1,5,0,False,,,New Music Friday Italia
+254,False,False,unknown,-0.2613842073715167,-1.1335165427205423,0.0,-2.3978952727983707,0,7H7dHzMQGXLl1NveKglZ1E,Medallion,"Roi 6/12, Lived",1,11,1,False,117.45384,-16.28469,New Music Friday Greece
+255,False,False,unknown,-0.2632744080365399,-0.7671098866643628,0.0,-1.6094379124341003,0,5Q2NvgoOY0cJFhbLW8VZQF,Tha To Ksanakana,Thodoris Ferris,1,5,0,False,,,New Music Friday Greece
+256,False,False,unknown,-0.2632744080365399,-0.7671098866643628,0.0,-1.6094379124341003,0,1k9FsBH9dmfuTmWHEOl7Ew,King Kong,"Agorazein, C. Tangana, Sticky M.A., Jerv.AGZ",1,5,0,False,,,Novedades Viernes España
+257,False,False,ja,-0.2655442599079529,-0.7832014198318937,0.0,-3.58351893845611,0,76m7HVNSn9boYZqzfdMuXq,君と生きて君と死にたい！,Tatsuya Kitani,1,36,1,False,117.45384,-17.04707,New Music Friday Korea
+258,False,False,unknown,-0.2755518441229099,-1.0577015652893587,0.0,-2.70805020110221,0,3StOdBPYsabfJR47mpmHmK,KOLIA DIAMENTOWYCH ŁEZ,"Waima, Kosela, krvchy",1,15,1,False,151.99908,-15.26566,New Music Friday Polska
+259,False,False,unknown,-0.27705106373361016,-0.7891203879307643,0.0,-3.332204510175204,0,1O3p4K5uKes2BZNssS21UA,Ha vuelto a llover,Walls,1,28,0,False,,,Novedades Viernes España
+260,False,False,unknown,-0.27752689744775105,-0.7297111221205599,0.0,-1.791759469228055,0,5VinT6PZsRuHY5aLfBKAx9,Kom över,Newkid,1,6,0,False,,,New Music Friday Sweden
+261,False,False,en,-0.2822292006091338,-0.9649355735780474,0.0,-3.044522437723423,0,1juuiRXGTR6SFQFv7vVCRL,AUTOMATIC,DINO,1,21,1,False,112.34715,-17.10225,New Music Friday Korea
+262,False,False,ar,-0.28866070754156214,-0.7312600737071273,0.0,-3.8501476017100584,0,4tu4ZJyPBRnPqmvXZhaqAj,Toxic,"Topperig, Siggy & D1ns",1,47,1,False,123.04688,-16.65721,New Music Friday NL
+263,False,False,en,-0.2893306494600186,-0.9735284130450019,0.0,-3.044522437723423,0,4cU229v61MuKAp6HvaP6w5,Leave Me Alone,Travy,1,21,1,False,143.55469,-16.38033,New Music Friday UK & Ireland
+264,False,False,unknown,-0.2929827051238846,-0.7873043024057914,0.6931471805599453,-4.343805421853684,0,7Jm4U5IS8xtZLs5EWVEOh1,DRIVER'S SEAT,NIQI,2,77,0,False,,,New Music Friday Denmark;New Music Friday Sweden
+265,False,False,es,-0.29909425542493356,-1.1068663467873359,0.0,-2.6390573296152584,0,0hdRWFJXgO7Kul4UjycbHe,CONQUISTADOR,"Gonzy, Sech",1,14,1,False,123.04688,-16.58706,Novedades Viernes España
+266,False,False,es,-0.300921408583673,-0.6535631099014486,0.0,-4.1588830833596715,0,5TyiaO1qNM4tT5qbSobANz,VIVO,"Guzmen, B10, Rotea",1,64,1,False,112.34715,-16.80319,Novedades Viernes España
+267,False,False,unknown,-0.30348920806056806,-0.7611258336775335,0.0,-1.791759469228055,0,6XQtlqis3yzBJ3bRZwia9g,Hopeless Romantic,Kristina Moe Hals,1,6,0,False,,,New Music Friday Norway
+268,False,False,ko,-0.3042040311860932,-0.8848334932323683,0.0,-3.4657359027997265,0,1WMWIPbOD0Nts5SmrKlQyr,DIENAMITE,xikers,1,32,1,False,143.55469,-17.92528,New Music Friday Korea
+269,False,False,pl,-0.3078665602481352,-1.2852060183040892,0.0,-2.0794415416798357,0,0YQ8HTF0qztwq0bOyHqK1K,KRAKSA,"MJ Deli, Suwal",1,8,1,False,143.55469,-17.34493,New Music Friday Polska
+270,False,False,unknown,-0.30843465669490794,-0.7671098866643628,0.0,-1.791759469228055,0,1cWK8sG2WGS47fmnrShFut,Family Guy,"Jami Faltin, Elastinen",1,6,0,False,,,New Music Friday Suomi
+271,False,False,unknown,-0.3157093436393595,-0.7297111221205599,0.0,-1.9459101490553132,0,18wJ4O4TsjlF5KQET5xUFD,Shake My Soul,"Te Wehi, MELODOWNZ, Hohua Sta",1,7,0,False,,,New Music Friday AU & NZ
+272,False,False,unknown,-0.32512408875200244,-0.7873043024057914,0.0,-1.791759469228055,0,3K33BYes6bVzZAsCiavBVT,Dying In This House,Mack Geiger,1,6,0,False,,,New Music Friday AU & NZ
+273,False,False,el,-0.3367241494253951,-0.8377518567659226,0.0,-3.6888794541139363,0,25mvQjpahy0Q514toByJCJ,Ta Grammata Ap' Ta Minimata Sou (feat. Kostas Livadas),"Andriana Babali, Kostas Livadas",1,40,1,False,129.19922,-16.72248,New Music Friday Greece
+274,False,False,it,-0.3374690322496502,-1.0639493852534216,0.0,-2.1972245773362196,0,2R0caWLPF6FjmlGqUrrSKk,Senza la tua mano in tasca,gIANMARIA,1,9,1,False,123.04688,-16.19739,New Music Friday Italia
+275,False,False,unknown,-0.3421226946964329,-0.8067429665510699,0.6931471805599453,-4.477336814478207,0,7g719LnEN2qN4LBptfNlCs,Bad (feat. WINTINA),"Tove Evyn, WINTINA",2,88,0,False,,,New Music Friday Norway;New Music Friday Sweden
+276,False,False,unknown,-0.34631712694146966,-0.8207936146082517,0.0,-3.784189633918261,0,5q5wZrlkbRRbgztuHpwH2M,TUTTE LE COSE CHE HO AMATO,Iperiixo,1,44,1,False,117.45384,-15.80266,New Music Friday Italia
+277,False,False,fr,-0.35794453353704664,-0.6271165211736919,0.0,-4.477336814478207,0,24lzVJYq1HiRB38qK7Pdz9,DE L'AUTRE CÔTÉ DU MIROIR,INGRID COURRÈGES,1,88,1,False,123.04688,-15.93807,New Music Friday France
+278,False,False,unknown,-0.36378557302021375,-0.8067429665510699,0.0,-4.04305126783455,0,75pLtSrcO00r9j3vjaLj3E,Mi Universo,Shakira Martínez,1,57,0,False,,,Novedades Viernes España
+279,False,False,unknown,-0.36389081846627325,-0.7880112925734104,0.0,-1.9459101490553132,0,7ujt3o5We9HzBZ2znu3Vbk,Tyttökulta,Diogi,1,7,0,False,,,New Music Friday Suomi
+280,False,False,unknown,-0.36389081846627325,-0.7880112925734104,0.0,-1.9459101490553132,0,0Dc0z7ZptrJEM6YA8S5uDv,Jeg har aldri elsket ham,Synne Sørgjerd,1,7,0,False,,,New Music Friday Norway
+281,False,False,en,-0.37943965963181037,-1.1640639421145422,0.0,-2.772588722239781,0,3wPugsM8cPqc2dzdQgt8qJ,CIGARETTE,J'CREER,1,16,1,False,143.55469,-16.72148,New Music Friday Korea
+282,False,False,unknown,-0.3918085703786235,-0.7817707910761851,0.0,-2.0794415416798357,0,472VPrN6RadFuQhuYHC0zW,Banens beste på bar,Sebb Ottesen,1,8,0,False,,,New Music Friday Norway
+283,False,False,el,-0.39472343402672166,-0.900530957548721,0.0,-3.713572066704308,0,37XIOOg99Wl5Iyb8NNUURK,TENSION,"Venne, Arab, ASOK",1,41,1,False,129.19922,-17.10073,New Music Friday Greece
+284,False,False,sv,-0.40241532677842085,-1.3996111755688756,0.0,-2.0794415416798357,0,1bitLKPwx4saNtrVnvFBwo,DET ER I DAG ET VEJR (feat. Soleima & TopGunn),"SIMON SIGER, Soleima, TopGunn",1,8,1,False,135.99918,-15.5802,New Music Friday Denmark
+285,False,False,unknown,-0.4039211340842709,-0.7611258336775335,0.0,-2.1972245773362196,0,0B4IdfVjLVdaUUy6oPL3GZ,København,Englando,1,9,0,False,,,New Music Friday Denmark
+286,False,False,unknown,-0.4039211340842709,-0.7611258336775335,0.0,-2.1972245773362196,0,78SJwGy4jvYsWaRwOa7uAN,Track 1,Frsh,1,9,0,False,,,New Music Friday NL
+287,False,False,unknown,-0.404056160339077,-0.7297111221205599,0.0,-2.302585092994046,0,6CuknsZAq8zG0SYSf6N13c,Wie lang,Morpheuz,1,10,0,False,,,New Music Friday Deutschland
+288,False,False,en,-0.4173493431655825,-1.3617568164553882,0.6931471805599453,-3.5553480614894135,0,4DxrSCPIzrWHGF5UiyH8ei,Slip & Slide,MK,2,35,1,False,129.19922,-19.82816,New Music Friday UK & Ireland;New Music Friday Sweden
+289,False,False,unknown,-0.42255881677394735,-0.7880112925734104,0.0,-4.532599493153256,0,2UjS57k6pmikAipD9eWQH5,Tax Evasion,CATTY,1,93,0,False,,,New Music Friday UK & Ireland
+290,False,False,unknown,-0.4229319914005407,-0.7239852456372318,0.0,-2.3978952727983707,0,7zavDEEwIATwRsCaVIDrfh,Føles Bedre,Rosa På Månen,1,11,0,False,,,New Music Friday Denmark
+291,False,False,unknown,-0.42555601477570526,-0.7873043024057914,0.0,-2.1972245773362196,0,7cW8Sp6lBa2XX8Us07FeST,blurry,"Żabson, god.wifi",1,9,0,False,,,New Music Friday Polska
+292,False,False,unknown,-0.4270568968198799,-0.7891203879307643,0.0,-2.1972245773362196,0,0uGwNCoT3EbkJeSdlsTEVt,Ajetaan tandemilla (Vain elämää kausi 17),Benjamin,1,9,0,False,,,New Music Friday Suomi
+293,False,False,unknown,-0.427664073168065,-0.7297111221205599,0.0,-2.3978952727983707,0,5eEnFtXlr1zBrtrTtgogIB,Drøm,"KLØBB, Ka2",1,11,0,False,,,New Music Friday Norway
+294,False,False,it,-0.43409054712113504,-1.7319075191981526,0.0,-1.0986122886681098,0,7e6KoJch30XS9peskmndI9,"Satellite ◑ (con Gemitaiz, Venerus, Promessa, iako, Izi)","MACE, Gemitaiz, Venerus, Promessa, iako, Izi",1,3,1,False,129.19922,-16.59719,New Music Friday Italia
+295,False,False,unknown,-0.4435591683247393,-0.7671098866643628,0.0,-2.0794415416798357,0,08qqfNWBxd8t5C136mMJNX,Prettier With Your Mask Off,Jade LeMac,1,8,0,False,,,New Music Friday Korea
+296,False,False,unknown,-0.4484074715041501,-0.7239852456372318,0.0,-2.6390573296152584,0,3WnQkv0lQrlTiX4GjPiiPB,Moon Walk (Tissemyresangen),Slush Eyes,1,14,0,False,,,New Music Friday Denmark
+297,False,False,unknown,-0.45202360541910225,-0.7891203879307643,0.0,-2.3978952727983707,0,0848HBhEp64YIUE0bWwFLS,Ricominciassimo,Gianna Nannini,1,11,0,False,,,New Music Friday Italia
+298,False,False,unknown,-0.453154233687503,-0.7891203879307643,0.0,-2.302585092994046,0,1j9VeUnC9vx7SJeEvbyRZT,Ledlights,Nuqi,1,10,0,False,,,New Music Friday Sweden
+299,False,False,unknown,-0.453154233687503,-0.7891203879307643,0.0,-2.302585092994046,0,1vIhbnJcQcEg0GYgMucP4S,Ma Bébé,soap,1,10,0,False,,,New Music Friday Italia
+300,False,False,es,-0.45500438416830025,-0.6359924460793003,0.0,-4.127134385045092,0,3mdO5anA4N72dO29NM16It,Toda una vida,091,1,62,1,False,143.55469,-16.875,Novedades Viernes España
+301,False,False,ko,-0.4595312509598609,-0.9380155091196904,0.0,-3.8501476017100584,0,7ubFl0WXlxN6k8UsCaTLve,yuh,MUSHVENOM,1,47,1,False,129.19922,-15.99137,New Music Friday Korea
+302,False,False,ja,-0.46919626481649446,-1.3325382118549693,0.0,-3.5553480614894135,0,1ZQwDMEIBQaKGP6mpElU4i,NOW U KNOW,BE:FIRST,1,35,1,False,99.38401,-17.06816,New Music Friday Korea
+303,False,False,unknown,-0.4773955712142676,-0.8067429665510699,0.0,-4.0943445622221,0,5SPLSJfoxLmVeXtFbMSR9h,Well I Might Just Die,Déyyess,1,60,0,False,,,New Music Friday UK & Ireland
+304,False,False,unknown,-0.4813643517432616,-0.7873043024057914,0.6931471805599453,-4.07753744390572,0,2uvTP27swxyANQSOp2L0DH,"Horny, Grieving",IDER,2,59,0,False,,,New Music Friday UK & Ireland;New Music Friday Deutschland
+305,False,False,unknown,-0.4871879833043894,-0.720743024399898,0.0,-4.3694478524670215,0,1ytO6B7XBxPxGRba6NZ3bp,Stop The Rock,Orkidea,1,79,0,False,,,New Music Friday Suomi
+306,False,False,unknown,-0.4882113920933628,-0.9924874009515541,0.0,-3.784189633918261,0,4MCo3UFHxpGAQPBmhi7aba,Savior,J. Ludvig III,1,44,1,False,129.19922,-15.24025,New Music Friday Denmark
+307,False,False,unknown,-0.4968136003016963,-0.7873043024057914,0.0,-2.4849066497880004,0,7J2fYxmeM13rdTRcD0zOJR,Río,Marta Santos,1,12,0,False,,,Novedades Viernes España
+308,False,False,unknown,-0.4970765098404979,-0.720743024399898,0.0,-2.70805020110221,0,7CL0XvdOIunKIAjshljO3p,Helena,Annika Pudas,1,15,0,False,,,New Music Friday Suomi
+309,False,False,unknown,-0.49995039529854846,-0.7671098866643628,0.0,-2.5649493574615367,0,4guJccRQ3OYLW9MU88h434,Gimme A Beat,"Obskür, Robbie Doherty",1,13,0,False,,,New Music Friday UK & Ireland
+310,False,False,unknown,-0.5013420588240939,-1.115251301937548,0.0,-3.091042453358316,0,2POzBe7i64yZF0ngCST3MG,Campos De Golf,Alcalá Norte,1,22,1,False,123.04688,-18.72682,Novedades Viernes España
+311,False,False,en,-0.5035298036138536,-0.8318423299685325,0.0,-4.382026634673881,0,6uE4NJuNswdm3DpVqXTCTG,Texas in Flaming Tongues,Hudson Freeman,1,80,1,False,89.10291,-17.40798,New Music Friday UK & Ireland
+312,False,False,unknown,-0.516639827355643,-0.7873043024057914,0.0,-2.5649493574615367,0,3pzsJLeLlJyxan6Zk6ZhxK,Radar,2Tiltango,1,13,0,False,,,New Music Friday Denmark
+313,False,False,unknown,-0.516639827355643,-0.7873043024057914,0.0,-2.5649493574615367,0,2IYYnDziX6WdA6PVM2nnLr,Big Maccern Life,Pasha,1,13,0,False,,,New Music Friday Norway
+314,False,False,unknown,-0.520473994523436,-0.7297111221205599,0.0,-2.772588722239781,0,2g9nMjnKZw7ieNusDHwqUK,SENTYMENTY,Julia Pietrucha,1,16,0,False,,,New Music Friday Polska
+315,False,False,it,-0.5345075521620609,-1.270195446795629,0.0,-3.044522437723423,0,5nVmjkK33VX0cShm64PVyI,PRECIPIZIO,"LILCR, Ay Mazza",1,21,1,False,112.34715,-14.99903,New Music Friday Italia
+316,False,False,unknown,-0.5349960464933048,-0.7873043024057914,0.0,-2.6390573296152584,0,1AxZo7iecL3hpXj5HgRUaB,No Angry Man,NEW LORE,1,14,0,False,,,New Music Friday Korea
+317,False,False,unknown,-0.5349960464933048,-0.7873043024057914,0.0,-2.6390573296152584,0,0vdMyN4EXP6MrisuNQSDNK,Sä et tee hyvää,JAMIE,1,14,0,False,,,New Music Friday Suomi
+318,False,False,unknown,-0.54183855882093,-0.7297111221205599,0.0,-3.9889840465642745,0,6bvcSEgoD9I42gqqi0UjyM,I Spend My Time Crying,Twisted Teens,1,54,0,False,,,New Music Friday AU & NZ
+319,False,False,it,-0.5440597854093296,-1.0533291908400855,0.0,-3.8066624897703196,0,59xFqa4TGLAPBxIHiSCHkS,MADRE,Welo,1,45,1,False,92.28516,-17.17663,New Music Friday Italia
+320,False,False,unknown,-0.5449162532536234,-0.7239852456372318,0.0,-2.8903717578961645,0,3UUMxnjUyhPm8neNTQbTsk,FUCILE TREMENDO,Visconti,1,18,0,False,,,New Music Friday Italia
+321,False,False,unknown,-0.5475121737676609,-0.7817707910761851,0.0,-2.70805020110221,0,0P9q297tM08n36UZqGADwY,tankelæser,"evigblå, Freja Kirk",1,15,0,False,,,New Music Friday Denmark
+322,False,False,unknown,-0.551381753770593,-0.7671098866643628,0.0,-2.772588722239781,0,6jbhYjhVLE8mToSQeNatJo,Kaiken jälkeen,LVRRY,1,16,0,False,,,New Music Friday Suomi
+323,False,False,unknown,-0.5520852776670311,-0.7873043024057914,0.0,-2.70805020110221,0,4JzWl4iUetvYWbCZpduX2B,Kleine onmacht,Paskal Jakobsen,1,15,0,False,,,New Music Friday NL
+324,False,False,unknown,-0.5520852776670311,-0.7873043024057914,0.0,-2.70805020110221,0,4c7K6XPBcG1DEDav64fE38,wie du lachst,Mika Noé,1,15,0,False,,,New Music Friday Deutschland
+325,False,False,unknown,-0.5526695611896935,-0.7880112925734104,0.0,-2.70805020110221,0,4zHQZTWc1Ek4zvkNQDalHb,On ne rattrape pas le vent,ESTL,1,15,0,False,,,New Music Friday France
+326,False,False,unknown,-0.5556289716840136,-0.720743024399898,0.0,-2.9444389791664403,0,5dZMGTFtmIfhuEul3bXBhv,"Cerco una ragazza, disperatamente","Tommaso Ottomano, Topo Nero Rock",1,19,0,False,,,New Music Friday Italia
+327,False,False,unknown,-0.563801039177069,-0.7297111221205599,0.0,-3.713572066704308,0,5nq38CwAntBAffMWgRQztp,Playin It Cool,Tyler Hubbard,1,41,0,False,,,New Music Friday AU & NZ
+328,False,False,unknown,-0.5666872589597705,-0.7817707910761851,0.0,-3.7376696182833684,0,3uk1pTFldWwx2jfNv82mj4,Heel Genoeg,Herman van Veen,1,42,0,False,,,New Music Friday NL
+329,False,False,unknown,-0.5680711858276875,-0.7873043024057914,0.0,-2.772588722239781,0,1vI3qtvWCne1G4xQQxj9Ki,Salam,"Mensa, SRNO",1,16,0,False,,,New Music Friday NL
+330,False,False,unknown,-0.5757456718887708,-0.7297111221205599,0.0,-2.995732273553991,0,52be3rpMjwX7whqcjyyVCR,ILYB,"OK NIKO, RNZO",1,20,0,False,,,New Music Friday Suomi
+331,False,False,unknown,-0.5804192046904744,-0.720743024399898,0.0,-3.044522437723423,0,0EiFANglGSdJLU9AWxD2GF,ICK,"Sikkerhetsproffen, EpaKongen, EpaQueen",1,21,0,False,,,New Music Friday Norway
+332,False,False,sv,-0.5824386352355766,-0.885434267671044,0.0,-4.5217885770490405,0,3yFZioWtx98amPCojYy5gD,Lyser kärleken vägen hem,"Åsa Jinder, Lisa Nilsson",1,92,1,False,117.45384,-15.49091,New Music Friday Sweden
+333,False,False,unknown,-0.5830986994452318,-0.7239852456372318,0.0,-3.044522437723423,0,427jGzgHkbiDBB3hDGEbBN,Track 12,Cherry Chola,1,21,0,False,,,New Music Friday AU & NZ
+334,False,False,unknown,-0.583671921843369,-0.7880112925734104,0.0,-2.833213344056216,0,6HtKaapCZGhHKvuWatfaLk,Jetlag,Knægt,1,17,0,False,,,New Music Friday Denmark
+335,False,False,unknown,-0.584136036065853,-0.8067429665510699,0.0,-2.772588722239781,0,2HEV7yWBMXAV7a3mB49Emx,INCENDIO,SENZA CRI,1,16,0,False,,,New Music Friday Italia
+336,False,False,unknown,-0.5978298098480614,-0.7880112925734104,0.0,-2.8903717578961645,0,0fpITZ0uBTBtWBq8sPmwIU,something bout you,Noha Saré,1,18,0,False,,,New Music Friday NL
+337,False,False,fi,-0.6002193861912787,-1.0557386232346158,0.0,-4.02535169073515,0,0aySV6NANPw00xz6Ge9ZaB,"HUUDEILLE MENNÄÄN HIMAAN (feat. CarlosV, JIIGEE, KESTII, KENRAALI & Kyöperi)","Kimi Hendrix, Tuomas Kauhanen, Aina, CarlosV, JIIGEE, KESTII, KENRAALI, Kyöperi",1,56,1,False,89.10291,-18.07569,New Music Friday Suomi
+338,False,False,en,-0.6027867925211947,-0.877305021908179,0.0,-4.02535169073515,0,4CkjMYxdnUGvh2qiP62jdO,Beam Me Up Then!,Psychedelic Porn Crumpets,1,56,1,False,112.34715,-17.40029,New Music Friday AU & NZ
+339,False,False,unknown,-0.6029525145025851,-0.720743024399898,0.0,-3.1354942159291497,0,6XONvca3gHYWoLUEZUMsG9,THYMA,"DJ Stephan, NIK",1,23,0,False,,,New Music Friday Greece
+340,False,False,unknown,-0.613494344024857,-0.720743024399898,0.0,-3.1780538303479458,0,0AU1RGckC0XbLusSjcnCXh,American,EILA,1,24,0,False,,,New Music Friday Sweden
+341,False,False,unknown,-0.6153678138270714,-1.160290949903316,0.0,-3.7376696182833684,0,19Nd7GgOT1JO3CgWNYXQ2r,Danser tæt på solen,Malika,1,42,1,False,99.38401,-18.41392,New Music Friday Denmark
+342,False,False,unknown,-0.6248437452371968,-0.7891203879307643,0.0,-2.995732273553991,0,59mjBXN0TVpWAL43PgU5Ek,Club Haram,Parham,1,20,0,False,,,New Music Friday Sweden
+343,False,False,el,-0.6252381123865532,-1.2730798054481918,0.0,-3.4011973816621555,0,5R279yyKBSf1wTYx5qfeu1,Mono Pano,"Stk, M.O. Nomad",1,30,1,False,123.04688,-15.56245,New Music Friday Greece
+344,False,False,unknown,-0.6262852674865812,-0.7239852456372318,0.0,-3.2188758248682006,0,3hRuxKgiYU1oO7u70coAu9,like what we had,Alaina Castillo,1,25,0,False,,,New Music Friday Korea
+345,False,False,es,-0.626796515363929,-0.7700626647042799,0.0,-2.3978952727983707,0,5AfQY75NZq66n15hw9TNVC,TÚ SIN YO,"Maria Becerra, Big One",1,11,1,False,151.99908,-15.86821,Novedades Viernes España
+346,False,False,unknown,-0.6296539856712072,-0.7239852456372318,0.0,-2.5649493574615367,0,5qwIUc2vAc4uub3Iut7iaQ,Roze,Flaire,1,13,0,False,,,New Music Friday NL
+347,False,False,unknown,-0.6302613439649158,-0.7671098866643628,0.0,-3.091042453358316,0,64G8KOEZythvMpUowYWHvZ,Fedt At Være Konge,Luca Stereo,1,22,0,False,,,New Music Friday Denmark
+348,False,False,unknown,-0.6310173492541055,-0.7297111221205599,0.0,-3.2188758248682006,0,6IQ6Ybxf0hzzcmGpmfhDS7,So Fly,"RUZE, Kid Enigma, Riton",1,25,0,False,,,New Music Friday UK & Ireland
+349,False,False,unknown,-0.6407321476010854,-0.7297111221205599,0.0,-3.258096538021482,0,2d9uNDseHkM6ETBUOX2UJG,Tzitzilimitzili (Flowqueen pt.2),Aeon,1,26,0,False,,,New Music Friday Greece
+350,False,False,unknown,-0.6407321476010854,-0.7297111221205599,0.0,-3.258096538021482,0,6xtiQUTzdMMN5H7reFU57a,Hardline,"Freaks & Geeks, Fred V, Raphaella",1,26,0,False,,,New Music Friday UK & Ireland
+351,False,False,unknown,-0.6456655612170653,-0.7611258336775335,0.6931471805599453,-2.772588722239781,0,1YsgIvcAD491KMZWgLgUJp,FIN KANOU,DYSTINCT,2,16,0,False,,,New Music Friday France;New Music Friday NL
+352,False,False,it,-0.6510451534666407,-1.1172384197060872,0.0,-4.02535169073515,0,08AdRX8mIejkkstgX8NR9x,La violenza intorno,MANAGEMENT DEL DOLORE POST-OPERATORIO,1,56,1,False,117.45384,-17.1315,New Music Friday Italia
+353,False,False,en,-0.6512379710991164,-2.1039088582568084,1.0986122886681098,-3.1780538303479458,0,5ABg64jiSnFeuzDkKmCZPX,Manny Made,"Suggz, Aitch",3,24,1,False,117.45384,-15.81952,New Music Friday UK & Ireland;New Music Friday AU & NZ;New Music Friday Norway
+354,False,False,unknown,-0.6516767902164655,-0.720743024399898,0.0,-3.332204510175204,0,10qdwu3Z1HlpFRXkkZt8rQ,Olet mun kaikuluotain (Vain elämää kausi 17),"Heikki Salo, Miljoonasade",1,28,0,False,,,New Music Friday Suomi
+355,False,False,pl,-0.6529330628516263,-1.2753625833884927,0.0,-4.174387269895637,0,7lzl0aLi3Ryc9tfKEO6Pog,Czarno na białym,GOLEC UORKIESTRA,1,65,1,False,95.70312,-17.53233,New Music Friday Polska
+356,False,False,en,-0.6547018407407318,-1.2893881317797946,0.0,-3.4657359027997265,0,2LoaIEaEmDlvF1erVNk5Y0,I Wonder If You Think Of Me,two kalme,1,32,1,False,143.55469,-16.1853,New Music Friday UK & Ireland
+357,False,False,unknown,-0.662244364922371,-0.7239852456372318,0.0,-3.295836866004329,0,30XyoSeZQXJiP6y0fCeUWx,Stars Align,"1991, Grace Barton",1,27,0,False,,,New Music Friday UK & Ireland
+358,False,False,unknown,-0.6630482507282849,-0.7239852456372318,0.0,-3.367295829986474,0,2oBQwujmEJjU0webyuU7bm,Track 11,Rops1,1,29,0,False,,,New Music Friday AU & NZ
+359,False,False,unknown,-0.6640084092330567,-0.7817707910761851,0.0,-4.0943445622221,0,0x6WGIxGhDAWZg3rkcrzZ0,Not The End Of It All,Lindstrøm,1,60,0,False,,,New Music Friday Norway
+360,False,False,unknown,-0.6666944582139025,-0.7611258336775335,0.0,-3.258096538021482,0,66dE8r4dqhpyAQAvTeB8z3,That's My Baby,Johnny Orlando,1,26,0,False,,,New Music Friday Korea
+361,False,False,pl,-0.6696614900880724,-1.4970657960934053,0.0,-2.833213344056216,0,7h5JNX0yR8wriqEGmmxJ3Z,W OGIEŃ,"Jędrek Wołodko, FANTØM",1,17,1,False,112.34715,-17.30506,New Music Friday Polska
+362,False,False,unknown,-0.6714455161449493,-0.7239852456372318,0.0,-3.4011973816621555,0,5rHYxh5NHU6JFVKvJviR0m,Hetki ikuisuudessa,JAVE,1,30,0,False,,,New Music Friday Suomi
+363,False,False,unknown,-0.6768354169809444,-0.7873043024057914,0.0,-4.189654742026425,0,1yYCpm0ptEcHV8OwAAs4Nj,Head First,JESSIA,1,66,0,False,,,New Music Friday Deutschland
+364,False,False,unknown,-0.6786145405583569,-0.7873043024057914,0.0,-3.2188758248682006,0,01PWVT6UR6I8nnneoSlynt,They Don't Care,"Full Crate, D Smoke, SABRI",1,25,0,False,,,New Music Friday NL
+365,False,False,unknown,-0.6809880202920073,-0.7671098866643628,0.0,-3.295836866004329,0,3321cAkKurVaI3iSdUOQ4s,Lader som om,Samantha Mercano,1,27,0,False,,,New Music Friday Denmark
+366,False,False,unknown,-0.6872097892968625,-0.7873043024057914,0.0,-2.995732273553991,0,4y0phObRg4w3BceS1BNNFf,Countrysong,RAUM27,1,20,0,False,,,New Music Friday Deutschland
+367,False,False,unknown,-0.6874314243056057,-0.7239852456372318,0.0,-3.4657359027997265,0,4NSS3l3v7GuF137mbFf4x3,OUTTA SPACE,"weirdtechnogirlfriend, PAUL LE BÁY",1,32,0,False,,,New Music Friday AU & NZ
+368,False,False,unknown,-0.6898302209495115,-0.7891203879307643,0.0,-3.258096538021482,0,37H5tVu8eNnljfV9tXvrsw,Przyłóż do rany,Frank Leen,1,26,0,False,,,New Music Friday Polska
+369,False,False,unknown,-0.6898302209495115,-0.7891203879307643,0.0,-3.258096538021482,0,17vG79LxykaZanTAeKer87,Circles,"SMANDEM., Latanya Alberto",1,26,0,False,,,New Music Friday NL
+370,False,False,unknown,-0.6937426431086262,-0.7611258336775335,0.0,-3.367295829986474,0,0oTEUS0vzW6jH3nFPtkyOv,Lonely Nights,Lumï,1,29,0,False,,,New Music Friday NL
+371,False,False,unknown,-0.6937426431086262,-0.7611258336775335,0.0,-3.367295829986474,0,6eUWmudpYHaNRtfFE8ZYF6,How to heal a broken heart,drea,1,29,0,False,,,New Music Friday Norway
+372,False,False,unknown,-0.6937426431086262,-0.7611258336775335,0.0,-3.367295829986474,0,6q6D0gFFd22nNFIiSvonVg,yritän,ama,1,29,0,False,,,New Music Friday Suomi
+373,False,False,unknown,-0.6950534289739373,-0.7239852456372318,0.0,-3.4965075614664802,0,2b2LEjFG2ONlwz7QxMaLvl,MI UNIVERSO,María Artés,1,33,0,False,,,Novedades Viernes España
+374,False,False,unknown,-0.6982617358717642,-0.7880112925734104,0.0,-3.295836866004329,0,4f9BDaZA6aN663M1JH4FnK,Te Laat,Wende,1,27,0,False,,,New Music Friday NL
+375,False,False,unknown,-0.6997855107414617,-0.7297111221205599,0.0,-3.4965075614664802,0,5iUyCRZhfiyObwhLPGignJ,HIT THE FLOOR,Kode.59,1,33,0,False,,,New Music Friday Norway
+376,False,False,unknown,-0.7071799585661491,-0.7297111221205599,0.0,-3.5263605246161616,0,6EiATNlYBPVqUjPMDT1wCO,Ikuisesti sun,"Eva Louhivuori, Knipi",1,34,0,False,,,New Music Friday Suomi
+377,False,False,unknown,-0.7096279623365577,-0.7239852456372318,0.0,-3.5553480614894135,0,19GL1hN4fmnx2APmFOYsYg,Wenn das Liebe ist,Nalya,1,35,0,False,,,New Music Friday Deutschland
+378,False,False,unknown,-0.7096279623365577,-0.7239852456372318,0.0,-3.5553480614894135,0,7KyQKDFRotUMLgDXyskNfQ,Track 2,Kiko Veneno,1,35,0,False,,,Novedades Viernes España
+379,False,False,de,-0.7105913264589486,-1.3763582324161368,0.0,-3.4011973816621555,0,5HSgqm9yhmUpju2ydH2XT2,Zuhause,Pouma,1,30,1,False,129.19922,-15.87057,New Music Friday Deutschland
+380,False,False,unknown,-0.7139262700485598,-0.720743024399898,0.0,-3.58351893845611,0,5j6LnTXZk44qEGlZfOp7wl,ICH BIN ES,DUEJA,1,36,0,False,,,New Music Friday Deutschland
+381,False,False,unknown,-0.715961807322723,-0.7880112925734104,0.0,-3.367295829986474,0,6oOBhYEtLz9tXqbb9e7l15,Phantoms - Radio Edit,"Dino MFU, Claydee, leroybroughtflowers",1,29,0,False,,,New Music Friday Greece
+382,False,False,unknown,-0.720712875588122,-0.720743024399898,0.0,-3.6109179126442243,0,3bQaM54YfkxBUsz4iM8VfO,Mam to (Rap Bez Dubli),"OER, TEDE",1,37,0,False,,,New Music Friday Polska
+383,False,False,unknown,-0.7230712653202869,-0.7671098866643628,0.0,-3.4657359027997265,0,7MSsLRaxxJaOKmQwi8513I,Ike ver dom,Linni,1,32,0,False,,,New Music Friday Norway
+384,False,False,es,-0.7242647156018704,-1.5631363629692796,0.0,-2.833213344056216,0,5scwqGfgP0ah0eGAerRjt1,TUSSI (with Anuel AA),"LAJA, Anuel AA",1,17,1,False,143.55469,-16.67706,Novedades Viernes España
+385,False,False,unknown,-0.7318966842805301,-0.7873043024057914,0.0,-3.4339872044851463,0,5jGEw00JBkl9mlhxcVF5gi,Marie Curie,Boman,1,31,0,False,,,New Music Friday Norway
+386,False,False,unknown,-0.7318966842805301,-0.7873043024057914,0.0,-3.4339872044851463,0,5P3xFJrPQG29gG4HKEA7iK,Wird schon wieder leichter,Bekkaa,1,31,0,False,,,New Music Friday Deutschland
+387,False,False,unknown,-0.7324809678031925,-0.7880112925734104,0.0,-3.4339872044851463,0,2U17qwOyU4TY8c1bR83Esx,Vaket oberörd,DISET,1,31,0,False,,,New Music Friday Sweden
+388,False,False,unknown,-0.7324809678031925,-0.7880112925734104,0.0,-3.4339872044851463,0,75L96qOZCdKsZGCjGOPil2,Krwawimy tak samo,"hello.zola, cyberprojection",1,31,0,False,,,New Music Friday Polska
+389,False,False,unknown,-0.7351875934780112,-0.7817707910761851,0.0,-3.4657359027997265,0,5y6LpMt3LoFmUC6KLAP2PU,I Got To Go,Fritz Kalkbrenner,1,32,0,False,,,New Music Friday Deutschland
+390,False,False,unknown,-0.7351875934780112,-0.7817707910761851,0.0,-3.4657359027997265,0,6ihgv4ZE9blFbHojbYjtDP,Kirsikkamehua,Hilma Palmer,1,32,0,False,,,New Music Friday Suomi
+391,False,False,unknown,-0.7382067205898606,-0.8067429665510699,0.0,-2.995732273553991,0,3N0U4QtIj3mtQEta7u8Cyv,DISTANCE,Libianca,1,20,0,False,,,New Music Friday UK & Ireland
+392,False,False,unknown,-0.7398396394548905,-0.8067429665510699,0.0,-3.4011973816621555,0,4xasplSn5gpnbrBLm18899,Honderdduizend graden - Lucky Done Gone Remix,"Willem, Lucky Done Gone",1,30,0,False,,,New Music Friday NL
+393,False,False,unknown,-0.740322354716899,-0.7611258336775335,0.0,-3.5553480614894135,0,69JXbZE0nCPqcH0fe9OMEi,Tis Nyxtes Mou Leipeis Pio Poly,"Mando, ARCADE",1,35,0,False,,,New Music Friday Greece
+394,False,False,it,-0.7404591168654521,-1.318875338112834,0.0,-3.713572066704308,0,2JryBrtULcJhPlg6ta39wE,10 DI SPADE,Giovane Drago,1,41,1,False,112.34715,-16.44932,New Music Friday Italia
+395,False,False,pl,-0.7406344426108669,-1.097066261341298,0.0,-4.454347296253507,0,6Tw6WfPTSg5iYpTMvG0uPx,Nasz świat,"Michał Sochacki, Ajzeja",1,86,1,False,135.99918,-14.83219,New Music Friday Polska
+396,False,False,unknown,-0.7407456630131883,-0.720743024399898,0.0,-3.044522437723423,0,6eH4WKdJf4XotS4TTQ3UXs,SPENCER,Zahara,1,21,0,False,,,Novedades Viernes España
+397,False,False,unknown,-0.7411640736247882,-0.7297111221205599,0.0,-3.6635616461296463,0,3OKHRnp3RJIzKjUT6qYgLr,PANATO.CH,"Ceha, Donguralesko, Dj Crox",1,39,0,False,,,New Music Friday Polska
+398,False,False,pl,-0.7436645866565426,-1.1539864325837725,0.0,-4.276666119016055,0,582GDp6BICrp55QWLyCrhh,Kreski + kratki,Juna Ara,1,72,1,False,135.99918,-16.64565,New Music Friday Polska
+399,False,False,fr,-0.7450824842588942,-1.9361862209893412,0.0,-0.6931471805599453,0,0jyGEBJvHMxZhoI8768SIz,Chanel,L2B,1,2,1,False,123.04688,-15.9499,New Music Friday France
+400,False,False,unknown,-0.7478280508031538,-0.7297111221205599,0.0,-3.1354942159291497,0,6G3JQwgmxifa4VK8owGgNE,Tu me manques,"Linh, Claudio Capéo",1,23,0,False,,,New Music Friday France
+401,False,False,unknown,-0.7488193533320984,-0.7239852456372318,0.0,-3.713572066704308,0,0T0ZcoUj2fSFWy2kasPOsv,JAPOŃSKIE FURY,buffalo,1,41,0,False,,,New Music Friday Polska
+402,False,False,unknown,-0.7502040459710305,-0.7817707910761851,0.0,-3.5263605246161616,0,6yxLEQY0Fhu8dYHJF62Nft,Paradiso,Zetazen,1,34,0,False,,,Novedades Viernes España
+403,False,False,en,-0.7510142710229444,-2.1417534249792207,0.6931471805599453,-4.0943445622221,0,39PO3g3EGCMfMroUXSK8gD,Drop,BAMBII,2,60,1,False,143.55469,-15.3518,New Music Friday AU & NZ;New Music Friday France
+404,False,False,unknown,-0.7522456058179985,-0.7671098866643628,0.0,-3.58351893845611,0,2ylzLUM2tdp5OgjGvwfeEL,For evig mon tro,Tobine,1,36,0,False,,,New Music Friday Norway
+405,False,False,unknown,-0.7547882109949258,-0.7239852456372318,0.0,-3.7376696182833684,0,1pNwuNVq3ti7kXBslYxDut,Monaco,Oklahoma,1,42,0,False,,,New Music Friday Norway
+406,False,False,unknown,-0.7579371170765015,-0.720743024399898,0.0,-3.7612001156935624,0,2GuJgbUjA2XeA86xMhRUve,Plass Til En Sånn Som Deg,Snow Boyz,1,43,0,False,,,New Music Friday Norway
+407,False,False,unknown,-0.760616611831259,-0.7239852456372318,0.0,-3.7612001156935624,0,1VhVjtTujywwxS7lutlBcM,"MONDO NUOVO (feat. fil, SELMI & Sairo)","TALEA, fil, SELMI, Sairo",1,43,0,False,,,New Music Friday Italia
+408,False,False,unknown,-0.760616611831259,-0.7239852456372318,0.0,-3.7612001156935624,0,6cKUjwFe38Sg8vMbxLCeLd,Money Sexy,BINA.,1,43,0,False,,,New Music Friday UK & Ireland
+409,False,False,unknown,-0.760616611831259,-0.7239852456372318,0.0,-3.7612001156935624,0,5kGlwkkU9NHN9g8lVPMQmJ,Jos mä menetän sut,Sokar,1,43,0,False,,,New Music Friday Suomi
+410,False,False,unknown,-0.7606923703688062,-0.7611258336775335,0.0,-3.6375861597263857,0,4LezudMjlJCQgNJdCyVjuu,Mi Negra,"Samuel SLZR, Cbeatz",1,38,0,False,,,Novedades Viernes España
+411,False,False,unknown,-0.7627180939814922,-0.7880112925734104,0.0,-3.332204510175204,0,7r5hgGmzY1y4aAPRiSpxsf,Alle i live,"Side Brok, Lille Urt, Sirkel Sag, Runar Gudnason",1,28,0,False,,,New Music Friday Norway
+412,False,False,unknown,-0.7634475522838785,-0.8067429665510699,0.0,-3.4965075614664802,0,0Fu6EOtszBw8TTXttjRGUW,tędy,nic nic,1,33,0,False,,,New Music Friday Polska
+413,False,False,unknown,-0.7634475522838785,-0.8067429665510699,0.0,-3.4965075614664802,0,1Il3TC8VQ0UWykq98sUKRk,S.O.M,LB,1,33,0,False,,,New Music Friday Sweden
+414,False,False,unknown,-0.7636315197451709,-0.720743024399898,0.0,-3.784189633918261,0,02OIFyCNkTBrU5DqANpn8V,Thuggeseminar,Nick Nord,1,44,0,False,,,New Music Friday Norway
+415,False,False,unknown,-0.7653486935987832,-0.7297111221205599,0.0,-3.7612001156935624,0,57lcZ71S1GDOA1y0xPe01z,Piger,såforsatan,1,43,0,False,,,New Music Friday Denmark
+416,False,False,es,-0.7696184493750081,-1.3007348704752075,0.0,-3.8918202981106265,0,6PS5VbwrZHxUrUvPH5KLtv,La Bella Y El Delincuente,El Jhota,1,49,1,False,123.04688,-17.35438,Novedades Viernes España
+417,False,False,unknown,-0.7711485395152851,-0.7817707910761851,0.0,-3.6109179126442243,0,1U5ppvqyAOSQiXfwHd7VJ3,For You (feat. Jessica Mauboy & Jem Cassar-Daley),"Ruby Rodgers, Jessica Mauboy, Jem Cassar-Daley",1,37,0,False,,,New Music Friday AU & NZ
+418,False,False,unknown,-0.7711485395152851,-0.7817707910761851,0.0,-3.6109179126442243,0,0nA3NzWGkHazCgmk2LMclb,CAPÍTULO 3 - El Llavero,Conchita,1,37,0,False,,,Novedades Viernes España
+419,False,False,unknown,-0.7718774421686521,-0.7239852456372318,0.0,-3.8066624897703196,0,2fMOgfjQAgQUl8UUIaXkFg,When The End Comes,Marius Ziska,1,45,0,False,,,New Music Friday Denmark
+420,False,False,unknown,-0.772071832871945,-0.7671098866643628,0.0,-3.6635616461296463,0,5ESpt1NYPAmdGyaamYo32v,No Other,FUKHED,1,39,0,False,,,New Music Friday AU & NZ
+421,False,False,unknown,-0.7766095239361763,-0.7297111221205599,0.0,-3.8066624897703196,0,6PEFwplB8TZ2vo6wrkSHYL,ich wünschte ich könnte,Maiva,1,45,0,False,,,New Music Friday Deutschland
+422,False,False,unknown,-0.7773215208070365,-0.7239852456372318,0.0,-3.828641396489095,0,6A9s1KDiBQOouEgaVy5Dvd,HJERTERUM,C21,1,46,0,False,,,New Music Friday Denmark
+423,False,False,unknown,-0.7806562400523834,-0.7671098866643628,0.0,-2.70805020110221,0,4ICTiNMlVnqu60ZqZZcLio,Only Want You,Nectar Woode,1,15,0,False,,,New Music Friday UK & Ireland
+424,False,False,unknown,-0.7844591943467796,-0.7671098866643628,0.0,-3.713572066704308,0,7nxh5qIhTbe1j36eFyoBK3,Als Ik Weg Ben,Marc Floor,1,41,0,False,,,New Music Friday NL
+425,False,False,unknown,-0.785183855574551,-0.720743024399898,0.0,-3.871201010907891,0,2Zn0s2mNbQuNpuhFHalF1i,Min To Peis Pouthena,Antypas,1,48,0,False,,,New Music Friday Greece
+426,False,False,es,-0.7852050979406457,-1.204250956392184,0.0,-4.276666119016055,0,0kxRkp7XkmYPZXADYydRAM,Visiones,Lucas Colman,1,72,1,False,123.04688,-17.49655,Novedades Viernes España
+427,False,False,unknown,-0.7878633503293084,-0.7239852456372318,0.0,-3.871201010907891,0,1MAs7Bj45yopDgZzRV5sYL,MANNSCHAFT,"JoeyAK, THIZZY52",1,48,0,False,,,New Music Friday NL
+428,False,False,unknown,-0.7878633503293084,-0.7239852456372318,0.0,-3.871201010907891,0,6Ipixw6iQzmX7LKZSAJc4U,"Please, Maybe",ARI LEE,1,48,0,False,,,New Music Friday Korea
+429,False,False,unknown,-0.7902621469732142,-0.7891203879307643,0.0,-3.6635616461296463,0,2rdu1Ebpmf7Zm2Hdel44bB,BLACK SWAN,Charlize,1,39,0,False,,,New Music Friday Deutschland
+430,False,False,unknown,-0.790428052009607,-0.7671098866643628,0.0,-3.7376696182833684,0,13Q8WZAv9ZmMpiCga8DfE3,Välil sataa,jokeri,1,42,0,False,,,New Music Friday Suomi
+431,False,False,unknown,-0.7925954320968327,-0.7297111221205599,0.0,-3.871201010907891,0,42S4UM0ZyvHsemaXrOODc9,DENIM,Marie Bothmer,1,48,0,False,,,New Music Friday Deutschland
+432,False,False,it,-0.7930951103753708,-1.3000205124014141,0.0,-3.9889840465642745,0,2mctUmYVnBId0ranZEedmo,PALO,twentyone21,1,54,1,False,117.45384,-17.89355,New Music Friday Italia
+433,False,False,en,-0.7950306284042613,-1.0659627654781043,0.0,-4.553876891600541,0,4xNJ94l6QNbLg2LQMop2Pu,I Am The Creator,Koala Bar,1,95,1,False,112.34715,-17.41819,New Music Friday Sweden
+434,False,False,unknown,-0.795032374742716,-0.7873043024057914,0.0,-3.6888794541139363,0,73gshWMTBPP6HIBZFYTuAT,Viiden tähden kusipää,Sana,1,40,0,False,,,New Music Friday Suomi
+435,False,False,unknown,-0.7959597821743378,-0.7671098866643628,0.0,-3.4965075614664802,0,6553wCdVuWciRZbLd0T1r5,RE4SON,"Hardwell, 4444 OF A KIND, Sub Zero Project, D-Block & S-te-Fan",1,33,0,False,,,New Music Friday NL
+436,False,False,unknown,-0.7962564528459402,-0.7671098866643628,0.0,-3.7612001156935624,0,43zRC19Tu0f0WMMru7vOdr,Track 2,gels,1,43,0,False,,,New Music Friday Korea
+437,False,False,unknown,-0.7965332567868907,-0.7891203879307643,0.0,-3.6888794541139363,0,2vPqCuX4GFFAJiGj9JQMG0,Grain of Salt,"EZMNY, G-Eazy, Ty Dolla $ign, rjtheweirdo, Bizzy Crook",1,40,0,False,,,New Music Friday AU & NZ
+438,False,False,unknown,-0.7965332567868907,-0.7891203879307643,0.0,-3.6888794541139363,0,6v3QZxEY4GChw1l892TKRc,We’ll Be Okay,Jaïr Faria,1,40,0,False,,,New Music Friday NL
+439,False,False,unknown,-0.7970054068802697,-0.7611258336775335,0.0,-3.784189633918261,0,3sa489oo3ZM0tUzA0CtEFQ,Track 3,EL CAPITXN,1,44,0,False,,,New Music Friday Korea
+440,False,False,unknown,-0.8026495084480487,-0.7891203879307643,0.0,-3.713572066704308,0,4eBLc3qRDHnK2OXterlbvx,Pressure,Godwin,1,41,0,False,,,New Music Friday Deutschland
+441,False,False,unknown,-0.8027068608037994,-0.7297111221205599,0.0,-3.912023005428146,0,3BriyHJ1UJFWxdzhVYOXTK,Blue Valentine,Ola Kassen,1,50,0,False,,,New Music Friday Norway
+442,False,False,unknown,-0.8028798028223276,-0.7239852456372318,0.0,-3.9318256327243257,0,2iGAY8qSa5F9RwW6uz8XJr,wyjdę na ludzi,mop,1,51,0,False,,,New Music Friday Polska
+443,False,False,unknown,-0.8028798028223276,-0.7239852456372318,0.0,-3.9318256327243257,0,3ELJLMFI6B82wbzUOlHj6m,If You'll Have Me,Elén,1,51,0,False,,,New Music Friday Norway
+444,False,False,unknown,-0.8075172831833332,-0.7671098866643628,0.0,-3.8066624897703196,0,3rRX4QTJvGTBYjxmoduXJV,Malibú Con Piña,Naiara,1,45,0,False,,,Novedades Viernes España
+445,False,False,unknown,-0.8076118845898519,-0.7297111221205599,0.0,-3.9318256327243257,0,79LahQP0yARLnQyQs2Fvt6,Verstand Op Nul,Mara Julia,1,51,0,False,,,New Music Friday NL
+446,False,False,unknown,-0.8086183661108761,-0.7891203879307643,0.0,-3.7376696182833684,0,0DlKadSlaBLCwA4ISsqmCA,resti,Maury North,1,42,0,False,,,New Music Friday Italia
+447,False,False,es,-0.8087332276799443,-2.6087507379119326,0.6931471805599453,-0.0,0,6qP0OSXyS6vMS7Ib4waLHt,Milko Freestyle,"C. Tangana, Agorazein",2,1,1,False,135.99918,-16.8956,Novedades Viernes España;New Music Friday Italia
+448,False,False,unknown,-0.809728236841835,-0.720743024399898,0.0,-3.970291913552122,0,41gfXl0a4bMh4j4AiCAsyP,Zelda Ocarina Of Time (feat. Piter-G),"Zarcort, Piter-G",1,53,0,False,,,Novedades Viernes España
+449,False,False,unknown,-0.8110972249808817,-0.8067429665510699,0.0,-3.6888794541139363,0,1JoZqvzOtAsAnceJ5ddHTs,Mama,"Jan Borysewicz, Mikołaj Bukrewicz",1,40,0,False,,,New Music Friday Polska
+450,False,False,unknown,-0.8129613618217177,-0.7671098866643628,0.0,-3.828641396489095,0,10DfdNjRokrQcRVlIR3Sb8,SLECHT!,Noor,1,46,0,False,,,New Music Friday NL
+451,False,False,unknown,-0.814378365900784,-0.7891203879307643,0.0,-3.332204510175204,0,5BFjVyfbMV52PwrSsLvaVz,When I Call,Trolle Siebenhaar,1,28,0,False,,,New Music Friday Denmark
+452,False,False,unknown,-0.81703769082702,-0.7239852456372318,0.0,-3.9889840465642745,0,5ajsdfcBoGZ1n3LVSuR4gc,Grammatosima,"Kos K., Konstantina Kioulou",1,54,0,False,,,New Music Friday Greece
+453,False,False,unknown,-0.818288354375726,-0.7671098866643628,0.0,-3.8501476017100584,0,08QBIK8z8jBOxcYMBdJ7w1,Vathia Sta Matia,"Saveria Margiola, Apostolis Armagos",1,47,0,False,,,New Music Friday Greece
+454,False,False,unknown,-0.8201411696158787,-0.7891203879307643,0.0,-3.784189633918261,0,4ss9ORbHdBCAGoTsRZoSoJ,XXX,"Liva K, Sioma",1,44,0,False,,,New Music Friday Greece
+455,False,False,unknown,-0.8236650495668755,-0.7611258336775335,0.0,-3.8918202981106265,0,7IJSbFW4h3G1t4v0W5QTTj,Roll It,"Rytikal, Kybba",1,49,0,False,,,New Music Friday NL
+456,False,False,unknown,-0.8257075972846023,-0.7891203879307643,0.0,-3.8066624897703196,0,4hIZ3U3vAQRBjE3O8ijXcv,Track 2,Lavils,1,45,0,False,,,New Music Friday NL
+457,False,False,unknown,-0.8263147736327876,-0.7297111221205599,0.0,-4.007333185232471,0,60ZlQpK5bGKNhrsUByQC7I,Your Pretty Face is Basic,Silje Strange,1,55,0,False,,,New Music Friday Denmark
+458,False,False,unknown,-0.8268707664081059,-0.7611258336775335,0.0,-4.219507705176107,0,64rUmiffyMng7ToTBC8rkJ,Une bande de rêveurs,Didier Barbelivien,1,68,0,False,,,New Music Friday France
+459,False,False,unknown,-0.8269446520072248,-0.7873043024057914,0.0,-2.995732273553991,0,2ffwFnl1u908rXQ8qBTdIf,Feel Love,"Dimitri Vegas & Like Mike, Maddix, The Rocketman",1,20,0,False,,,New Music Friday France
+460,False,False,unknown,-0.8296507938788122,-0.7873043024057914,0.0,-3.828641396489095,0,3bs4l5CqCmFnSTZsicJHSX,Somebody Like You,Dreamboys The Band,1,46,0,False,,,New Music Friday Deutschland
+461,False,False,pl,-0.831965971341055,-1.0678894931907712,0.0,-3.4657359027997265,0,6y9TFmOBfVhz8vGmtthAUG,TRAP 2.0,"Filipek, Nel",1,32,1,False,135.99918,-17.10921,New Music Friday Polska
+462,False,False,unknown,-0.8356195195017141,-0.7817707910761851,0.0,-3.871201010907891,0,0D2FRGIJRr3jkjbVlbsEI1,intro(OUTRO),Villehart,1,48,0,False,,,New Music Friday Suomi
+463,False,False,unknown,-0.836292483568515,-0.720743024399898,0.0,-4.07753744390572,0,19jALFWOOn3qmDtZBm17oE,Step In The Shadow,"Off Licence, LEGZDINA",1,59,0,False,,,New Music Friday UK & Ireland
+464,False,False,unknown,-0.8383839697635964,-0.7611258336775335,0.0,-3.9512437185814275,0,0NkhY5jOJAV9VSktM6Ph7w,Tager Hvad Jeg Kan Få,Ninna Lundberg,1,52,0,False,,,New Music Friday Denmark
+465,False,False,unknown,-0.8385196438370088,-0.7671098866643628,0.0,-3.9318256327243257,0,2S4kZ2bdefZGnY1HDl81nd,PRESTIGE,"VELL, Rjay",1,51,0,False,,,New Music Friday Greece
+466,False,False,unknown,-0.8401926234010841,-0.7873043024057914,0.0,-3.871201010907891,0,3ujzK6R84iZFAYtLUhptD1,every other night,Frankie Venter,1,48,0,False,,,New Music Friday AU & NZ
+467,False,False,unknown,-0.8404555329398856,-0.720743024399898,0.0,-4.0943445622221,0,4whmU4E5OPqWC4WFEv9hYw,Prison,Hanna Rautzenberg,1,60,0,False,,,New Music Friday Deutschland
+468,False,False,unknown,-0.8407769069237465,-0.7880112925734104,0.0,-3.871201010907891,0,5phJ6xJ0LLPcY8bGrMCoKW,DEJAR IR,Los Caños,1,48,0,False,,,Novedades Viernes España
+469,False,False,fi,-0.8429067372207308,-1.1878480965871425,0.0,-4.564348191467836,0,3yJ3YttMtJVZtAnnpuIEeo,Henkkaa koulussa kiusattiin,Lipa Liukkonen,1,96,1,False,129.19922,-16.99985,New Music Friday Suomi
+470,False,False,unknown,-0.8431021239769338,-0.7611258336775335,0.0,-3.970291913552122,0,13s4WADIFnSBfLYJ8KW4hr,Maman ne dort pas,Djadja & Dinaz,1,53,0,False,,,New Music Friday France
+471,False,False,unknown,-0.8468008123024845,-0.7891203879307643,0.0,-3.8918202981106265,0,1eWsvowSDRkghLQGvFL9nY,Plume,Simon Mény,1,49,0,False,,,New Music Friday France
+472,False,False,unknown,-0.8482260668773332,-0.7671098866643628,0.0,-4.406719247264253,0,4RvaGqKiyfJW4ZtDW1h2Cd,Live My Life,Bimini,1,82,0,False,,,New Music Friday UK & Ireland
+473,False,False,pl,-0.8492065948650491,-1.506571159426597,0.0,-3.5263605246161616,0,3GHHCC4REhYdd7DJt1H7A4,ZNASZ MNIE,Hodak,1,34,1,False,143.55469,-17.53713,New Music Friday Polska
+474,False,False,unknown,-0.8492655965473503,-0.7239852456372318,0.0,-3.58351893845611,0,0cSpULa6s62ea0xiIS6EV5,Cuenta Conmigo,Estrella Morente,1,36,0,False,,,Novedades Viernes España
+475,False,False,unknown,-0.8498871597482665,-0.8067429665510699,0.0,-3.4011973816621555,0,41nzyp8c9NJygQwfU7bZaK,Før eg legge deg på hylla,Bare Andy,1,30,0,False,,,New Music Friday Norway
+476,False,False,unknown,-0.8503040521080508,-0.7873043024057914,0.0,-3.912023005428146,0,4yilh9gI9jhoeQ3eg5LSnZ,Gelebt,Patwah,1,50,0,False,,,New Music Friday Deutschland
+477,False,False,unknown,-0.8503040521080508,-0.7873043024057914,0.0,-3.912023005428146,0,448nAlgI451yIzKMlhamdB,Mandelaefekti,Kuningasidea,1,50,0,False,,,New Music Friday Suomi
+478,False,False,unknown,-0.8506359719947332,-0.7817707910761851,0.0,-3.9318256327243257,0,3HYStRor1g78cGa98YqMVK,Track 2,Tigeroak,1,51,0,False,,,New Music Friday Denmark
+479,False,False,unknown,-0.8506359719947332,-0.7817707910761851,0.0,-3.9318256327243257,0,2jCgB6G2uXHkfB5esRnzMy,Forever,"Part Time Killer, ORBİ",1,51,0,False,,,New Music Friday Deutschland
+480,False,False,unknown,-0.8519613449403645,-0.7297111221205599,0.0,-4.110873864173311,0,2SQUlwdTKOIdzs52SVKUea,I'm Okay With Being Lonely,Cristale,1,61,0,False,,,New Music Friday UK & Ireland
+481,False,False,unknown,-0.8522770842456046,-0.7611258336775335,0.0,-4.007333185232471,0,706tOubo4doCmYBpa3gS3M,Per un pugno di dollari,"Te quiero Euridice, SANTACHIARA",1,55,0,False,,,New Music Friday Italia
+482,False,False,unknown,-0.8522770842456046,-0.7611258336775335,0.0,-4.007333185232471,0,3HjhPhgCPtjUpiHN9j5owk,Million,Døgndrømmer,1,55,0,False,,,New Music Friday Norway
+483,False,False,unknown,-0.852540642263871,-0.720743024399898,0.0,-4.143134726391533,0,7nfOKmcuEkxTKt2Riwcyi4,Vleugels,Amèl,1,63,0,False,,,New Music Friday NL
+484,False,False,unknown,-0.8526775318417013,-0.7671098866643628,0.0,-3.9889840465642745,0,0mscAHKfX5s0Sq7sf6B1QD,Knuste folk,"AD, Isak22",1,54,0,False,,,New Music Friday Norway
+485,False,False,unknown,-0.8552201370186285,-0.7239852456372318,0.0,-4.143134726391533,0,5OuOFB0a5Aw0xE6cQE7ryI,Run Away,ZIAN,1,63,0,False,,,New Music Friday Deutschland
+486,False,False,unknown,-0.8557933594167657,-0.7880112925734104,0.0,-3.9318256327243257,0,2mX3JrTzPboJfdeckrYjfz,Hurrikaani,TIA,1,51,0,False,,,New Music Friday Suomi
+487,False,False,unknown,-0.8559890045259726,-0.7297111221205599,0.0,-4.127134385045092,0,0wlVZ8ROTFwCQ6ns2wjLYx,Glopraregn,Benjamin Rajani,1,62,0,False,,,New Music Friday Denmark
+488,False,False,unknown,-0.8564414411005419,-0.720743024399898,0.0,-4.1588830833596715,0,0pkzXkrb0PZyxFdsKvVDri,Need That Love Tonight,"ÁSDÍS, Sam Feldt, Laidback Luke",1,64,0,False,,,New Music Friday NL
+489,False,False,unknown,-0.8591209358552995,-0.7239852456372318,0.0,-4.1588830833596715,0,31ZhwcfMZ9KVLwLrZXpQnT,Tyynypuhetta,Emmisi,1,64,0,False,,,New Music Friday Suomi
+490,False,False,unknown,-0.8600188504550308,-0.7873043024057914,0.0,-3.9512437185814275,0,2zvQXP3z7Z0KjaM9Yc9AhW,parallel lines,lovlaine,1,52,0,False,,,New Music Friday Korea
+491,False,False,unknown,-0.8613647804964755,-0.8067429665510699,0.0,-3.8918202981106265,0,49kc6ivyBhKRMTJCs8g7uc,FEEL RIGHT,isaacprease,1,49,0,False,,,New Music Friday Korea
+492,False,False,unknown,-0.8615197324992054,-0.7891203879307643,0.0,-3.9512437185814275,0,1w3bQzLj4SF5ReGdJNKEX7,High,EDEL,1,52,0,False,,,New Music Friday Norway
+493,False,False,unknown,-0.8629612547485896,-0.7239852456372318,0.0,-4.174387269895637,0,5WagHRlXQApFDXoJbxAqEr,Mazzo di aghi,PUGNI,1,65,0,False,,,New Music Friday Italia
+494,False,False,unknown,-0.8638530176228237,-0.7297111221205599,0.0,-4.1588830833596715,0,7yKR9UVoWcXOjVIexlWRDo,Talkin' Bout,"Togetherness, Miami Horror",1,64,0,False,,,New Music Friday AU & NZ
+495,False,False,unknown,-0.8640527831179914,-1.4405246093521127,0.0,-3.8066624897703196,0,7DBSJmoCTvuUEO5V1FngrD,Bolonese,L.A.X,1,45,1,False,117.45384,-15.50043,New Music Friday France
+496,False,False,unknown,-0.86543215465832,-0.7611258336775335,0.0,-4.060443010546419,0,6xWrKgkFOGF1E9pf416aDH,ein bisschen mehr für dich,IVANA,1,58,0,False,,,New Music Friday Deutschland
+497,False,False,unknown,-0.866069745026849,-0.7671098866643628,0.0,-4.04305126783455,0,0bmJ5ITaI4S2cubiO86fQK,trampoline,"piri, t.o",1,57,0,False,,,New Music Friday UK & Ireland
+498,False,False,unknown,-0.866069745026849,-0.7671098866643628,0.0,-4.04305126783455,0,1vbt9bJOfzKXHgyaahsScb,STREETS,Mwanje,1,57,0,False,,,New Music Friday AU & NZ
+499,False,False,unknown,-0.8662378867125429,-0.7891203879307643,0.0,-3.970291913552122,0,3swfdrsZzZelOWGmj7XPt7,Just 4 You,"CC:DISCO!, Jennifer Loveless",1,53,0,False,,,New Music Friday AU & NZ
+500,False,False,unknown,-0.8662378867125429,-0.7891203879307643,0.0,-3.970291913552122,0,3tl7tn9Ijk54BCp0CvOgpj,Opium,be vis,1,53,0,False,,,New Music Friday Polska
+501,False,False,unknown,-0.8663689023462163,-0.8067429665510699,0.0,-3.912023005428146,0,38ogi1kJbPakzeZwELQv1D,Jord,Sofijah,1,50,0,False,,,New Music Friday Sweden
+502,False,False,unknown,-0.8667429405236311,-0.7239852456372318,0.0,-4.189654742026425,0,6CKCqAqIEE19hFIZch2LSP,Przed Nami,"DJ Adamus, Ada Szulc",1,66,0,False,,,New Music Friday Polska
+503,False,False,unknown,-0.8674833399126306,-0.7611258336775335,0.0,-3.4011973816621555,0,0Ct9VBzh0DOFM33b1QNbsb,Dreamers,Sam Alfred,1,30,0,False,,,New Music Friday AU & NZ
+504,False,False,unknown,-0.8676933365161139,-0.7297111221205599,0.0,-4.174387269895637,0,1pubDYeCjpzDPNwUDiCeX6,Track 1,Hermanos Martínez,1,65,0,False,,,Novedades Viernes España
+505,False,False,unknown,-0.8677882619289516,-0.720743024399898,0.0,-4.204692619390966,0,4uNwlsHpizDkiLd0Jam9D0,Vermuth,Westerman,1,67,0,False,,,New Music Friday UK & Ireland
+506,False,False,unknown,-0.869164509054015,-0.7239852456372318,0.0,-4.143134726391533,0,2cgoZ3r4bJs7x8nRd0guO3,Boots And Pistols,"Kingswood, Sarah Grace Buckley",1,63,0,False,,,New Music Friday AU & NZ
+507,False,False,unknown,-0.8693388610376689,-0.7817707910761851,0.0,-4.007333185232471,0,4H9xiGkn2jXCJ16BW3VEGy,Track 5,Tori Darke,1,55,0,False,,,New Music Friday AU & NZ
+508,False,False,unknown,-0.8693669638987958,-0.7873043024057914,0.0,-3.9889840465642745,0,44Y9zJecVyUwHuJN23MXBY,Danke für Garnix,Alice Stark,1,54,0,False,,,New Music Friday Deutschland
+509,False,False,unknown,-0.8696663707036139,-0.7611258336775335,0.0,-4.07753744390572,0,7gl1TEeJaXnR9MWNRTvAgm,Lost In Motion,Moss,1,59,0,False,,,New Music Friday NL
+510,False,False,unknown,-0.8704677566837091,-0.7239852456372318,0.0,-4.204692619390966,0,3VMqhMPRzXcrBfx1juYih9,Ash,Jack and the Weatherman,1,67,0,False,,,New Music Friday NL
+511,False,False,unknown,-0.8708678459429704,-0.7891203879307643,0.0,-3.9889840465642745,0,6Lsvzwyp7wGOymnjvdp0tg,Valdevaqueros,Noan,1,54,0,False,,,Novedades Viernes España
+512,False,False,fr,-0.8715557010513276,-1.967276733434832,0.0,-2.0794415416798357,0,4uyr0Cw61kDhk0JBJOfDAK,PARTY,"Didi B, Davido",1,8,1,False,112.34715,-17.29377,New Music Friday France
+513,False,False,unknown,-0.8739119649370389,-0.7873043024057914,0.0,-4.007333185232471,0,0k1kiaNO35WhkMc8cnktsY,Fobia,"emka, esceh, noSleep, Distroke",1,55,0,False,,,New Music Friday Polska
+514,False,False,unknown,-0.8750739520759818,-0.720743024399898,0.0,-4.23410650459726,0,6ZSBUGwOreaTfzLvWeYOFf,HIMOTHY,"H.LLS, Ledbyher, Yakiyn",1,69,0,False,,,New Music Friday UK & Ireland
+515,False,False,unknown,-0.8781860731845734,-0.7817707910761851,0.0,-4.04305126783455,0,577gXxouKqPQgxVKTFoE7N,passi (davanti),Zoe,1,57,0,False,,,New Music Friday Italia
+516,False,False,unknown,-0.878959353115355,-0.7880112925734104,0.0,-4.02535169073515,0,4WLCUiWOSYFYhAlWzp9Qkg,Cristales (desde la casa de Iván),"Luis Fercán, Ivan Ferreiro",1,56,0,False,,,Novedades Viernes España
+517,False,False,unknown,-0.8808018549065337,-0.8067429665510699,0.0,-3.970291913552122,0,0LRhvjzOBKRznkNZA3u8dQ,Stay Close,Farida,1,53,0,False,,,New Music Friday Norway
+518,False,False,unknown,-0.8813174738862517,-0.7239852456372318,0.0,-4.248495242049359,0,7bFDKT5hj618Qjbxc5BUuO,WHOOF,"Sydoz, Barto Katt, Miły ATZ",1,70,0,False,,,New Music Friday Polska
+519,False,False,unknown,-0.8821514509042745,-0.720743024399898,0.0,-4.2626798770413155,0,3p13w0ssiW2eH9udyGsNGj,Ratata,"Denise Kroes, Dylisa",1,71,0,False,,,New Music Friday NL
+520,False,False,unknown,-0.8824855285982636,-0.7297111221205599,0.0,-4.23410650459726,0,4zHQOtcO4gu9JAbSwlorJ4,Show Me Love,CRUSH3d,1,69,0,False,,,New Music Friday AU & NZ
+521,False,False,unknown,-0.8824939314503844,-0.7817707910761851,0.0,-4.060443010546419,0,53oWYKd4JECrSqgp0ZLK7z,Automatic,"msft, Rakjay",1,58,0,False,,,New Music Friday Italia
+522,False,False,unknown,-0.8824939314503844,-0.7817707910761851,0.0,-4.060443010546419,0,6FeJYtM3d7Pn8YFOuIOeN8,My Remedy,Jungle by Night,1,58,0,False,,,New Music Friday NL
+523,False,False,unknown,-0.8828691041875214,-0.7671098866643628,0.0,-4.110873864173311,0,4BtGBb8cTy2p4Nrc7QCGJh,Tulevaisuuden historiaa,Saga Olsson,1,61,0,False,,,New Music Friday Suomi
+524,False,False,unknown,-0.8828691041875214,-0.7671098866643628,0.0,-4.110873864173311,0,5lu2iMzwV49342DeCy8yYO,Dirty On The Dancefloor,"Stefania, HUTS",1,61,0,False,,,New Music Friday NL
+525,False,False,unknown,-0.8842600591281181,-0.7891203879307643,0.0,-4.04305126783455,0,4nmVAcrJlr7P9EHJWjAOuu,M3,Fanny,1,57,0,False,,,New Music Friday Deutschland
+526,False,False,unknown,-0.8848309456590321,-0.7239852456372318,0.0,-4.2626798770413155,0,0dVDB7he251aHjIp2OeCdG,Tout donner,Hotel Blue,1,71,0,False,,,New Music Friday France
+527,False,False,unknown,-0.8854058966289939,-0.7891203879307643,0.0,-3.6375861597263857,0,5wvO53WMX6YaeU5p0B1ASZ,Feels Like Heaven,Sheppard,1,38,0,False,,,New Music Friday AU & NZ
+528,False,False,unknown,-0.8854318141369613,-0.8067429665510699,0.0,-3.9889840465642745,0,19463be9gLbKlXBfRoX5J7,Luotei,"Jonihey, mie.emi, Huntti",1,54,0,False,,,New Music Friday Suomi
+529,False,False,unknown,-0.8869636263527566,-0.7891203879307643,0.0,-4.418840607796598,0,2V4Y1t6Hzs7Cy1dnDT0l3d,Five Star Funk,"Hoax, Hugh Hardie",1,83,0,False,,,New Music Friday UK & Ireland
+530,False,False,unknown,-0.8870670353497544,-0.7873043024057914,0.0,-4.060443010546419,0,5beDh4JJBRdw6TlsHIuYGA,Rockin' With The Best,Osmosis Jones,1,58,0,False,,,New Music Friday AU & NZ
+531,False,False,unknown,-0.8882952763530112,-0.7239852456372318,0.0,-4.276666119016055,0,1TL63QISHYXzqPPBESPzQf,Girlfriend,Saam Sultan,1,72,0,False,,,New Music Friday UK & Ireland
+532,False,False,unknown,-0.8890323268947883,-0.720743024399898,0.0,-4.290459441148391,0,1ZbzWtxyANNxsXguRUuqjH,CONDENA,Mel Ömana,1,73,0,False,,,Novedades Viernes España
+533,False,False,unknown,-0.8899768151752044,-0.8067429665510699,0.0,-4.007333185232471,0,40E6ONXw2To75kJclO2gui,Pääpäivä,Horse Attack Sqwad,1,55,0,False,,,New Music Friday Suomi
+534,False,False,unknown,-0.8904260388486517,-0.7873043024057914,0.0,-3.8501476017100584,0,7wtpiYDphK6hlkOjV23T4J,Hello Sunshine,The Bamboos,1,47,0,False,,,New Music Friday AU & NZ
+535,False,False,unknown,-0.8924023871378159,-0.720743024399898,0.0,-4.30406509320417,0,3aH2WAyiilQ50Y02QsYZh8,BOOMKICK,Leita Butternut,1,74,0,False,,,New Music Friday France
+536,False,False,unknown,-0.8950818818925734,-0.7239852456372318,0.0,-4.30406509320417,0,3BxhnEi3ovTubKYhoiD72j,Be a Friend,Delilah Montagu,1,74,0,False,,,New Music Friday UK & Ireland
+537,False,False,unknown,-0.8969651828105935,-0.7891203879307643,0.0,-4.0943445622221,0,6TCqk4OrKkuNwKBKogL6ys,Optimist,Shary-An,1,60,0,False,,,New Music Friday NL
+538,False,False,unknown,-0.8984067050599778,-0.7239852456372318,0.0,-4.31748811353631,0,1KUmTrLT4Ccx9sbYAFojF0,I'm Sorry Babe,Muylike,1,75,0,False,,,New Music Friday NL
+539,False,False,unknown,-0.9023827815383123,-0.7671098866643628,0.0,-4.189654742026425,0,2o4NbdzXSpy0b6cLBLPqwL,Traantjes,"Zwangere Guy, Sef",1,66,0,False,,,New Music Friday NL
+540,False,False,unknown,-0.90313188558792,-0.8067429665510699,0.0,-4.060443010546419,0,0oAOrQmbQ8rigpHxZcHIyF,Intranquilles,"Tim Dup, Les Intranquilles",1,58,0,False,,,New Music Friday France
+541,False,False,unknown,-0.9050870778743987,-0.7891203879307643,0.0,-4.127134385045092,0,349FRybvknRPvvE9bcQJ0r,tsunami,oda nova,1,62,0,False,,,New Music Friday Polska
+542,False,False,unknown,-0.9054420086522003,-0.720743024399898,0.0,-4.356708826689592,0,712AoRHqVcCsiHc3nn4CUK,Reload - swedm® Remix,"Sebastian Ingrosso, Tommy Trash, John Martin, swedm®",1,78,0,False,,,New Music Friday Norway
+543,False,False,unknown,-0.906877105027705,-0.7817707910761851,0.0,-4.1588830833596715,0,5zHq7aa0DhWs2KyXvrV7Ab,MUST BE A MAN,KhakiKid,1,64,0,False,,,New Music Friday UK & Ireland
+544,False,False,unknown,-0.9073661016332137,-0.8067429665510699,0.0,-4.07753744390572,0,454ISsHwXhdBzme5wY6Kdr,drogi boże,hubithekid,1,59,0,False,,,New Music Friday Polska
+545,False,False,unknown,-0.9081336936130665,-0.7880112925734104,0.0,-4.143134726391533,0,0fwiSSIY0TJVYrPUHWi8nT,Cockpit,"Arthur Simonini, Malik Djoudi",1,63,0,False,,,New Music Friday France
+546,False,False,unknown,-0.909777229363,-0.7671098866643628,0.0,-4.219507705176107,0,6PJD8inlYxWwZfF6VWB87r,Colado Na Bo,"Nelson Freitas, June Freedom",1,68,0,False,,,New Music Friday NL
+547,False,False,unknown,-0.9115663663381324,-0.7880112925734104,0.0,-3.6888794541139363,0,36NNqAJmcT6aFS0RZPKA1u,I Found You,Kato,1,40,0,False,,,New Music Friday Denmark
+548,False,False,unknown,-0.9117131184658767,-0.720743024399898,0.0,-4.382026634673881,0,0jcvWvq1qObmHQd0vOM5M1,Na niebie były znaki,Maja Hyzy,1,80,0,False,,,New Music Friday Polska
+549,False,False,unknown,-0.912011866266593,-0.7611258336775335,0.0,-4.248495242049359,0,3SJTHH1PBn4zp5hVCZI7Zs,HoS,Saikz,1,70,0,False,,,New Music Friday Sweden
+550,False,False,unknown,-0.912011866266593,-0.7611258336775335,0.0,-4.248495242049359,0,7lTs1UOh6AHjgDEWrytpHh,7TEEN,Janet Livv,1,70,0,False,,,New Music Friday NL
+551,False,False,unknown,-0.9120344924497374,-0.7880112925734104,0.0,-4.1588830833596715,0,7eBy4Oyo5skMRqra8VLLab,controtemp0,YTAM,1,64,0,False,,,New Music Friday Italia
+552,False,False,unknown,-0.915229950244146,-0.8067429665510699,0.0,-3.258096538021482,0,4l9ZAERoQHlFCuxkwXs1HO,We Know You,Pretty Girl,1,26,0,False,,,New Music Friday AU & NZ
+553,False,False,unknown,-0.9155253380393733,-0.7611258336775335,0.0,-4.2626798770413155,0,3ynHxRetvlG0svYuz2WVbF,nothing personal,Loud Television,1,71,0,False,,,New Music Friday Polska
+554,False,False,en,-0.9156960142277025,-1.5870241654020067,0.0,-3.5263605246161616,0,5o4xxhY17mfqFhIqO4WeQf,MY PEOPLE,"ICXN, Kofi Stone",1,34,1,False,123.04688,-16.36913,New Music Friday UK & Ireland
+555,False,False,unknown,-0.9158748113430277,-0.7880112925734104,0.0,-4.174387269895637,0,639XKHDNrrjMUDvSv52mRq,Melody,Queen Mahoro,1,65,0,False,,,New Music Friday Deutschland
+556,False,False,unknown,-0.9158748113430277,-0.7880112925734104,0.0,-4.174387269895637,0,3Evp9ZfoSvAO0pFYR103VM,Track 2,ISHAN,1,65,0,False,,,New Music Friday AU & NZ
+557,False,False,unknown,-0.9160089858955511,-0.7297111221205599,0.0,-4.3694478524670215,0,6dzpr2bWQaxHJ1LUrXwRHs,Bedouin Omakase,"PAYDAR, Nick AM",1,79,0,False,,,New Music Friday Denmark
+558,False,False,unknown,-0.9169573149009329,-0.7671098866643628,0.0,-4.248495242049359,0,7Gvfb1EeobOeN6DXcH0fO8,SOLO IO E TE,Lortex,1,70,0,False,,,New Music Friday Italia
+559,False,False,unknown,-0.9174696168507229,-0.7239852456372318,0.0,-4.394449154672439,0,4WKvjHv1ZbGyulGtZKPADi,come noi,"RAISS, NRY",1,81,0,False,,,New Music Friday Italia
+560,False,False,unknown,-0.9178293701270348,-0.720743024399898,0.0,-4.406719247264253,0,2JZVuJXmO01Ak2pbjMLrhN,Autofunk! (med CIVIL POLIS),"Klas Bas, CIVIL POLIS",1,82,0,False,,,New Music Friday Sweden
+561,False,False,unknown,-0.9189896687333525,-0.7611258336775335,0.0,-4.276666119016055,0,4IMyuOUceJ9Xw3S5Jqh2G8,Look Out Cleveland,Dawn Brothers,1,72,0,False,,,New Music Friday NL
+562,False,False,unknown,-0.9189896687333525,-0.7611258336775335,0.0,-4.276666119016055,0,50D6r78bb6acvaFwKzstJs,Preghiera Pt.2,Kid Lost,1,72,0,False,,,New Music Friday Italia
+563,False,False,unknown,-0.9203946151599116,-0.7880112925734104,0.0,-3.8501476017100584,0,5xaOACKz8rIpvBmRoNyfSJ,Alaska,LIZOT,1,47,0,False,,,New Music Friday Deutschland
+564,False,False,unknown,-0.9204707866737132,-0.7671098866643628,0.0,-4.2626798770413155,0,4KwT7gvLuYKE6nWCiABfbi,Mountain Song,The Man The Myth The Meatslab,1,71,0,False,,,New Music Friday UK & Ireland
+565,False,False,unknown,-0.9218935575207243,-0.7817707910761851,0.0,-4.219507705176107,0,0b01DH6jLga6Bk9JxygeD7,Italo,Waze RRX,1,68,0,False,,,New Music Friday Italia
+566,False,False,unknown,-0.9227970297554848,-0.7873043024057914,0.0,-4.204692619390966,0,1M7Sq0l10P9H4aJ7vaqorv,The Return of the OG,Malaa,1,67,0,False,,,New Music Friday AU & NZ
+567,False,False,unknown,-0.9235112726351281,-0.7239852456372318,0.0,-4.418840607796598,0,25j4hRn8HFOsRUaPUVbJk2,Scarabocchi,v!ktoria,1,83,0,False,,,New Music Friday Italia
+568,False,False,unknown,-0.9235112726351281,-0.7239852456372318,0.0,-4.418840607796598,0,0Od0JSjrcDmahzUiB5QepD,Maybe,KH,1,83,0,False,,,New Music Friday AU & NZ
+569,False,False,unknown,-0.9239351173676924,-0.7671098866643628,0.0,-4.276666119016055,0,7denkv9DPJipgZNgfOt33z,Surrender,Angermund,1,72,0,False,,,New Music Friday Norway
+570,False,False,unknown,-0.925509616003145,-0.7817707910761851,0.0,-4.23410650459726,0,6q1cX6BYpqMMvpdeBR1BV1,El Plato Está En La Mesa,LUSILLON,1,69,0,False,,,Novedades Viernes España
+571,False,False,unknown,-0.9257762742729148,-0.7611258336775335,0.0,-4.30406509320417,0,2U9dUMiTLqTGmoABnOGZBI,Nanai,"MAURINO, Costa Rebel",1,74,0,False,,,New Music Friday NL
+572,False,False,unknown,-0.9270509449427569,-0.7880112925734104,0.0,-4.219507705176107,0,5UXpss7rqqe0BVHGydf1GF,Track 2,Friday Pilots Club,1,68,0,False,,,New Music Friday Norway
+573,False,False,unknown,-0.9275150591652407,-0.8067429665510699,0.0,-4.1588830833596715,0,0fOMvPk1n8rQRtlmIidqrd,so perfekt wie's geht,katlix,1,64,0,False,,,New Music Friday Deutschland
+574,False,False,unknown,-0.9282433544026524,-0.7297111221205599,0.0,-4.418840607796598,0,5cggIYVQIX8PZ34tq4kWRd,Boję się,Olka,1,83,0,False,,,New Music Friday Polska
+575,False,False,unknown,-0.9294090657136536,-0.7239852456372318,0.0,-4.442651256490317,0,7nL8cU9yNmluk8usSXGefo,Buzzomane #ÇaPasse,"Le Jèm'ss, Natoxie",1,85,0,False,,,New Music Friday France
+576,False,False,unknown,-0.9323818819185001,-0.7611258336775335,0.0,-4.330733340286331,0,5Qjtd77tMlQwmWJSjdG6cZ,Forget Me Not,Kook Joey,1,76,0,False,,,New Music Friday AU & NZ
+577,False,False,unknown,-0.9325871148314376,-0.7817707910761851,0.0,-4.2626798770413155,0,6vFm1TJP8fQl5NqJztdtsY,asociale,Alessio Bernabei,1,71,0,False,,,New Music Friday Italia
+578,False,False,unknown,-0.934046546074659,-0.7671098866643628,0.0,-4.31748811353631,0,3dPZ75QPh4HWxNeEbyPz8e,FARO,Sofia Ara,1,75,0,False,,,New Music Friday Italia
+579,False,False,unknown,-0.9341411474811778,-0.7297111221205599,0.0,-4.442651256490317,0,1MEDHW29tFRuLeUZzpI89M,ASKA,Rey,1,85,0,False,,,New Music Friday Sweden
+580,False,False,unknown,-0.9351370638335723,-0.8067429665510699,0.0,-4.189654742026425,0,5nqQ1vA6oDMK5xUjVXGlE3,San Ou (Sans Toi),"DJ TFIISH, Jahyanai, N'Ken",1,66,0,False,,,New Music Friday France
+581,False,False,unknown,-0.9377445022534701,-0.7880112925734104,0.0,-4.2626798770413155,0,6RJk2DuCdUnM2XZhul9txe,Expensive Music,Ricky Albeck,1,71,0,False,,,New Music Friday AU & NZ
+582,False,False,unknown,-0.9394679908219514,-0.7817707910761851,0.0,-4.290459441148391,0,2iYDREZOOuXBrFkRimaRZ0,Mine! Mine! Mine!,Surely Shirley,1,73,0,False,,,New Music Friday AU & NZ
+583,False,False,unknown,-0.9405652277299209,-0.7671098866643628,0.0,-4.343805421853684,0,47iNzDNVcQ4XDI2IJiyHch,J'ai perdu mon père,Hugo Barriol,1,77,0,False,,,New Music Friday France
+584,False,False,unknown,-0.9419712965083682,-0.7611258336775335,0.0,-4.3694478524670215,0,7br6hMBOcCPMJFP9pjnzrQ,Dance OFF,"vgtbl.pl, FVLCRVM",1,79,0,False,,,New Music Friday Polska
+585,False,False,unknown,-0.9426763651471244,-0.7891203879307643,0.0,-4.465908118654584,0,37MdMMy0HtWrPELvMg2lMl,Come Back To Me,Gentlemens Club,1,87,0,False,,,New Music Friday UK & Ireland
+586,False,False,unknown,-0.9428380510649791,-0.7817707910761851,0.0,-4.30406509320417,0,1fozJd7DUTXVLfP63qr5mY,Effetto Placebo,Joe Elle,1,74,0,False,,,New Music Friday Italia
+587,False,False,unknown,-0.9440410947213215,-0.7873043024057914,0.0,-4.290459441148391,0,1cIQ8jRvvpmnDX7kZqteCa,UN JOUR OU L'AUTRE,Volodia,1,73,0,False,,,New Music Friday France
+588,False,False,unknown,-0.9446253782439838,-0.7880112925734104,0.0,-4.290459441148391,0,6J8fG5acZdvz13lxJvDDOr,sunshine,Sonnee,1,73,0,False,,,New Music Friday UK & Ireland
+589,False,False,unknown,-0.9446253782439838,-0.7880112925734104,0.0,-4.290459441148391,0,6vD91Em9Qy6lmabfBT0RuB,Too Late To Be Confused,Julia Adriana,1,73,0,False,,,New Music Friday NL
+590,False,False,unknown,-0.9455314580133046,-0.7297111221205599,0.0,-4.48863636973214,0,7lKDH6LhP1dfcy86uTM6cz,Track 1,grentperez,1,89,0,False,,,New Music Friday NL
+591,False,False,unknown,-0.9461628742323834,-0.7817707910761851,0.0,-4.31748811353631,0,6mHlcFHSCcc0tXzv0a5o9E,Crowd Wun Move,"Charlie Shell, zacattacq",1,75,0,False,,,New Music Friday AU & NZ
+592,False,False,unknown,-0.9463315376019731,-0.7207430243998982,0.0,-4.5217885770490405,0,77QyJKsK22FPwOEbTKVh8o,Love Together,Portland,1,92,0,False,,,New Music Friday NL
+593,False,False,unknown,-0.9474111549643491,-0.7873043024057914,0.0,-4.30406509320417,0,3HDIsYMj8ioB9ZAL2p3htn,DEBERÍA,Safree,1,74,0,False,,,Novedades Viernes España
+594,False,False,unknown,-0.9481640092310641,-0.7611258336775335,0.0,-4.394449154672439,0,4NGVWOyR56x8KPIYbfTuHh,nie wchodzę z kopa,"Siemek, Zdot",1,81,0,False,,,New Music Friday Polska
+595,False,False,unknown,-0.9490110323567305,-0.7239852456372318,0.0,-4.5217885770490405,0,6ZHAQn8tpu3uBbOoVToR9R,Your Girl,Fleurie,1,92,0,False,,,New Music Friday France
+596,False,False,unknown,-0.9497115971961929,-0.8067429665510699,0.0,-4.248495242049359,0,5SiSKWWVwFGM64PKdgm9BV,CUANDO MÁS TE DUELA,Manu Cort,1,70,0,False,,,Novedades Viernes España
+597,False,False,unknown,-0.9502732484724261,-0.7239852456372318,0.0,-3.912023005428146,0,2FSS6xRAXB2WaFZIGflaWW,Patsers & Princessen,DIM,1,50,0,False,,,New Music Friday NL
+598,False,False,unknown,-0.9522368601759281,-0.7891203879307643,0.0,-4.31748811353631,0,2ywFfuu5eWa9ZGPTdcOEDn,Go Outside,MALVIN,1,75,0,False,,,New Music Friday Norway
+599,False,False,unknown,-0.9532250689689733,-0.8067429665510699,0.0,-4.2626798770413155,0,6w36wdSWHZvEcYt53qI57C,DALÍ,J Kbello,1,71,0,False,,,Novedades Viernes España
+600,False,False,unknown,-0.9537431141242547,-0.7297111221205599,0.0,-4.5217885770490405,0,1ixxpIwxCMX6NuYpfE1wNu,En Kuumoile (PT3),Skunkki,1,92,0,False,,,New Music Friday Suomi
+601,False,False,unknown,-0.9574120396397738,-0.7611258336775335,0.0,-4.248495242049359,0,5hZue9uXP5xyG7lTGhAAEJ,Lapinlahti,Siiri Nordin,1,70,0,False,,,New Music Friday Suomi
+602,False,False,unknown,-0.9583140885738741,-0.7239852456372318,0.0,-3.8918202981106265,0,0ruPOUVcPqBnrVc5EBOPhL,21 Bum Salute,Party Dozen,1,49,0,False,,,New Music Friday AU & NZ
+603,False,False,unknown,-0.9596851948412986,-0.7297111221205599,0.0,-4.430816798843313,0,2U9qyKZQAMEytsYjtRaypd,Midnight Dealer,"Wiwek, Yellow Claw",1,84,0,False,,,New Music Friday NL
+604,False,False,unknown,-0.9604507764787334,-0.7873043024057914,0.0,-4.356708826689592,0,6exso5NzFFONvJDVkH7uU5,Mario Draghi,"Nex Cassel, St Luca Spenish",1,78,0,False,,,New Music Friday Italia
+605,False,False,unknown,-0.9619516585229081,-0.7891203879307643,0.0,-4.356708826689592,0,6HdmeDyileofDv47Ys9VA9,BRING BACK DANCING,IN PARALLEL,1,78,0,False,,,New Music Friday UK & Ireland
+606,False,False,unknown,-0.964190460722465,-0.7880112925734104,0.0,-4.3694478524670215,0,1Vto5Pgn6hOTpplSPcifJK,SUPERMAN,Cēzange,1,79,0,False,,,New Music Friday France
+607,False,False,unknown,-0.9651070592439772,-0.7891203879307643,0.0,-4.3694478524670215,0,26Q4p7JQLOPM2tg7gAIJ9g,24/7,Sean Biopcik,1,79,0,False,,,New Music Friday UK & Ireland
+608,False,False,unknown,-0.9651070592439772,-0.7891203879307643,0.0,-4.3694478524670215,0,5SKIZ8M0a8TEaRETpKym5B,Is That So,MILANOSPORT,1,79,0,False,,,New Music Friday Italia
+609,False,False,unknown,-0.966800828369919,-0.8067429665510699,0.0,-4.31748811353631,0,10sBnkCKzEWwUuu20ftb5g,Sielu,Oona Airola,1,75,0,False,,,New Music Friday Suomi
+610,False,False,unknown,-0.9673061698150722,-0.7880112925734104,0.0,-4.382026634673881,0,35JOgKNY4Q5UVkZifPpGUP,Love Jaunt,Dawuna,1,80,0,False,,,New Music Friday AU & NZ
+611,False,False,unknown,-0.9682227683365845,-0.7891203879307643,0.0,-4.382026634673881,0,2KM2h2vUgO69rp87NaoL2G,per amore,maniviola,1,80,0,False,,,New Music Friday Italia
+612,False,False,unknown,-0.9697988899224985,-0.7873043024057914,0.0,-4.394449154672439,0,1tYrG4cXy7SqWHo7KT41bP,Numéro,Anyme023,1,81,0,False,,,New Music Friday France
+613,False,False,unknown,-0.9714937686261216,-0.7611258336775335,0.0,-4.48863636973214,0,5m2BZspGkunCWFZcgSOb7u,Best of It,Blasé,1,89,0,False,,,New Music Friday France
+614,False,False,unknown,-0.973319510025181,-0.8067429665510699,0.0,-4.343805421853684,0,1YxMTbAv11IBVu91QGkS53,BARE FOR SJOV,Steenen,1,77,0,False,,,New Music Friday Denmark
+615,False,False,unknown,-0.9764248292295661,-0.7880112925734104,0.0,-4.418840607796598,0,6DqpNUtN5omf3bTRDED58j,Suriname (feat. brazy & King Doudou),"Jarreau Vandal, brazy, King Doudou",1,83,0,False,,,New Music Friday NL
+616,False,False,unknown,-0.9769983419789074,-0.7611258336775335,0.0,-4.51085950651685,0,5fnROfoDFeXGw4LXWaN0qo,PAMIĘTNIK,"Epis DYM KNF, Phono Cozabit",1,91,0,False,,,New Music Friday Polska
+617,False,False,unknown,-0.9792067947330271,-0.7671098866643628,0.0,-4.499809670330265,0,4kSLDczfhknQcdJXRx61QD,Mies joka keksi Marraskuun,Selkä & Issias,1,90,0,False,,,New Music Friday Suomi
+618,False,False,unknown,-0.9849623594840895,-0.7880112925734104,0.0,-3.970291913552122,0,59DqgKpSKsyCc2VE8h1SvD,Pretty Girls,Joeboy,1,53,0,False,,,New Music Friday UK & Ireland
+619,False,False,unknown,-0.98503241729108,-0.7611258336775335,0.0,-4.543294782270004,0,0CLTd7Z7zBlMo93czj9Dba,Är det jag som är dum?,MY,1,94,0,False,,,New Music Friday Sweden
+620,False,False,unknown,-0.9873286897968323,-0.7671098866643628,0.0,-4.532599493153256,0,3WKwnXaEuRVPm9VNVLtVSf,Wish I Had Known,Renay,1,93,0,False,,,New Music Friday Denmark
+621,False,False,unknown,-0.9874989613734573,-0.7873043024057914,0.0,-4.465908118654584,0,4uaD45cvop4sT5DmtVN6c9,Wainui Beach,Desmond Cheese,1,87,0,False,,,New Music Friday AU & NZ
+622,False,False,unknown,-0.9880832448961197,-0.7880112925734104,0.0,-4.465908118654584,0,3qjrUP7h8E4mRAi4roDlEc,sourdine,mëa,1,87,0,False,,,New Music Friday France
+623,False,False,unknown,-0.9885555454181859,-0.7817707910761851,0.0,-4.48863636973214,0,5szaQDB2blnNTIuadhqVcd,KONTAKT,Silfver,1,89,0,False,,,New Music Friday Sweden
+624,False,False,unknown,-0.9902472542593436,-0.7611258336775335,0.0,-4.564348191467836,0,7jjruEbGo9aLEjzYgECyeb,Safe Place,Victor Aupecle,1,96,0,False,,,New Music Friday France
+625,False,False,unknown,-0.9928140710831376,-0.7611258336775337,0.0,-4.574710978503383,0,5Y6A9GTR9jCejahBLX7cFP,carry on,DEHAZE,1,97,0,False,,,New Music Friday NL
+626,False,False,en,-0.9933285310971827,-1.7500517832300255,0.0,-3.295836866004329,0,6wbpkXBHxILJVtzdWPHbZB,Faded Eyes,"Zerb, Khalid",1,27,1,False,123.04688,-15.53054,New Music Friday Norway
+627,False,False,pl,-0.9936735505001077,-1.491801625853751,0.0,-4.1588830833596715,0,2eucMiqWWFlWKX35EMszIf,EL MENCHO,Fekir,1,64,1,False,151.99908,-13.97201,New Music Friday Polska
+628,False,False,en,-0.9988559610823853,-1.4095174388024365,0.0,-4.454347296253507,0,4lY5ulrS66XYnOMfiqbHIX,Leaving (feat. Tristan Henry),"MK, Tristan Henry",1,86,1,False,86.13281,-16.73029,New Music Friday Suomi
+629,False,False,unknown,-0.9991417397808977,-0.7891203879307643,0.0,-3.4011973816621555,0,6ycCUfP3So8qkTKalt5prH,Paroxetine,Zed Yun Pavarotti,1,30,0,False,,,New Music Friday France
+630,False,False,unknown,-0.9998494684017065,-0.7880112925734104,0.0,-3.2188758248682006,0,0qyyrOaHUumkuTHGHcbWN4,We Can Choose,AVES,1,25,0,False,,,New Music Friday Suomi
+631,False,False,unknown,-1.0003000097509094,-0.7671098866643628,0.0,-4.584967478670572,0,7IkkY0aPI08aNcG72wTf7B,Biegnij,Zazula,1,98,0,False,,,New Music Friday Polska
+632,False,False,unknown,-1.0013403054285062,-0.7873043024057914,0.0,-4.5217885770490405,0,4CSgCJvbx8HBMULGhAwvLt,STAR,Emil Lewis,1,92,0,False,,,New Music Friday Denmark
+633,False,False,unknown,-1.0028411874726808,-0.7891203879307643,0.0,-4.5217885770490405,0,3c6n5hbtC1AmslW4oqctTx,"In Four, Out Five",Eve Christina,1,92,0,False,,,New Music Friday UK & Ireland
+634,False,False,unknown,-1.0035638116116228,-0.8067429665510699,0.0,-4.465908118654584,0,1bs4hD04F95OFwIHX1EUJs,NIE WIEM JAKI DZIEŃ,FVBIVN,1,87,0,False,,,New Music Friday Polska
+635,False,False,unknown,-1.0047153360758991,-0.7817707910761851,0.0,-4.553876891600541,0,2cKoVrjycC9LiUKtPncoQd,softly,koady,1,95,0,False,,,New Music Friday UK & Ireland
+636,False,False,unknown,-1.0072515815051768,-0.7880112925734104,0.0,-4.543294782270004,0,2NbFlPt2DgylHXSzyEFqkR,Unessa voi lentää,Neon Puutarha,1,94,0,False,,,New Music Friday Suomi
+637,False,False,unknown,-1.0088795165797642,-0.7671098866643628,0.0,-4.143134726391533,0,10yS5JjDzyrq79Zihzvn1Q,Little Me (feat. Hak Baker),"Django Django, Hak Baker",1,63,0,False,,,New Music Friday UK & Ireland
+638,False,False,unknown,-1.0091934995557215,-0.8067429665510699,0.0,-4.48863636973214,0,5gLP4YxzlbMMGkJMrznjis,WCIĄŻ SIEDZĄ MI NA GŁOWIE,"pankiewizc, vorzu, Hacki, wiro",1,89,0,False,,,New Music Friday Polska
+639,False,False,unknown,-1.0119610770282872,-0.8067429665510699,0.0,-4.499809670330265,0,0Q2XFdHTWyi7pobCNqlCik,Déchirure,Rémy,1,90,0,False,,,New Music Friday France
+640,False,False,es,-1.0133593820039564,-1.8958132082071515,0.0,-2.8903717578961645,0,39W7F5Ayk3AH8cS1IoT9zV,WINDOW SHOPPER,Blessd,1,18,1,False,95.70312,-16.7667,Novedades Viernes España
+641,False,False,unknown,-1.0133830169949527,-0.7891203879307643,0.0,-4.564348191467836,0,4Uj3sAruX0BEtwaag580kA,Ser ut att ta mig ur det,"Vit Päls, Röster utan gränser",1,96,0,False,,,New Music Friday Sweden
+642,False,False,unknown,-1.0149310357197394,-0.7817707910761851,0.0,-4.59511985013459,0,7oqHDsyvBNFJAL6SQ1scw8,Amex,LILLEN,1,99,0,False,,,New Music Friday Sweden
+643,False,False,unknown,-1.0175679311186272,-0.7239852456372318,0.0,-4.574710978503383,0,3wuTUO7iWNdAYVDN5Sbui3,Headkick,Snipe Drive,1,97,0,False,,,New Music Friday Suomi
+644,False,False,unknown,-1.0202920580607842,-0.7880112925734104,0.0,-3.044522437723423,0,3eWusNcbxRcHPCSJlFjB2O,Poupette,Vacra,1,21,0,False,,,New Music Friday France
+645,False,False,unknown,-1.0253532902134348,-0.8067429665510699,0.0,-4.553876891600541,0,2ftA4HCDK7TwShnYuMov47,Kaaosteoriaa,Johanna von Hertzen,1,95,0,False,,,New Music Friday Suomi
+646,False,False,unknown,-1.0253532902134348,-0.8067429665510699,0.0,-4.553876891600541,0,1htj1jzqoWmsCEFyVuS4je,POLAK 4,"Jimmy*, Mustang",1,95,0,False,,,New Music Friday Polska
+647,False,False,unknown,-1.0259223316364037,-0.7880112925734104,0.0,-4.174387269895637,0,2W1ApLm2iaVi99u1huk71J,Flytta då,"Sofia HK, Levina Storåkern",1,65,0,False,,,New Music Friday Sweden
+648,False,False,es,-1.0319518252727313,-2.0158441666177893,0.0,-2.5649493574615367,0,3DjGf2TjAmCGU67xgrYKxj,1ndividual,Yan Block,1,13,1,False,129.19922,-17.21065,Novedades Viernes España
+649,False,False,unknown,-1.0343604536597477,-0.7817707910761851,0.0,-3.2188758248682006,0,74MLYQLAasTG5nh3hDJisl,Brick,"Cheu-B, Ghost Killer Track, La Rvfleuze",1,25,0,False,,,New Music Friday France
+650,False,False,unknown,-1.036274059018242,-0.7817707910761851,0.0,-1.791759469228055,0,1OQqkQLV6RCq2FMJdbMkqk,grabstein,"Boondawg, reezy",1,6,0,False,,,New Music Friday Deutschland
+651,False,False,it,-1.0416799669772039,-1.8699375038430184,0.0,-3.091042453358316,0,3CoACKIdr3aj2eU4Gdr8Qx,Cara (feat. IDRA Rxx),"headows, IDRA Rxx",1,22,1,False,129.19922,-16.19764,New Music Friday Italia
+652,False,False,unknown,-1.0531861138859335,-0.7817707910761851,0.0,-4.02535169073515,0,4nVyfO7OdwWJ8UE6epgTRW,Skeksis 2026,Alan Fitzpatrick,1,56,0,False,,,New Music Friday UK & Ireland
+653,False,False,unknown,-1.053603053565628,-0.7239852456372318,0.0,-4.219507705176107,0,0nnkOG9dGRGGEZVgeq0G6q,Stupid Cupid,Bloc Party,1,68,0,False,,,New Music Friday UK & Ireland
+654,False,False,unknown,-1.0632088403088817,-0.7873043024057914,0.0,-3.5263605246161616,0,3mJ4fFqYZAznrURXpKNqaX,Winter,The Church,1,34,0,False,,,New Music Friday AU & NZ
+655,False,False,pl,-1.0659979452727735,-1.6916161564895316,0.0,-3.784189633918261,0,0yggwfhTsKTSvjvbW3MB0T,Jak,Vincent,1,44,1,False,92.28516,-16.35177,New Music Friday Polska
+656,False,False,pl,-1.0819283984630887,-1.691123626277971,0.0,-3.8501476017100584,0,7oI2lzYerwC7ew7ro5mqCs,ASTRA OPEL,"VBS, MENT",1,47,1,False,107.66602,-15.95787,New Music Friday Polska
+657,False,False,unknown,-1.104083058841569,-0.7297111221205599,0.0,-0.6931471805599453,0,0kWIMNwf1KruTtgSaNt05o,Feeling,Dardan,1,2,0,False,,,New Music Friday Deutschland
+658,False,False,pl,-1.1163122532890197,-2.471181534822549,0.0,-1.3862943611198906,0,4rPKT728WStQ2m7w2neh97,BlackBerry,"Hellfield, Sentino, CrackHouse",1,4,1,False,143.55469,-15.91104,New Music Friday Polska
+659,False,False,fr,-1.121241711101626,-1.6861819722839082,0.0,-4.02535169073515,0,3F5j88H0YRf1oBbtp9R6Et,Le + beau des hasards,Samson,1,56,1,False,172.26562,-15.33772,New Music Friday France
+660,False,False,unknown,-1.1224012535761572,-0.7880112925734104,0.0,-3.8501476017100584,0,7ehSXZW5K4LPacE7jfHuRv,Hon kommer över ängarna,Thåström,1,47,0,False,,,New Music Friday Sweden
+661,False,False,unknown,-1.1361851845639817,-0.7297111221205599,0.0,-4.406719247264253,0,3MoPxFJzLmZbBQHMjQP7IO,Chcę się budzić na swoim,"Père-Lachaise, Hela Dys, Jordan Niedzielski",1,82,0,False,,,New Music Friday Polska
+662,False,False,unknown,-1.1490802819298005,-0.7873043024057914,0.0,-3.6635616461296463,0,2boz7WcYeYL24FmtxeQDx0,Homesick (feat. Jussi Selo),"Brädi, Jussi Selo",1,39,0,False,,,New Music Friday Suomi
+663,False,False,en,-1.1539632114966698,-1.7101345485026327,0.0,-4.07753744390572,0,2ZTsZwbSzaP6CY6kJnjMlM,Leaving (feat. Tristan Henry),"MK, Tristan Henry",1,59,1,False,86.13281,-16.73029,New Music Friday Norway
+664,False,False,unknown,-1.1564107041964844,-0.7817707910761851,0.0,-4.248495242049359,0,0CXBVoyWb0ranI2hxIRxuH,8 Days A Week,"Majestic, Sweet Female Attitude",1,70,0,False,,,New Music Friday UK & Ireland
+665,False,False,unknown,-1.1619809293826109,-0.7817707910761851,0.0,-4.564348191467836,0,7uMJlwRRyXUJnNwHD8PuAB,Every Ten Minutes,Library Card,1,96,0,False,,,New Music Friday NL
+666,False,False,unknown,-1.1644190398299454,-0.7297111221205599,0.0,-3.912023005428146,0,5eWbCVCOTeYz6NRC5ceuF0,Polish Jazz,"Wojtek Mazolewski Quintet, Wojtek Mazolewski, Plumm",1,50,0,False,,,New Music Friday Polska
+667,False,False,unknown,-1.192998379799437,-0.8067429665510699,0.0,-4.430816798843313,0,2aKLCTMnLC5H6sya2V2uRk,DISCONNECT,Outloved,1,84,0,False,,,New Music Friday AU & NZ
+668,False,False,unknown,-1.1948370466384217,-0.7891203879307643,0.0,-4.31748811353631,0,0RkvmzT43Shj4QZ5W7zi5E,J'AI PLUS RIEN...,AYMCE,1,75,0,False,,,New Music Friday France
+669,False,False,fr,-1.1964908695078948,-2.027604868075697,0.0,-3.332204510175204,0,558N9BuWPKmkck0jBu3B3P,les solitudes extrêmes,Eddy de Pretto,1,28,1,False,117.45384,-15.83841,New Music Friday France
+670,False,False,unknown,-1.2084404619872764,-0.7880112925734104,0.0,-4.454347296253507,0,53INI5w9kp0jEe6SXZVPAC,Get A Grip,"Mozey, Serum",1,86,0,False,,,New Music Friday UK & Ireland
+671,False,False,unknown,-1.2103099186260975,-0.720743024399898,0.0,-4.343805421853684,0,0mpZTqA8kSn7gqytFFyTcp,OMG,"Lilly Palmer, Radical Future, Hani Dakin",1,77,0,False,,,New Music Friday NL
+672,False,False,es,-1.2149604157391953,-1.885805289580993,0.0,-3.7376696182833684,0,3Hsq2yl5dAAs8Rq1Y2JNM4,SAHUARO,"Ed Maverick, Little Jesus",1,42,1,False,129.19922,-17.01922,Novedades Viernes España
+673,False,False,unknown,-1.2188910896436254,-0.720743024399898,0.0,-3.9512437185814275,0,46V9uB4vVT1fVAVpn7XKZL,Magellano,Vegas Jones,1,52,0,False,,,New Music Friday Italia
+674,False,False,fr,-1.2251245572777196,-2.1099941826485225,0.6931471805599453,-3.7376696182833684,0,42WUxLJGypUrnoKc8S9P1A,Chanel,L2B,2,42,1,False,123.04688,-16.04812,New Music Friday Deutschland;New Music Friday NL
+675,False,False,es,-1.2409188006327727,-1.739465337559507,0.0,-4.330733340286331,0,5GjViexqfPyAJOQlhOZoTR,Arroz Con Huevo,"Hamilton, Sech",1,76,1,False,117.45384,-15.91096,Novedades Viernes España
+676,False,False,en,-1.2603071618746995,-2.30498091983148,1.6094379124341003,-3.713572066704308,0,6D3RkpuqTO4DyFvrN4VfPO,ddr,Yaeji,5,41,1,False,129.19922,-15.9207,New Music Friday AU & NZ;New Music Friday France;New Music Friday Italia;New Music Friday Norway;New Music Friday Korea
+677,False,False,it,-1.2693137947924547,-1.811599882193301,0.0,-4.204692619390966,0,0R3DwtaGSGikJyccB2H4JF,KLAN,"Beba, Nerone",1,67,1,False,103.35938,-17.41898,New Music Friday Italia
+678,False,False,it,-1.3137941201951682,-1.9356749532310353,0.0,-3.970291913552122,0,2nPvWUi23bBqhtSU770onZ,Guapo,"Dipinto, Fresh Beatz",1,53,1,False,117.45384,-18.47463,New Music Friday Italia
+679,False,False,unknown,-1.3204283937833132,-0.7611258336775335,0.0,-4.543294782270004,0,2QsBBAmFadqvSfLfVdHhRg,Diva,"sleepypierre, Luzyqv",1,94,0,False,,,New Music Friday France
+680,False,False,unknown,-1.3312096384331615,-0.7671098866643628,0.0,-4.1588830833596715,0,0wHAi2hqo68yhB1zRbB8Oo,Toupou,"Moha MMZ, So La Lune, Uggy",1,64,0,False,,,New Music Friday France
+681,False,False,unknown,-1.3355816800404268,-0.7817707910761851,0.0,-4.59511985013459,0,20gGoiodW0wb62oF4x1l2q,Your Guess is as Good as Mine,Flawed Mangoes,1,99,0,False,,,New Music Friday France
+682,False,False,unknown,-1.3405567258325553,-0.7671098866643628,0.0,-4.174387269895637,0,5TUn4xQuiPDKqPsuuNvbRV,Space Keeper,"Eelke Kleijn, Eleonora",1,65,0,False,,,New Music Friday NL
+683,False,False,es,-1.3552315779843502,-2.0627574920258454,0.0,-3.713572066704308,0,5AgBggsMeXXwfflijTa2jt,EL COLOR (afterparty),"Raul Clyde, QueHicisteBella",1,41,1,False,117.45384,-16.77448,Novedades Viernes España
+684,False,False,pl,-1.3683971929811207,-2.325413276937581,0.0,-2.8903717578961645,0,3wP7UEEoQ5zWMWZ999pB6s,Horyzont,Odys,1,18,1,False,117.45384,-14.45507,New Music Friday Polska
+685,False,False,fr,-1.3790873034702165,-1.4953084806028336,0.0,-4.248495242049359,0,4crtyCnurrjZzyTQqd3FKC,CHRONOMÈTRE,Yvnnis,1,70,1,False,123.04688,-15.03855,New Music Friday France
+686,False,False,unknown,-1.3906246393464168,-0.7891203879307643,0.0,-4.406719247264253,0,2BLQtZ41tplwKFJnDSUhCD,Rebels,"Halflives, All Good Things",1,82,0,False,,,New Music Friday Italia
+687,False,False,de,-1.427188693809378,-2.6395994114639207,0.0,-2.0794415416798357,0,2XBBhMGySRrt67Zw6NoGJH,Original,"1019, Lucio101, Nizi19",1,8,1,False,143.55469,-18.64565,New Music Friday Deutschland
+688,False,False,unknown,-1.43396397910722,-0.8067429665510699,0.0,-4.532599493153256,0,60dkenskdn3vriPM9JNtz8,Si loin,Achile,1,93,0,False,,,New Music Friday France
+689,False,False,es,-1.4434817637107575,-2.317809023876397,0.0,-3.2188758248682006,0,4ARcbaRXM0IMAnNpuyPcQY,AmorMENdigo,"Vera GRV, Toni Anzis",1,25,1,False,112.34715,-18.62096,Novedades Viernes España
+690,False,False,it,-1.4445487903090215,-2.868351736147107,0.0,-1.3862943611198906,0,6ZERZ7aiL214VIKLTBkaxS,Sparisci,Tony Boy,1,4,1,False,161.49902,-16.70651,New Music Friday Italia
+691,False,False,es,-1.4623124772739675,-2.011324167674545,0.0,-4.31748811353631,0,2LrzMSPFIpkZgm7uh0DEGE,Dile A Ese Bobo,"AmoryOdio, Pipo Beatz",1,75,1,False,95.70312,-17.03877,Novedades Viernes España
+692,False,False,es,-1.4694578395020237,-1.8298074861959142,0.0,-2.995732273553991,0,5ngKbYM9chcTWkegDQlVdX,Sirenas,"Mala Rodríguez, Yung Beef",1,20,1,False,89.10291,-14.77797,Novedades Viernes España
+693,False,False,fi,-1.4757081063548068,-2.2316893717774917,0.0,-4.23410650459726,0,3dTLSkDPkohyGNVeZM7z2q,Neljän tuulen risteys - Single Version,Absoluuttinen nollapiste,1,69,1,False,151.99908,-17.53017,New Music Friday Suomi
+694,False,False,en,-1.5170781690588915,-2.237428712645466,0.0,-3.784189633918261,0,17iQBZlD2DivYIDhR0WuRH,RING THE ALARM,TeeboFG,1,44,1,False,143.55469,-17.03228,New Music Friday UK & Ireland
+695,False,False,unknown,-1.5283211258854208,-0.7297111221205599,0.0,-4.330733340286331,0,6euLgwOjqK9VStkm4B4gzt,Cruella,Jutes,1,76,0,False,,,New Music Friday France
+696,False,False,en,-1.5379424920784908,-2.1028374052891055,0.0,-4.31748811353631,0,5lMlmlrUTTnuFMAoouBCz0,Planned Obsolescence,The Itch,1,75,1,False,123.04688,-16.33796,New Music Friday UK & Ireland
+697,False,False,pl,-1.5543844831717366,-2.1846577414835338,0.0,-4.110873864173311,0,35bpCeu7HpO7GShrdy5W7M,SENIORITA (PIĘKNA JAK JELENIEWSKA),Per Dżinn,1,61,1,False,161.49902,-17.64424,New Music Friday Polska
+698,False,False,pl,-1.5847153412380572,-2.7633291687152295,0.0,-2.302585092994046,0,6QlugLgOfTY2hX8nmXAGZo,BYŁBYM W STANIE ZABIĆ,AG,1,10,1,False,117.45384,-15.38616,New Music Friday Polska
+699,False,False,unknown,-1.590206791257508,-0.7873043024057914,0.0,-3.4965075614664802,0,0qSFgDDJp1SjU2F5QM96wZ,Noir pour demain,Bekar,1,33,0,False,,,New Music Friday France
+700,False,False,unknown,-1.6286058566854233,-0.720743024399898,0.0,-4.110873864173311,0,5fQ38wdCvgkrFTYlQmfJYr,Watch Me Dunk,"Ardalan, Shaded",1,61,0,False,,,New Music Friday AU & NZ
+701,False,False,es,-1.646134434384807,-3.3200192136777793,0.0,-0.6931471805599453,0,7qzXnnnEG5Pi4H2V4wjjE0,RUN AWAY,La Pantera,1,2,1,False,123.04688,-15.13015,Novedades Viernes España
+702,False,False,el,-1.652049376260433,-2.6370577730992397,0.0,-2.995732273553991,0,0Z7DPv64Ksdvbpz0YLFGHG,U Need People Like Me,Ggreco,1,20,1,False,151.99908,-14.67325,New Music Friday Greece
+703,False,False,es,-1.6583974572313278,-2.4153170663276473,0.0,-3.7612001156935624,0,3IYlLlwQL6va8TpBD3wDjo,He vuelto a nacer,Kiko Rivera,1,43,1,False,172.26562,-16.35799,Novedades Viernes España
+704,False,False,el,-1.6963383998391754,-2.7575274319524947,0.0,-2.772588722239781,0,08RvkFmqoOWMdRiGWeLoV1,Crime Scene,"Megrel, ASOK",1,16,1,False,107.66602,-16.793,New Music Friday Greece
+705,False,False,el,-1.7342888662829932,-3.0111943546579494,0.0,-2.0794415416798357,0,2rvf9qEEw2CCR5juZU1TGN,BTF,RICTA,1,8,1,False,143.55469,-16.56438,New Music Friday Greece
+706,False,False,el,-1.7664067340896108,-3.0900786860800986,0.0,-1.9459101490553132,0,31IRuT1IYYcjUzhSAVfVI7,To Thema Einai (Ti Tolmas Na Theleis),"Ioulia Kallimani, Michael Touratzidis, Sfera 102.2",1,7,1,False,143.55469,-17.96595,New Music Friday Greece
+707,False,False,fr,-1.8138964297126874,-2.03800849430946,0.0,-2.5649493574615367,0,3P5OHOfqUZ2xjeUbyDnl4X,MAMACITA (feat. Soolking & TK),"Alonzo, Soolking, TK",1,13,1,False,129.19922,-17.61007,New Music Friday France
+708,False,False,fi,-1.8173163870419904,-2.990134812640858,0.0,-2.4849066497880004,0,5RPjUgaj09sC7gan1RNJFp,1/1000000,"Röge, Hukas, VBZ",1,12,1,False,95.70312,-17.65446,New Music Friday Suomi
+709,False,False,it,-1.8573465753720593,-2.4814325461238655,0.0,-4.343805421853684,0,7cc21wZFkw7qGbZKB0em7G,Carogne,XVI Religion,1,77,1,False,172.26562,-17.14629,New Music Friday Italia
+710,False,False,pl,-1.8781610399019697,-2.843776233998275,0.0,-3.2188758248682006,0,7CLoNAwsM3ObHdNCo6XNwn,Serce,Daria Marx,1,25,1,False,172.26562,-18.04001,New Music Friday Polska
+711,False,False,pl,-1.8983370115450189,-2.6264767357113654,0.0,-4.02535169073515,0,1UOElHaDoSaLNfcoR2mfyy,Powidok,"Karolina Skrzyńska, Jacek Sienkiewicz",1,56,1,False,123.04688,-14.83434,New Music Friday Polska
+712,False,False,el,-1.9049519705832518,-3.8409379766470284,0.0,-0.0,0,3QBJHQh5yaDS2pzMZMQI1R,WTF,"HermesHermes, Kidd, BLVD",1,1,1,False,107.66602,-18.55239,New Music Friday Greece
+713,False,False,el,-1.9712001439457651,-3.591828823423791,0.0,-1.0986122886681098,0,10HdOwmrZ9IrX9vYIfXNKZ,OLA,"Likeboss, Ivan Greko",1,3,1,False,123.04688,-15.90242,New Music Friday Greece
+714,False,False,en,-2.00484848815971,-2.6131548883226983,0.0,-4.499809670330265,0,0RfrWr1Ej0zVvJstp4MT68,Stupid Boy,1000 Rabbits,1,90,1,False,135.99918,-15.55441,New Music Friday UK & Ireland
+715,False,False,pl,-2.0050555451886725,-2.5909564070035067,0.0,-4.574710978503383,0,1Y05g6w5oqOk6FdyryA0Ks,Przyloty / Odloty,"ZPN, Zajac, AYO",1,97,1,False,172.26562,-15.61381,New Music Friday Polska
+716,False,False,el,-2.0388893827331573,-2.875716923168452,0.0,-3.7612001156935624,0,5NFUYUFOyxJYtOSJ6Im5xX,MULA,Longi Avaro,1,43,1,False,117.45384,-15.32838,New Music Friday Greece
+717,False,False,es,-2.05792224364075,-2.2154226532733703,0.0,-4.204692619390966,0,5mDiMtJXViQWCYaQ1M4ZDC,MoonWalkin,GeezyDee,1,67,1,False,161.49902,-15.31463,Novedades Viernes España
+718,False,False,it,-2.085214682247086,-3.209902372483305,0.0,-2.833213344056216,0,3a0qysReY8rJhCgUPlewPv,pelliccia di giaguaro,Quest,1,17,1,False,107.66602,-16.97457,New Music Friday Italia
+719,False,False,nl,-2.088199272840952,-3.439430250331304,0.0,-2.0794415416798357,0,7pEAaR3p9CVZGmBnpV2yfs,Gele Ferrari,Milolaathetlukken,1,8,1,False,161.49902,-17.06921,New Music Friday NL
+720,False,False,es,-2.092474482700186,-2.1419957609849813,0.0,-4.007333185232471,0,6YSDgb1AtIe39n8lygzERd,Angelica,"Brray, FANTA ROSARIO",1,55,1,False,129.19922,-18.04413,Novedades Viernes España
+721,False,False,en,-2.0958284116919983,-3.5601150187977075,1.3862943611198906,-2.4849066497880004,0,2j5OVXMkRA0E3w27HHJN1A,Baby,GRANT,4,12,1,False,129.19922,-16.90524,New Music Friday Denmark;New Music Friday Norway;New Music Friday Sweden;New Music Friday Suomi
+722,False,False,pl,-2.165345431553932,-2.9895814916919714,0.0,-3.8918202981106265,0,1BYjKw3t2w5GqlTqznbxCR,64,"OG Olgierd, Ddayzy",1,49,1,False,117.45384,-16.77226,New Music Friday Polska
+723,False,False,fr,-2.2002146369461872,-2.6059392090751343,0.0,-3.7612001156935624,0,4wNOMzhHk3E0L6kwcps5vF,21 GRAMMES - OUTRO,Niro,1,43,1,False,117.45384,-16.26987,New Music Friday France
+724,False,False,es,-2.2283572445105952,-2.8510292207911667,0.0,-1.0986122886681098,0,4F6rGLPjFU1V3RkCs26g9o,El Malo,"Duki, Pablo Chill-E",1,3,1,False,135.99918,-16.41599,Novedades Viernes España
+725,False,False,de,-2.2604564468903017,-2.092533783481817,0.0,-2.833213344056216,0,1s58SdVqogfsMe8B0NVe02,Streichholz,Kontra K,1,17,1,False,107.66602,-16.36475,New Music Friday Deutschland
+726,False,False,pl,-2.27111470019027,-2.0119289395588926,0.0,-3.1780538303479458,0,6FvcLVIR8jWACkitlBa7Po,NOMINAŁ,"Asster, adimajer",1,24,1,False,129.19922,-15.96742,New Music Friday Polska
+727,False,False,pl,-2.289244525207269,-3.0159450780702417,0.0,-4.30406509320417,0,6INz2ZPjiUr0k3lySDzd4A,atrament,Basia Siciarek,1,74,1,False,129.19922,-16.45906,New Music Friday Polska
+728,False,False,es,-2.354853513485912,-3.0834219911898253,0.0,-4.343805421853684,0,2nxhjNI5abzzakedsXBRND,PUNTALÓN,"El Toca, El Bugg",1,77,1,False,135.99918,-16.75854,Novedades Viernes España
+729,False,False,pl,-2.4744165106321963,-3.2653485241086417,0.0,-4.219507705176107,0,0UWKZ1ffo87GqWAvMjaYTN,Pinezka,Sista Flo,1,68,1,False,135.99918,-19.74499,New Music Friday Polska
+730,False,False,it,-2.482526528290394,-3.5105937825101527,0.0,-3.4339872044851463,0,04x1Ucu18HbG4s0S7u9e14,Fantasmi,"RIP, GIMA, Arya",1,31,1,False,135.99918,-15.4695,New Music Friday Italia
+731,False,False,pl,-2.5061046122596173,-3.240359071558197,0.0,-4.430816798843313,0,4SLVUcDf17NKzpdR5anypA,wodnik (jasny),"Tymon, Pstyk, Agata Kapalska",1,84,1,False,143.55469,-17.11617,New Music Friday Polska
+732,False,False,it,-2.5105359660745474,-3.1690773252079385,0.0,-2.6390573296152584,0,1wioCfKgfmx94Fi0diMkkA,SUPERSTAR,"Rocco Hunt, Clementino",1,14,1,False,103.35938,-18.20543,New Music Friday Italia
+733,False,False,en,-2.6397839732681097,-3.6098591208010316,0.0,-3.7376696182833684,0,2xdDrlqAK3jRtQBJUSjpQY,I love the way that you feel,Maverick Sabre,1,42,1,False,129.19922,-19.26408,New Music Friday UK & Ireland
+734,False,False,es,-2.6905921790828664,-4.168332992301213,0.0,-2.0794415416798357,0,6SDcdJaIUiAaTBM6dM8bnX,2.0 #2,l0rna,1,8,1,False,112.34715,-16.61213,Novedades Viernes España
+735,False,False,unknown,-2.718871275921433,-3.490756886056047,0.0,-4.454347296253507,0,3mjwKXQ6dX5lFhaCJ9Ge9Y,IKON,MITCH,1,86,1,False,112.34715,-16.81865,New Music Friday Sweden
+736,False,False,en,-2.7479325151283103,-4.029969099394457,0.0,-2.772588722239781,0,1GfIsFyh8FzrKEhSNHSzTh,forever,Bricknasty,1,16,1,False,95.70312,-17.20893,New Music Friday UK & Ireland
+737,False,False,nl,-2.7650689761011673,-3.64472718341655,0.0,-4.127134385045092,0,5SH6KLgYhebyUeAzLhLUqo,Uniform 2 (feat. Faberyayo),"GRGY, Faberyayo",1,62,1,False,112.34715,-11.84503,New Music Friday NL
+738,False,False,es,-2.7664472642328963,-3.2787920444450367,0.0,-4.143134726391533,0,41oOCv9mXYAcUOFr7v9dns,Delito,Dani J,1,63,1,False,123.04688,-17.38527,Novedades Viernes España
+739,False,False,pl,-2.782585102758978,-3.597115075589737,0.0,-4.356708826689592,0,3eNfQD77mO4MpYgUpsMCvh,Veni Vidi Vinci,"Vin Vinci, Phono Cozabit",1,78,1,False,95.70312,-18.11847,New Music Friday Polska
+740,False,False,en,-2.7985401038645676,-3.6531665386976715,0.0,-4.23410650459726,0,2IcYP7eoIXIFl40sm7kujG,From Healer to Dealer - Edit,"Charlotte Adigéry, Bolis Pupul, Charlotte Adigéry & Bolis Pupul",1,69,1,False,123.04688,-19.14889,New Music Friday France
+741,False,False,el,-2.8988724447943137,-3.961348670979996,0.0,-3.6109179126442243,0,5igRZdA5NaQRB3sxBcLg0I,Tsepi,"Giota Negka, George Theofanous, Eleana Vrachali",1,37,1,False,117.45384,-16.8495,New Music Friday Greece
+742,False,False,fr,-2.9109835000880913,-3.302859474621211,0.0,-4.584967478670572,0,77CSuV7TKLRdiuIkGrFM1h,tiens ça !,Caballero,1,98,1,False,123.04688,-17.3569,New Music Friday France
+743,False,False,fr,-2.959760715599633,-3.0216622124626906,0.0,-2.833213344056216,0,2kCHldEmEgVJZKDvnmAKxO,Détails,Hamza,1,17,1,False,123.04688,-18.29262,New Music Friday France
+744,False,False,es,-3.0246762791194275,-4.061640759011222,0.0,-3.784189633918261,0,59dVJ3wVDCo9HfZYmoZCho,Sacarte a bailar,David Rees,1,44,1,False,123.04688,-15.8059,Novedades Viernes España
+745,False,False,es,-3.0270571020281793,-3.8418896854803877,0.0,-4.553876891600541,0,2HisJO6asvHMnMdJRZpERL,Condiciones del bembé,"Gabriel Rios, Ruben Samama, Augusto Bracho, Sietepè",1,95,1,False,135.99918,-15.92964,New Music Friday NL
+746,False,False,el,-3.075930323897208,-4.073590212194608,0.0,-3.9512437185814275,0,5EmpfwF90mm6XKlgwsArL8,ELEGXOS,"Big P, prodbybigp210",1,52,1,False,151.99908,-16.94115,New Music Friday Greece
+747,False,False,el,-3.0834092623221445,-4.384393995486021,0.0,-2.9444389791664403,0,1uJPiVJMaDdtNfLWGqFs2B,2FACE,"RRESKO, ASOK",1,19,1,False,135.99918,-17.38047,New Music Friday Greece
+748,False,False,fr,-3.118813775215909,-3.3395817423565344,0.0,-3.6109179126442243,0,11lYM95HuWxGyGMTWEFQVk,TOUS MES DIAMANTS,Josman,1,37,1,False,99.38401,-17.43107,New Music Friday France
+749,False,False,pl,-3.1374138154346474,-4.333521133059479,0.0,-3.332204510175204,0,3inoPwBzO5m93tpntcupGJ,WHOA,"javier, gogetmxney",1,28,1,False,143.55469,-17.88579,New Music Friday Polska
+750,False,False,en,-3.144995819740496,-4.647952532599197,1.791759469228055,-3.091042453358316,0,5WUaJ72FfYy1mQRWaLmOtn,Jiggly Bow Bow (with Sexyy Red),"GloRilla, Sexyy Red",6,22,1,False,161.49902,-15.08657,New Music Friday Greece;New Music Friday Denmark;New Music Friday Norway;New Music Friday Sweden;New Music Friday Korea;New Music Friday Polska
+751,False,False,it,-3.212263303127112,-3.726660250053622,0.0,-3.6888794541139363,0,6Dz2HTbnieFWlLcoBdvlwV,TRE RAVER (feat. Pitta & Macello),"Dani Faiv, Pitta, Macello, Maska",1,40,1,False,143.55469,-15.7336,New Music Friday Italia
+752,False,False,el,-3.2276692676172036,-4.393487288612397,0.0,-3.4965075614664802,0,1qUQ95ZLsxXoxbGA87dwFP,9,"Lesk, SOLID",1,33,1,False,112.34715,-15.19902,New Music Friday Greece
+753,False,False,de,-3.2411759601786088,-3.446398078444366,0.0,-4.007333185232471,0,6cde7EWf6XthbiutkbNdKG,600 PS,"BOJAN, AVIE",1,55,1,False,135.99918,-18.79635,New Music Friday Deutschland
+754,False,False,fr,-3.247901720842357,-4.233834193132677,0.0,-4.110873864173311,0,5yC7RY2v4A1wTmtoO7HQVp,JETLAG,Cherry Pie,1,61,1,False,117.45384,-17.1398,New Music Friday France
+755,False,False,pl,-3.353137956848059,-4.604209550962404,0.0,-1.9459101490553132,0,4AizlaNd3QI1NFvJagsFlt,DZIECIŃSTWO,Grubson,1,7,1,False,103.35938,-16.63461,New Music Friday Polska
+756,False,False,pl,-3.4383144547001865,-4.410411479932157,0.0,-4.290459441148391,0,5k3ZomKE8USh9HH3sxqfiD,Nirvana 3,"Intruz, MŁODY AZF, Obserwator Świata Faktów, KD Producent",1,73,1,False,135.99918,-16.90876,New Music Friday Polska
+757,False,False,es,-3.581718697680093,-4.116117778164765,0.0,-2.70805020110221,0,7yttWsYHTlqBKNNLbaH9rA,PARADIXE - REMIX,"Feid, El Americano 4KT, Omar Courtz, Pirlo, Myke Towers",1,15,1,False,129.19922,-17.25205,Novedades Viernes España
+758,False,False,el,-3.6840937469696446,-5.785974764571417,0.0,-0.6931471805599453,0,6YfzIZmyRO420cwXoq8sUF,SUVS,"Bres, Light, Quervo",1,2,1,False,129.19922,-18.87239,New Music Friday Greece
+759,False,False,pl,-3.692461221572262,-4.7436377353545875,0.0,-4.204692619390966,0,53eFrURhhDAnMpysbpHHA1,Piękne Słowa,"Dudek P56, Matt Tosi",1,67,1,False,95.70312,-17.08657,New Music Friday Polska
+760,False,False,pl,-3.732428703023793,-4.635165039020833,0.0,-4.060443010546419,0,2lJHDczLybt18zgFBaXKeJ,Cisza ma imię,"Ochman, Wszystko Dobrze",1,58,1,False,92.28516,-16.57261,New Music Friday Polska
+761,False,False,es,-3.9245612219136885,-5.057554492684051,0.0,-4.0943445622221,0,2zuG0xa6Bz4xgid07ahicd,Ten Cuidao,"Space Hammu, Carrion GodBle$$, Saske, Delaossa, Raggio, Kas Rules, J.Moods, EAZYBOI, Sanson",1,60,1,False,95.70312,-17.74212,Novedades Viernes España
+762,False,False,fr,-3.931181961840739,-4.458727707347556,0.0,-2.1972245773362196,0,5PEFCh1GU2LteiIJzYrvE0,Macronie,Niska,1,9,1,False,117.45384,-14.79725,New Music Friday France
+763,False,False,it,-4.084745658636217,-5.380491579974738,0.0,-3.6635616461296463,0,4Bcnm07fKgwWEiQuHGKot0,Sul Ciglio,"Latrelle, N'Dreamer",1,39,1,False,112.34715,-16.60764,New Music Friday Italia
+764,False,False,de,-4.103818538394453,-5.335157523829966,0.0,-3.8918202981106265,0,3CGKUQxNoEohBJqF4fV1y7,Go!,Celo & Abdi,1,49,1,False,92.28516,-17.55289,New Music Friday Deutschland
+765,False,False,el,-4.140489512727079,-5.440773968225518,0.0,-2.70805020110221,0,2TrY7JObDgtkXxsZbUuvHr,Ta Paidia Tis Skonis,"Ethismos, Melow",1,15,1,False,135.99918,-16.40588,New Music Friday Greece
+766,False,False,it,-4.457304983703679,-5.63133173203696,0.0,-4.330733340286331,0,0gGnR9fretljifsGRdK4bk,Gorc (feat. Altea),"Pufuleti, Fed Nance, Altea",1,76,1,False,151.99908,-15.29598,New Music Friday Italia
+767,False,False,el,-4.659879777766436,-6.637417479306336,0.0,-1.791759469228055,0,4tbwYf1pYmFPMuNnWu6C2k,GOURI,"Silly Slime, JACK",1,6,1,False,103.35938,-17.44513,New Music Friday Greece
+768,False,False,es,-5.516247449969272,-7.201421374459925,0.0,-3.367295829986474,0,4AgHq4QReshvu40iMKnkeD,POSESION,Foyone,1,29,1,False,172.26562,-17.52937,Novedades Viernes España
