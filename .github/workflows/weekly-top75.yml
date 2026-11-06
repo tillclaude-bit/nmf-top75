@@ -1,4 +1,4 @@
-name: Woechentliche Top 75
+name: Woechentlicher Pool (nur Pool + Pool-Playlist, keine Top 75)
 
 on:
   schedule:
@@ -88,12 +88,10 @@ jobs:
         continue-on-error: true
         timeout-minutes: 30
         run: python3 scripts/mb_gender.py data/analysis/mb_gender.csv | tee mbg.txt
-      - name: Bewerten und Top 75 waehlen
-        run: python3 scripts/score_pool.py "$DATE" | tee score.txt
-      - name: Ergebnis archivieren
+      - name: Analysen archivieren
         run: |
-          git add data/pools data/rankings data/analysis
-          git commit -m "Ranking and playlist $DATE" || echo "nothing to commit"
+          git add data/pools data/analysis
+          git commit -m "Pool analysis $DATE" || echo "nothing to commit"
           git pull --rebase origin main
           git push origin HEAD:main
       - name: Pool-Playlist anlegen (alle Songs der Woche, zum Export mit Exportify)
@@ -107,23 +105,10 @@ jobs:
           git commit -m "Pool playlist id $DATE" || echo "nothing to commit"
           git pull --rebase origin main
           git push origin HEAD:main
-      - name: Playlist anlegen
-        if: github.event_name == 'workflow_dispatch' && github.event.inputs.skip_playlist == 'nein'  # Zeitplanlauf legt keine Playlist an: erst Recherche, dann finalize-top75.yml
-        env:
-          SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
-          SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
-        run: python3 scripts/create_playlist.py "$DATE" | tee pl.txt
-      - name: Playlist-ID festhalten
-        if: github.event_name == 'workflow_dispatch' && github.event.inputs.skip_playlist == 'nein'  # Zeitplanlauf legt keine Playlist an: erst Recherche, dann finalize-top75.yml
-        run: |
-          git add data/playlist_ids.csv
-          git commit -m "Record playlist id $DATE" || echo "nothing to commit"
-          git pull --rebase origin main
-          git push origin HEAD:main
       - name: Zusammenfassung
         if: always()
         run: |
-          for f in fb.txt fetch.txt desc.txt lang.txt score.txt pl.txt; do
+          for f in fb.txt fetch.txt lang.txt poolpl.txt; do
             if [ -f "$f" ]; then grep -v '^ *[0-9]* ' "$f" | while IFS= read -r line; do echo "::notice::${line}"; done || true; fi
           done
           exit 0
