@@ -30,8 +30,8 @@ for r in mine[~mine.track_id.isin(his.track_id)].itertuples():
 if len(his) < 0.6 * len(mine):
     for r in his[his.track_id.isin(mine.track_id)].itertuples():
         if r.track_id not in known:
-            rows.append(dict(track_id=r.track_id, signal="like", artist=r.artists, title=r.name,
-                             reason=f"behalten, Rang {r.pos} von {len(his)}", date=date))
+            rows.append(dict(track_id=r.track_id, signal="like" if r.pos / len(his) <= 0.6 else "neutral", artist=r.artists, title=r.name,
+                             reason=f"behalten, Rang {r.pos} von {len(his)}", date=date))  # grobes Ranking seiner Reihenfolge: obere 60 % like, Rest neutral
             known.add(r.track_id)
 # Gestuftes Ranking: nur wenn die Reihenfolge deutlich von meiner abweicht (er hat sortiert)
 from scipy.stats import spearmanr
