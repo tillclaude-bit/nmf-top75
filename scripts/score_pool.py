@@ -367,10 +367,30 @@ else:
     EN_SHARE = None
     print("Keine Sprachdaten, Auswahl ohne Sprachquote")
 
+# --- Stimme (MusicBrainz-Geschlecht der Kuenstler, nur wo bekannt): maennliche Stimmen sollen seltener vorkommen als weibliche (Till, 2026-11-06).
+# Zielanteil Maenner (unter Kuenstlern mit bekanntem Geschlecht) = min(Anteil in deinen Charts, 50 %). Umsetzung als kleinster Score-Abzug fuer maennliche
+# Solokuenstler (0 bis 2,0 in 0,25-Schritten), mit dem der Zielanteil in der Auswahl erreicht wird.
+pool["voice"] = "unknown"
+MALE_CAP = None
+PEN = 0.0
+if _os1.path.exists("data/analysis/mb_gender.csv"):
+    _gd = rd("data/analysis/mb_gender.csv").fillna("")
+    _vm = {r.key: ("male" if r.gender == "male" else "female" if r.gender == "female" else "group" if r.type == "Group" else "unknown") for r in _gd.itertuples()}
+    pool["voice"] = [_vm.get(_nk(a), "unknown") for a in pool.artists]
+    _mbt = rd("data/analysis/mb_tags.csv").fillna("")
+    _chart_keys = set(_mbt[_mbt.groups.str.contains("chart")].key.astype(str))
+    _cv_ = [v for k, v in _vm.items() if k in _chart_keys and v in ("male", "female")]
+    if len(_cv_) >= 20:
+        _chart_male = _cv_.count("male") / len(_cv_)
+        MALE_CAP = min(_chart_male, 0.5)
+        print(f"Stimmen: Chart-Kuenstler mit Geschlecht {len(_cv_)}, Maenneranteil {_chart_male:.0%} -> Zielanteil Maenner in der Auswahl {MALE_CAP:.0%}")
+    print("Stimmen im Pool (Songs):", pool.voice.value_counts().to_dict())
+
 # --- Auswahl: keine Chart-Duplikate, max. 2 pro Kuenstler, keine Doppelversionen
 # Erst die besten nicht-englischen Songs bis zum Zielanteil (aus den aktuellen Charts), dann der Rest nach Score
 def _select(N):
     sel, per_artist, seen = [], {}, set()
+    _ord = pool.assign(adj=pool.score - PEN * (pool.voice == "male")).sort_values("adj", ascending=False)
 
 
     TASTE_MIN = -1e9  # Schwelle ausgeschaltet (Till, 2026-11-06: Passungsmass unter 0 schliesst nicht automatisch aus; Klang-Deskriptoren sind schwach). Vorher 0.0
@@ -399,7 +419,7 @@ def _select(N):
         n_non = int(round((1 - EN_SHARE) * N))
         cap = max(2, int(np.ceil(MAX_LANG_SHARE * n_non)))
         per_lang = {}
-        for i, r in pool[(pool.lang != "en") & (pool.lang != "unknown")].iterrows():
+        for i, r in _ord[(_ord.lang != "en") & (_ord.lang != "unknown")].iterrows():
             if len(sel) >= n_non:
                 break
             if per_lang.get(r.lang, 0) >= cap:
@@ -409,18 +429,18 @@ def _select(N):
                 per_lang[r.lang] = per_lang.get(r.lang, 0) + 1
         print(f"Sprachquote: {len(sel)} nicht-englische Songs (Ziel {n_non}), Sprachen: {per_lang}")
         # Rest: nur englisch/unklar, damit der Zielanteil nicht ueberschritten wird
-        for i, r in pool[(pool.lang == "en") | (pool.lang == "unknown")].iterrows():
+        for i, r in _ord[(_ord.lang == "en") | (_ord.lang == "unknown")].iterrows():
             if len(sel) >= N:
                 break
             take(i, r)
-    for i, r in pool.iterrows():
+    for i, r in _ord.iterrows():
         if len(sel) >= N:
             break
         if i not in sel:
             take(i, r)
     if len(sel) < N:  # nicht genug Songs ueber der Schwelle: mit den besten darunter auffuellen und melden
         print(f"ACHTUNG: nur {len(sel)} Songs mit Passungsmass >= {TASTE_MIN}; Rest wird mit den besten darunter aufgefuellt")
-        for i, r in pool.iterrows():
+        for i, r in _ord.iterrows():
             if len(sel) >= N:
                 break
             if i not in sel:
@@ -428,6 +448,19 @@ def _select(N):
     return sel
 
 
+def _male_share(ids):
+    v = pool.loc[ids, "voice"]
+    m, f = int((v == "male").sum()), int((v == "female").sum())
+    return (m / (m + f) if m + f else float("nan")), m, f
+
+
+if MALE_CAP is not None:
+    for PEN in np.arange(0.0, 2.01, 0.25):
+        _t = _select(N)
+        _sh = _male_share(_t)
+        if _sh[0] <= MALE_CAP or np.isnan(_sh[0]):
+            break
+    print(f"Stimm-Abzug fuer Maenner: {PEN:.2f} -> in der Auswahl {_sh[1]} Maenner, {_sh[2]} Frauen (Anteil {_sh[0]:.0%}, Ziel hoechstens {MALE_CAP:.0%})")
 _cand_sel = _select(200)  # Kandidatenliste fuer die Recherche (gleiche Regeln und Quoten, 200 statt 75)
 pool["candidate"] = pool.index.isin(_cand_sel)
 sel = _select(N)
@@ -437,11 +470,11 @@ import os
 
 os.makedirs("data/rankings", exist_ok=True)
 keep_cols = ["rank", "selected", "quota_pick", "lang", "score", "taste", "breadth", "pos", "artist_hits", "track_id", "name", "artists",
-             "n_playlists", "best_pos", "preview_ok", "is_chart", "tempo", "rms_db_mean", "playlists"]
+             "n_playlists", "best_pos", "preview_ok", "is_chart", "tempo", "rms_db_mean", "playlists", "feat", "stylefit", "voice"]
 pool[keep_cols].to_csv(f"data/rankings/ranking_{DATE}{SUFFIX}.csv", index=False)
 _c = pool[pool.candidate].reset_index(drop=True)
 _c.insert(0, "nr", np.arange(1, len(_c) + 1))
-_c[["nr", "track_id", "name", "artists", "score", "taste", "feat", "stylefit", "n_playlists", "best_pos", "lang", "style_tags", "style_flag", "genres_sp", "lf_tags", "playlists", "selected"]].to_csv(
+_c[["nr", "track_id", "name", "artists", "score", "taste", "feat", "stylefit", "n_playlists", "best_pos", "lang", "voice", "style_tags", "style_flag", "genres_sp", "lf_tags", "playlists", "selected"]].to_csv(
     f"data/rankings/candidates_{DATE}{SUFFIX}.csv", index=False)
 print(f"Kandidatenliste: {len(_c)} Songs, davon {int(_c.selected.sum())} in den Top 75")
 top = pool[pool.selected].reset_index(drop=True)

@@ -27,3 +27,7 @@ Details und Begruendungen: data/feedback.csv (signal=dislike).
 - verdict `unsure`: Quellenlage duenn oder gemischt. Im Zweifel `unsure`, nie `no`.
 - Pro Song 1 Zeile: kurze Stilbeschreibung (max. 12 Woerter), Grund (max. 20 Woerter), Quelle(n) als URL.
 - Bewerte den Song/Kuenstler, nicht Popularitaet. Keine Meinung zu Personen, nur Musik.
+
+## Neue Spalten in der Kandidatenliste (seit 2026-11-06)
+- `style_flag`: Last.fm meldet fuer diesen Kuenstler einen unerwuenschten Stil (z.B. metal, hard rock, grime), Spotify/MusicBrainz bestaetigen ihn nicht. Last.fm verwechselt gleichnamige Kuenstler haeufig (Beispiele: Oria/Orla, Samson, Passenger). Pruefe zuerst, ob der Kuenstler dieses Songs wirklich diesen Stil spielt. Wenn ja: verdict `no`. Wenn es eine Namensverwechslung ist: Urteil nach den normalen Kriterien.
+- `genres_sp`: Spotify-Genres des Kuenstlers (falls vorhanden), `lf_tags`: Last.fm-Tags mit Gewicht (0-100), `voice`: male/female/group/unknown (MusicBrainz). Nur als Kontext, die Auswahl beruecksichtigt die Stimme bereits.

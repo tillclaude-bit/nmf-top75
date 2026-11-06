@@ -80,12 +80,33 @@ jobs:
         continue-on-error: true
         timeout-minutes: 40
         run: python3 scripts/mb_tags.py "data/pools/pool_tracks_$DATE.csv" data/analysis/mb_tags.csv | tee mb.txt
+      - name: Stil-Tags der Kuenstler holen (Last.fm, nur neue Kuenstler)
+        continue-on-error: true
+        timeout-minutes: 40
+        env:
+          LASTFM_API_KEY: ${{ secrets.LASTFM_API_KEY }}
+        run: python3 scripts/lastfm_tags.py "data/pools/pool_tracks_$DATE.csv" data/analysis/lastfm_tags.csv | tee lf.txt
+      - name: Geschlecht der Kuenstler holen (MusicBrainz, nur neue Kuenstler)
+        continue-on-error: true
+        timeout-minutes: 30
+        run: python3 scripts/mb_gender.py data/analysis/mb_gender.csv | tee mbg.txt
       - name: Bewerten und Top 75 waehlen
         run: python3 scripts/score_pool.py "$DATE" | tee score.txt
       - name: Ergebnis archivieren
         run: |
           git add data/pools data/rankings data/analysis
           git commit -m "Ranking and playlist $DATE" || echo "nothing to commit"
+          git pull --rebase origin main
+          git push origin HEAD:main
+      - name: Pool-Playlist anlegen (alle Songs der Woche, zum Export mit Exportify)
+        continue-on-error: true
+        env:
+          SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
+          SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
+        run: |
+          python3 scripts/create_pool_playlist.py "$DATE" | tee poolpl.txt
+          git add data/pool_playlist_ids.csv
+          git commit -m "Pool playlist id $DATE" || echo "nothing to commit"
           git pull --rebase origin main
           git push origin HEAD:main
       - name: Playlist anlegen
