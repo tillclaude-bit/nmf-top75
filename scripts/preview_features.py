@@ -38,7 +38,16 @@ def http_get(url, timeout=30):
 
 
 def preview_url(track_id):
-    html = http_get(f"https://open.spotify.com/embed/track/{track_id}").decode("utf-8", "replace")
+    import time, random
+    html = ""
+    for i in range(4):  # Spotify drosselt die Embed-Seite bei vielen Abfragen: mit Pause wiederholen
+        try:
+            html = http_get(f"https://open.spotify.com/embed/track/{track_id}").decode("utf-8", "replace")
+            if "audioPreview" in html or "mp3-preview" in html:
+                break
+        except Exception:
+            pass
+        time.sleep(2 + 3 * i + random.random())
     m = re.search(r'"audioPreview"\s*:\s*\{\s*"url"\s*:\s*"(https:[^"]+)"', html)
     if not m:
         m = re.search(r"(https://p\.scdn\.co/mp3-preview/[0-9a-f]+[^\"'\\ ]*)", html)
@@ -61,7 +70,7 @@ def deezer_preview(artist, title):
     ta, tt = _nrm(main_art), _nrm(title)
     if not ta or not tt:
         return None
-    q = urllib.parse.quote(f'artist:"{main_art}" track:"{re.sub(chr(40)+".*", "", str(title)).strip()}"')
+    q = urllib.parse.quote(f'artist:"{main_art}" track:"{re.sub(r"[(].*", "", str(title)).strip()}"')
     for i in range(3):
         try:
             time.sleep(0.3)
@@ -203,7 +212,7 @@ def main():
     if a.limit:
         items = items[: a.limit]
     print(f"{len(items)} Tracks", flush=True)
-    with ThreadPoolExecutor(max_workers=4) as ex:
+    with ThreadPoolExecutor(max_workers=3) as ex:
         rows = list(ex.map(lambda kv: process(kv[0], urls.get(kv[0]), metas.get(kv[0])), items))
     for r, (_, src) in zip(rows, items):
         r["source"] = src
