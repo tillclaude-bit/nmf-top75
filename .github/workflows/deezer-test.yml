@@ -1,0 +1,29 @@
+name: Deezer-Vorschau-Test
+
+on:
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Datum des Pools"
+        default: "2026-11-06"
+      limit:
+        description: "Anzahl Songs ohne Spotify-Vorschau"
+        default: "80"
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Abhaengigkeiten
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg libsndfile1
+          pip install -q librosa pyloudnorm numpy scipy
+      - name: Test
+        run: |
+          python3 scripts/preview_features.py /tmp/deezer_test.csv --pool "data/pools/pool_tracks_${{ github.event.inputs.date }}.csv" --only-missing --limit "${{ github.event.inputs.limit }}" | tee run.txt
+          while IFS= read -r line; do echo "::notice::${line}"; done < run.txt

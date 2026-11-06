@@ -47,6 +47,34 @@ def preview_url(track_id):
     return m.group(1).replace("\\u002F", "/").replace("\\/", "/")
 
 
+def _nrm(x):
+    import unicodedata
+    x = unicodedata.normalize("NFKD", str(x)).encode("ascii", "ignore").decode().lower()
+    x = re.sub(r"\(.*?\)|\[.*?\]| - .*$", " ", x)  # Zusaetze wie (feat. X) oder "- Remastered" weg
+    return re.sub(r"[^a-z0-9]+", " ", x).strip()
+
+
+def deezer_preview(artist, title):
+    """Fallback fuer Songs ohne Spotify-Vorschau: 30-s-Vorschau von Deezer (Suche nach Kuenstler + Titel, strenger Namensabgleich)."""
+    import urllib.parse, time
+    main_art = re.split(r",|;| feat\.| ft\.| x | & ", str(artist))[0].strip()
+    ta, tt = _nrm(main_art), _nrm(title)
+    if not ta or not tt:
+        return None
+    q = urllib.parse.quote(f'artist:"{main_art}" track:"{re.sub(chr(40)+".*", "", str(title)).strip()}"')
+    for i in range(3):
+        try:
+            time.sleep(0.3)
+            data = json.loads(http_get(f"https://api.deezer.com/search?q={q}&limit=8"))
+            for it in data.get("data", []):
+                if it.get("preview") and _nrm(it["artist"]["name"]) == ta and (_nrm(it["title"]) == tt or tt in _nrm(it["title"]) or _nrm(it["title"]) in tt):
+                    return it["preview"]
+            return None
+        except Exception:
+            time.sleep(2 + 2 * i)
+    return None
+
+
 # Krumhansl-Kessler-Profile fuer Tonart und Modus
 MAJOR = np.array([6.35, 2.23, 3.48, 2.33, 4.38, 4.09, 2.52, 5.19, 2.39, 3.66, 2.29, 2.88])
 MINOR = np.array([6.33, 2.68, 3.52, 5.38, 2.60, 3.53, 2.54, 4.75, 3.98, 2.69, 3.34, 3.17])
@@ -111,12 +139,16 @@ def describe(wav_path):
     return d
 
 
-def process(tid, url=None):
-    row = {"track_id": tid, "preview_ok": 0, "error": ""}
+def process(tid, url=None, meta=None):
+    row = {"track_id": tid, "preview_ok": 0, "error": "", "preview_src": "spotify"}
     try:
         url = url or preview_url(tid)
+        if not url and meta:
+            url = deezer_preview(*meta)
+            row["preview_src"] = "deezer"
         if not url:
             row["error"] = "keine Preview-URL"
+            row["preview_src"] = ""
             return row
         with tempfile.TemporaryDirectory() as tmp:
             mp3 = os.path.join(tmp, "p.mp3")
@@ -153,22 +185,26 @@ def main():
     ap.add_argument("out")
     ap.add_argument("--limit", type=int, default=0)
     ap.add_argument("--pool", help="pool_tracks_*.csv (track_id, preview_url) statt Kalibriersatz")
+    ap.add_argument("--only-missing", action="store_true", help="nur Pool-Songs ohne Spotify-Vorschau (Test des Deezer-Fallbacks)")
     a = ap.parse_args()
-    urls = {}
+    urls, metas = {}, {}
     if a.pool:
         ids = {}
         with open(a.pool, encoding="utf-8-sig") as f:
             for r in csv.DictReader(f):
                 ids[r["track_id"]] = "pool"
                 urls[r["track_id"]] = r.get("preview_url") or None
+                metas[r["track_id"]] = (r.get("artists", ""), r.get("name", ""))
     else:
         ids = load_ids()
     items = list(ids.items())
+    if a.only_missing:
+        items = [kv for kv in items if not urls.get(kv[0])]
     if a.limit:
         items = items[: a.limit]
     print(f"{len(items)} Tracks", flush=True)
     with ThreadPoolExecutor(max_workers=4) as ex:
-        rows = list(ex.map(lambda kv: process(kv[0], urls.get(kv[0])), items))
+        rows = list(ex.map(lambda kv: process(kv[0], urls.get(kv[0]), metas.get(kv[0])), items))
     for r, (_, src) in zip(rows, items):
         r["source"] = src
     cols = ["track_id", "source", "preview_ok", "error"]
@@ -183,7 +219,7 @@ def main():
         for r in rows:
             w.writerow({k: (round(v, 5) if isinstance(v, float) else v) for k, v in r.items()})
     ok = sum(r["preview_ok"] for r in rows)
-    print(f"Vorschau ok: {ok} von {len(rows)}")
+    print(f"Vorschau ok: {ok} von {len(rows)} (davon Deezer-Fallback: {sum(1 for r in rows if r['preview_ok'] and r.get('preview_src') == 'deezer')})")
     errs = {}
     for r in rows:
         if r["error"]:

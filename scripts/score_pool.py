@@ -216,8 +216,14 @@ else:
 sel, per_artist, seen = [], {}, set()
 
 
-def take(i, r):
+TASTE_MIN = 0.0  # Till, 2026-11-06: Songs mit Passungsmass unter dem Durchschnitt (Entscheidungsgrenze 0) kommen nicht in die 75
+# (ohne Vorschau gibt es kein Passungsmass: diese Songs sind vom Filter ausgenommen)
+
+
+def take(i, r, strict=True):
     if r.is_xmas:
+        return False
+    if strict and r.preview_ok == 1 and r.taste < TASTE_MIN:
         return False
     toks = (artist_tokens(r.artists) or [str(r.artists)])[:1]  # nur der Hauptkuenstler (erster genannter) zaehlt
     if r.is_chart or r.tkey in seen or any(per_artist.get(t, 0) >= MAX_PER_ARTIST for t in toks):
@@ -255,6 +261,13 @@ for i, r in pool.iterrows():
         break
     if i not in sel:
         take(i, r)
+if len(sel) < N:  # nicht genug Songs ueber der Schwelle: mit den besten darunter auffuellen und melden
+    print(f"ACHTUNG: nur {len(sel)} Songs mit Passungsmass >= {TASTE_MIN}; Rest wird mit den besten darunter aufgefuellt")
+    for i, r in pool.iterrows():
+        if len(sel) >= N:
+            break
+        if i not in sel:
+            take(i, r, strict=False)
 pool["selected"] = pool.index.isin(sel)
 
 import os
