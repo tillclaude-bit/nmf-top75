@@ -64,7 +64,7 @@ feats = rd("data/charts/song_features.csv")
 arts = rd("data/charts/artists.csv")
 fb = rd("data/feedback.csv")  # track_id, signal (like/dislike), artist, title, reason, date
 
-DESC = [c for c in pdesc.columns if c not in ("track_id", "source", "preview_ok", "error", "dur")]
+DESC = [c for c in pdesc.columns if c not in ("track_id", "source", "preview_ok", "error", "dur", "preview_src")]
 
 # --- Chart-Songs mit Erfolgsgewicht (hoher Peak / lange in den Charts = staerkeres Signal)
 cs = feats[["song_id", "spotify_track_id"]].merge(songs[["song_id", "peak_pos", "weeks_in_10_charts"]], on="song_id")

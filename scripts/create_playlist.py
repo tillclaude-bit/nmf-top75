@@ -7,6 +7,7 @@ Liest data/rankings/playlist_DATUM.csv. Token: auth/refresh_token.enc (mit SPOTI
 import csv, json, os, subprocess, sys, urllib.error, urllib.parse, urllib.request
 
 date = sys.argv[1]
+suffix = sys.argv[2] if len(sys.argv) > 2 else ""  # z.B. "_neu": Neuberechnung einer Woche; eigene ID-Datei, damit die Vorwochen-Zuordnung unberuehrt bleibt
 cid = os.environ["SPOTIFY_CLIENT_ID"]
 rt = subprocess.run(["openssl", "enc", "-d", "-aes-256-cbc", "-pbkdf2", "-iter", "200000", "-a",
                      "-pass", "env:SPOTIFY_CLIENT_SECRET", "-in", "auth/refresh_token.enc"],
@@ -41,8 +42,8 @@ if s != 200:
 tok = t["access_token"]
 s, me = call("https://api.spotify.com/v1/me", token=tok)
 print("me:", s, me.get("id") if isinstance(me, dict) else me)
-ids = [r["track_id"] for r in csv.DictReader(open(f"data/rankings/playlist_{date}.csv", encoding="utf-8-sig"))]
-name = f"Top 75 – {date}"
+ids = [r["track_id"] for r in csv.DictReader(open(f"data/rankings/playlist_{date}{suffix}.csv", encoding="utf-8-sig"))]
+name = f"Top 75 – {date}" + (" (neu)" if suffix else "")
 desc = "Automatisch aus den New-Music-Friday-Listen von 14 Ländern ausgewählt."
 for url in ("https://api.spotify.com/v1/me/playlists", f"https://api.spotify.com/v1/users/{me.get('id')}/playlists"):
     s, pl = call(url, {"name": name, "public": True, "description": desc}, token=tok)
@@ -64,7 +65,7 @@ if s == 200:
     tot = (chk.get("tracks") or chk.get("items") or {}).get("total")
     print(f"Playlist {pid}: public={chk.get('public')} tracks={tot}")
 import pathlib
-f = pathlib.Path("data/playlist_ids.csv")
+f = pathlib.Path("data/playlist_ids_neu.csv" if suffix else "data/playlist_ids.csv")
 with open(f, "a", encoding="utf-8") as fh:
     fh.write(f"{date},{pid}\n")
 print("URL=https://open.spotify.com/playlist/" + pid)
