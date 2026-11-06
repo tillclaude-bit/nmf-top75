@@ -2,7 +2,8 @@ name: Woechentlicher Pool (nur Pool + Pool-Playlist, keine Top 75)
 
 on:
   schedule:
-    - cron: "17 3 * * 5"   # freitags 03:17 UTC (= 04:17/05:17 Uhr deutscher Zeit)
+    - cron: "17 4 * * 5"   # 04:17 UTC = 06:17 Berlin im Sommer (MESZ)
+    - cron: "17 5 * * 5"   # 05:17 UTC = 06:17 Berlin im Winter (MEZ); das Gate laesst nur den passenden Lauf durch
   workflow_dispatch:
     inputs:
       date:
@@ -19,7 +20,18 @@ permissions:
   contents: write
 
 jobs:
+  gate:
+    runs-on: ubuntu-latest
+    outputs:
+      go: ${{ steps.g.outputs.go }}
+    steps:
+      - id: g
+        run: |
+          H=$(TZ=Europe/Berlin date +%H)
+          if [ "${{ github.event_name }}" != "schedule" ] || [ "$H" = "06" ]; then echo "go=true" >> "$GITHUB_OUTPUT"; else echo "go=false" >> "$GITHUB_OUTPUT"; echo "Berlin-Stunde $H, kein 06:17-Lauf"; fi
   run:
+    needs: gate
+    if: needs.gate.outputs.go == 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 300
     steps:
@@ -72,6 +84,17 @@ jobs:
           git commit -m "Archive pool $DATE" || echo "nothing to commit"
           git pull --rebase origin main
           git push origin HEAD:main
+      - name: Pool-Playlist anlegen (alle Songs der Woche, zum Export mit Exportify)
+        continue-on-error: true
+        env:
+          SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
+          SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
+        run: |
+          python3 scripts/create_pool_playlist.py "$DATE" | tee poolpl.txt
+          git add data/pool_playlist_ids.csv
+          git commit -m "Pool playlist id $DATE" || echo "nothing to commit"
+          git pull --rebase origin main
+          git push origin HEAD:main
       - name: Sprache der Songs erkennen
         run: python3 scripts/language_id.py "data/analysis/language_$DATE.csv" "data/pools/pool_tracks_$DATE.csv" | tee lang.txt
       - name: Stil-Tags der Kuenstler holen (MusicBrainz, nur neue Kuenstler)
@@ -92,17 +115,6 @@ jobs:
         run: |
           git add data/pools data/analysis
           git commit -m "Pool analysis $DATE" || echo "nothing to commit"
-          git pull --rebase origin main
-          git push origin HEAD:main
-      - name: Pool-Playlist anlegen (alle Songs der Woche, zum Export mit Exportify)
-        continue-on-error: true
-        env:
-          SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
-          SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
-        run: |
-          python3 scripts/create_pool_playlist.py "$DATE" | tee poolpl.txt
-          git add data/pool_playlist_ids.csv
-          git commit -m "Pool playlist id $DATE" || echo "nothing to commit"
           git pull --rebase origin main
           git push origin HEAD:main
       - name: Zusammenfassung
