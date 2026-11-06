@@ -1,12 +1,11 @@
-term,effect,note,date
-hard rock,exclude,"Till: Hardrock finde ich generell scheisse (Royal Blood - Mother Never Told You)",2026-11-06
-grime,exclude,"Till: Skepta raus, Grime passt nicht zu meinen Charts",2026-11-06
-metalcore,exclude,"Till: Dead Silent - sowas nie auswaehlen",2026-11-06
-melodic metalcore,exclude,"Till: Dead Silent - sowas nie auswaehlen",2026-11-06
-deathcore,exclude,"Till: Metal-Stile nie auswaehlen",2026-11-06
-heavy metal,exclude,"Till: Metal-Stile nie auswaehlen",2026-11-06
-death metal,exclude,"Till: Metal-Stile nie auswaehlen",2026-11-06
-black metal,exclude,"Till: Metal-Stile nie auswaehlen",2026-11-06
-thrash metal,exclude,"Till: Metal-Stile nie auswaehlen",2026-11-06
-nu metal,exclude,"Till: Metal-Stile nie auswaehlen",2026-11-06
-metal,exclude,"Till: Metal-Stile nie auswaehlen",2026-11-06
+term,effect,match,note,date
+hard rock,exclude,exact,Till: Hardrock finde ich generell scheisse (Royal Blood - Mother Never Told You),2026-11-06
+grime,exclude,exact,"Till: Skepta raus, Grime passt nicht zu meinen Charts",2026-11-06
+metal,exclude,contains,Till: kein Metal/Metalcore/Grindcore o.Ae. - kommt in meinen Charts nicht vor (DEAD SILENT),2026-11-06
+grind,exclude,contains,Till: kein Metal/Metalcore/Grindcore o.Ae. - kommt in meinen Charts nicht vor (DEAD SILENT),2026-11-06
+sludge,exclude,contains,Till: kein Metal/Metalcore/Grindcore o.Ae. - kommt in meinen Charts nicht vor (DEAD SILENT),2026-11-06
+doom,exclude,contains,Till: kein Metal/Metalcore/Grindcore o.Ae. - kommt in meinen Charts nicht vor (DEAD SILENT),2026-11-06
+djent,exclude,contains,Till: kein Metal/Metalcore/Grindcore o.Ae. - kommt in meinen Charts nicht vor (DEAD SILENT),2026-11-06
+mathcore,exclude,contains,Till: kein Metal/Metalcore/Grindcore o.Ae. - kommt in meinen Charts nicht vor (DEAD SILENT),2026-11-06
+screamo,exclude,contains,Till: kein Metal/Metalcore/Grindcore o.Ae. - kommt in meinen Charts nicht vor (DEAD SILENT),2026-11-06
+post-hardcore,exclude,contains,Till: kein Metal/Metalcore/Grindcore o.Ae. - kommt in meinen Charts nicht vor (DEAD SILENT),2026-11-06
