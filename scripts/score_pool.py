@@ -24,7 +24,7 @@ from sklearn.preprocessing import StandardScaler
 
 DATE = sys.argv[1]
 SUFFIX = sys.argv[2] if len(sys.argv) > 2 else ""
-W = {"taste": 1.0, "breadth": 0.5, "pos": 0.25, "artist": 0.5}  # breadth bleibt drin (Till, 2026-10-31); Vorwochen-Backtest: Breite sagt Chart-Einstiege vorher
+W = {"taste": 1.0, "breadth": 0.5, "pos": 0.25, "artist": 0.5, "stylefit": 0.5}  # style: Stil-Tags der Kuenstler (MusicBrainz) gegen die Stile der Chart-Kuenstler; ohne Tags neutral (0)  # breadth bleibt drin (Till, 2026-10-31); Vorwochen-Backtest: Breite sagt Chart-Einstiege vorher
 MAX_PER_ARTIST = 1  # Till, 2026-11-06: kein Hauptkuenstler doppelt; Feature-Gaeste zaehlen nicht
 N = 75
 # Weihnachtslieder sind ausgeschlossen (Titel-Stichworte in den NMF-Sprachen; Kuenstlernamen zaehlen nicht)
@@ -133,18 +133,6 @@ for _, r in arts.iterrows():
 pool["artist_hits"] = pool.artists.map(lambda a: max([hits.get(t, 0) for t in artist_tokens(a)] or [0]))
 pool["artist"] = np.log1p(pool.artist_hits)
 
-# Breitenbonus nur, wenn der Klang passt (Till, 2026-11-06): bei unterdurchschnittlichem Passungsmass wird ein
-# positiver Breitenbeitrag gedaempft (Faktor 1 + z_taste/2, mindestens 0); Backtest 30.10.: etwas mehr Likes, weniger Dislikes in den Top 75
-_zs = {k: z(pool[k]) for k in W}
-_g = np.clip(1 + _zs["taste"] / 2.0, 0, 1)
-_zs["breadth"] = np.where((_zs["breadth"] > 0) & (_zs["taste"] < 0), _zs["breadth"] * _g, _zs["breadth"])
-pool["score"] = sum(W[k] * _zs[k] for k in W)
-pool.loc[pool.preview_ok != 1, "score"] -= 0.5  # keine Deskriptoren: vorsichtiger Abschlag
-
-# --- Feedback / Ausschluesse
-bad = set(fb[fb.signal == "dislike"].track_id.astype(str)) if len(fb) else set()
-pool = pool[~pool.track_id.isin(bad)].reset_index(drop=True)
-
 # --- Stil-Regeln (data/style_rules.csv, von Till): Ausschluss, wenn ein MusicBrainz-Stil-Tag des Hauptkuenstlers den Begriff enthaelt
 import os as _os0, unicodedata as _ud
 def _nk(a):
@@ -169,6 +157,46 @@ if _os0.path.exists("data/analysis/mb_tags.csv"):
         allowed = set().union(*[v for m, v in _MC.items() if m in r.playlists]) if any(m in r.playlists for m in _MC) else set()
         return _tg.get(k, "") if c in allowed else ""
     pool["style_tags"] = pool.apply(_tags_ok, axis=1)
+# --- Stil-Passung: Stil-Tags (MusicBrainz) der Kuenstler; Logistische Regression "Chart-Kuenstler" gegen "uebrige NMF-Kuenstler", out-of-fold
+import os as _os1
+pool["stylefit"] = np.nan
+if _os1.path.exists("data/analysis/mb_tags.csv"):
+    from sklearn.feature_extraction.text import CountVectorizer
+    from sklearn.model_selection import cross_val_predict
+    _m = rd("data/analysis/mb_tags.csv").fillna("")
+    _m = _m[(_m.tags != "") & (_m.tags != "ERR")].copy()
+    def _doc(t, n=6):
+        out = []
+        for x in [y for y in t.split(";") if y][:n]:
+            nm, c = x.rsplit(":", 1)
+            if int(c) >= 1:
+                out.append(re.sub(r"[^a-z0-9]+", "_", nm.lower().replace("-", " ")))
+        return " ".join(out)
+    _m["doc"] = _m.tags.map(_doc)
+    _m = _m[_m.doc != ""].reset_index(drop=True)
+    _m["y"] = _m.groups.str.contains("chart").astype(int)
+    if _m.y.sum() >= 20 and (1 - _m.y).sum() >= 20:
+        _cv = CountVectorizer(token_pattern=r"\S+", binary=True, min_df=2).fit(_m.doc)
+        _X = _cv.transform(_m.doc)
+        _clf = LogisticRegression(C=0.3, class_weight="balanced", max_iter=2000)
+        _m["fit"] = cross_val_predict(_clf, _X, _m.y, cv=StratifiedKFold(5, shuffle=True, random_state=0), method="decision_function")
+        print(f"Stil-Passung CV-AUC (Chart-Kuenstler vs. Rest): {roc_auc_score(_m.y, _m.fit):.3f} ({len(_m)} Kuenstler mit Tags)")
+        _fit = dict(zip(_m.key.astype(str), _m.fit))
+        pool["stylefit"] = [(_fit.get(_nk(a)) if t else np.nan) for a, t in zip(pool.artists, pool.style_tags)]
+        print(f"Songs mit Stil-Passung: {pool.stylefit.notna().sum()} von {len(pool)}")
+
+# Breitenbonus nur, wenn der Klang passt (Till, 2026-11-06): bei unterdurchschnittlichem Passungsmass wird ein
+# positiver Breitenbeitrag gedaempft (Faktor 1 + z_taste/2, mindestens 0); Backtest 30.10.: etwas mehr Likes, weniger Dislikes in den Top 75
+_zs = {k: np.nan_to_num(z(pool[k]), nan=0.0) for k in W}  # fehlende Stil-Passung (keine Tags) zaehlt neutral
+_g = np.clip(1 + _zs["taste"] / 2.0, 0, 1)
+_zs["breadth"] = np.where((_zs["breadth"] > 0) & (_zs["taste"] < 0), _zs["breadth"] * _g, _zs["breadth"])
+pool["score"] = sum(W[k] * _zs[k] for k in W)
+pool.loc[pool.preview_ok != 1, "score"] -= 0.5  # keine Deskriptoren: vorsichtiger Abschlag
+
+# --- Feedback / Ausschluesse
+bad = set(fb[fb.signal == "dislike"].track_id.astype(str)) if len(fb) else set()
+pool = pool[~pool.track_id.isin(bad)].reset_index(drop=True)
+
 pool["style_excl"] = ""
 if _os0.path.exists("data/style_rules.csv"):
     for _, _r in rd("data/style_rules.csv").iterrows():
