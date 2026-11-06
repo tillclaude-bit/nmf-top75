@@ -259,61 +259,68 @@ else:
 
 # --- Auswahl: keine Chart-Duplikate, max. 2 pro Kuenstler, keine Doppelversionen
 # Erst die besten nicht-englischen Songs bis zum Zielanteil (aus den aktuellen Charts), dann der Rest nach Score
-sel, per_artist, seen = [], {}, set()
+def _select(N):
+    sel, per_artist, seen = [], {}, set()
 
 
-TASTE_MIN = 0.0  # Till, 2026-11-06: Songs mit Passungsmass unter dem Durchschnitt (Entscheidungsgrenze 0) kommen nicht in die 75
-# (ohne Vorschau gibt es kein Passungsmass: diese Songs sind vom Filter ausgenommen)
+    TASTE_MIN = 0.0  # Till, 2026-11-06: Songs mit Passungsmass unter dem Durchschnitt (Entscheidungsgrenze 0) kommen nicht in die 75
+    # (ohne Vorschau gibt es kein Passungsmass: diese Songs sind vom Filter ausgenommen)
 
 
-def take(i, r, strict=True):
-    if r.is_xmas:
-        return False
-    if strict and r.preview_ok == 1 and r.taste < TASTE_MIN:
-        return False
-    toks = (artist_tokens(r.artists) or [str(r.artists)])[:1]  # nur der Hauptkuenstler (erster genannter) zaehlt
-    if r.is_chart or r.tkey in seen or any(per_artist.get(t, 0) >= MAX_PER_ARTIST for t in toks):
-        return False
-    sel.append(i)
-    for t in toks:
-        per_artist[t] = per_artist.get(t, 0) + 1
-    seen.add(r.tkey)
-    return True
+    def take(i, r, strict=True):
+        if r.is_xmas:
+            return False
+        if strict and r.preview_ok == 1 and r.taste < TASTE_MIN:
+            return False
+        toks = (artist_tokens(r.artists) or [str(r.artists)])[:1]  # nur der Hauptkuenstler (erster genannter) zaehlt
+        if r.is_chart or r.tkey in seen or any(per_artist.get(t, 0) >= MAX_PER_ARTIST for t in toks):
+            return False
+        sel.append(i)
+        for t in toks:
+            per_artist[t] = per_artist.get(t, 0) + 1
+        seen.add(r.tkey)
+        return True
 
 
-pool["is_xmas"] = pool.name.map(lambda t: bool(XMAS.search(str(t))))
-print("Weihnachtslieder im Pool (ausgeschlossen):", pool[pool.is_xmas][["name", "artists"]].values.tolist())
-pool["quota_pick"] = False
-if EN_SHARE is not None:
-    n_non = int(round((1 - EN_SHARE) * N))
-    cap = max(2, int(np.ceil(MAX_LANG_SHARE * n_non)))
-    per_lang = {}
-    for i, r in pool[(pool.lang != "en") & (pool.lang != "unknown")].iterrows():
-        if len(sel) >= n_non:
-            break
-        if per_lang.get(r.lang, 0) >= cap:
-            continue
-        if take(i, r):
-            pool.loc[i, "quota_pick"] = True
-            per_lang[r.lang] = per_lang.get(r.lang, 0) + 1
-    print(f"Sprachquote: {len(sel)} nicht-englische Songs (Ziel {n_non}), Sprachen: {per_lang}")
-    # Rest: nur englisch/unklar, damit der Zielanteil nicht ueberschritten wird
-    for i, r in pool[(pool.lang == "en") | (pool.lang == "unknown")].iterrows():
-        if len(sel) >= N:
-            break
-        take(i, r)
-for i, r in pool.iterrows():
-    if len(sel) >= N:
-        break
-    if i not in sel:
-        take(i, r)
-if len(sel) < N:  # nicht genug Songs ueber der Schwelle: mit den besten darunter auffuellen und melden
-    print(f"ACHTUNG: nur {len(sel)} Songs mit Passungsmass >= {TASTE_MIN}; Rest wird mit den besten darunter aufgefuellt")
+    pool["is_xmas"] = pool.name.map(lambda t: bool(XMAS.search(str(t))))
+    print("Weihnachtslieder im Pool (ausgeschlossen):", pool[pool.is_xmas][["name", "artists"]].values.tolist())
+    pool["quota_pick"] = False
+    if EN_SHARE is not None:
+        n_non = int(round((1 - EN_SHARE) * N))
+        cap = max(2, int(np.ceil(MAX_LANG_SHARE * n_non)))
+        per_lang = {}
+        for i, r in pool[(pool.lang != "en") & (pool.lang != "unknown")].iterrows():
+            if len(sel) >= n_non:
+                break
+            if per_lang.get(r.lang, 0) >= cap:
+                continue
+            if take(i, r):
+                pool.loc[i, "quota_pick"] = True
+                per_lang[r.lang] = per_lang.get(r.lang, 0) + 1
+        print(f"Sprachquote: {len(sel)} nicht-englische Songs (Ziel {n_non}), Sprachen: {per_lang}")
+        # Rest: nur englisch/unklar, damit der Zielanteil nicht ueberschritten wird
+        for i, r in pool[(pool.lang == "en") | (pool.lang == "unknown")].iterrows():
+            if len(sel) >= N:
+                break
+            take(i, r)
     for i, r in pool.iterrows():
         if len(sel) >= N:
             break
         if i not in sel:
-            take(i, r, strict=False)
+            take(i, r)
+    if len(sel) < N:  # nicht genug Songs ueber der Schwelle: mit den besten darunter auffuellen und melden
+        print(f"ACHTUNG: nur {len(sel)} Songs mit Passungsmass >= {TASTE_MIN}; Rest wird mit den besten darunter aufgefuellt")
+        for i, r in pool.iterrows():
+            if len(sel) >= N:
+                break
+            if i not in sel:
+                take(i, r, strict=False)
+    return sel
+
+
+_cand_sel = _select(200)  # Kandidatenliste fuer die Recherche (gleiche Regeln und Quoten, 200 statt 75)
+pool["candidate"] = pool.index.isin(_cand_sel)
+sel = _select(N)
 pool["selected"] = pool.index.isin(sel)
 
 import os
@@ -322,6 +329,11 @@ os.makedirs("data/rankings", exist_ok=True)
 keep_cols = ["rank", "selected", "quota_pick", "lang", "score", "taste", "breadth", "pos", "artist_hits", "track_id", "name", "artists",
              "n_playlists", "best_pos", "preview_ok", "is_chart", "tempo", "rms_db_mean", "playlists"]
 pool[keep_cols].to_csv(f"data/rankings/ranking_{DATE}{SUFFIX}.csv", index=False)
+_c = pool[pool.candidate].reset_index(drop=True)
+_c.insert(0, "nr", np.arange(1, len(_c) + 1))
+_c[["nr", "track_id", "name", "artists", "score", "taste", "stylefit", "n_playlists", "best_pos", "lang", "style_tags", "playlists", "selected"]].to_csv(
+    f"data/rankings/candidates_{DATE}{SUFFIX}.csv", index=False)
+print(f"Kandidatenliste: {len(_c)} Songs, davon {int(_c.selected.sum())} in den Top 75")
 top = pool[pool.selected].reset_index(drop=True)
 top.insert(0, "nr", np.arange(1, len(top) + 1))
 top[["nr", "track_id", "name", "artists", "score", "n_playlists", "best_pos", "lang"]].to_csv(
