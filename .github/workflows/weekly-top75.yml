@@ -2,8 +2,8 @@ name: Woechentlicher Pool (nur Pool + Pool-Playlist, keine Top 75)
 
 on:
   schedule:
-    - cron: "17 4 * * 5"   # 04:17 UTC = 06:17 Berlin im Sommer (MESZ)
-    - cron: "17 5 * * 5"   # 05:17 UTC = 06:17 Berlin im Winter (MEZ); das Gate laesst nur den passenden Lauf durch
+    - cron: "30 5 * * 5"   # 05:30 UTC = 07:30 Berlin im Sommer (MESZ)
+    - cron: "30 6 * * 5"   # 06:30 UTC = 07:30 Berlin im Winter (MEZ); das Gate laesst nur den passenden Lauf durch
   workflow_dispatch:
     inputs:
       date:
@@ -28,7 +28,7 @@ jobs:
       - id: g
         run: |
           H=$(TZ=Europe/Berlin date +%H)
-          if [ "${{ github.event_name }}" != "schedule" ] || [ "$H" = "06" ]; then echo "go=true" >> "$GITHUB_OUTPUT"; else echo "go=false" >> "$GITHUB_OUTPUT"; echo "Berlin-Stunde $H, kein 06:17-Lauf"; fi
+          if [ "${{ github.event_name }}" != "schedule" ] || [ "$H" = "07" ]; then echo "go=true" >> "$GITHUB_OUTPUT"; else echo "go=false" >> "$GITHUB_OUTPUT"; echo "Berlin-Stunde $H, kein 07:30-Lauf"; fi
   run:
     needs: gate
     if: needs.gate.outputs.go == 'true'
