@@ -278,6 +278,8 @@ pool.loc[(pool.preview_ok != 1) & pool.feat.isna(), "score"] -= 0.5  # weder Des
 
 # --- Feedback / Ausschluesse
 bad = set(fb[fb.signal == "dislike"].track_id.astype(str)) if len(fb) else set()
+if len(fb) and "date" in fb.columns:  # Neuberechnung einer schon bewerteten Woche: bereits entfernte Songs (schwache Dislikes) nicht erneut vorschlagen
+    bad |= set(fb[(fb.signal == "weak_dislike") & (fb.date.astype(str) == DATE)].track_id.astype(str))
 # Recherche-Urteile (data/research/verdicts_DATUM.csv, von der woechentlichen Song-Recherche): verdict "no" schliesst aus, "ok" gibt einen kleinen Bonus
 import os as _os2
 _vf = f"data/research/verdicts_{DATE}.csv"
@@ -298,7 +300,7 @@ pool["style_flag"] = ""
 y_c = lambda x: x.rsplit(":", 1)[1] if ":" in x else "0"
 if _os0.path.exists("data/style_rules.csv"):
     for _, _r in rd("data/style_rules.csv").iterrows():
-        if _r.effect != "exclude":
+        if _r.effect not in ("exclude", "penalty"):
             continue
         _t = _r.term.lower()
         _contains = ("match" in _r.index) and str(_r.match) == "contains"
@@ -314,6 +316,10 @@ if _os0.path.exists("data/style_rules.csv"):
         lf_hit = pool.lf_tags.apply(lambda t: any(_m(x) for x in [y for y in t.split(";") if y][:2] if int(y_c(x)) >= 30))
         hit = np.where(sp_has, sp_hit, mb_hit)
         hit = pd.Series(hit, index=pool.index).astype(bool)
+        if _r.effect == "penalty":  # weicher Stil: Abzug statt Ausschluss (nur Spotify-Genres bzw. MusicBrainz)
+            pool.loc[hit, "score"] -= 1.5
+            print(f"Stil-Abzug '{_r.term}': {int(hit.sum())} Songs")
+            continue
         flag = lf_hit & ~sp_has & ~hit
         pool.loc[flag & (pool.style_flag == ""), "style_flag"] = _r.term
         pool.loc[hit & (pool.style_excl == ""), "style_excl"] = _r.term
@@ -368,7 +374,7 @@ else:
     print("Keine Sprachdaten, Auswahl ohne Sprachquote")
 
 # --- Stimme (MusicBrainz-Geschlecht der Kuenstler, nur wo bekannt): maennliche Stimmen sollen seltener vorkommen als weibliche (Till, 2026-11-06).
-# Zielanteil Maenner (unter Kuenstlern mit bekanntem Geschlecht) = min(Anteil in deinen Charts, 50 %). Umsetzung als kleinster Score-Abzug fuer maennliche
+# Zielanteil Maenner (unter Kuenstlern mit bekanntem Geschlecht) = min(2 x Anteil in deinen Charts, 50 %). Umsetzung als kleinster Score-Abzug fuer maennliche
 # Solokuenstler (0 bis 2,0 in 0,25-Schritten), mit dem der Zielanteil in der Auswahl erreicht wird.
 pool["voice"] = "unknown"
 MALE_CAP = None
@@ -382,7 +388,7 @@ if _os1.path.exists("data/analysis/mb_gender.csv"):
     _cv_ = [v for k, v in _vm.items() if k in _chart_keys and v in ("male", "female")]
     if len(_cv_) >= 20:
         _chart_male = _cv_.count("male") / len(_cv_)
-        MALE_CAP = min(_chart_male, 0.5)
+        MALE_CAP = min(2 * _chart_male, 0.5)  # doppelt so viele Maenner wie in deinen Charts, hoechstens die Haelfte (Till entscheidet ueber den Faktor)
         print(f"Stimmen: Chart-Kuenstler mit Geschlecht {len(_cv_)}, Maenneranteil {_chart_male:.0%} -> Zielanteil Maenner in der Auswahl {MALE_CAP:.0%}")
     print("Stimmen im Pool (Songs):", pool.voice.value_counts().to_dict())
 
@@ -390,7 +396,6 @@ if _os1.path.exists("data/analysis/mb_gender.csv"):
 # Erst die besten nicht-englischen Songs bis zum Zielanteil (aus den aktuellen Charts), dann der Rest nach Score
 def _select(N):
     sel, per_artist, seen = [], {}, set()
-    _ord = pool.assign(adj=pool.score - PEN * (pool.voice == "male")).sort_values("adj", ascending=False)
 
 
     TASTE_MIN = -1e9  # Schwelle ausgeschaltet (Till, 2026-11-06: Passungsmass unter 0 schliesst nicht automatisch aus; Klang-Deskriptoren sind schwach). Vorher 0.0
@@ -415,6 +420,7 @@ def _select(N):
     pool["is_xmas"] = pool.name.map(lambda t: bool(XMAS.search(str(t))))
     print("Weihnachtslieder im Pool (ausgeschlossen):", pool[pool.is_xmas][["name", "artists"]].values.tolist())
     pool["quota_pick"] = False
+    _ord = pool.assign(adj=pool.score - PEN * (pool.voice == "male")).sort_values("adj", ascending=False)
     if EN_SHARE is not None:
         n_non = int(round((1 - EN_SHARE) * N))
         cap = max(2, int(np.ceil(MAX_LANG_SHARE * n_non)))
