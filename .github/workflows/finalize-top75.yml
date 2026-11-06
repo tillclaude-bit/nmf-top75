@@ -1,0 +1,70 @@
+name: Top 75 abschliessen (mit Recherche-Urteilen)
+
+on:
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Datum (leer = heute, UTC)"
+        default: ""
+      suffix:
+        description: "Nur Test: Suffix fuer die Ausgabedateien (z.B. _t), dann keine Playlist"
+        default: ""
+      skip_playlist:
+        description: "ja = keine Playlist anlegen"
+        default: "nein"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: finalize-top75
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Datum bestimmen
+        run: |
+          D="${{ github.event.inputs.date }}"
+          [ -z "$D" ] && D=$(date -u +%F)
+          echo "DATE=$D" >> "$GITHUB_ENV"
+      - name: Abhaengigkeiten
+        run: pip install -q numpy scipy pandas scikit-learn
+      - name: Pruefen
+        run: |
+          test -f "data/pools/pool_descriptors_$DATE.csv" || { echo "::error::Kein Pool fuer $DATE (erst weekly-top75 laufen lassen)"; exit 1; }
+          if [ -z "${{ github.event.inputs.suffix }}" ] && grep -q "^$DATE," data/playlist_ids.csv; then echo "::error::Fuer $DATE gibt es schon eine Playlist"; exit 1; fi
+      - name: Neu bewerten mit Recherche-Urteilen und Top 75 waehlen
+        run: python3 scripts/score_pool.py "$DATE" "${{ github.event.inputs.suffix }}" | tee score.txt
+      - name: Ergebnis archivieren
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/rankings
+          git commit -m "Final ranking and playlist $DATE${{ github.event.inputs.suffix }}" || echo "nothing to commit"
+          git pull --rebase origin main
+          git push origin HEAD:main
+      - name: Playlist anlegen
+        if: github.event.inputs.skip_playlist != 'ja' && github.event.inputs.suffix == ''
+        env:
+          SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
+          SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
+        run: python3 scripts/create_playlist.py "$DATE" | tee pl.txt
+      - name: Playlist-ID festhalten
+        if: github.event.inputs.skip_playlist != 'ja' && github.event.inputs.suffix == ''
+        run: |
+          git add data/playlist_ids.csv
+          git commit -m "Record playlist id $DATE" || echo "nothing to commit"
+          git pull --rebase origin main
+          git push origin HEAD:main
+      - name: Zusammenfassung
+        if: always()
+        run: |
+          for f in score.txt pl.txt; do [ -f "$f" ] && while IFS= read -r line; do echo "::notice::${line}"; done < <(head -40 "$f"); done || true
+          exit 0

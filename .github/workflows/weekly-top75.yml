@@ -89,13 +89,13 @@ jobs:
           git pull --rebase origin main
           git push origin HEAD:main
       - name: Playlist anlegen
-        if: github.event.inputs.skip_playlist != 'ja'
+        if: github.event_name == 'workflow_dispatch' && github.event.inputs.skip_playlist == 'nein'  # Zeitplanlauf legt keine Playlist an: erst Recherche, dann finalize-top75.yml
         env:
           SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
           SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
         run: python3 scripts/create_playlist.py "$DATE" | tee pl.txt
       - name: Playlist-ID festhalten
-        if: github.event.inputs.skip_playlist != 'ja'
+        if: github.event_name == 'workflow_dispatch' && github.event.inputs.skip_playlist == 'nein'  # Zeitplanlauf legt keine Playlist an: erst Recherche, dann finalize-top75.yml
         run: |
           git add data/playlist_ids.csv
           git commit -m "Record playlist id $DATE" || echo "nothing to commit"

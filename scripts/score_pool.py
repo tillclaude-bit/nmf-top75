@@ -195,6 +195,17 @@ pool.loc[pool.preview_ok != 1, "score"] -= 0.5  # keine Deskriptoren: vorsichtig
 
 # --- Feedback / Ausschluesse
 bad = set(fb[fb.signal == "dislike"].track_id.astype(str)) if len(fb) else set()
+# Recherche-Urteile (data/research/verdicts_DATUM.csv, von der woechentlichen Song-Recherche): verdict "no" schliesst aus, "ok" gibt einen kleinen Bonus
+import os as _os2
+_vf = f"data/research/verdicts_{DATE}.csv"
+verdict = {}
+if _os2.path.exists(_vf):
+    _v = rd(_vf).fillna("")
+    verdict = dict(zip(_v.track_id.astype(str), _v.verdict.str.lower().str.strip()))
+    bad |= {t for t, v in verdict.items() if v == "no"}
+    print(f"Recherche-Urteile: {len(verdict)} (no: {sum(v == 'no' for v in verdict.values())}, ok: {sum(v == 'ok' for v in verdict.values())}, unsure: {sum(v == 'unsure' for v in verdict.values())})")
+else:
+    print("Recherche-Urteile: keine Datei, Auswahl ohne Recherche")
 pool = pool[~pool.track_id.isin(bad)].reset_index(drop=True)
 
 pool["style_excl"] = ""
@@ -213,6 +224,7 @@ if _os0.path.exists("data/style_rules.csv"):
     print(f"Stil-Ausschluesse: {len(_ex)}")
     _ex[["track_id", "name", "artists", "style_excl", "style_tags", "score"]].to_csv(f"data/rankings/style_excluded_{DATE}{SUFFIX}.csv", index=False)
     pool = pool[pool.style_excl == ""].reset_index(drop=True)
+pool["score"] = pool.score + 0.5 * pool.track_id.astype(str).map(lambda t: 1.0 if verdict.get(t) == "ok" else 0.0)
 pool = pool.sort_values("score", ascending=False).reset_index(drop=True)
 pool["rank"] = np.arange(1, len(pool) + 1)
 
