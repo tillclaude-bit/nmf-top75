@@ -25,7 +25,7 @@ from sklearn.preprocessing import StandardScaler
 DATE = sys.argv[1]
 SUFFIX = sys.argv[2] if len(sys.argv) > 2 else ""
 W = {"taste": 1.0, "breadth": 0.5, "pos": 0.25, "artist": 0.5}  # breadth bleibt drin (Till, 2026-10-31); Vorwochen-Backtest: Breite sagt Chart-Einstiege vorher
-MAX_PER_ARTIST = 1  # Till, 2026-11-06: kein Kuenstler doppelt (auch nicht als Feature-Gast)
+MAX_PER_ARTIST = 1  # Till, 2026-11-06: kein Hauptkuenstler doppelt; Feature-Gaeste zaehlen nicht
 N = 75
 # Weihnachtslieder sind ausgeschlossen (Titel-Stichworte in den NMF-Sprachen; Kuenstlernamen zaehlen nicht)
 XMAS = re.compile(r"christmas|xmas|x-mas|weihnacht|\bnoel\b|\bnoël\b|kerst|joulu|\bjul\b|julen|jul[ei]n?\b|navidad|natale|\bnatal\b|\bsanta\b|jingle|sleigh|rudolph|mistletoe|silent night|stille nacht|white christmas|boże narodzenie|święta|jõulu|\bjule\b|nadal|nativity|bethlehem|reindeer|snowman|frosty|holly jolly|\bcarols?\b|noche buena|nochebuena|krismas|božić|vánoc", re.I)
@@ -219,7 +219,7 @@ sel, per_artist, seen = [], {}, set()
 def take(i, r):
     if r.is_xmas:
         return False
-    toks = artist_tokens(r.artists) or [str(r.artists)]
+    toks = (artist_tokens(r.artists) or [str(r.artists)])[:1]  # nur der Hauptkuenstler (erster genannter) zaehlt
     if r.is_chart or r.tkey in seen or any(per_artist.get(t, 0) >= MAX_PER_ARTIST for t in toks):
         return False
     sel.append(i)
