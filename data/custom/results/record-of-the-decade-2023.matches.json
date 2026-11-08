@@ -356,20 +356,9 @@
   },
   {
    "input": "Chase & Status & Bou (feat. Irah, Flowdan, Trigga & Takura) - Baddadan",
-   "match": {
-    "id": "2ZWmmrWUgDBcPSLihBMvhg",
-    "title": "Baddadan (feat. IRAH, Flowdan, Trigga & Takura)",
-    "artists": [
-     "Chase & Status",
-     "Bou",
-     "Flowdan",
-     "IRAH",
-     "Trigga",
-     "Takura"
-    ],
-    "album": "Baddadan (feat. IRAH, Flowdan, Trigga & Takura)",
-    "score": 98
-   }
+   "match": null,
+   "ov": "{\"artist\": \"Chase\", \"query\": \"Baddadan Chase & Status Bou\", \"skip_compilations\": true, \"title\": \"Baddadan\"}",
+   "candidates": []
   },
   {
    "input": "Chelsea Wolfe - Dusk",
@@ -844,22 +833,9 @@
   {
    "input": "Mae Muller - MJTL (Maybe That's Just Life)",
    "match": null,
+   "ov": "{\"artist_id\": \"1BEUkE2CSUgHTLSBMZdnFB\", \"title\": \"MJTL\"}",
    "candidates": [
-    "In the end / Marcel Mulders [In the end] (single) 049zgX0EvSm423c7vGWxLd",
-    "Temporal Beat Odyssey / Shane NovaGrooves [Chronology] (single) 1WqQ3JXh70vgALc9HRaZ6P",
-    "bissu dumm ¿ MEGALODON REMIX / Bonez MC, Nate57, JUGGLERZ, AchtVier, AK 33, AK AUSSERKONTROLLE, AZAD, Big Toe, CANEY030, Celo & Abdi [bissu dumm ¿ MEGALODON REMIX] (single) 1IMa0Il4w988MwZCUcISix",
-    "bissu dumm ¿ MEGALODON REMIX / Bonez MC, Nate57, JUGGLERZ, AchtVier, AK 33, AK AUSSERKONTROLLE, AZAD, Big Toe, CANEY030, Celo & Abdi [Best of Deutschrap 2025 by STOKED] (compilation) 0GIUE0JqeIppqHiANC4Bwe",
-    "Mamint / Leland Reed [Marbello] (album) 7yHLh9ZNsMBmaf6uxa6CpP",
-    "Melted Gold / Marlowe [Melted Gold] (single) 6486NOQ05tZ53hBY77HPsa",
-    "Ecstacy / Danny FrostYSL [W.E.M.B] (single) 63m8Z9Qd5y9pTktBawl1uk",
-    "Ecstacy / Danny FrostYSL [Ecstacy] (single) 5jU6gTNOcN97XYfBx9T4Rw",
-    "Kingdom Come / Derek Minor [Empire] (album) 68bh5fFWRfBYm44mhEq5tp",
-    "R.U.A 2 (Poetas da Babilônia) / Nocivo Shomon, Leal, Allex Flores [R.U.A 2 (Poetas da Babilônia)] (single) 4L5EPj7wZjgEkSMg2dRnK9",
-    "In the end / Marcel Mulders [In the end] (single) 049zgX0EvSm423c7vGWxLd",
-    "Temporal Beat Odyssey / Shane NovaGrooves [Chronology] (single) 1WqQ3JXh70vgALc9HRaZ6P",
-    "bissu dumm ¿ MEGALODON REMIX / Bonez MC, Nate57, JUGGLERZ, AchtVier, AK 33, AK AUSSERKONTROLLE, AZAD, Big Toe, CANEY030, Celo & Abdi [bissu dumm ¿ MEGALODON REMIX] (single) 1IMa0Il4w988MwZCUcISix",
-    "bissu dumm ¿ MEGALODON REMIX / Bonez MC, Nate57, JUGGLERZ, AchtVier, AK 33, AK AUSSERKONTROLLE, AZAD, Big Toe, CANEY030, Celo & Abdi [Best of Deutschrap 2025 by STOKED] (compilation) 0GIUE0JqeIppqHiANC4Bwe",
-    "Mamint / Leland Reed [Marbello] (album) 7yHLh9ZNsMBmaf6uxa6CpP"
+    "artist albums status 400"
    ]
   },
   {
@@ -1288,7 +1264,8 @@
     ],
     "album": "STARFUCKER (Deluxe)",
     "score": 99
-   }
+   },
+   "ov": "{\"ids\": [\"3xzL4aHUNDHFjuNSmNbsPa\"]}"
   },
   {
    "input": "Sonny Fodera & MK (feat. Clementine Douglas) - Asking",
@@ -1327,7 +1304,8 @@
     ],
     "album": "Javelin",
     "score": 99
-   }
+   },
+   "ov": "{\"ids\": [\"6t8aRTXXIcx9JVRD8IRZKR\"]}"
   },
   {
    "input": "SUICIDAL-IDOL - ecstacy",
