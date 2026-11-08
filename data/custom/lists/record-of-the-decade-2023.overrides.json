@@ -1,6 +1,22 @@
 {
-  "Mae Muller - MJTL (Maybe That's Just Life)": {"query": "MJTL Mae Muller", "artist": "Mae Muller", "title": "MJTL"},
-  "Slayyyter - Star****er": {"ids": ["3xzL4aHUNDHFjuNSmNbsPa"]},
-  "Sufjan Stevens - Sh*t Talk": {"ids": ["6t8aRTXXIcx9JVRD8IRZKR"]},
-  "Chase & Status & Bou (feat. Irah, Flowdan, Trigga & Takura) - Baddadan": {"query": "Baddadan Chase & Status Bou", "artist": "Chase", "title": "Baddadan", "skip_compilations": true}
+  "Mae Muller - MJTL (Maybe That's Just Life)": {
+    "artist_id": "1BEUkE2CSUgHTLSBMZdnFB",
+    "title": "MJTL"
+  },
+  "Slayyyter - Star****er": {
+    "ids": [
+      "3xzL4aHUNDHFjuNSmNbsPa"
+    ]
+  },
+  "Sufjan Stevens - Sh*t Talk": {
+    "ids": [
+      "6t8aRTXXIcx9JVRD8IRZKR"
+    ]
+  },
+  "Chase & Status & Bou (feat. Irah, Flowdan, Trigga & Takura) - Baddadan": {
+    "query": "Baddadan Chase & Status Bou",
+    "artist": "Chase",
+    "title": "Baddadan",
+    "skip_compilations": true
+  }
 }

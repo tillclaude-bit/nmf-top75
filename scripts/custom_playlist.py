@@ -154,6 +154,20 @@ def from_override(ov):
         return out
     global LAST_CANDS
     LAST_CANDS = []
+    if "artist_id" in ov:
+        s, r = call(f"https://api.spotify.com/v1/artists/{ov['artist_id']}/albums?include_groups=album,single&limit=50&market=from_token", token=tok)
+        LAST_CANDS.append(f"artist albums status {s}")
+        for alb in (r.get("items", []) if isinstance(r, dict) else []):
+            s2, t = call(f"https://api.spotify.com/v1/albums/{alb['id']}/tracks?limit=50&market=from_token", token=tok)
+            if s2 != 200:
+                LAST_CANDS.append(f"album {alb['name']} tracks status {s2}")
+                continue
+            for tr in t.get("items", []):
+                LAST_CANDS.append(f"{tr['name']} [{alb['name']}] {tr['id']}")
+                if norm(ov["title"]) in norm(tr["name"]):
+                    return [{"id": tr["id"], "title": tr["name"], "artists": [a["name"] for a in tr["artists"]],
+                             "album": alb["name"], "score": 97}]
+        return []
     skip_comp = ov.get("skip_compilations", False)
     for q in (ov["query"], f'track:"{ov["title"]}" artist:"{ov["artist"]}"', f'{ov["title"]} {ov["artist"]}'):
         s, r = call("https://api.spotify.com/v1/search?" + urllib.parse.urlencode(
@@ -197,7 +211,7 @@ for lst in sorted(glob.glob("data/custom/lists/*.txt")):
                 if len(found_ov) > 1:
                     entry["extra"] = found_ov[1:]
                 if not found_ov:
-                    entry["candidates"] = LAST_CANDS[:15]
+                    entry["candidates"] = LAST_CANDS[:80]
                 matches.append(entry)
                 print(("OVR ") if m else "MISS", l, "->", [x["title"] for x in found_ov])
                 continue
