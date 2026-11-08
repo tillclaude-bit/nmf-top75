@@ -37,7 +37,10 @@ def call(url, data=None, token=None, form=False):
                 return r.status, (json.loads(txt) if txt else {})
         except urllib.error.HTTPError as e:
             if e.code == 429:
-                time.sleep(int(e.headers.get("Retry-After", "2")) + 1)
+                ra = int(e.headers.get("Retry-After", "2"))
+                if ra > 120:
+                    return 429, f"Retry-After {ra}s - abgebrochen"
+                time.sleep(ra + 1)
                 continue
             return e.code, e.read().decode()[:300]
     return 429, "rate limit"
@@ -196,28 +199,34 @@ for lst in sorted(glob.glob("data/custom/lists/*.txt")):
     if lines and lines[0].startswith("# name:"):
         name = lines[0][len("# name:"):].strip()
         lines = lines[1:]
+    old = {}
     if resf.exists():
-        matches = json.load(open(resf, encoding="utf-8"))["matches"]
-        print(base, "- vorhandene Treffer genutzt:", len(matches))
-    else:
-        matches = []
-        ovf = pathlib.Path(f"data/custom/lists/{base}.overrides.json")
-        overrides = json.load(open(ovf, encoding="utf-8")) if ovf.exists() else {}
-        for l in lines:
-            if l in overrides:
-                found_ov = from_override(overrides[l])
-                m = found_ov[0] if found_ov else None
-                entry = {"input": l, "match": m}
-                if len(found_ov) > 1:
-                    entry["extra"] = found_ov[1:]
-                if not found_ov:
-                    entry["candidates"] = LAST_CANDS[:80]
-                matches.append(entry)
-                print(("OVR ") if m else "MISS", l, "->", [x["title"] for x in found_ov])
-                continue
-            m = best(l)
-            matches.append({"input": l, "match": m})
-            print(("OK  " if m else "MISS"), l, "->", (m["title"] + " / " + ", ".join(m["artists"])) if m else "-")
+        old = {e["input"]: e for e in json.load(open(resf, encoding="utf-8"))["matches"]}
+    ovf = pathlib.Path(f"data/custom/lists/{base}.overrides.json")
+    overrides = json.load(open(ovf, encoding="utf-8")) if ovf.exists() else {}
+    matches, changed = [], not resf.exists()
+    for l in lines:
+        sig = json.dumps(overrides.get(l), sort_keys=True)
+        e = old.get(l)
+        if e is not None and e.get("match") and e.get("ov", "null") == sig:
+            matches.append(e)  # bereits gefunden und unveraendert: nicht neu suchen
+            continue
+        changed = True
+        if l in overrides:
+            found_ov = from_override(overrides[l])
+            m = found_ov[0] if found_ov else None
+            entry = {"input": l, "match": m, "ov": sig}
+            if len(found_ov) > 1:
+                entry["extra"] = found_ov[1:]
+            if not found_ov:
+                entry["candidates"] = LAST_CANDS[:80]
+            matches.append(entry)
+            print(("OVR ") if m else "MISS", l, "->", [x["title"] for x in found_ov])
+            continue
+        m = best(l)
+        matches.append({"input": l, "match": m, "ov": sig})
+        print(("OK  " if m else "MISS"), l, "->", (m["title"] + " / " + ", ".join(m["artists"])) if m else "-")
+    if changed:
         json.dump({"name": name, "matches": matches}, open(resf, "w", encoding="utf-8"),
                   ensure_ascii=False, indent=1)
     found = [m for m in matches if m["match"]]

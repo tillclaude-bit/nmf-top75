@@ -18,5 +18,6 @@
     "artist": "Chase",
     "title": "Baddadan",
     "skip_compilations": true
-  }
+  },
+  "_note": "Overrides fuer Titel, die die Standardsuche nicht trifft (Zensur-Schreibweisen, Originalversion statt Sampler)"
 }
