@@ -14,10 +14,9 @@
     ]
   },
   "Chase & Status & Bou (feat. Irah, Flowdan, Trigga & Takura) - Baddadan": {
-    "query": "Baddadan Chase & Status Bou",
-    "artist": "Chase",
-    "title": "Baddadan",
-    "skip_compilations": true
+    "ids": [
+      "2ZWmmrWUgDBcPSLihBMvhg"
+    ]
   },
   "_note": "Overrides fuer Titel, die die Standardsuche nicht trifft (Zensur-Schreibweisen, Originalversion statt Sampler)"
 }

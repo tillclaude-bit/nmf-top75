@@ -158,24 +158,38 @@ def from_override(ov):
     global LAST_CANDS
     LAST_CANDS = []
     if "artist_id" in ov:
-        s, r = call(f"https://api.spotify.com/v1/artists/{ov['artist_id']}/albums?include_groups=album,single&limit=50&market=from_token", token=tok)
-        LAST_CANDS.append(f"artist albums status {s}")
-        for alb in (r.get("items", []) if isinstance(r, dict) else []):
-            s2, t = call(f"https://api.spotify.com/v1/albums/{alb['id']}/tracks?limit=50&market=from_token", token=tok)
-            if s2 != 200:
-                LAST_CANDS.append(f"album {alb['name']} tracks status {s2}")
-                continue
-            for tr in t.get("items", []):
-                LAST_CANDS.append(f"{tr['name']} [{alb['name']}] {tr['id']}")
-                if norm(ov["title"]) in norm(tr["name"]):
-                    return [{"id": tr["id"], "title": tr["name"], "artists": [a["name"] for a in tr["artists"]],
-                             "album": alb["name"], "score": 97}]
+        albums = []
+        for off in range(0, 100, 10):
+            s, r = call(f"https://api.spotify.com/v1/artists/{ov['artist_id']}/albums?include_groups=album,single&limit=10&offset={off}&market=DE", token=tok)
+            if s != 200:
+                LAST_CANDS.append(f"artist albums offset {off} status {s}: {str(r)[:120]}")
+                break
+            items = r.get("items", [])
+            albums += items
+            if len(items) < 10:
+                break
+        LAST_CANDS.append(f"{len(albums)} Alben/Singles gefunden")
+        for alb in albums:
+            for off in range(0, 60, 10):
+                s2, t = call(f"https://api.spotify.com/v1/albums/{alb['id']}/tracks?limit=10&offset={off}&market=DE", token=tok)
+                if s2 != 200:
+                    LAST_CANDS.append(f"album {alb['name']} tracks status {s2}: {str(t)[:120]}")
+                    break
+                trs = t.get("items", [])
+                for tr in trs:
+                    LAST_CANDS.append(f"{tr['name']} [{alb['name']}] {tr['id']}")
+                    if norm(ov["title"]) in norm(tr["name"]):
+                        return [{"id": tr["id"], "title": tr["name"], "artists": [a["name"] for a in tr["artists"]],
+                                 "album": alb["name"], "score": 97}]
+                if len(trs) < 10:
+                    break
         return []
     skip_comp = ov.get("skip_compilations", False)
     for q in (ov["query"], f'track:"{ov["title"]}" artist:"{ov["artist"]}"', f'{ov["title"]} {ov["artist"]}'):
         s, r = call("https://api.spotify.com/v1/search?" + urllib.parse.urlencode(
             {"q": q, "type": "track", "limit": 10, "market": "from_token"}), token=tok)
         if s != 200:
+            LAST_CANDS.append(f"search status {s}: {str(r)[:120]}")
             continue
         for it in r.get("tracks", {}).get("items", []) or []:
             if not it:
