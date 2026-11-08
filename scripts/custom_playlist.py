@@ -139,6 +139,9 @@ def best(line):
             "album": it.get("album", {}).get("name"), "score": sc}
 
 
+LAST_CANDS = []
+
+
 def from_override(ov):
     """ov: {"ids": [...]} (Track-IDs direkt) oder {"query": "...", "artist": "...", "title": "..."} (Suche, erster Treffer)."""
     if "ids" in ov:
@@ -149,16 +152,24 @@ def from_override(ov):
                         "artists": [a["name"] for a in r.get("artists", [])] if s == 200 else [],
                         "album": (r.get("album") or {}).get("name") if s == 200 else None, "score": 99})
         return out
-    s, r = call("https://api.spotify.com/v1/search?" + urllib.parse.urlencode(
-        {"q": ov["query"], "type": "track", "limit": 10, "market": "from_token"}), token=tok)
-    if s != 200:
-        return []
-    for it in r.get("tracks", {}).get("items", []) or []:
-        if not it:
+    global LAST_CANDS
+    LAST_CANDS = []
+    skip_comp = ov.get("skip_compilations", False)
+    for q in (ov["query"], f'track:"{ov["title"]}" artist:"{ov["artist"]}"', f'{ov["title"]} {ov["artist"]}'):
+        s, r = call("https://api.spotify.com/v1/search?" + urllib.parse.urlencode(
+            {"q": q, "type": "track", "limit": 10, "market": "from_token"}), token=tok)
+        if s != 200:
             continue
-        if norm(ov["artist"]) in "".join(norm(a["name"]) for a in it["artists"]) and norm(ov["title"]) in norm(it["name"]):
-            return [{"id": it["id"], "title": it["name"], "artists": [a["name"] for a in it["artists"]],
-                     "album": it.get("album", {}).get("name"), "score": 98}]
+        for it in r.get("tracks", {}).get("items", []) or []:
+            if not it:
+                continue
+            alb = it.get("album") or {}
+            LAST_CANDS.append(f'{it["name"]} / {", ".join(a["name"] for a in it["artists"])} [{alb.get("name")}] ({alb.get("album_type")}) {it["id"]}')
+            if skip_comp and alb.get("album_type") == "compilation":
+                continue
+            if norm(ov["artist"]) in "".join(norm(a["name"]) for a in it["artists"]) and norm(ov["title"]) in norm(it["name"]):
+                return [{"id": it["id"], "title": it["name"], "artists": [a["name"] for a in it["artists"]],
+                         "album": alb.get("name"), "score": 98}]
     return []
 
 
@@ -185,6 +196,8 @@ for lst in sorted(glob.glob("data/custom/lists/*.txt")):
                 entry = {"input": l, "match": m}
                 if len(found_ov) > 1:
                     entry["extra"] = found_ov[1:]
+                if not found_ov:
+                    entry["candidates"] = LAST_CANDS[:15]
                 matches.append(entry)
                 print(("OVR ") if m else "MISS", l, "->", [x["title"] for x in found_ov])
                 continue
