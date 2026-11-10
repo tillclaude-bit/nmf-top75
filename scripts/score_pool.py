@@ -108,7 +108,22 @@ _negf = neg & _has
 if len(_top) >= 30 and _negf.sum() >= 100:
     _dis = set(fb[fb.signal.isin(["dislike", "weak_dislike"])].track_id.astype(str)) if len(fb) else set()
     _pos_ids = list(dict.fromkeys(_top.tid))
-    _pos_w = [1.0] * len(_pos_ids)
+    # Chart-Verlauf der Neueinsteiger der Vorwoche (Till, 2026-11-10): Songs, die vor einer Woche neu eingestiegen sind, zaehlen staerker,
+    # wenn sie seither geklettert sind (bis 2,0), und schwaecher, wenn sie gefallen sind (bis 0,75). Alle anderen Chartsongs: 1,0.
+    _mom = {}
+    _cr0 = rd("data/charts/chart_rows.csv")
+    _wk = sorted(_cr0.chart_date.unique())
+    if len(_wk) >= 2:
+        _a = _cr0[_cr0.chart_date == _wk[-2]]
+        _a = _a[_a.prev_pos_shown.isna()]
+        _b = _cr0[_cr0.chart_date == _wk[-1]].set_index("song_id").pos
+        _s2t = dict(zip(feats.song_id, feats.spotify_track_id.astype(str)))
+        for _r in _a.itertuples():
+            _now = _b.get(_r.song_id, np.nan)
+            _d = (_r.pos - _now) if _now == _now else -25.0  # inzwischen aus den Charts: wie ein deutlicher Absturz
+            _mom[_s2t.get(_r.song_id, "")] = 1.0 + float(np.clip(_d / 20.0, -0.25, 1.0))
+        print(f"Chart-Verlauf: {len(_mom)} Neueinsteiger von {_wk[-2]}, Gewicht {min(_mom.values()):.2f}..{max(_mom.values()):.2f}, davon gestiegen {sum(v > 1 for v in _mom.values())}")
+    _pos_w = [_mom.get(t, 1.0) for t in _pos_ids]
     for t in sorted(likes):
         if t in _fe.index and t not in _pos_ids:
             _pos_ids.append(t)
