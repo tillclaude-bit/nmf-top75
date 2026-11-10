@@ -1,0 +1,410 @@
+{
+ "name": "Record of the Decade: (2018 Redux)",
+ "matches": [
+  {
+   "input": "Sigrid - Strangers",
+   "match": {
+    "id": "3CWuU5kIw8zsWJTcgreUwl",
+    "title": "Strangers",
+    "artists": [
+     "Sigrid"
+    ],
+    "album": "Sucker Punch",
+    "score": 6
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Charli XCX & Troye Sivan - 1999",
+   "match": {
+    "id": "05mAIVLkIWc2d1UBYZBCp8",
+    "title": "1999",
+    "artists": [
+     "Charli xcx",
+     "Troye Sivan"
+    ],
+    "album": "1999",
+    "score": 10
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Calvin Harris & Sam Smith - Promises",
+   "match": {
+    "id": "5N5k9nd479b1xpDZ4usjrg",
+    "title": "Promises (with Sam Smith)",
+    "artists": [
+     "Calvin Harris",
+     "Sam Smith",
+     "Jessie Reyez"
+    ],
+    "album": "Promises (with Sam Smith)",
+    "score": 7
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Metric - Risk",
+   "match": {
+    "id": "64ZYwei2k93G3muzSPXzRy",
+    "title": "Risk",
+    "artists": [
+     "Metric"
+    ],
+    "album": "Art of Doubt",
+    "score": 6
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Billie Eilish - You Should See Me In A Crown",
+   "match": {
+    "id": "3XF5xLJHOQQRbWya6hBp7d",
+    "title": "you should see me in a crown",
+    "artists": [
+     "Billie Eilish"
+    ],
+    "album": "WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?",
+    "score": 6
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Eleni Foureira - Fuego",
+   "match": {
+    "id": "4TwWOcvjY1qt3QJvtveAGm",
+    "title": "Fuego",
+    "artists": [
+     "Eleni Foureira"
+    ],
+    "album": "Fuego",
+    "score": 6
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Ariana Grande - Thank U, Next",
+   "match": {
+    "id": "3e9HZxeyfWwjeyPAMmWSSQ",
+    "title": "thank u, next",
+    "artists": [
+     "Ariana Grande"
+    ],
+    "album": "thank u, next",
+    "score": 6
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Troye Sivan & Ariana Grande - Dance to This",
+   "match": {
+    "id": "2NjO87HyT80fsgejd3PLYW",
+    "title": "Dance To This (feat. Ariana Grande)",
+    "artists": [
+     "Troye Sivan",
+     "Ariana Grande"
+    ],
+    "album": "Bloom",
+    "score": 7
+   },
+   "ov": "null"
+  },
+  {
+   "input": "5 Seconds Of Summer - Youngblood",
+   "match": {
+    "id": "2iUXsYOEPhVqEBwsqP70rE",
+    "title": "Youngblood",
+    "artists": [
+     "5 Seconds of Summer"
+    ],
+    "album": "Youngblood (Deluxe)",
+    "score": 6
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Dua Lipa & BLACKPINK - Kiss and Make Up",
+   "match": {
+    "id": "7v57jXggtZOJEjEcgfhxte",
+    "title": "Kiss And Make Up",
+    "artists": [
+     "Dua Lipa",
+     "BLACKPINK"
+    ],
+    "album": "Kiss And Make Up",
+    "score": 10
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Dynoro & Gigi D'Agostino - In My Mind",
+   "match": {
+    "id": "0E9ZjEAyAwOXZ7wJC0PD33",
+    "title": "In My Mind",
+    "artists": [
+     "Dynoro",
+     "GIGI D'AGOSTINO"
+    ],
+    "album": "In My Mind",
+    "score": 10
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Mark Ronson (feat. Miley Cyrus) - Nothing Breaks Like A Heart",
+   "match": {
+    "id": "27rdGxbavYJeBphck5MZAF",
+    "title": "Nothing Breaks Like a Heart (feat. Miley Cyrus)",
+    "artists": [
+     "Mark Ronson",
+     "Miley Cyrus"
+    ],
+    "album": "Nothing Breaks Like a Heart (feat. Miley Cyrus)",
+    "score": 7
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Clean Bandit (feat. Demi Lovato) - Solo",
+   "match": {
+    "id": "2t7Dy78xKl2NoevrGwKzrh",
+    "title": "Solo",
+    "artists": [
+     "Clean Bandit",
+     "Demi Lovato"
+    ],
+    "album": "TikTok Dances",
+    "score": 9
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Mabel (feat. Not3s) - Fine Line",
+   "match": {
+    "id": "4W8Ll3TxUGHF6djyFJjC6e",
+    "title": "Fine Line",
+    "artists": [
+     "Mabel",
+     "Not3s"
+    ],
+    "album": "Fine Line",
+    "score": 10
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Ariana Grande - God Is A Woman",
+   "match": {
+    "id": "5OCJzvD7sykQEKHH7qAC3C",
+    "title": "God is a woman",
+    "artists": [
+     "Ariana Grande"
+    ],
+    "album": "Sweetener",
+    "score": 6
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Martin Garrix (feat. Bonn) - High On Life",
+   "match": {
+    "id": "4ut5G4rgB1ClpMTMfjoIuy",
+    "title": "High On Life (feat. Bonn)",
+    "artists": [
+     "Martin Garrix",
+     "Bonn"
+    ],
+    "album": "High On Life (feat. Bonn)",
+    "score": 7
+   },
+   "ov": "null"
+  },
+  {
+   "input": "CHVRCHES - Get Out",
+   "match": {
+    "id": "7cSlVOkKI5rY3ZTO5Pbh3O",
+    "title": "Get Out",
+    "artists": [
+     "CHVRCHES"
+    ],
+    "album": "Love Is Dead",
+    "score": 6
+   },
+   "ov": "null"
+  },
+  {
+   "input": "George Ezra - Shotgun",
+   "match": {
+    "id": "4ofwffwvvnbSkrMSCKQDaC",
+    "title": "Shotgun",
+    "artists": [
+     "George Ezra"
+    ],
+    "album": "Staying at Tamara's",
+    "score": 6
+   },
+   "ov": "null"
+  },
+  {
+   "input": "RAYE - Friends",
+   "match": {
+    "id": "34KTVmypyKLAFJc8CpfI5P",
+    "title": "Friends",
+    "artists": [
+     "RAYE"
+    ],
+    "album": "Friends",
+    "score": 6
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Keala Settle - This Is Me",
+   "match": {
+    "id": "2xGjteMU3E1tkEPVFBO08U",
+    "title": "This Is Me",
+    "artists": [
+     "Keala Settle",
+     "The Greatest Showman Ensemble"
+    ],
+    "album": "This Is Me",
+    "score": 6
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Au/Ra & CamelPhat - Panic Room",
+   "match": {
+    "id": "3MkuFR7t25mu7Iscp6GGiV",
+    "title": "Panic Room",
+    "artists": [
+     "Au/Ra",
+     "CAMELPHAT"
+    ],
+    "album": "Panic Room",
+    "score": 10
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Hailee Steinfeld - Capital Letters",
+   "match": {
+    "id": "4nDJp4tZCw4BkLE7mNLXwS",
+    "title": "Capital Letters",
+    "artists": [
+     "Hailee Steinfeld",
+     "BloodPop®"
+    ],
+    "album": "FIFTY SHADES OF GREY - Befreite Lust (Original Motion Picture Soundtrack)",
+    "score": 5
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Christine and the Queens - Doesn't matter",
+   "match": {
+    "id": "4UH4lWuTEs9r8W0ZkJ5heS",
+    "title": "Doesn't matter",
+    "artists": [
+     "Christine and the Queens"
+    ],
+    "album": "Chris",
+    "score": 10
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Freya Ridings - Lost Without You",
+   "match": {
+    "id": "3C5J4wBnhT2O8oqwXdaSxQ",
+    "title": "Lost Without You",
+    "artists": [
+     "Freya Ridings"
+    ],
+    "album": "Freya Ridings",
+    "score": 6
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Liam Payne & Rita Ora - For You",
+   "match": {
+    "id": "5rlMVKnvE6ZSzNCs8ZyHqU",
+    "title": "For You (With Rita Ora)",
+    "artists": [
+     "Liam Payne",
+     "Rita Ora"
+    ],
+    "album": "LP1",
+    "score": 7
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Paloma Faith - Til' I'm Done",
+   "match": {
+    "id": "3LhPlFznO9NZhiRbhc8OVm",
+    "title": "'Til I'm Done",
+    "artists": [
+     "Paloma Faith"
+    ],
+    "album": "Bad",
+    "score": 5
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Kacey Musgraves - High Horse",
+   "match": {
+    "id": "2U2Z1IXnmJIvlknWizFykZ",
+    "title": "High Horse",
+    "artists": [
+     "Kacey Musgraves"
+    ],
+    "album": "Golden Hour",
+    "score": 6
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Marshmello & Bastille - Happier",
+   "match": {
+    "id": "7BqHUALzNBTanL6OvsqmC1",
+    "title": "Happier",
+    "artists": [
+     "Marshmello",
+     "Bastille"
+    ],
+    "album": "Happier",
+    "score": 10
+   },
+   "ov": "null"
+  },
+  {
+   "input": "BTS - IDOL",
+   "match": {
+    "id": "1e8J3XClxZbFmvIHLI8CE4",
+    "title": "IDOL",
+    "artists": [
+     "BTS"
+    ],
+    "album": "Love Yourself 結 'Answer'",
+    "score": 6
+   },
+   "ov": "null"
+  },
+  {
+   "input": "ROSALIA - Malamente (Cap. I: Augurio)",
+   "match": {
+    "id": "1B0BQaSRHxhI0AUlItY3LK",
+    "title": "MALAMENTE - Cap.1: Augurio",
+    "artists": [
+     "ROSALÍA"
+    ],
+    "album": "El Mal Querer",
+    "score": 3
+   },
+   "ov": "null"
+  }
+ ]
+}
