@@ -1,0 +1,448 @@
+{
+ "name": "Record of the Decade (2022 Redux)",
+ "matches": [
+  {
+   "input": "First Aid Kit - Out Of My Head",
+   "match": {
+    "id": "5LgguaX9k42ruNIHNZA6Re",
+    "title": "Out of My Head",
+    "artists": [
+     "First Aid Kit"
+    ],
+    "album": "Palomino",
+    "score": 6
+   },
+   "ov": "null"
+  },
+  {
+   "input": "David Guetta & Bebe Rexha - I'm Good (Blue)",
+   "match": {
+    "id": "4uUG5RXrOk84mYEfFvj3cK",
+    "title": "I'm Good (Blue)",
+    "artists": [
+     "David Guetta",
+     "Bebe Rexha"
+    ],
+    "album": "I'm Good (Blue)",
+    "score": 10
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Djo - End of Beginning",
+   "match": {
+    "id": "3qhlB30KknSejmIvZZLjOD",
+    "title": "End of Beginning",
+    "artists": [
+     "Djo"
+    ],
+    "album": "DECIDE",
+    "score": 6
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Southstar - Miss U",
+   "match": null,
+   "ov": "null"
+  },
+  {
+   "input": "Lizzo - About Damn Time",
+   "match": {
+    "id": "4a3D8glGZxhlJfOs1Czc3c",
+    "title": "About Damn Time",
+    "artists": [
+     "Lizzo"
+    ],
+    "album": "Special",
+    "score": 6
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Stephen Sanchez - Until I Found You",
+   "match": {
+    "id": "0T5iIrXA4p5GsubkhuBIKV",
+    "title": "Until I Found You",
+    "artists": [
+     "Stephen Sanchez"
+    ],
+    "album": "Until I Found You",
+    "score": 6
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Lewis Capaldi - Forget Me",
+   "match": {
+    "id": "3iHzKA9HlXf5wsGdsrsnSA",
+    "title": "Forget Me",
+    "artists": [
+     "Lewis Capaldi"
+    ],
+    "album": "Broken By Desire To Be Heavenly Sent",
+    "score": 6
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Bad Bunny - Tití Me Pregunto",
+   "match": {
+    "id": "1IHWl5LamUGEuP4ozKQSXZ",
+    "title": "Tití Me Preguntó",
+    "artists": [
+     "Bad Bunny"
+    ],
+    "album": "Un Verano Sin Ti",
+    "score": 6
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Twocolors - Heavy Metal Love",
+   "match": {
+    "id": "07VcTAooOBP8hIluuUS5xr",
+    "title": "Heavy Metal Love",
+    "artists": [
+     "twocolors"
+    ],
+    "album": "Heavy Metal Love",
+    "score": 6
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Alesso (feat. Zara Larsson) - Words",
+   "match": {
+    "id": "1bgKMxPQU7JIZEhNsM1vFs",
+    "title": "Words (feat. Zara Larsson)",
+    "artists": [
+     "Alesso",
+     "Zara Larsson"
+    ],
+    "album": "Words (feat. Zara Larsson)",
+    "score": 7
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Ethel Cain - American Teenager",
+   "match": {
+    "id": "4ltqfN12ohaVZdM6C45gMg",
+    "title": "American Teenager",
+    "artists": [
+     "Ethel Cain"
+    ],
+    "album": "Preacher’s Daughter",
+    "score": 6
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Gayle - abcdefu",
+   "match": {
+    "id": "5TrB6o3iQMaW9NueIlJjKG",
+    "title": "abcdefu",
+    "artists": [
+     "GAYLE"
+    ],
+    "album": "abcdefu",
+    "score": 6
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Harry Styles - As It Was",
+   "match": {
+    "id": "4Dvkj6JhhA12EX05fT7y2e",
+    "title": "As It Was",
+    "artists": [
+     "Harry Styles"
+    ],
+    "album": "Harry's House",
+    "score": 6
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Röyksopp (feat. Susanne Sundfør) - Oh, Lover",
+   "match": {
+    "id": "3iR8mxJFZbhZMdz9vYsRqa",
+    "title": "Oh, Lover",
+    "artists": [
+     "Röyksopp",
+     "Susanne Sundfør"
+    ],
+    "album": "Profound Mysteries II",
+    "score": 10
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Odesza - Equal",
+   "match": {
+    "id": "0MgAJsBMfmL7w24eM09Wzl",
+    "title": "Equal",
+    "artists": [
+     "ODESZA",
+     "Låpsley"
+    ],
+    "album": "The Last Goodbye",
+    "score": 6
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Joel Corry & Tom Grennan - Lionheart (Fearless)",
+   "match": {
+    "id": "5vlzH0ps6WDyb158oFTAb3",
+    "title": "Lionheart (Fearless)",
+    "artists": [
+     "Joel Corry",
+     "Tom Grennan"
+    ],
+    "album": "Lionheart (Fearless)",
+    "score": 10
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Freya Skye - Lose My Head",
+   "match": {
+    "id": "3riBSHN6260LlPcv7kJg9N",
+    "title": "Lose My Head",
+    "artists": [
+     "Freya Skye"
+    ],
+    "album": "Lose My Head",
+    "score": 6
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Caroline Polachek - Welcome to My Island",
+   "match": {
+    "id": "4bp2wYweUPvsBrQfntdYcr",
+    "title": "Welcome To My Island",
+    "artists": [
+     "Caroline Polachek"
+    ],
+    "album": "Desire, I Want To Turn Into You",
+    "score": 6
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Dove Cameron - Boyfriend",
+   "match": {
+    "id": "59CfNbkERJ3NoTXDvoURjj",
+    "title": "Boyfriend",
+    "artists": [
+     "Dove Cameron"
+    ],
+    "album": "Boyfriend",
+    "score": 6
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Röyksopp (feat. Susanne Sundfør) - Stay Awhile",
+   "match": {
+    "id": "36CzmraTU8FQLamTblFWnt",
+    "title": "Stay Awhile",
+    "artists": [
+     "Röyksopp",
+     "Susanne Sundfør"
+    ],
+    "album": "Profound Mysteries III",
+    "score": 10
+   },
+   "ov": "null"
+  },
+  {
+   "input": "James Hype & Miggy Dela Rosa - Ferrari",
+   "match": {
+    "id": "4zN21mbAuaD0WqtmaTZZeP",
+    "title": "Ferrari",
+    "artists": [
+     "James Hype",
+     "Miggy Dela Rosa"
+    ],
+    "album": "Ferrari",
+    "score": 10
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Mimi Webb - House On Fire",
+   "match": {
+    "id": "0Le4FRrPfbFzpyy8SsaCLf",
+    "title": "House On Fire",
+    "artists": [
+     "Mimi Webb"
+    ],
+    "album": "Amelia",
+    "score": 6
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Carly Rae Jepsen - Beach House",
+   "match": {
+    "id": "3v61sG0y5M1LnSsFN4IimM",
+    "title": "Beach House",
+    "artists": [
+     "Carly Rae Jepsen"
+    ],
+    "album": "The Loneliest Time",
+    "score": 6
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Charli XCX (feat. Rina Sawayama) - Beg For You",
+   "match": {
+    "id": "4kaKSj0gkSb6I5tNPZChXm",
+    "title": "Beg for You",
+    "artists": [
+     "Charli xcx",
+     "Rina Sawayama"
+    ],
+    "album": "UK Dance Hits",
+    "score": 9
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Cornelia Jakobs - Hold Me Closer",
+   "match": {
+    "id": "697bFWgzBRm6bmnYWd8GyD",
+    "title": "Hold Me Closer",
+    "artists": [
+     "Cornelia Jakobs"
+    ],
+    "album": "Hold Me Closer",
+    "score": 6
+   },
+   "ov": "null"
+  },
+  {
+   "input": "MUNA - What I Want",
+   "match": {
+    "id": "7uvxkcv7FWVh4wE91I8Bi2",
+    "title": "What I Want",
+    "artists": [
+     "MUNA"
+    ],
+    "album": "MUNA",
+    "score": 6
+   },
+   "ov": "null"
+  },
+  {
+   "input": "RAYE (feat. 070 Shake) - Escapism.",
+   "match": {
+    "id": "2VOZniNxFIDl8ydLltrMNb",
+    "title": "Escapism.",
+    "artists": [
+     "RAYE",
+     "070 Shake"
+    ],
+    "album": "Escapism.",
+    "score": 10
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Tate McRae - She's All I Wanna Be",
+   "match": {
+    "id": "7l9IqDtVWJurTvkQHq1BGh",
+    "title": "she's all i wanna be",
+    "artists": [
+     "Tate McRae"
+    ],
+    "album": "i used to think i could fly",
+    "score": 6
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Lizzy McAlpine - ceilings",
+   "match": {
+    "id": "2L9N0zZnd37dwF0clgxMGI",
+    "title": "ceilings",
+    "artists": [
+     "Lizzy McAlpine"
+    ],
+    "album": "five seconds flat",
+    "score": 6
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Rosa Linn - SNAP",
+   "match": {
+    "id": "5hx7w26Zi3zafMgvMTUqF6",
+    "title": "SNAP",
+    "artists": [
+     "Rosa Linn"
+    ],
+    "album": "SNAP",
+    "score": 6
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Fontaines D.C. - I Love You",
+   "match": {
+    "id": "5XhMgAWzou6EjDmQtoyoZE",
+    "title": "I Love You",
+    "artists": [
+     "Fontaines D.C."
+    ],
+    "album": "Skinty Fia",
+    "score": 6
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Metric - Doomscroller",
+   "match": {
+    "id": "1gvGmBd2bVWefyeVZzuRSn",
+    "title": "Doomscroller",
+    "artists": [
+     "Metric"
+    ],
+    "album": "Formentera",
+    "score": 6
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Avril Lavigne - Love Sux",
+   "match": {
+    "id": "0ML3PJ6f9lgj1B4FQo4kZB",
+    "title": "Love Sux",
+    "artists": [
+     "Avril Lavigne"
+    ],
+    "album": "Love Sux",
+    "score": 6
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Chanel - SloMo",
+   "match": {
+    "id": "0T71AvVXY4RB65tvdIyzdO",
+    "title": "SloMo",
+    "artists": [
+     "Chanel"
+    ],
+    "album": "SloMo",
+    "score": 6
+   },
+   "ov": "null"
+  }
+ ]
+}
