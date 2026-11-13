@@ -67,6 +67,16 @@ def main():
         else:
             flat.append(i)
     items = [i for i in flat if i.get("type", "track") in ("track", None) and i.get("trackId")]
+    # Nur die konfigurierten Playlists behalten (der Scraper hat am 2026-11-13 eine fremde Suchtreffer-Playlist mitgeliefert und dafuer Korea verdraengt)
+    with open("config/pool_scraper_input.json", encoding="utf-8") as f:
+        want = [u.rstrip("/").split("/")[-1].split("?")[0] for u in json.load(f)["playlistUrls"]]
+    foreign = sorted({i.get("playlistName") for i in items if i.get("playlistId") not in want})
+    if foreign:
+        print(f"WARNUNG: fremde Playlists ignoriert: {foreign}")
+        items = [i for i in items if i.get("playlistId") in want]
+    missing = [w for w in want if w not in {i.get("playlistId") for i in items}]
+    if missing:
+        print(f"WARNUNG: FEHLENDE NMF-Playlists (IDs): {missing}")
     print(f"{len(items)} Zeilen (Playlist x Track)")
 
     os.makedirs("data/pools", exist_ok=True)

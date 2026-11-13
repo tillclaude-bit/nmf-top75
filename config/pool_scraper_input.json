@@ -1,6 +1,6 @@
 {
   "includeTracks": true,
-  "maxItems": 14,
+  "maxItems": 20,
   "outputMode": "tracks",
   "playlistUrls": [
     "https://open.spotify.com/playlist/37i9dQZF1DX4W3aJJYCDfV",
@@ -17,5 +17,6 @@
     "https://open.spotify.com/playlist/37i9dQZF1DXdlsL6CGuL98",
     "https://open.spotify.com/playlist/37i9dQZF1DXaMTfp0LE4AZ",
     "https://open.spotify.com/playlist/37i9dQZF1DXb5BKLTO7ULa"
-  ]
+  ],
+  "queries": []
 }
