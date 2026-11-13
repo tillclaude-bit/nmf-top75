@@ -102,12 +102,12 @@ _top = _load_exp(sorted(glob.glob("data/exportify/top100_*.csv")))
 pool["genres_sp"] = pool.track_id.astype(str).map(dict(zip(_exp_all.tid, _exp_all.get("Genres", pd.Series(dtype=str)).fillna(""))) if len(_exp_all) else {}).fillna("")
 pool["feat"] = np.nan
 HAVE_FEAT = False
-_fe = _exp_all.set_index("tid")[FEAT_COLS] if len(_exp_all) else pd.DataFrame(columns=FEAT_COLS)
+_fe = _exp_all.set_index("tid")[FEAT_COLS].dropna() if len(_exp_all) else pd.DataFrame(columns=FEAT_COLS)  # Songs ohne Klangwerte im Export (kommt vor) werden nicht fuers Modell genutzt
 _has = pool.track_id.astype(str).isin(_fe.index).values
 _negf = neg & _has
 if len(_top) >= 30 and _negf.sum() >= 100:
     _dis = set(fb[fb.signal.isin(["dislike", "weak_dislike"])].track_id.astype(str)) if len(fb) else set()
-    _pos_ids = list(dict.fromkeys(_top.tid))
+    _pos_ids = [t for t in dict.fromkeys(_top.tid) if t in _fe.index]
     # Chart-Verlauf der Neueinsteiger der Vorwoche (Till, 2026-11-10): Songs, die vor einer Woche neu eingestiegen sind, zaehlen staerker,
     # wenn sie seither geklettert sind (bis 2,0), und schwaecher, wenn sie gefallen sind (bis 0,75). Alle anderen Chartsongs: 1,0.
     _mom = {}
