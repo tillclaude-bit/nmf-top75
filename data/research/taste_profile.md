@@ -31,3 +31,5 @@ Details und Begruendungen: data/feedback.csv (signal=dislike).
 ## Neue Spalten in der Kandidatenliste (seit 2026-11-06)
 - `style_flag`: Last.fm meldet fuer diesen Kuenstler einen unerwuenschten Stil (z.B. metal, hard rock, grime), Spotify/MusicBrainz bestaetigen ihn nicht. Last.fm verwechselt gleichnamige Kuenstler haeufig (Beispiele: Oria/Orla, Samson, Passenger). Pruefe zuerst, ob der Kuenstler dieses Songs wirklich diesen Stil spielt. Wenn ja: verdict `no`. Wenn es eine Namensverwechslung ist: Urteil nach den normalen Kriterien.
 - `genres_sp`: Spotify-Genres des Kuenstlers (falls vorhanden), `lf_tags`: Last.fm-Tags mit Gewicht (0-100), `voice`: male/female/group/unknown (MusicBrainz). Nur als Kontext, die Auswahl beruecksichtigt die Stimme bereits.
+
+K-Pop (Feedback 2026-11-13): K-Pop NICHT abwerten, Till hat zwei K-Pop-Songs in seinen Top 10. Das Genre ist kein Problem; Boygroups/Male K-Pop (NCT DREAM, ATEEZ, Stray Kids) haben es deutlich schwerer als Female K-Pop und werden ueber die Stimmen-Quote ohnehin gebremst. Kein eigener K-Pop-Malus.
