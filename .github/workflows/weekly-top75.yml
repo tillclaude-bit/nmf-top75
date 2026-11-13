@@ -25,10 +25,15 @@ jobs:
     outputs:
       go: ${{ steps.g.outputs.go }}
     steps:
+      - uses: actions/checkout@v4
       - id: g
         run: |
           H=$(TZ=Europe/Berlin date +%H)
-          if [ "${{ github.event_name }}" != "schedule" ] || [ "$H" = "07" ]; then echo "go=true" >> "$GITHUB_OUTPUT"; else echo "go=false" >> "$GITHUB_OUTPUT"; echo "Berlin-Stunde $H, kein 07:30-Lauf"; fi
+          D=$(date -u +%F)
+          if [ "${{ github.event_name }}" != "schedule" ]; then echo "go=true" >> "$GITHUB_OUTPUT"
+          elif grep -q "^$D," data/pool_playlist_ids.csv; then echo "go=false" >> "$GITHUB_OUTPUT"; echo "Pool-Playlist fuer $D gibt es schon (von Hand angelegt), Zeitplanlauf entfaellt"
+          elif [ "$H" = "07" ]; then echo "go=true" >> "$GITHUB_OUTPUT"
+          else echo "go=false" >> "$GITHUB_OUTPUT"; echo "Berlin-Stunde $H, kein 07:30-Lauf"; fi
   run:
     needs: gate
     if: needs.gate.outputs.go == 'true'
