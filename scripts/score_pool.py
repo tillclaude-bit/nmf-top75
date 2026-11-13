@@ -154,7 +154,7 @@ if len(_top) >= 30 and _negf.sum() >= 100:
 else:
     print("Keine Exportify-Daten: Geschmackswert nur aus eigenen Vorschau-Deskriptoren")
 if HAVE_FEAT:
-    W.update({"feat": 1.0, "stylefit": 0.75})
+    W.update({"feat": 0.5, "stylefit": 1.0})  # 2026-11-13: Klangwerte trennten Keeps/Overlooks kaum (AUC ~0,5) -> halbes Gewicht, Stilpassung dafuer voll
 else:
     W.update({"stylefit": 1.0})  # ohne Exportify-Features: Stil-Passung (Last.fm) traegt den Geschmack
 
@@ -222,6 +222,7 @@ if _os1.path.exists("data/analysis/mb_tags.csv"):
 
 # --- Stil-Tags aus Last.fm (gleiche Abfrage fuer alle Kuenstler): ueberschreibt die MusicBrainz-Stil-Passung, wenn vorhanden
 pool["lf_tags"] = ""
+_mb_fit = pool["stylefit"].copy()  # MusicBrainz-Stilpassung als Rueckfall, wenn Last.fm den Kuenstler nicht kennt
 if _os1.path.exists("data/analysis/lastfm_tags.csv"):
     from sklearn.feature_extraction.text import CountVectorizer as _CV2
     from sklearn.model_selection import cross_val_predict as _cvp2
@@ -241,6 +242,7 @@ if _os1.path.exists("data/analysis/lastfm_tags.csv"):
         _fit2 = dict(zip(_lf.key.astype(str), _lf.fit))
         pool["stylefit"] = [_fit2.get(_nk(a), np.nan) for a in pool.artists]
         pool["lf_tags"] = [dict(zip(_lf.key.astype(str), _lf.tags)).get(_nk(a), "") for a in pool.artists]
+        pool["stylefit"] = pool["stylefit"].fillna(_mb_fit)
         print(f"Songs mit Stil-Passung (Last.fm): {pool.stylefit.notna().sum()} von {len(pool)}")
 
 _zs = {k: np.nan_to_num(z(pool[k]), nan=0.0) for k in W}  # fehlende Werte (z.B. keine Tags) zaehlen neutral

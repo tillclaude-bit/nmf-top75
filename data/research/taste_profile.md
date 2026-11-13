@@ -33,3 +33,6 @@ Details und Begruendungen: data/feedback.csv (signal=dislike).
 - `genres_sp`: Spotify-Genres des Kuenstlers (falls vorhanden), `lf_tags`: Last.fm-Tags mit Gewicht (0-100), `voice`: male/female/group/unknown (MusicBrainz). Nur als Kontext, die Auswahl beruecksichtigt die Stimme bereits.
 
 K-Pop (Feedback 2026-11-13): K-Pop NICHT abwerten, Till hat zwei K-Pop-Songs in seinen Top 10. Das Genre ist kein Problem; Boygroups/Male K-Pop (NCT DREAM, ATEEZ, Stray Kids) haben es deutlich schwerer als Female K-Pop und werden ueber die Stimmen-Quote ohnehin gebremst. Kein eigener K-Pop-Malus.
+
+Verdict-Regel (Feedback 2026-11-13): 'generic dance' nur dann 'no', wenn der Song eindeutig anonymer EDM/DJ-Standard ohne Songcharakter ist. House/Club mit Gesangshook oder Songstruktur im Zweifel 'unsure' (Tommy Phillips - Pressure war ein falsches 'no', Till mag den Song).
+Gewichtung (2026-11-13): Spotify-Klangwerte trennen Keeps kaum -> halbes Gewicht; Stilpassung voll. Songs ohne Last.fm-Tags fallen auf die MusicBrainz-Stilpassung zurueck.
