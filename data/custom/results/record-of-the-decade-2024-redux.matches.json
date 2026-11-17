@@ -1,0 +1,483 @@
+{
+ "name": "Record of the Decade (2024 Redux)",
+ "matches": [
+  {
+   "input": "Lola Young - Messy",
+   "match": {
+    "id": "2YuUy4hBCVm4L5IRHu0iVl",
+    "title": "Messy",
+    "artists": [
+     "Lola Young"
+    ],
+    "album": "Messy",
+    "score": 6
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Chappell Roan - Good Luck, Babe!",
+   "match": {
+    "id": "0WbMK4wrZ1wFSty9F7FCgu",
+    "title": "Good Luck, Babe!",
+    "artists": [
+     "Chappell Roan"
+    ],
+    "album": "Good Luck, Babe!",
+    "score": 6
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Billie Eilish - Birds of a Feather",
+   "match": {
+    "id": "6dOtVTDdiauQNBQEDOtlAB",
+    "title": "BIRDS OF A FEATHER",
+    "artists": [
+     "Billie Eilish"
+    ],
+    "album": "HIT ME HARD AND SOFT",
+    "score": 6
+   },
+   "ov": "null"
+  },
+  {
+   "input": "JADE - Angel Of My Dreams",
+   "match": {
+    "id": "46cW6zufU9Woo11TLs2i6X",
+    "title": "Angel Of My Dreams",
+    "artists": [
+     "JADE"
+    ],
+    "album": "Angel Of My Dreams",
+    "score": 6
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Sienna Spiro - Maybe",
+   "match": {
+    "id": "6yA2GnuThv4oDuEimu4Rmg",
+    "title": "MAYBE.",
+    "artists": [
+     "SIENNA SPIRO"
+    ],
+    "album": "MAYBE.",
+    "score": 6
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Marias - No One Noticed",
+   "match": {
+    "id": "3siwsiaEoU4Kuuc9WKMUy5",
+    "title": "No One Noticed",
+    "artists": [
+     "The Marías"
+    ],
+    "album": "Submarine",
+    "score": 6
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Dua Lipa - Training Season",
+   "match": {
+    "id": "2UrKwpJwcoOlYZpooWD1hY",
+    "title": "Training Season",
+    "artists": [
+     "Dua Lipa"
+    ],
+    "album": "Training Season",
+    "score": 6
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Magdalena Bay - Cry For Me",
+   "match": {
+    "id": "2RhHct6gGXSrZ1zHjovhRq",
+    "title": "Cry for Me",
+    "artists": [
+     "Magdalena Bay"
+    ],
+    "album": "Imaginal Disk",
+    "score": 6
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Hugel - I Adore You",
+   "match": {
+    "id": "2UKDJROOiWCq67eoXIxlWb",
+    "title": "I Adore You",
+    "artists": [
+     "HUGEL",
+     "Topic",
+     "Arash",
+     "Daecolm"
+    ],
+    "album": "I Adore You (with J Balvin & Ellie Goulding)",
+    "score": 6
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Sabrina Carpenter - Espresso",
+   "match": {
+    "id": "2qSkIjg1o9h3YT9RAgYN75",
+    "title": "Espresso",
+    "artists": [
+     "Sabrina Carpenter"
+    ],
+    "album": "Espresso",
+    "score": 6
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Becky Hill - Outside Of Love",
+   "match": {
+    "id": "3LcXzMeyG4jy8ERxtzHGgP",
+    "title": "Outside Of Love",
+    "artists": [
+     "Becky Hill"
+    ],
+    "album": "Believe Me Now?",
+    "score": 6
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Ariana Grande - We can't be friends (wait for your love)",
+   "match": {
+    "id": "46kspZSY3aKmwQe7O77fCC",
+    "title": "we can't be friends (wait for your love)",
+    "artists": [
+     "Ariana Grande"
+    ],
+    "album": "eternal sunshine",
+    "score": 6
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Madison Beer - Make You Mine",
+   "match": {
+    "id": "48vIfHaK7by6x0T6ucpODL",
+    "title": "make you mine",
+    "artists": [
+     "Madison Beer"
+    ],
+    "album": "make you mine",
+    "score": 6
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Yagas - The Crying Room",
+   "match": {
+    "id": "0bri2CCuMxgDxtZt7ALpNq",
+    "title": "The Crying Room",
+    "artists": [
+     "The Yagas"
+    ],
+    "album": "Midnight Minuet",
+    "score": 6
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Lady Gaga & Bruno Mars - Die With A Smile",
+   "match": {
+    "id": "2plbrEY59IikOBgBGLjaoe",
+    "title": "Die With A Smile",
+    "artists": [
+     "Lady Gaga",
+     "Bruno Mars"
+    ],
+    "album": "Die With A Smile",
+    "score": 10
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Teddy Swims - Bad Dreams",
+   "match": {
+    "id": "3BntzKsnLf2pc0dsvE3Zav",
+    "title": "Bad Dreams",
+    "artists": [
+     "Teddy Swims"
+    ],
+    "album": "I've Tried Everything But Therapy (Part 2)",
+    "score": 6
+   },
+   "ov": "null"
+  },
+  {
+   "input": "David Guetta & OneRepublic - I Don't Wanna Wait",
+   "match": {
+    "id": "331l3xABO0HMr1Kkyh2LZq",
+    "title": "I Don't Wanna Wait",
+    "artists": [
+     "David Guetta",
+     "OneRepublic"
+    ],
+    "album": "I Don't Wanna Wait",
+    "score": 10
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Artemas - I like way you kiss me",
+   "match": {
+    "id": "2GxrNKugF82CnoRFbQfzPf",
+    "title": "i like the way you kiss me",
+    "artists": [
+     "Artemas"
+    ],
+    "album": "i like the way you kiss me",
+    "score": 6
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Charli xcx (feat. Billie Eilish) - Guess",
+   "match": {
+    "id": "0IsIY8pfu1yaGkPUD7pkDx",
+    "title": "Guess featuring billie eilish",
+    "artists": [
+     "Charli xcx",
+     "Billie Eilish"
+    ],
+    "album": "Brat and it’s completely different but also still brat",
+    "score": 7
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Ariana Grande - Yes, and?",
+   "match": {
+    "id": "7gaA3wERFkFkgivjwbSvkG",
+    "title": "yes, and?",
+    "artists": [
+     "Ariana Grande"
+    ],
+    "album": "yes, and?",
+    "score": 6
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Echoberyl - Weird Boy",
+   "match": {
+    "id": "7Lj0w3kS0iJsmiNAEPzXsJ",
+    "title": "Weird Boy",
+    "artists": [
+     "Echoberyl"
+    ],
+    "album": "Through the Chaos",
+    "score": 6
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Dasha - Austin",
+   "match": {
+    "id": "1XS4J9lKSJTqZzAL7PaRXX",
+    "title": "Austin",
+    "artists": [
+     "Dasha"
+    ],
+    "album": "Sommer Hits",
+    "score": 5
+   },
+   "ov": "null"
+  },
+  {
+   "input": "FKA Twigs - Eusexua",
+   "match": {
+    "id": "6TeKbncyK62smlAvPy1dNa",
+    "title": "Eusexua",
+    "artists": [
+     "FKA twigs"
+    ],
+    "album": "EUSEXUA",
+    "score": 6
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Ravyn Lenae - Love Me Not",
+   "match": {
+    "id": "1UNEuG9DYOWiikf00ayr52",
+    "title": "Love Me Not",
+    "artists": [
+     "Ravyn Lenae"
+    ],
+    "album": "Love Me Not / Love Is Blind",
+    "score": 6
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Loreen - Forever",
+   "match": {
+    "id": "2MZjkieXlnbynYBBM6y0Uj",
+    "title": "Forever",
+    "artists": [
+     "Loreen"
+    ],
+    "album": "Forever",
+    "score": 6
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Charli xcx - Apple",
+   "match": {
+    "id": "19RybK6XDbAVpcdxSbZL1o",
+    "title": "Apple",
+    "artists": [
+     "Charli xcx"
+    ],
+    "album": "BRAT",
+    "score": 6
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Weeknd (feat. Playboi Carti) - Timeless",
+   "match": {
+    "id": "5hK2JZPtg4EDftHYp3Ju7v",
+    "title": "Timeless",
+    "artists": [
+     "The Weeknd",
+     "Playboi Carti"
+    ],
+    "album": "MegaHits 2025 - Die Erste",
+    "score": 9
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Rebecca Black - Trust!",
+   "match": {
+    "id": "1i0ouuQkH4ZYugUI9VyCKs",
+    "title": "TRUST!",
+    "artists": [
+     "Rebecca Black"
+    ],
+    "album": "SALVATION",
+    "score": 6
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Rosé & Bruno Mars - APT.",
+   "match": {
+    "id": "4wJ5Qq0jBN4ajy7ouZIV1c",
+    "title": "APT.",
+    "artists": [
+     "ROSÉ",
+     "Bruno Mars"
+    ],
+    "album": "rosie",
+    "score": 10
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Nero - Blame You",
+   "match": {
+    "id": "6NzGgMzGLkxK9E3q8WBrm4",
+    "title": "Blame You",
+    "artists": [
+     "NERO"
+    ],
+    "album": "Into the Unknown",
+    "score": 6
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Gracie Abrams - That's So True",
+   "match": {
+    "id": "7ne4VBA60CxGM75vw0EYad",
+    "title": "That’s So True",
+    "artists": [
+     "Gracie Abrams"
+    ],
+    "album": "The Secret of Us (Deluxe)",
+    "score": 6
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Damiano David - Born With A Broken Heart",
+   "match": {
+    "id": "7B9zspndqbrSXXUwVNeTCe",
+    "title": "Born With a Broken Heart",
+    "artists": [
+     "Damiano David"
+    ],
+    "album": "FUNNY little FEARS",
+    "score": 6
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Addison Rae - Diet Pepsi",
+   "match": {
+    "id": "6MzofobZt2dm0Kf1hTThFz",
+    "title": "Diet Pepsi",
+    "artists": [
+     "Addison Rae"
+    ],
+    "album": "Diet Pepsi",
+    "score": 6
+   },
+   "ov": "null"
+  },
+  {
+   "input": "ADÉLA - Superscar",
+   "match": {
+    "id": "5GGA54O0NQK6Bo7nI0cz5k",
+    "title": "SUPERSCAR",
+    "artists": [
+     "ADÉLA"
+    ],
+    "album": "SUPERSCAR",
+    "score": 6
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Tove Lo & SG Lewis - Heat",
+   "match": {
+    "id": "3Du9k9oZz7DJCMZviju2lD",
+    "title": "HEAT",
+    "artists": [
+     "Tove Lo",
+     "SG Lewis"
+    ],
+    "album": "HEAT",
+    "score": 10
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Becky Hill & Sonny Fodera - Never Be Alone",
+   "match": {
+    "id": "3WB9r0SqS5ThjK49bDexXe",
+    "title": "Never Be Alone",
+    "artists": [
+     "Becky Hill",
+     "Sonny Fodera"
+    ],
+    "album": "Never Be Alone",
+    "score": 10
+   },
+   "ov": "null"
+  }
+ ]
+}
