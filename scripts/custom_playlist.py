@@ -6,9 +6,11 @@ Fuer jede Datei data/custom/lists/NAME.txt:
   - schreibt data/custom/results/NAME.matches.json (Treffer + nicht gefundene Titel)
   - legt die Playlist nur an, wenn data/custom/lists/NAME.create existiert und noch keine
     data/custom/results/NAME.playlist.json vorhanden ist. Die Playlist ist privat.
+  - Existiert NAME.replace und schon eine Playlist, wird deren Inhalt (gleiche ID) durch die aktuelle
+    Trackliste ersetzt - nur wenn sich die Trackliste seit dem letzten Lauf geaendert hat (ids_sha).
 Token: auth/refresh_token.enc (mit SPOTIFY_CLIENT_SECRET verschluesselt), wie in create_playlist.py.
 """
-import glob, json, os, pathlib, re, subprocess, sys, time, unicodedata
+import glob, hashlib, json, os, pathlib, re, subprocess, sys, time, unicodedata
 import urllib.error, urllib.parse, urllib.request
 
 cid = os.environ["SPOTIFY_CLIENT_ID"]
@@ -17,7 +19,7 @@ rt = subprocess.run(["openssl", "enc", "-d", "-aes-256-cbc", "-pbkdf2", "-iter",
                     capture_output=True, text=True, check=True).stdout.strip()
 
 
-def call(url, data=None, token=None, form=False):
+def call(url, data=None, token=None, form=False, method=None):
     for attempt in range(5):
         h = {}
         if token:
@@ -30,7 +32,7 @@ def call(url, data=None, token=None, form=False):
             else:
                 body = json.dumps(data).encode()
                 h["Content-Type"] = "application/json"
-        req = urllib.request.Request(url, data=body, headers=h)
+        req = urllib.request.Request(url, data=body, headers=h, method=method)
         try:
             with urllib.request.urlopen(req, timeout=30) as r:
                 txt = r.read().decode()
@@ -278,3 +280,36 @@ for lst in sorted(glob.glob("data/custom/lists/*.txt")):
                 "tracks_added": len(ids), "tracks_reported": tot, "public": False}
         json.dump(info, open(plf, "w", encoding="utf-8"), indent=1)
         print("PLAYLIST", info)
+
+    if os.path.exists(f"data/custom/lists/{base}.replace") and plf.exists():
+        info = json.load(open(plf, encoding="utf-8"))
+        ids, seen = [], set()
+        for m in found:
+            for x in [m["match"]] + m.get("extra", []):
+                if x["id"] not in seen:
+                    seen.add(x["id"])
+                    ids.append(x["id"])
+        sig = hashlib.sha1(",".join(ids).encode()).hexdigest()
+        if info.get("ids_sha") != sig:
+            pid = info["id"]
+            uris = ["spotify:track:" + i for i in ids]
+            for i in range(0, len(uris), 50):
+                for ep in ("items", "tracks"):
+                    if i == 0:  # erster Block ersetzt den gesamten Inhalt
+                        s, r = call(f"https://api.spotify.com/v1/playlists/{pid}/{ep}", {"uris": uris[:50]},
+                                    token=tok, method="PUT")
+                    else:
+                        s, r = call(f"https://api.spotify.com/v1/playlists/{pid}/{ep}", {"uris": uris[i:i + 50]},
+                                    token=tok)
+                    print("replace" if i == 0 else "add", i, ep, s, "" if s < 300 else r)
+                    if s < 300:
+                        break
+                else:
+                    sys.exit("Playlist konnte nicht aktualisiert werden")
+            s, chk = call(f"https://api.spotify.com/v1/playlists/{pid}", token=tok)
+            tot = None
+            if s == 200:
+                tot = (chk.get("tracks") or chk.get("items") or {}).get("total")
+            info.update({"tracks_added": len(ids), "tracks_reported": tot, "ids_sha": sig})
+            json.dump(info, open(plf, "w", encoding="utf-8"), indent=1)
+            print("PLAYLIST aktualisiert", info)
