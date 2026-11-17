@@ -191,6 +191,62 @@
    "ov": "null"
   },
   {
+   "input": "Robin Schulz & J.U.D.G.E. - Show Me Love",
+   "match": {
+    "id": "0aHOXu219Z4MqEKwiKsddl",
+    "title": "Show Me Love",
+    "artists": [
+     "Robin Schulz",
+     "Richard Judge"
+    ],
+    "album": "Sugar",
+    "score": 10
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Glasperlenspiel - Geiles Leben",
+   "match": {
+    "id": "7bolFIVYrui4h98GEK0MIK",
+    "title": "Geiles Leben",
+    "artists": [
+     "Glasperlenspiel"
+    ],
+    "album": "Kleine Freunde - Viel Glück",
+    "score": 5
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Matt Simons - Catch & Release (Deepend Remix)",
+   "match": {
+    "id": "11Yp4S3WZA7yqWIbUmMJSd",
+    "title": "Catch & Release - Deepend Remix",
+    "artists": [
+     "Matt Simons",
+     "Deepend"
+    ],
+    "album": "Catch & Release",
+    "score": 6
+   },
+   "ov": "null"
+  },
+  {
+   "input": "EFF - Stimme",
+   "match": {
+    "id": "1dB19ppPm5cMuLaEm9jbDD",
+    "title": "Stimme",
+    "artists": [
+     "EFF",
+     "Mark Forster",
+     "felix jaehn"
+    ],
+    "album": "Stimme",
+    "score": 6
+   },
+   "ov": "null"
+  },
+  {
    "input": "Jonas Blue (feat. Dakota) - Fast Car",
    "match": {
     "id": "2mCF8L0brIs88eH6Kf2h9p",
@@ -213,6 +269,73 @@
      "ZAYN"
     ],
     "album": "PILLOWTALK",
+    "score": 6
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Stereoact (feat. Kerstin Ott) - Die immer lacht",
+   "match": {
+    "id": "0lKyMPBRuIDCX56NORu5NZ",
+    "title": "Die immer lacht - Radio 2016 Mix",
+    "artists": [
+     "Stereoact",
+     "Kerstin Ott"
+    ],
+    "album": "Die immer lacht",
+    "score": 5
+   },
+   "ov": "null"
+  },
+  {
+   "input": "G-Eazy & Bebe Rexha - Me, Myself & I",
+   "match": {
+    "id": "40YcuQysJ0KlGQTeGUosTC",
+    "title": "Me, Myself & I",
+    "artists": [
+     "G-Eazy",
+     "Bebe Rexha"
+    ],
+    "album": "When It's Dark Out",
+    "score": 10
+   },
+   "ov": "null"
+  },
+  {
+   "input": "X Ambassadors - Renegades",
+   "match": {
+    "id": "0fYVliAYKHuPmECRs1pbRf",
+    "title": "Renegades",
+    "artists": [
+     "X Ambassadors"
+    ],
+    "album": "VHS",
+    "score": 6
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Twenty One Pilots - Stressed Out",
+   "match": {
+    "id": "3CRDbSIZ4r5MsZ0YwxuEkn",
+    "title": "Stressed Out",
+    "artists": [
+     "Twenty One Pilots"
+    ],
+    "album": "Blurryface",
+    "score": 6
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Elle King - Ex's & Oh's",
+   "match": {
+    "id": "70eDxAyAraNTiD6lx2ZEnH",
+    "title": "Ex's & Oh's",
+    "artists": [
+     "Elle King"
+    ],
+    "album": "Love Stuff",
     "score": 6
    },
    "ov": "null"
@@ -410,6 +533,45 @@
    "ov": "null"
   },
   {
+   "input": "Era Istrefi - Bonbon",
+   "match": {
+    "id": "79Nnbjlw4ulw59lkHUZm9N",
+    "title": "Bonbon",
+    "artists": [
+     "Era Istrefi"
+    ],
+    "album": "Bonbon EP",
+    "score": 6
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Mark Forster - Wir sind groß",
+   "match": {
+    "id": "7Ars6vxMVBQPc4LwbwbQKm",
+    "title": "Wir Sind Groß",
+    "artists": [
+     "Mark Forster"
+    ],
+    "album": "Wir Sind Groß",
+    "score": 6
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Prince Damien - Glücksmoment",
+   "match": {
+    "id": "1QleddKv5OZcFSDvszJr20",
+    "title": "Glücksmoment",
+    "artists": [
+     "Prince Damien"
+    ],
+    "album": "Glücksmomente",
+    "score": 6
+   },
+   "ov": "null"
+  },
+  {
    "input": "DNCE - Cake By The Ocean",
    "match": {
     "id": "76hfruVvmfQbw0eYn1nmeC",
@@ -418,6 +580,76 @@
      "DNCE"
     ],
     "album": "DNCE",
+    "score": 6
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Alle Farben (feat. Younotus) - Please Tell Rosie",
+   "match": {
+    "id": "2IDDQFHRf9iH35jeL89uNs",
+    "title": "Please Tell Rosie",
+    "artists": [
+     "Alle Farben",
+     "YouNotUs"
+    ],
+    "album": "Music Is My Best Friend",
+    "score": 10
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Beginner (feat. Gzuz & Gentleman) - Ahnma",
+   "match": {
+    "id": "1sr9lbDDGIxmFK7wUdA1Z8",
+    "title": "Ahnma",
+    "artists": [
+     "Beginner",
+     "Gzuz",
+     "Gentleman"
+    ],
+    "album": "Advanced Chemistry",
+    "score": 14
+   },
+   "ov": "null"
+  },
+  {
+   "input": "David Guetta (feat. Zara Larsson) - This One's for You",
+   "match": {
+    "id": "46NBoIAHrmR7qcUGCIFEjR",
+    "title": "This One's for You (feat. Zara Larsson) (Official Song UEFA EURO 2016)",
+    "artists": [
+     "David Guetta",
+     "Zara Larsson"
+    ],
+    "album": "This One's for You (feat. Zara Larsson) [Official Song UEFA EURO 2016]",
+    "score": 7
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Max Giesinger - 80 Millionen",
+   "match": {
+    "id": "2ladamWCFAfQbgIIdkewAx",
+    "title": "80 Millionen",
+    "artists": [
+     "Max Giesinger"
+    ],
+    "album": "Der Junge, der rennt",
+    "score": 6
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Imany - Don't Be So Shy (Filatov & Karas Remix)",
+   "match": {
+    "id": "00vk0sEfb6mr2ehwSw0Uhn",
+    "title": "Don't Be So Shy - Filatov & Karas Remix",
+    "artists": [
+     "Imany",
+     "Filatov & Karas"
+    ],
+    "album": "The Wrong Kind Of War",
     "score": 6
    },
    "ov": "null"
@@ -459,6 +691,46 @@
     ],
     "album": "No Money",
     "score": 6
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Jennifer Lopez - Ain't Your Mama",
+   "match": {
+    "id": "2hgzdQdnfWwtdpZbhZlV72",
+    "title": "Ain't Your Mama",
+    "artists": [
+     "Jennifer Lopez"
+    ],
+    "album": "Ain't Your Mama",
+    "score": 6
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Alan Walker - Sing Me To Sleep",
+   "match": {
+    "id": "2Fjz5ZC5BvFdCqcnTZ3ilH",
+    "title": "Sing Me to Sleep",
+    "artists": [
+     "Alan Walker"
+    ],
+    "album": "Sing Me to Sleep",
+    "score": 6
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Felix Jaehn (feat. Alma) - Bonfire",
+   "match": {
+    "id": "2prC6PPOZIPBsCD3dQb3lm",
+    "title": "Bonfire",
+    "artists": [
+     "felix jaehn",
+     "ALMA"
+    ],
+    "album": "Bonfire",
+    "score": 10
    },
    "ov": "null"
   },
@@ -697,6 +969,51 @@
    "ov": "null"
   },
   {
+   "input": "Mike Perry (feat. Shy Martin) - The Ocean",
+   "match": {
+    "id": "2CPqh63wRVscbceKcPxwvv",
+    "title": "The Ocean (feat. Shy Martin)",
+    "artists": [
+     "Mike Perry",
+     "shy martin"
+    ],
+    "album": "The Ocean (feat. Shy Martin)",
+    "score": 7
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Lil Wayne, Wiz Khalifa & Imagine Dragons (feat. Logic, Ty Dolla $ign & X Ambassadors) - Sucker for Pain",
+   "match": {
+    "id": "00DZ7TTuVWDSreZygWpdJt",
+    "title": "Sucker for Pain",
+    "artists": [
+     "Lil Wayne",
+     "Wiz Khalifa",
+     "Imagine Dragons",
+     "Logic",
+     "Ty Dolla $ign",
+     "X Ambassadors"
+    ],
+    "album": "Halloween Hits",
+    "score": 25
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Disturbed - The Sound of Silence",
+   "match": {
+    "id": "5pqzS44LaBFPtU5u0nnYsH",
+    "title": "The Sound of Silence",
+    "artists": [
+     "Disturbed"
+    ],
+    "album": "Weihnachtsmarkt Musik",
+    "score": 5
+   },
+   "ov": "null"
+  },
+  {
    "input": "Twenty One Pilots - Heathens",
    "match": {
     "id": "6i0V12jOa3mr6uu4WYhUBr",
@@ -705,6 +1022,50 @@
      "Twenty One Pilots"
     ],
     "album": "Heathens",
+    "score": 6
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Bonez MC & RAF Camora (feat. Maxwell) - Ohne mein Team",
+   "match": {
+    "id": "05Mp2UJulSttxQ4E6hQPH3",
+    "title": "Ohne mein Team",
+    "artists": [
+     "Bonez MC",
+     "RAF Camora",
+     "Maxwell"
+    ],
+    "album": "Palmen aus Plastik",
+    "score": 14
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Bonez MC & RAF Camora - Palmen aus Plastik",
+   "match": {
+    "id": "6wHRm1KR8pzVDPdmR6Qovj",
+    "title": "Palmen aus Plastik",
+    "artists": [
+     "Bonez MC",
+     "RAF Camora"
+    ],
+    "album": "Palmen aus Plastik",
+    "score": 10
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Philipp Poisel - Erkläre mir die Liebe",
+   "match": {
+    "id": "0K6QpySe2WtrAR2wXKheVh",
+    "title": "Erkläre mir die Liebe",
+    "artists": [
+     "Juju",
+     "Chapo102",
+     "Philipp Poisel"
+    ],
+    "album": "Erkläre mir die Liebe",
     "score": 6
    },
    "ov": "null"
@@ -748,6 +1109,34 @@
     ],
     "album": "This Is Acting (Deluxe Version)",
     "score": 5
+   },
+   "ov": "null"
+  },
+  {
+   "input": "257ers - Holz",
+   "match": {
+    "id": "20ecx8o3II4wMmoDA7jjPf",
+    "title": "Holz",
+    "artists": [
+     "257ers"
+    ],
+    "album": "Mikrokosmos",
+    "score": 6
+   },
+   "ov": "null"
+  },
+  {
+   "input": "David Guetta, Cedric Gervais & Chris Willis - Would I Lie to You",
+   "match": {
+    "id": "6rdMvRjvA5518Q5rmqZLH0",
+    "title": "Would I Lie to You - Extended",
+    "artists": [
+     "David Guetta",
+     "Cedric Gervais",
+     "Chris Willis"
+    ],
+    "album": "Would I Lie to You",
+    "score": 11
    },
    "ov": "null"
   },
@@ -889,6 +1278,19 @@
    "ov": "null"
   },
   {
+   "input": "Mark Forster - Chöre",
+   "match": {
+    "id": "4ZPXuHp219ujq6QJ9oqteR",
+    "title": "Chöre",
+    "artists": [
+     "Mark Forster"
+    ],
+    "album": "TAPE (Kogong Version)",
+    "score": 4
+   },
+   "ov": "null"
+  },
+  {
    "input": "Drake - Fake Love",
    "match": {
     "id": "343YBumqHu19cGoGARUTsd",
@@ -930,6 +1332,46 @@
    "ov": "null"
   },
   {
+   "input": "Bonez MC & RAF Camora - Palmen aus Gold",
+   "match": {
+    "id": "0t4v7Q4yzb9SOQohayL33W",
+    "title": "Palmen aus Gold",
+    "artists": [
+     "Bonez MC",
+     "RAF Camora"
+    ],
+    "album": "Tannen aus Plastik",
+    "score": 10
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Max Giesinger - Wenn sie tanzt",
+   "match": {
+    "id": "2yEPMTjt6Jp7yS9zh12ZHb",
+    "title": "Wenn sie tanzt",
+    "artists": [
+     "Max Giesinger"
+    ],
+    "album": "Der Junge, der rennt",
+    "score": 6
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Alle Farben - Bad Ideas",
+   "match": {
+    "id": "76gwG061wqdatYhicO2hG4",
+    "title": "Bad Ideas",
+    "artists": [
+     "Alle Farben"
+    ],
+    "album": "Music Is My Best Friend",
+    "score": 6
+   },
+   "ov": "null"
+  },
+  {
    "input": "The Weeknd (feat. Daft Punk) - I Feel It Coming",
    "match": {
     "id": "3dhjNA0jGA8vHBQ1VdD6vV",
@@ -953,6 +1395,33 @@
     ],
     "album": "Merry Christmas",
     "score": 6
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Pentatonix - Hallelujah",
+   "match": {
+    "id": "550rQQCGkrTzvp4SfpOPzx",
+    "title": "Hallelujah",
+    "artists": [
+     "Pentatonix"
+    ],
+    "album": "A Pentatonix Christmas",
+    "score": 6
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Bonez MC & RAF Camora - An ihnen vorbei",
+   "match": {
+    "id": "7istTRCq9OK5cEC8sPAc50",
+    "title": "An ihnen vorbei",
+    "artists": [
+     "Bonez MC",
+     "RAF Camora"
+    ],
+    "album": "Tannen aus Plastik",
+    "score": 10
    },
    "ov": "null"
   },
@@ -1031,6 +1500,19 @@
      "Wham!"
     ],
     "album": "LAST CHRISTMAS",
+    "score": 6
+   },
+   "ov": "null"
+  },
+  {
+   "input": "Alan Walker - Alone",
+   "match": {
+    "id": "3LlmKSHR3Rs0Y3KHQLAYDk",
+    "title": "Alone",
+    "artists": [
+     "Alan Walker"
+    ],
+    "album": "Different World",
     "score": 6
    },
    "ov": "null"
