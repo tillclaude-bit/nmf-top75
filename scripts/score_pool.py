@@ -113,16 +113,20 @@ if len(_top) >= 30 and _negf.sum() >= 100:
     _mom = {}
     _cr0 = rd("data/charts/chart_rows.csv")
     _wk = sorted(_cr0.chart_date.unique())
-    if len(_wk) >= 2:
-        _a = _cr0[_cr0.chart_date == _wk[-2]]
+    _s2t = dict(zip(feats.song_id, feats.spotify_track_id.astype(str)))
+    _b = _cr0[_cr0.chart_date == _wk[-1]].set_index("song_id").pos
+    for _k in (2, 3):  # Neueinsteiger der letzten zwei Vorwochen (Till, 2026-11-17); Aenderung seit Einstieg pro Woche gerechnet
+        if len(_wk) < _k:
+            continue
+        _a = _cr0[_cr0.chart_date == _wk[-_k]]
         _a = _a[_a.prev_pos_shown.isna()]
-        _b = _cr0[_cr0.chart_date == _wk[-1]].set_index("song_id").pos
-        _s2t = dict(zip(feats.song_id, feats.spotify_track_id.astype(str)))
+        _n = 0; _up = 0; _ws = []
         for _r in _a.itertuples():
             _now = _b.get(_r.song_id, np.nan)
-            _d = (_r.pos - _now) if _now == _now else -25.0  # inzwischen aus den Charts: wie ein deutlicher Absturz
-            _mom[_s2t.get(_r.song_id, "")] = 1.0 + float(np.clip(_d / 20.0, -0.25, 1.0))
-        print(f"Chart-Verlauf: {len(_mom)} Neueinsteiger von {_wk[-2]}, Gewicht {min(_mom.values()):.2f}..{max(_mom.values()):.2f}, davon gestiegen {sum(v > 1 for v in _mom.values())}")
+            _d = ((_r.pos - _now) / (_k - 1)) if _now == _now else -25.0  # inzwischen aus den Charts: wie ein deutlicher Absturz
+            _w_ = 1.0 + float(np.clip(_d / 20.0, -0.25, 1.0)); _mom[_s2t.get(_r.song_id, "")] = _w_
+            _n += 1; _up += _w_ > 1; _ws.append(_w_)
+        print(f"Chart-Verlauf: {_n} Neueinsteiger von {_wk[-_k]}, Gewicht {min(_ws):.2f}..{max(_ws):.2f}, davon gestiegen {_up}")
     _pos_w = [_mom.get(t, 1.0) for t in _pos_ids]
     for t in sorted(likes):
         if t in _fe.index and t not in _pos_ids:
