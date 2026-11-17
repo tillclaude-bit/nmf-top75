@@ -1,0 +1,27 @@
+{
+ "Alex Warren (feat. Ella Henderson) - Carry You Home": {
+  "ids": [
+   "2yCte16wVT6slIJ2Tqm9ML"
+  ]
+ },
+ "Ariana Grande & Troye Sivan - supernatural (Remix)": {
+  "query": "supernatural remix Ariana Grande Troye Sivan",
+  "artist": "Troye Sivan",
+  "title": "supernatural"
+ },
+ "Dua Lipa - These Walls": {
+  "query": "track:\"These Walls\" artist:\"Dua Lipa\" album:\"Radical Optimism\"",
+  "artist": "Dua Lipa",
+  "title": "These Walls"
+ },
+ "Dua Lipa & Pierre de Maere - These Walls (Duet)": {
+  "ids": [
+   "0G08GdVseE2Q70LPyrCtf0"
+  ]
+ },
+ "Weeknd & Anitta - São Paulo": {
+  "query": "São Paulo Anitta The Weeknd",
+  "artist": "Anitta",
+  "title": "Paulo"
+ }
+}
