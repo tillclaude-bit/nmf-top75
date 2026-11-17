@@ -41,7 +41,7 @@
    "ov": "null"
   },
   {
-   "input": "Alex Warren - Carry You Home (Original / Ella Henderson Remix)",
+   "input": "Alex Warren - Carry You Home",
    "match": {
     "id": "1wOp7yTVyH176bW1z9WAiv",
     "title": "Carry You Home",
@@ -49,9 +49,23 @@
      "Alex Warren"
     ],
     "album": "You'll Be Alright, Kid (Chapter 1)",
-    "score": 5
+    "score": 6
    },
    "ov": "null"
+  },
+  {
+   "input": "Alex Warren (feat. Ella Henderson) - Carry You Home",
+   "match": {
+    "id": "2yCte16wVT6slIJ2Tqm9ML",
+    "title": "Carry You Home (feat. Ella Henderson)",
+    "artists": [
+     "Alex Warren",
+     "Ella Henderson"
+    ],
+    "album": "Carry You Home (feat. Ella Henderson)",
+    "score": 99
+   },
+   "ov": "{\"ids\": [\"2yCte16wVT6slIJ2Tqm9ML\"]}"
   },
   {
    "input": "Allie X - Off With Her Tits",
@@ -67,7 +81,7 @@
    "ov": "null"
   },
   {
-   "input": "Ariana Grande - Supernatural (Original/ Troye Sivan Remix)",
+   "input": "Ariana Grande - supernatural",
    "match": {
     "id": "142PiXzA84lmEw2RstFHFa",
     "title": "supernatural",
@@ -75,9 +89,23 @@
      "Ariana Grande"
     ],
     "album": "eternal sunshine",
-    "score": 5
+    "score": 6
    },
    "ov": "null"
+  },
+  {
+   "input": "Ariana Grande & Troye Sivan - supernatural (Remix)",
+   "match": {
+    "id": "3iJOkxYP59kFJ5OLgHo4Tp",
+    "title": "supernatural (with Troye Sivan) - remix",
+    "artists": [
+     "Ariana Grande",
+     "Troye Sivan"
+    ],
+    "album": "eternal sunshine (slightly deluxe)",
+    "score": 98
+   },
+   "ov": "{\"artist\": \"Troye Sivan\", \"query\": \"supernatural remix Ariana Grande Troye Sivan\", \"title\": \"supernatural\"}"
   },
   {
    "input": "Ariana Grande - We can't be friends (wait for your love)",
@@ -622,7 +650,20 @@
    "ov": "null"
   },
   {
-   "input": "Dua Lipa - These Walls (original / Pierre de Maere duet version)",
+   "input": "Dua Lipa - These Walls",
+   "match": {
+    "id": "2YHlN3c2jEO86xfnHrmUCY",
+    "title": "These Walls",
+    "artists": [
+     "Dua Lipa"
+    ],
+    "album": "Radical Optimism",
+    "score": 98
+   },
+   "ov": "{\"artist\": \"Dua Lipa\", \"query\": \"track:\\\"These Walls\\\" artist:\\\"Dua Lipa\\\" album:\\\"Radical Optimism\\\"\", \"title\": \"These Walls\"}"
+  },
+  {
+   "input": "Dua Lipa & Pierre de Maere - These Walls (Duet)",
    "match": {
     "id": "0G08GdVseE2Q70LPyrCtf0",
     "title": "These Walls",
@@ -631,9 +672,9 @@
      "Pierre de Maere"
     ],
     "album": "These Walls",
-    "score": 5
+    "score": 99
    },
-   "ov": "null"
+   "ov": "{\"ids\": [\"0G08GdVseE2Q70LPyrCtf0\"]}"
   },
   {
    "input": "Dua Lipa - Training Season",
@@ -1192,8 +1233,16 @@
    "ov": "null"
   },
   {
-   "input": "Magdelena Bay - Cry For Me",
-   "match": null,
+   "input": "Magdalena Bay - Cry For Me",
+   "match": {
+    "id": "2RhHct6gGXSrZ1zHjovhRq",
+    "title": "Cry for Me",
+    "artists": [
+     "Magdalena Bay"
+    ],
+    "album": "Imaginal Disk",
+    "score": 6
+   },
    "ov": "null"
   },
   {
@@ -1752,9 +1801,18 @@
    "ov": "null"
   },
   {
-   "input": "Weeknd & Anitta - Sao Paolo",
-   "match": null,
-   "ov": "null"
+   "input": "Weeknd & Anitta - São Paulo",
+   "match": {
+    "id": "7DY756WOLyOz2Xnhw4EFiC",
+    "title": "São Paulo (feat. Anitta)",
+    "artists": [
+     "The Weeknd",
+     "Anitta"
+    ],
+    "album": "Hurry Up Tomorrow",
+    "score": 98
+   },
+   "ov": "{\"artist\": \"Anitta\", \"query\": \"S\\u00e3o Paulo Anitta The Weeknd\", \"title\": \"Paulo\"}"
   },
   {
    "input": "Weeknd (feat. Playboi Carti) - Timeless",
