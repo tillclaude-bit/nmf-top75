@@ -178,6 +178,17 @@ def _nk(a):
     m = re.split(r",|;| feat\.| ft\.| x | & ", str(a))[0]
     m = _ud.normalize("NFKD", m).encode("ascii", "ignore").decode().lower()
     return re.sub(r"[^a-z0-9]+", " ", m).strip()
+# Chart-Verlauf der Neueinsteiger (Till, 2026-11-17): dasselbe Gewicht wie im Klangmodell gilt je Kuenstler auch fuer die Stilpassung
+_mom_art = {}
+if "_mom" in globals() and _mom:
+    _t2a = dict(zip(feats.spotify_track_id.astype(str), feats.chart_artist))
+    _tmp = {}
+    for _t, _w in _mom.items():
+        for _part in str(_t2a.get(_t, "")).split(";"):
+            if _nk(_part):
+                _tmp.setdefault(_nk(_part), []).append(_w)
+    _mom_art = {k: float(np.mean(v)) for k, v in _tmp.items()}
+    print(f"Stilpassung: Chart-Verlauf-Gewichte fuer {len(_mom_art)} Kuenstler")
 pool["style_tags"] = ""
 if _os0.path.exists("data/analysis/mb_tags.csv"):
     _mb = rd("data/analysis/mb_tags.csv").fillna("")
@@ -218,7 +229,8 @@ if _os1.path.exists("data/analysis/mb_tags.csv"):
         _cv = CountVectorizer(token_pattern=r"\S+", binary=True, min_df=2).fit(_m.doc)
         _X = _cv.transform(_m.doc)
         _clf = LogisticRegression(C=0.3, class_weight="balanced", max_iter=2000)
-        _m["fit"] = cross_val_predict(_clf, _X, _m.y, cv=StratifiedKFold(5, shuffle=True, random_state=0), method="decision_function")
+        _wm = np.where(_m.y.values == 1, _m.key.astype(str).map(_mom_art).fillna(1.0).values, 1.0)
+        _m["fit"] = cross_val_predict(_clf, _X, _m.y, cv=StratifiedKFold(5, shuffle=True, random_state=0), method="decision_function", params={"sample_weight": _wm})
         print(f"Stil-Passung CV-AUC (Chart-Kuenstler vs. Rest): {roc_auc_score(_m.y, _m.fit):.3f} ({len(_m)} Kuenstler mit Tags)")
         _fit = dict(zip(_m.key.astype(str), _m.fit))
         pool["stylefit"] = [(_fit.get(_nk(a)) if t else np.nan) for a, t in zip(pool.artists, pool.style_tags)]
@@ -241,7 +253,8 @@ if _os1.path.exists("data/analysis/lastfm_tags.csv"):
         _cv2 = _CV2(token_pattern=r"\S+", binary=True, min_df=2).fit(_lf.doc)
         _X2 = _cv2.transform(_lf.doc)
         _clf2 = LogisticRegression(C=0.1, class_weight="balanced", max_iter=2000)
-        _lf["fit"] = _cvp2(_clf2, _X2, _lf.y, cv=StratifiedKFold(5, shuffle=True, random_state=0), method="decision_function")
+        _wl = np.where(_lf.y.values == 1, _lf.key.astype(str).map(_mom_art).fillna(1.0).values, 1.0)
+        _lf["fit"] = _cvp2(_clf2, _X2, _lf.y, cv=StratifiedKFold(5, shuffle=True, random_state=0), method="decision_function", params={"sample_weight": _wl})
         print(f"Stil-Passung Last.fm CV-AUC (Chart-Kuenstler vs. Rest): {roc_auc_score(_lf.y, _lf.fit):.3f} ({len(_lf)} Kuenstler mit Tags)")
         _fit2 = dict(zip(_lf.key.astype(str), _lf.fit))
         pool["stylefit"] = [_fit2.get(_nk(a), np.nan) for a in pool.artists]
