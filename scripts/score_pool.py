@@ -24,7 +24,7 @@ from sklearn.preprocessing import StandardScaler
 
 DATE = sys.argv[1]
 SUFFIX = sys.argv[2] if len(sys.argv) > 2 else ""
-W = {"feat": 0.0, "breadth": 0.0, "pos": 0.0, "artist": 0.5, "stylefit": 0.5}  # style: Stil-Tags der Kuenstler (MusicBrainz) gegen die Stile der Chart-Kuenstler; ohne Tags neutral (0)  # breadth bleibt drin (Till, 2026-10-31); Vorwochen-Backtest: Breite sagt Chart-Einstiege vorher  # 2026-11-20: pos (Listenposition) gestrichen (Till: Position in der Liste soll keine Rolle spielen)
+W = {"feat": 0.0, "breadth": 0.0, "pos": 0.25, "artist": 0.5, "stylefit": 0.5}  # style: Stil-Tags der Kuenstler (MusicBrainz) gegen die Stile der Chart-Kuenstler; ohne Tags neutral (0)  # breadth bleibt drin (Till, 2026-10-31); Vorwochen-Backtest: Breite sagt Chart-Einstiege vorher  # 2026-11-20: pos/artist testweise gestrichen, Backtest 06.11./13.11. (eigene Top-20 von Till) zeigte: ohne beide deutlich schlechter -> pos 0.25 und artist 0.5 wieder an, artist begrenzt (max. 2 Treffer)
 MAX_PER_ARTIST = 1  # Till, 2026-11-06: kein Hauptkuenstler doppelt; Feature-Gaeste zaehlen nicht
 N = 75
 # Weihnachtslieder sind ausgeschlossen (Titel-Stichworte in den NMF-Sprachen; Kuenstlernamen zaehlen nicht)
@@ -170,9 +170,9 @@ if len(_top) >= 30 and _negf.sum() >= 100:
 else:
     print("Keine Exportify-Daten: Geschmackswert nur aus eigenen Vorschau-Deskriptoren")
 if HAVE_FEAT:
-    W.update({"feat": 0.5, "stylefit": 1.0, "artist": 0.0})  # 2026-11-13: Klangwerte trennten Keeps/Overlooks kaum (AUC ~0,5) -> halbes Gewicht, Stilpassung dafuer voll  # 2026-11-20: Kuenstler-Faktor (artist_hits) gestrichen (Till: Ranking zu kuenstlerlastig, nichts Neues entdeckt)
+    W.update({"feat": 0.5, "stylefit": 1.0})  # 2026-11-13: Klangwerte trennten Keeps/Overlooks kaum (AUC ~0,5) -> halbes Gewicht, Stilpassung dafuer voll  # 2026-11-20: Kuenstler-Faktor (artist_hits) gestrichen (Till: Ranking zu kuenstlerlastig, nichts Neues entdeckt)
 else:
-    W.update({"stylefit": 1.0, "artist": 0.0})  # ohne Exportify-Features: Stil-Passung (Last.fm) traegt den Geschmack
+    W.update({"stylefit": 1.0})  # ohne Exportify-Features: Stil-Passung (Last.fm) traegt den Geschmack
 
 # --- Weitere Signale
 pool["breadth"] = np.log(pool.n_playlists)
@@ -182,7 +182,7 @@ for _, r in arts.iterrows():
     for t in artist_tokens(r.artist):
         hits[t] = max(hits.get(t, 0), r.songs_charted)
 pool["artist_hits"] = pool.artists.map(lambda a: max([hits.get(t, 0) for t in artist_tokens(a)] or [0]))
-pool["artist"] = np.log1p(pool.artist_hits)
+pool["artist"] = np.log1p(pool.artist_hits.clip(upper=2))  # begrenzt: Bonus allein traegt keine Wertung
 
 # --- Stil-Regeln (data/style_rules.csv, von Till): Ausschluss, wenn ein MusicBrainz-Stil-Tag des Hauptkuenstlers den Begriff enthaelt
 import os as _os0, unicodedata as _ud
