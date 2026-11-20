@@ -24,7 +24,7 @@ from sklearn.preprocessing import StandardScaler
 
 DATE = sys.argv[1]
 SUFFIX = sys.argv[2] if len(sys.argv) > 2 else ""
-W = {"feat": 0.0, "breadth": 0.0, "pos": 0.25, "artist": 0.5, "stylefit": 0.5}  # style: Stil-Tags der Kuenstler (MusicBrainz) gegen die Stile der Chart-Kuenstler; ohne Tags neutral (0)  # breadth bleibt drin (Till, 2026-10-31); Vorwochen-Backtest: Breite sagt Chart-Einstiege vorher  # 2026-11-20: pos/artist testweise gestrichen, Backtest 06.11./13.11. (eigene Top-20 von Till) zeigte: ohne beide deutlich schlechter -> pos 0.25 und artist 0.5 wieder an, artist begrenzt (max. 2 Treffer)
+W = {"feat": 0.0, "breadth": 0.0, "pos": 0.0, "artist": 0.5, "stylefit": 0.5}  # style: Stil-Tags der Kuenstler (MusicBrainz) gegen die Stile der Chart-Kuenstler; ohne Tags neutral (0)  # breadth bleibt drin (Till, 2026-10-31); Vorwochen-Backtest: Breite sagt Chart-Einstiege vorher  # 2026-11-20: pos/artist testweise gestrichen, Backtest 06.11./13.11. (eigene Top-20 von Till) zeigte: ohne beide deutlich schlechter -> artist 0.5 wieder an (begrenzt, max. 2 Treffer); pos bleibt 0 (Till 2026-11-20: Bekanntheitsgrad/Listenposition entfernen)
 MAX_PER_ARTIST = 1  # Till, 2026-11-06: kein Hauptkuenstler doppelt; Feature-Gaeste zaehlen nicht
 N = 75
 # Weihnachtslieder sind ausgeschlossen (Titel-Stichworte in den NMF-Sprachen; Kuenstlernamen zaehlen nicht)
