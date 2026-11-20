@@ -158,9 +158,9 @@ if len(_top) >= 30 and _negf.sum() >= 100:
 else:
     print("Keine Exportify-Daten: Geschmackswert nur aus eigenen Vorschau-Deskriptoren")
 if HAVE_FEAT:
-    W.update({"feat": 0.5, "stylefit": 1.0})  # 2026-11-13: Klangwerte trennten Keeps/Overlooks kaum (AUC ~0,5) -> halbes Gewicht, Stilpassung dafuer voll
+    W.update({"feat": 0.5, "stylefit": 1.0, "artist": 0.0})  # 2026-11-13: Klangwerte trennten Keeps/Overlooks kaum (AUC ~0,5) -> halbes Gewicht, Stilpassung dafuer voll  # 2026-11-20: Kuenstler-Faktor (artist_hits) gestrichen (Till: Ranking zu kuenstlerlastig, nichts Neues entdeckt)
 else:
-    W.update({"stylefit": 1.0})  # ohne Exportify-Features: Stil-Passung (Last.fm) traegt den Geschmack
+    W.update({"stylefit": 1.0, "artist": 0.0})  # ohne Exportify-Features: Stil-Passung (Last.fm) traegt den Geschmack
 
 # --- Weitere Signale
 pool["breadth"] = np.log(pool.n_playlists)

@@ -5,7 +5,7 @@ track_id,artist,title,verdict,voice,style,reason,sources
 7eNT79hs1LtIiaDKJssoHX,Jippu,Pamela (Vain elämää kausi 17),ok,female,Finnischer Pop (Vain elämää-Version),"Pop-Singer-Songwriterin, Frau laut AllMusic/Wikipedia",https://fi.wikipedia.org/wiki/Jippu
 0MwgWoQUWx96OBvaS6LRKX,"ELLIMEI, Aali",Tähtisilmä,ok,,"Finnischer Pop, moderne Produktion",Pop mit Crossover-Potenzial laut YleX; Stimme nicht belegt,https://yle.fi/a/74-20144137
 6jLuzSXHEpu9sHA4UZQ41Z,Benjamin,Monstermies (Vain elämää kausi 17),unsure,male,Finnischer Pop (Vain elämää-Version),Cover-Version aus TV-Show; Sänger Benjamin Peltonen,https://anna.fi/ihmiset/viihde/he-ovat-uudet-vain-elamaa-artistit-aanesta-kenen-paivaa-odotat-eniten
-6kxjFsNlJeRRPTBMZpN4Tc,MARQUISE,OVERTIME,ok,female,"Pop-Soloartistin, Sängerin",Pop-Soloact laut Spotify-Bio (she/her),https://open.spotify.com/intl-fr/artist/6ZiQuVFetOPP1qLrrLDOLT
+6kxjFsNlJeRRPTBMZpN4Tc,MARQUISE,OVERTIME,unsure,female,"Pop-Soloartistin, Sängerin","Bio-Urteil, Song selbst nicht beurteilt; Künstler-Treffer allein reicht nicht",https://open.spotify.com/intl-fr/artist/6ZiQuVFetOPP1qLrrLDOLT
 55iomGptxGNCATEVvwqKB5,Yves,Polaroid,ok,,"K-Pop, Trip-Hop mit Klavier","Titelsong ist mid-tempo Trip-Hop; Pop-Charakter, K-Pop nicht abwerten",https://global.topstarnews.net/vi/articleView.html?idxno=16281217
 2C9poZVeujCvZsZ7RmI0gZ,ENHYPEN,I Want You,unsure,male,"K-Pop, Pop-R&B, warme Synths",Boyband laut Korea Times; Male-K-Pop über Quote,https://www.koreatimes.co.kr/entertainment/k-pop/20261118/enhypen-turns-up-romance-with-new-single-i-want-you
 62pmQMfcm1leFyeKRfSaDq,TOMORROW X TOGETHER,Angel Bite,unsure,male,"K-Pop, Discoplug","Fünf Männer, Boyband; Discoplug mit Spielsound",https://www.forbes.com/sites/laurasirikul/2026/11/16/tomorrow-x-together-on-their-new-ep-perfect-storm-and-world-tour
@@ -23,7 +23,7 @@ track_id,artist,title,verdict,voice,style,reason,sources
 50mYrhZNcpQ07DfWsQPn5v,AMARNI,2 SXC,unsure,female,"Hip-Hop, Pop, R&B",Rapperin/Sängerin aus Sydney; Hip-Hop-Anteil unklar,https://www.abc.net.au/triplejunearthed/artist/amarni
 5W7QiVaUg04zsDPohpIe9o,Truls,Always Love You,unsure,male,"R&B/Pop, norwegisch",Truls Heggerø laut Shazam R&B/Soul; Zuordnung des Songs nicht sicher,https://www.shazam.com/artist/truls/283982660
 1j8CnoN2fMtPrAbxJEs5iW,Zoë Livay,Zolang Als Het Kan,unsure,female,Niederländischer Pop,Sängerin aus Rotterdam laut Last.fm,https://www.last.fm/music/Zo%C3%AB+Livay
-0rBmgEXrNfd0Qa9xEDvn6X,"Kristina, Quevedo, Came Beats",SOY MEJOR 2.0,unsure,mixed,Spanischer Urban-Pop,Duett Kristina (f) und Quevedo (m); Genius: Spanish Pop/Urban,https://genius.com/Kristina-quevedo-and-came-beats-soy-mejor-remix-lyrics
+0rBmgEXrNfd0Qa9xEDvn6X,"Kristina, Quevedo, Came Beats",SOY MEJOR 2.0,no,mixed,"Reggaeton/Neoperreo, Latin-Urban",Spotify-Genre neoperreo; Till: Reggaeton nicht sein Stil (Feedback 2026-11-20),https://genius.com/Kristina-quevedo-and-came-beats-soy-mejor-remix-lyrics
 1jrN22ZAZld1LN19cnRHDW,Nicki Nicole,Rayo de Sol ::Represión::,unsure,female,"Argentinischer Pop/Trap, Konzeptalbum","Nicki Nicole, Rapperin und Sängerin; Stil des Songs unklar",https://consequence.net/2026/11/nicki-nicole-new-songs-jazmines-para-ti/
 1nIj4Xrxnl3yLOwZsSjAOM,"Chris Grey, Allegra Jordyn",LOVE OF MY LIFE,unsure,mixed,Dark Pop,Duett Chris Grey und Allegra Jordyn; Dark Pop,https://thering.vip/wiki/allegra-jordyn
 1wk6Zve0KRioYIbDVmR3tS,Noé Preszow,Debout,ok,male,"Französischer Pop, Chanson-Pop","Chanteur de pop français, Tôt ou tard; passt zu FR-Pop",https://www.agendaculturel.fr/noe-preszow
