@@ -138,15 +138,27 @@ if len(_top) >= 30 and _negf.sum() >= 100:
     _yf = np.r_[np.ones(len(_pos_ids)), np.zeros(len(_pool_ids) + len(_old_neg))]
     _wf = np.r_[_pos_w, [2.0 if t in _dis else 1.0 for t in _pool_ids], np.full(len(_old_neg), 2.0)]
 
+    import os as _os
+    from sklearn.preprocessing import SplineTransformer
+    from sklearn.compose import ColumnTransformer
+    _FM = _os.environ.get("FEAT_MODEL", "spline")  # 2026-11-20: nichtlinear (kubische Splines je Klangwert), Till
+    _KN = int(_os.environ.get("FEAT_KNOTS", "3")); _CC = float(_os.environ.get("FEAT_C", "0.1"))
+
     def _fmodel():
-        return make_pipeline(StandardScaler(), LogisticRegression(C=0.1, class_weight="balanced", max_iter=3000))
+        if _FM == "linear":
+            return make_pipeline(StandardScaler(), LogisticRegression(C=0.1, class_weight="balanced", max_iter=3000))
+        _cont = [c for c in FEAT_COLS if c != "Mode"]  # Mode ist binaer -> linear
+        _ct = ColumnTransformer([("sp", SplineTransformer(n_knots=_KN, degree=3, knots="quantile", extrapolation="constant"), [FEAT_COLS.index(c) for c in _cont])],
+                                remainder="passthrough")
+        return make_pipeline(_ct, StandardScaler(), LogisticRegression(C=_CC, class_weight="balanced", max_iter=5000))
 
     _oof = np.zeros(len(_Xf))
-    for tr, te in StratifiedKFold(10, shuffle=True, random_state=0).split(_Xf, _yf):
+    for tr, te in StratifiedKFold(10, shuffle=True, random_state=int(_os.environ.get("FEAT_SEED", "0"))).split(_Xf, _yf):
         m_ = _fmodel()
         m_.fit(_Xf.iloc[tr], _yf[tr], logisticregression__sample_weight=_wf[tr])
         _oof[te] = m_.decision_function(_Xf.iloc[te])
     print(f"Spotify-Features: {len(_pos_ids)} Positive, {len(_pool_ids) + len(_old_neg)} Negative, CV-AUC {roc_auc_score(_yf, _oof):.3f}")
+    print("Einzel-AUC Klangwerte (Chart vs. Pool): " + ", ".join(f"{c} {roc_auc_score(_yf, _Xf[c]):.2f}" for c in FEAT_COLS))
     _mf = _fmodel().fit(_Xf, _yf, logisticregression__sample_weight=_wf)
     _allf = _fe.reindex(pool.track_id.astype(str)).reset_index(drop=True)
     _okf = _allf.notna().all(axis=1).values
