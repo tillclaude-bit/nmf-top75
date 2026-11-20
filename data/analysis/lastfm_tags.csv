@@ -799,13 +799,13 @@ tate mcrae,Tate McRae,chart,Tate McRae,2422113,pop:100;my top songs:57;canadian:
 pixxie,PiXXiE,chart,Pixxie,28405,t-pop:100;pop:56;thai:37,4Ever;Ink Waruntorn;SERIOUS BACON;proxie;Perses
 thunder bae,Thunder Bae,chart,Thunder Bae,3106,german:100;pop:100;germany:66;synthwave:33,Dario Rodriguez;Limonade;Julita;Knappe;Nike Helena
 jeanne,Jeanne,chart,jeanne,10249,screamo:100;emoviolence:25;real screamo:17,Lowey;Marguerite;Helena;Marine;Melissa
-noe preszow,Noé Preszow,chart,Noé Preszow,18982,french:100;francophone:25;2021:16,Ben Mazué;Chien Noir;Aliocha Schneider;Tim Dup;Coline Rio
-yndling,Yndling,chart,Yndling,149156,dream pop:100;electronic:56;indie pop:17;shoegaze:17,Night Swimming;Night Tapes;she's green;Bleach Lab;Atmos Bloom
+noe preszow,Noé Preszow,chart+pool,Noé Preszow,18982,french:100;francophone:25;2021:16,Ben Mazué;Chien Noir;Aliocha Schneider;Tim Dup;Coline Rio
+yndling,Yndling,chart+pool,Yndling,149156,dream pop:100;electronic:56;indie pop:17;shoegaze:17,Night Swimming;Night Tapes;she's green;Bleach Lab;Atmos Bloom
 holly humberstone,Holly Humberstone,chart+pool,Holly Humberstone,609789,indie pop:100;pop:68;british:27;indie:20;my top songs:10,Maisie Peters;MUNA;Griff;Carol Ades;Maggie Rogers
 skynd,SKYND,chart,SKYND,63775,industrial:100;industrial rock:67;electronic:35,Skold;Swarm;Ludovico Technique;Aesthetic Perfection;3TEETH
 avery cochrane,Avery Cochrane,chart,Avery Cochrane,73250,indie:100;folk:100;usa:66,Rachel Bochner;Carol Ades;Mercer Henderson;Maisie Peters;Moody Joody
 angele,Angèle,chart,Angèle,505137,pop:100;belgium:81;indie pop:45;belgian:33;french pop:13,Adèle Castillon;Clara Luciani;Maëlle;Pierre de Maere;Alice et Moi
-kacey musgraves,Kacey Musgraves,chart,Kacey Musgraves,1196676,country:100;pop:13,Maren Morris;Miranda Lambert;Ella Langley;Kelsea Ballerini;Megan Moroney
+kacey musgraves,Kacey Musgraves,chart+pool,Kacey Musgraves,1196676,country:100;pop:13,Maren Morris;Miranda Lambert;Ella Langley;Kelsea Ballerini;Megan Moroney
 ambo,ÄmbÖ,chart,Ambo,739,,Tim Larkin;max hell;Eurydice;Aaron Marshall;WAV to Ogg
 kiara nelson,Kiara Nelson,chart,Kiara Nelson,8336,pop:100;indie:25;sweden:16;electronic:16,Myles George;Piper 57;Renn Olympus;Izza;Tinze
 hoshi,Hoshi,chart,Hoshi,284466,french:100;seventeen:56;k-pop:17,Claudio Capéo;Seventeen;Vianney;Louane;WOOZI
@@ -818,17 +818,17 @@ fontaines d c,Fontaines D.C.,chart+pool,Fontaines D.C.,1316903,post-punk:100;cra
 troye sivan,Troye Sivan,chart,Troye Sivan,2588570,pop:100;indie pop:72;indie:32;synthpop:11;electronic:11;alternative:10,Ryan Beatty;Kim Petras;Charli xcx;Tove Lo;Carly Rae Jepsen
 gerd,Gerd,chart,Gerd,59082,nu jazz:100;lounge:64;house:42;electronic:42;downtempo:21;chillout:12;ambient:12,Sven Van Hees;Cantoma;The Dining Rooms;The Amalgamation Of Soundz;I:Cube
 gazal,Gazal,chart,Cazals,85596,indie rock:100;indie:79;british:50;rock:25,The Paddingtons;Black Wire;Larrikin Love;Eight Legs;Les Incompétents
-manon lisa,Manon Lisa,chart,Manon Lisa,13028,french:100;under 2000 listeners:100,Félix Radu;Ysé;bleu soleil;Heroe;Grand Corps Malade
+manon lisa,Manon Lisa,chart+pool,Manon Lisa,13028,french:100;under 2000 listeners:100,Félix Radu;Ysé;bleu soleil;Heroe;Grand Corps Malade
 levante,Levante,chart,Levante,48248,italian:100;pop:40;indie:33;indie pop:13;italy:13;alternative:11,Francesca Michielin;Noemi;Ditonellapiaga;Giorgia;Elodie
-zalia,Zalia,chart,Zalia,36651,poland:100;pop:44;polish:29,Natalia Szroeder;Kaśka Sochacka;Daria Zawiałow;Julia Wieniawa;Mrozu
+zalia,Zalia,chart+pool,Zalia,36651,poland:100;pop:44;polish:29,Natalia Szroeder;Kaśka Sochacka;Daria Zawiałow;Julia Wieniawa;Mrozu
 malika ayane,Malika Ayane,chart,Malika Ayane,69281,italian:100;pop:55;acoustic:24;alternative:24,Arisa;Levante;Angelica Bove;Noemi;Giorgia
 hemlocke springs,Hemlocke Springs,chart,Hemlocke Springs,520379,indie pop:100;art pop:39;synthpop:17,Haute & Freddy;Grace Ives;MUNA;Sarah Kinsley;Remi Wolf
 pihlaja,Pihlaja,chart,Pihlaja,14819,finnish:100,Alina Burnet;Minttu;Sara Bee;Elias Kaskinen;ELLIMEI
-anouk,Anouk,chart,Anouk,518212,rock:100;dutch:40;pop:30,Krezip;Ilse DeLange;BLØF;Marco Borsato;Kane
+anouk,Anouk,chart+pool,Anouk,518212,rock:100;dutch:40;pop:30,Krezip;Ilse DeLange;BLØF;Marco Borsato;Kane
 mae muller,Mae Muller,chart,Mae Muller,179009,pop:100;soul:74;british:49;rnb:49;dance:11,Sissal;Brooke;Silia Kapsis;Kaleen;Loreen
 meovv,MEOVV,chart,MEOVV,399979,k-pop:100;korean:56;pop:26;kpop:16,izna;Baby Monster;ALLDAY PROJECT;KiiiKiii;Hearts2Hearts
 purple disco machine,Purple Disco Machine,chart,Purple Disco Machine,613149,house:100;electronic:45;disco:30;deep house:30;c:15,
-hania,Hania,chart,HANIA,14360,australia:100;video game music:100;hania lee:66;alice is dea:66;tarboy:33,Seven Phoenix;The Small Town Kids;Tymoteusz;Faustyna Maciejczuk;Ignacy
+hania,Hania,chart+pool,HANIA,14360,australia:100;video game music:100;hania lee:66;alice is dea:66;tarboy:33,Seven Phoenix;The Small Town Kids;Tymoteusz;Faustyna Maciejczuk;Ignacy
 mollie elizabeth,Mollie Elizabeth,chart,Mollie Elizabeth,138098,united kingdom:100;pop:100,Seb Lowe;Emeline;Precious Pepala;Stela Cole;Psycho Teddy
 say now,Say Now,chart+pool,Say Now,266530,rnb:100;pop:56;british:17;dance:17,needanamebro;FLO;GIRLSET;3quency;Jae Stephens
 paula koops,Paula Koops,chart,Paula Koops,16978,punk:100;rock:100;pop:66;pop rock:17,Denna;MarMi;Bea Fernández;Pole.;Miriam Rodríguez
@@ -837,10 +837,10 @@ miley cyrus,Miley Cyrus,chart,Miley Cyrus,5018000,pop:100;dance:25;disney:24,Han
 kaeyra,Kaeyra,chart,kaeyra,15597,soul:100;pop:100;rnb:66;trap:33,Margaret;Lanberry;Julia Wieniawa;Doda;Alessandra
 louane,Louane,chart,Louane,250923,french:100;pop:100;france:22,Vianney;Pierre Garnier;Helena;Vitaa;Amel Bent
 boy harsher,Boy Harsher,chart,Boy Harsher,474674,coldwave:100;ebm:94;drone:55;spoken word:55;darkwave:10,Sexual Purity;Ultra Sunn;Linea Aspera;NNHMN;TR/ST
-nathalia,Nathalia,chart,Nathalia,5239,french:100;1789 les amants de la bastille:73,"Sébastien Agius;Roxane Le Texier;Mathieu Carnot;Rod Janois;1789, Les Amants de la Bastille"
+nathalia,Nathalia,chart+pool,Nathalia,5239,french:100;1789 les amants de la bastille:73,"Sébastien Agius;Roxane Le Texier;Mathieu Carnot;Rod Janois;1789, Les Amants de la Bastille"
 paola turci,Paola Turci,chart,Paola Turci,31302,italian:100,Marina Rei;Dolcenera;Syria;L'Aura;Mietta
 enola cox,Enola Cox,chart,Enola Cox,3324,french:100;france:100,Louis Albi;CARLA DONA;Cenzo;Franck Lenar;Léa
-dylan,Dylan,chart,Dylan,253095,drum and bass:100;darkstep:72;techstep:20;darkside:15,Limewax;Technical Itch;Dom & Roland;Rudimental;Caity Baser
+dylan,Dylan,chart+pool,Dylan,253095,drum and bass:100;darkstep:72;techstep:20;darkside:15,Limewax;Technical Itch;Dom & Roland;Rudimental;Caity Baser
 ella rammelt,Ella Rammelt,chart,Ella Rammelt,3302,pop:100;electronic:100;sweden:66;lilla melodifestivalen:66;lilla melodifestivalen 2014:33,Emilia Pantic;Björn Holmgren;Ella Tiritiello;Peg Parnevik;Almea
 bicep,Bicep,chart,Bicep,649188,house:100;disco:95;techno:57,B.D.B;Ross From Friends;Overmono;Daniel Avery;HAAi
 naomi jon,Naomi Jon,chart,Naomi Jon,48142,youtuber:100;pop:56;tiktok star:37;german:17,Cloudy June;Mimi Webb;Sarah Engels;Bülow;Kim Petras
@@ -880,7 +880,7 @@ lily meola,Lily Meola,chart,Lily Meola,75385,usa:100;hawaii:66;hawaiian:66,Joy O
 gabriella ekaputri,Gabriella Ekaputri,chart,Gabriella Ekaputri,1164,,After Nourway;Shakira Jasmine;Michelle Sudarsono;Mario G klau;Pentacode
 ana farelo,Ana Farelo,chart,Ana Farelo,2962,,Fectro;Kadriana Massri;Korashe;Aguh;fuchi
 victor leksell,Victor Leksell,chart,Victor Leksell,63839,swedish:100;pop:56;sweden:17,Molly Sandén;Miriam Bryant;Hanna Ferm;Hov1;Veronica Maggio
-marquise,Marquise,chart,marquise,43776,portuguese:100;pop:100;thai:66;portugal:66,Linda Martini;Ornatos Violeta;Ganso;Capitão Fausto;NAPA
+marquise,Marquise,chart+pool,marquise,43776,portuguese:100;pop:100;thai:66;portugal:66,Linda Martini;Ornatos Violeta;Ganso;Capitão Fausto;NAPA
 inna truu,Inna Truu,chart,Inna Truu,19972,ai music:100;ai:56;ai artist:37;pop:17,Chiruki;Frostborne;Maella;Troublement;HEXXENMIND
 jacqline,Jacqline,chart,Jacqline,15566,pop:100;sweden:11,Cimberly;Meira Omar;Saga Ludvigsson;Chachi;Patrik Jean
 effe,Effe,chart,Effe,36024,vocaloid:100;idm:100;electronic:22;ambient:12,WHoo;nerdneko;宮沢もよよ;Go-qualia;Clean Tears
@@ -896,13 +896,13 @@ martyna baranowska,Martyna Baranowska,chart,Martyna Baranowska,1477,reggae:100,m
 klara hammarstrom,Klara Hammarström,chart,Klara Hammarström,37692,pop:100;swedish:100;melodifestivalen 2020:66;swedish female vocalists:29,Dotter;Malou Prytz;Meira Omar;Wiktoria;Maria Sur
 cara delevingne,Cara Delevingne,chart,Cara Delevingne,22366,pop:100,MNEK;Rebecca Black;Bebe Rexha;Meg Stalter;Ellie Goulding
 girlset,Girlset,chart,VCHA,111633,pop:100;k-pop:64;girl group:24;girl groups:11,GIRLSET;Blackswan;Kep1er;TRI.BE;The Debut: Dream Academy
-lisa,Lisa,chart,Lisa,2100873,j-pop:100;japanese:80;pop:30;hip-hop:14;k-pop:13;j-rock:11,Jennie;BLACKPINK;JISOO;Rosé;FictionJunction
+lisa,Lisa,chart+pool,Lisa,2100873,j-pop:100;japanese:80;pop:30;hip-hop:14;k-pop:13;j-rock:11,Jennie;BLACKPINK;JISOO;Rosé;FictionJunction
 a6el,A6el,chart,A6el,24710,switzerland:100;suisse:100;lausanne:66;swiss rap:66;rap suisse:33,Tom D.;Marie Jay;BEKA;Al-Walid;Slimka
 molly mae,Molly Mae,chart,Molly Mae,1343,rachel roxxx:100;julia ann:100;sex supermodel:66;marsha may:66;molly mae:33;skin diamond:33,Marsha May;Julia Ann;Skin Diamond;Renn Olympus;SoKaR
 tove lo,Tove Lo,chart+pool,Tove Lo,2635837,pop:100;swedish:74;electronic:41;indie:14,Ellie Goulding;Kim Petras;Bebe Rexha;Carly Rae Jepsen;Robyn
 angie,Angie,chart,Ängie,108205,pop:100;electropop:49;electronic:32;swedish:24,Ängie & Harrison First;Jaira Burns;Neon Hitch;GIRLI;Ashnikko
 ayra starr,Ayra Starr,chart,Ayra Starr,399927,rnb:100;benin:79;afrobeats:40;soul:29;pop:15;nigeria:10,Davido;Rema;Fireboy DML;Victony;Asake
-chloe qisha,Chloe Qisha,chart,Chloe Qisha,148678,alternative pop:100;pop:44;indie pop:29;malaysia:29,Debbii Dawson;flowerovlove;Carol Ades;Holly Humberstone;METTE
+chloe qisha,Chloe Qisha,chart+pool,Chloe Qisha,148678,alternative pop:100;pop:44;indie pop:29;malaysia:29,Debbii Dawson;flowerovlove;Carol Ades;Holly Humberstone;METTE
 angelina mango,Angelina Mango,chart,Angelina Mango,130371,pop:100;italian:76;dance pop:47;urban:47;electropop:19,Annalisa;Clara;Elodie;Rose Villain;Francesca Michielin
 martyna wrochna,Martyna Wrochna,chart,Martyna Wrochna,151,,Martyna Baranowska;Mery Biernacka;saburrakap;Tymoteusz;kuba i kuba
 freya skye,Freya Skye,chart,Freya Skye,108039,uk:100;pop:100;british:29;disney:29;jesc:15;jesc 2022:15;junior eurovision:15,Milo Manheim;ZOMBIES – Cast;Kylie Cantrall;Meg Donnelly;Lauren Spencer Smith
@@ -937,7 +937,7 @@ varitda,Varitda,chart,VARITDA,4457,,Caleb Dinger;Emma Nabarro-Steel;Imajjine;Ste
 rry,RØRY,chart,RØRY,54685,pop rock:100;alternative rock:36;alternative metal:11;pop:11,Taylor Acorn;The Hara;Hot Milk;Honey Revenge;Charlotte Sands
 dandelion,Dandelion,chart,Dandelion,33484,grunge:100;alternative rock:30,Love Battery;U-Men;Tad;Malfunkshun;Skin Yard
 bea,Bea,chart,Bea and Her Business,92808,indie pop:100;alternative:25,Caity Baser;mxmtoon;Chloe Qisha;Bow Anderson;Taylor Bickett
-gracie abrams,Gracie Abrams,chart,Gracie Abrams,1952701,pop:100;indie pop:80;my top songs:33,Alessi Rose;Maisie Peters;Lexi Jayde;Taylor Swift;Sadie Jean
+gracie abrams,Gracie Abrams,chart+pool,Gracie Abrams,1952701,pop:100;indie pop:80;my top songs:33,Alessi Rose;Maisie Peters;Lexi Jayde;Taylor Swift;Sadie Jean
 larissa lambert,Larissa Lambert,chart,Larissa Lambert,100102,rnb:100;pop:56;trap:37,Genia;Celine Wanyi;Thuy;Inayah;JayDon
 peach prc,Peach PRC,chart+pool,Peach PRC,192011,pop:100;australian:25,Charley;GIRLI;G Flip;Zolita;Blusher
 rudimental,Rudimental,chart,Rudimental,1298804,drum and bass:100;dubstep:67;electronic:41;british:36;uk funky:12,Sigma;Wilkinson;Goddard.;Chase & Status;Sub Focus
@@ -991,7 +991,7 @@ eli brown,Eli Brown,pool,Eli Brown,257849,techno:100;house:69;tech house:46;elec
 jessie ware,Jessie Ware,pool,Jessie Ware,1180075,soul:100;pop:81;electronic:44;chillout:12;british:11,Robyn;Agnes;Kylie Minogue;Rochelle Jordan;Róisín Murphy
 earfzilla,earfzilla,pool,earfzilla,21050,,deathtoricky;OSK;halfadedd;Yukan;PureSnow
 south arcade,South Arcade,pool,South Arcade,316615,pop punk:100;british:69;alternative rock:29;rock:29,Honey Revenge;Hot Milk;The Haunt;Cassyette;The Home Team
-tommy phillips,Tommy Phillips,pool,Tommy Phillips,13960,,Robbie Doherty;Marsolo;Sosa;Beave;Max Dean
+tommy phillips,Tommy Phillips,chart+pool,Tommy Phillips,13960,,Robbie Doherty;Marsolo;Sosa;Beave;Max Dean
 tora i,Tora-i,pool,Tora-i,68636,rnb:100;british:25;funk_add_to_lidarr_batch_28:16,Greentea Peng;Ama;Rimon;Tanerélle;Hope Tala
 chip,Chip,pool,Chip,151808,grime:100;rap:44;hip-hop:29,P Money;Ghetts;Youngs Teflon;Wretch 32;JME
 wilkinson,Wilkinson,pool,Wilkinson,452547,drum and bass:100;liquid funk:62;neurofunk:26;dnb:22,Sub Focus;Culture Shock;Dimension;Friction;Metrik
@@ -1036,7 +1036,7 @@ mcr t,MCR-T,pool,MCR-T,351856,ghettotech:100;techno:100;house:53;hip-hop:11,Miss
 lizzie berchie,Lizzie Berchie,pool,Lizzie Berchie,41241,rnb:100;soul:44,Tia Gordon;Alex Isley;Cyanca;Amaria;Shae Universe
 beach bunny,Beach Bunny,pool,Beach Bunny,1671784,indie rock:100;indie pop:92;pop rock:37;indie:32;power pop:16,The Beths;chloe moriondo;illuminati hotties;Frances Forever;mxmtoon
 sarah kinsley,Sarah Kinsley,pool,Sarah Kinsley,564111,indie pop:100;my top songs:79;dream pop:29,Ha Vay;Etta Marcus;Wasia Project;Dora Jar;Devon Again
-aluna,Aluna,pool,Aluna,345528,dance:100;pop:79;trance:20;ambient:13,Agnes;Kiesza;Disco Lines;Kaleena Zanders;Becky Hill
+aluna,Aluna,chart+pool,Aluna,345528,dance:100;pop:79;trance:20;ambient:13,Agnes;Kiesza;Disco Lines;Kaleena Zanders;Becky Hill
 seb lowe,Seb Lowe,pool,Seb Lowe,85487,rock:100;indie:100;hip hop:66;pop:66;indie rock:33;indie pop:33;uk:33;england:10;united kingdom:10;indie hip hop:10,Thesaurus Rex;The Happy Fits;Air Traffic Controller;VIENNA VIENNA;Noah Floersch
 pozzy,Pozzy,pool,Pozzy,19681,rap:100;hip-hop:100;english:66;uk:66;grime:33;jazz rap:33,Proph;Jayahadadream;Capo Lee;Jianbo;Twenty'8
 chi,chi,pool,Chi,32760,nu metal:100;psychedelic:100;psytrance:17;ambient:17,Groovy;Seahawks;Amorphous Androgynous;Dystalis;Imaginary Softwoods
@@ -1192,7 +1192,7 @@ oklou,Oklou,pool,Oklou,683794,electronic:100;art pop:74;french:43;ambient pop:37
 leto,Leto,pool,Leto,81906,french:100;metal:44;frenchcore:29;electronic:29,Ninho;Gazo;Tiakola;La Mano 1.9;RSKO
 loic nottet,Loïc Nottet,pool,Loïc Nottet,139272,eurovision:100;belgium:70;pop:40,Gjon's Tears;Mentissa;Red Sebastian;Mustii;Måns Zelmerlöw
 sam sauvage,Sam Sauvage,pool,Sam Sauvage,17884,french:100,Feu! Chatterton;Johnny Jane;Bertrand Belin;St Graal;Ben Mazué
-ambre,Ambre,pool,Ambré,180657,rnb:100;soul:100;indie:29;electronic:29;alternative rnb:15,Destin Conrad;kwn;Sasha Keable;Alex Isley;Lucky Daye
+ambre,Ambre,chart+pool,Ambré,180657,rnb:100;soul:100;indie:29;electronic:29;alternative rnb:15,Destin Conrad;kwn;Sasha Keable;Alex Isley;Lucky Daye
 josh conway,josh conway,pool,Josh Conway,34295,,Not For Radio;The Marías;Orca;Ryan Beatty;Love Spells
 alok,Alok,pool,Alok,1352959,electronic:100;dance:68;brazilian:35;edm:35;house:13,dubdogz;Cat Dealers;Vintage Culture;Bruno Martini;R3hab
 guy2bezbar,Guy2Bezbar,pool,Guy2Bezbar,64477,french:100,Leto;L2B;Tiakola;RSKO;Genezio
@@ -1251,7 +1251,7 @@ w sound,W Sound,pool,W Sound,274574,colombia:100;colombian:25;urbano latino:17,O
 kidd keo,Kidd Keo,pool,Kidd Keo,168375,trap:100;spain:100,Duki;Al Safir;Cruz Cafuné;Kinder Malo;Khea
 ysy a,YSY A,pool,Ysy A,158951,trap argentino:100;trap:56;uk drill:37;argentina:16,Duki;Neo Pistea;Bhavi;Khea;Lucho SSJ
 latin mafia,LATIN MAFIA,pool,Latin mafia,280552,indie pop:100;latin:25;reggaeton:17;rnb:17,Nsqk;Humbe;Rusowsky;MÉNE;Rauw Alejandro
-yami safdie,Yami Safdie,pool,Yami Safdie,159485,argentina:100;pop:25;technical death metal:16;alt-pop:16,Bizarrap;Maria Becerra;Nicki Nicole;FMK;Rusherking
+yami safdie,Yami Safdie,chart+pool,Yami Safdie,159485,argentina:100;pop:25;technical death metal:16;alt-pop:16,Bizarrap;Maria Becerra;Nicki Nicole;FMK;Rusherking
 nueva linea,Nueva Línea,pool,Nueva Línea,3939,,K-Narias;Operación Triunfo 2025;Los Buyer;Paquillo Castro;Mike Morato
 dollar selmouni,Dollar Selmouni,pool,DOLLAR SELMOUNI,15231,soul:100;rap:100;rnb:66;hip-hop:66;urban:33;flamenco:33;gipsy:33;spanish rap:10;trap:10;rythm and blues:10,Juancho Marqués;Shoda Monkas;Israel B;Sule B;J Dose
 coque malla,Coque Malla,pool,Coque Malla,35208,spanish rock:100,Ariel Rot;Rubén Pozo;Juan Perro;Le Punk;el Drogas
@@ -1327,7 +1327,7 @@ mv killa,MV Killa,pool,MV Killa,16840,italy:100,Vale Lambo;Nicola Siciliano;Pepp
 junior k,Junior K,pool,Junior K,219,blues:100,"Kid Yugi, Tony Boy, & Artie 5ive;Night Skinny, Tony Boy, Kid Yugi, and Capo Plaza;TY1, Kid Yugi, & Nerissima Serpe;Higashi;Night Skinny, Tony Boy, anice, Geolier, and Shiva"
 mida,Mida,pool,Mida,31440,italy:100;psytrance:25;progressive:16;rap:16,Olly;Bresh;Samurai Jay;Fred De Palma;Emanuele Aloia
 antonia,ANTONIA,pool,Antonia,55042,dance:100;romanian:81;pop:24,Alina Eremia;Inna;Andreea Banica;Connect-R;DJ Project
-cate lumina,Cate Lumina,pool,Cate Lumina,1336,,Flavia Buoncristiani;Elena D'Elia;Valentina Pesaresi;Michelle Cavallaro;Riccardo Stimolo
+cate lumina,Cate Lumina,chart+pool,Cate Lumina,1336,,Flavia Buoncristiani;Elena D'Elia;Valentina Pesaresi;Michelle Cavallaro;Riccardo Stimolo
 drast,Drast,pool,DRAST,13176,drast:100,PSICOLOGI;Chiello;Franco126;Giuse The Lizia;Frah Quintale
 lil kvneki,Lil Kvneki,pool,Lil Kvneki,4812,italian:100,Novelo;Giovane giovane;Bartolini;inediti bazzi;Tripolare
 brunori sas,Brunori Sas,pool,Brunori Sas,57025,italian:100;indie:31;cantautore:24,Willie Peyote;Lucio Corsi;Lucio Dalla;Coma_Cose;Giorgio Poi
@@ -1493,7 +1493,7 @@ sigurd k,Sigurd K,pool,Sigurd K,1736,,K.One;Mat Eclair;JIUZ;Vivace;Kule
 skulk,SKULK,pool,Skulk,9761,power electronics:100;industrial:100,Hidden Pillars;Griffin Benton;FloodHounds;Taylor Ridge;Twin Skeletons
 mall girl,Mall Girl,pool,Mall Girl,11203,indie pop:100;pop:44,tigerstate;Bo Milli;Pikekyss;Klossmajor;Svømmebasseng
 kev,Kev,pool,Kev,13389,sweden:100;electronic:100;colonia:66;soul:16,Galavant;Södra Station;Esther Vallee;Dinah Nah;The Lovers Of Valdaro
-ida stein,Ida Stein,pool,Ida Stein,2221,pop:100;indie:100;alternative:17,Marte Eberson;Thea & The Wild;Marie Munroe;Linnea Dale;Mi von Ahn
+ida stein,Ida Stein,chart+pool,Ida Stein,2221,pop:100;indie:100;alternative:17,Marte Eberson;Thea & The Wild;Marie Munroe;Linnea Dale;Mi von Ahn
 sportsalleen,Sportsalleen,pool,Sportsalleen,10319,russemusikk:100,Klikkmonopolet;Ballinciaga;Prells;Dr. Disco;Kris Winther
 johanne mllerbraten,Johanne Møllerbråten,pool,Johanne Møllerbråten,471,norway:100,lille Caesar;Zimmermann;Metropolen;Ida Knutsen;Randi Oline
 plxntkid,plxntkid,pool,plxntkid,16090,emo rap:100,DEADBEATTEEN;Anton Golden;sadgods;Qawi Kamri;Ȿoftheart
@@ -1544,10 +1544,10 @@ svaerd,Svaerd,pool,Svaerd,457,,Rhona Macfarlane;Luna Keller;Rosie Miles;BANDANA 
 tingsek,Tingsek,pool,Tingsek,69969,soul:100;swedish:45;pop:45;indie:14;indie pop:13,"Salem Al Fakir;Fibes, Oh Fibes!;Daniel Lemma;Asha Ali;Kaah"
 tpcx,TPCX,pool,TPCX,3537,,The Parity Complex;Wendy Moore;Hybrid Collapse;RichBreed;Cassidy Bisher
 elliphant,Elliphant,pool,Elliphant,307868,electronic:100;synthpop:80;swedish:48;indie:39;alternative:18,MØ;Tove Styrke;Fmlybnd;Broods;ionnalee
-mirella,Mirella,pool,Mirella,26614,finland:100;pop:100;finnish:29,Isac Elliot;Etta;Viivi;JVG;Nelli Matula
+mirella,Mirella,chart+pool,Mirella,26614,finland:100;pop:100;finnish:29,Isac Elliot;Etta;Viivi;JVG;Nelli Matula
 ibe,ibe,pool,ibe,38452,pop:100;belgium:64;rap:11,Costi;Lauri Haav;Isac Elliot;Mirella;KUUMAA
 juuna chill,Juuna Chill,pool,Juuna Chill,2331,pop:100,Danitello;Lage;ÖVERI;Karim B;KAUKUA
-raama,Raama,pool,Raama,1124,,Alina Burnet;Lage;Minttu;Danitello;Ella Herold
+raama,Raama,chart+pool,Raama,1124,,Alina Burnet;Lage;Minttu;Danitello;Ella Herold
 portion boys,Portion Boys,pool,Portion Boys,33118,finnish:100;dance:64;rap:24;pop:11,Arttu Wiskari;JVG;Teflon Brothers;Bess;Stig
 jambo,jambo,pool,Jambo,13299,finnish:100;hip-hop:44;suomirap:29;irish hip hop:29,Md$;EGE ZULU;Cledos;Jaakko Kulta;Pyrythekid
 lyyti,Lyyti,pool,Lyyti,14761,finnish:100;dream pop:24;indie:11,Rebekka Holi;Arppa;Antti Autio;Litku Klemetti;Vesta
@@ -1607,14 +1607,14 @@ lee mu jin,LEE MU JIN,pool,Lee Mu Jin,16782,ballads:100;south korean:100,Lim You
 yuju,YUJU,pool,Yuyu,8427,yuju:100;gfriend:39;k-pop:17;pop:17,Yerin;여자친구;VIVIZ;OH MY GIRL;H1-KEY
 cnblue,CNBLUE,pool,CNBLUE,129495,,
 french montana,French Montana,pool,French Montana,2120855,hip-hop:100;rap:87;hip hop:26;trap:25,Max B;Rick Ross;Meek Mill;DJ Khaled;Jim Jones
-austra,Austra,pool,Austra,441648,electronic:100;experimental:36;canadian:33;synthpop:12;electronica:10,Fever Ray;Planningtorock;Zola Jesus;TR/ST;Ladytron
+austra,Austra,chart+pool,Austra,441648,electronic:100;experimental:36;canadian:33;synthpop:12;electronica:10,Fever Ray;Planningtorock;Zola Jesus;TR/ST;Ladytron
 nohr,Nohr,pool,NOHR,35550,metal:100;rock:100;techno:66;house:66;postrock:33;new:33;progressive:33;wloszczowa:10;rock metal postrock new progressive:10,DOURAN;Christian Löffler;Rezident;16Bl;DubVision
 kiora,kiOra,pool,Kiora,3677,jpop:100;rock:100,Lee JiSoo;DIana Expres;Georgi Stanchev;Doni i Momchil;Ahat
 gabe watkins,Gabe Watkins,pool,Gabe Watkins,9663,,Elijah Woods;Oftn;Faime;DannyHO;Jhin
 wane,wane,pool,Wane,21531,cloud rap:100;doom metal:100;fakemink w domu:66,mlodyskiny;Cheatz;Nokia Angel;PureSnow;fakemink
 genzie,GENZIE,pool,Genzie,34642,poland:100;rap:100;polskie:66;polish:66;polska:33,przemek.pro;WERSOW;Fausti;Kacper Blonsky;Team X
 svm r,SVM!R,pool,SVM!R,25727,,ALESHEN;Oki;Żabson;Mata;malik montana
-sarsa,Sarsa,pool,Sarsa,57292,pop:100;polish:44,Sylwia Grzeszczak;Sanah;Daria Zawiałow;Margaret;Lanberry
+sarsa,Sarsa,chart+pool,Sarsa,57292,pop:100;polish:44,Sylwia Grzeszczak;Sanah;Daria Zawiałow;Margaret;Lanberry
 liber,Liber,pool,Liber,30431,hip-hop:100;polish:74;rap:22,Doniu;Ascetoholix;Owal/Emcedwa;Sylwia Grzeszczak & Liber;DKA
 tuzza globale,TUZZA Globale,pool,TUZZA Globale,27518,trap rap:100;cloud rap:100,Koldi;Beteo;Nath;Mokebe;Benito
 young igi,Young Igi,pool,Young Igi,72426,rap:100;hip-hop:100;polish:37;poland:17,Żabson;Otsochodzi;White 2115;SB Maffija;chillwagon
@@ -1626,7 +1626,7 @@ sw da,Sw@da,pool,Sw@da,14354,polish:100;electronic:100;belarusian:66;phonk:66;po
 lale,LALE,pool,Lale,952,hard rock:100,Girlz;Objektif;Twins Chojnackie;Monika Kociołek;Hi Hania
 bonus rpk,Bonus RPK,pool,Bonus RPK,42688,rap:100;polish:41;a lamusy dupa cicho:27;gimnazjada:23,Ciemna Strefa;Major SPZ;TPS;zdr;Amster
 asthma,asthma,pool,Asthma,17477,crust:100;neocrust:44,1988;Litost;Barto Katt;Lowpass;Miły ATZ
-anna wyszkoni,Anna Wyszkoni,pool,Ania Wyszkoni,28445,polish:100;pop:90;pop rock:32,Sylwia Grzeszczak;Patrycja Markowska;Ania;Wilki;Kasia Cerekwicka
+anna wyszkoni,Anna Wyszkoni,chart+pool,Ania Wyszkoni,28445,polish:100;pop:90;pop rock:32,Sylwia Grzeszczak;Patrycja Markowska;Ania;Wilki;Kasia Cerekwicka
 og kamka,OG KAMKA,pool,OG KAMKA,3723,paktofonika:100;rap:11,zuziula;Zippy ogar;Eryk Moczko;KUQE 2115;SZARAN
 dagadana,Dagadana,pool,Dagadana,17886,jazz:100;polish:78;folk:50;ukrainian:28,Gaba Kulka;Digit All Love;Biff;Muzykoterapia;Pchełki
 jonni herman,JONNI HERMAN,pool,JONNI HERMAN,130,,Hellfield;SCADI HOUSE;Kronkel Dom;PolsKii;Kubańczyk
@@ -1737,3 +1737,727 @@ brokezart,Brokezart,pool,Brokezart,8180,,Luca St;Machario;Lusho;Noah Ysp;JOJO AI
 de bevers,De Bevers,pool,De Bevers,286,,wesly bronkhorst;Jari Hellegers;Donny Ponsen;Sander Kwarten;Raymon Hermans
 rinus werrens,Rinus Werrens,pool,Rinus Werrens,1694,,Kobus Engels;Wesley Ponsen;Diego Holzken;Wesley Klein;Nelis Leeman
 jaimi faulkner,Jaimi Faulkner,pool,Jaimi Faulkner,33077,country:25;folk:17;blues:17,Kelly McFarling;Lorkin O'Reilly;Julian Taylor;Josienne Clarke & Ben Walker;Sammy Brue
+dua lipa,Dua Lipa,pool,Dua Lipa,3474483,pop:100;synthpop:42;electropop:25;british:20,Ava Max;Zara Larsson;Silk City;Katy Perry;Bebe Rexha
+rema,Rema,pool,Rema,1029959,afrobeats:100;trap:64;nigerian:17;pop:17,Asake;Wizkid;Davido;Omah Lay;Victony
+beabadoobee,beabadoobee,pool,beabadoobee,2869032,indie pop:100;indie rock:70;bedroom pop:37;indie:37;dream pop:14;alternative rock:12,Clairo;Shelly;The Marías;wave to earth;Unflirt
+lana del rey,Lana Del Rey,pool,Lana Del Rey,5510138,indie:100;indie pop:62;pop:58;alternative:23,Emile Haynie;Lorde;Melanie Martinez;Marina & the Diamonds;Saint Avangeline
+the kid laroi,The Kid LAROI,pool,The Kid LAROI,2705088,hip-hop:100;rap:93;emo rap:57;australian:47;trap:12;pop:12,iann dior;Juice WRLD;Bankrol Hayden;24kGoldn;Jack Harlow
+giveon,GIVĒON,pool,Givēon,843517,rnb:100,Khamari;Brent Faiyaz;Bryson Tiller;Avenoir;Odeal
+grimes,Grimes,pool,Grimes,2810018,electronic:100;dream pop:90;experimental:47;psychedelic:34;canadian:14,Grimes & i_o;Sky Ferreira;FKA twigs;yeule;Crystal Castles
+december 10,December 10,pool,December 10,16516,prettymuch:100;pop:11,Bellah Mae;Freya Skye;Why Don't We;Daniel Seavey;Kevin Jonas
+cikho,cikho,pool,cikho,95464,,MARQ;Jack Murnin;Troy Javelona;Malcolm Todd;Jackson Laird
+mph,MPH,pool,MPH,141978,uk garage:100;electronic:64;bassline:24;dubstep:11,Oppidan;Sammy Virji;Bushbaby;Lockerz;Higgo
+berwyn,BERWYN,pool,Berwyn,58826,rap:100;hip hop:25;trap:16,"Pa Salieu;Mustard;Skepta, Chip & Young Adz;Frankie Stew and Harvey Gunn;tobi lou"
+tems,Tems,pool,Tems,811337,rnb:100;soul:60;afrobeats:20;nigeria:13,Odeal;Burna Boy;Omah Lay;Ayra Starr;Wizkid
+rina sawayama,Rina Sawayama,pool,Rina Sawayama,1167811,pop:100;electropop:62;rnb:37;japanese:19,Allie X;Kim Petras;Caroline Polachek;Sky Ferreira;Jessie Ware
+chvrches,CHVRCHES,pool,CHVRCHES,1293031,synthpop:100;electronic:67;electropop:40;indie:32,Lauren Mayberry;The Naked and Famous;Purity Ring;Broods;Metric
+mura masa,Mura Masa,pool,Mura Masa,1196693,electronic:100;future bass:94;lovestep:43;chill trap:43;trap:19;downtempo:13;british:12,Flume;Louis the Child;Sam Gellaitry;What So Not;Cashmere Cat
+gabzy,Gabzy,pool,Gabzy,53488,british:100,melvitto;Eric IV;boJ;Amaria BB;Yarden
+justice,Justice,pool,Justice,2939295,electronic:100;french:56;electro:37;dance:35;electronica:10,Sebastian;Daft Punk;Gesaffelstein;Busy P;Mr. Oizo
+take that,Take That,pool,Take That,1297060,pop:100;british:57;britpop:35;boybands:12,Gary Barlow;Mark Owen;Robbie Williams;Boyzone;Olly Murs
+charlie jeer,Charlie Jeer,pool,Charlie Jeer,158498,house:100,Bolden.;dublon;jazzwaves;Sajmoonn;Lamchopz
+sugababes,Sugababes,pool,Sugababes,1622847,pop:100;british:33;dance:26;rnb:11,Girls Aloud;Mutya Buena;Siobhán Donaghy;All Saints;Rachel Stevens
+ledbyher,Ledbyher,pool,Ledbyher,108631,uk rap:100;uk:50;drill:16;underground hip-hop:16,SINN6R;Rico Ace;TeeboFG;blimeydog;Ceebo
+kerr mercer,Kerr Mercer,pool,Kerr Mercer,10715,,Skye Newman;Sienna Spiro;Forrest Rose;Mulaa Joans;Buffalo Traffic Jam
+jordan rakei,Jordan Rakei,pool,Jordan Rakei,400519,soul:100;rnb:61;neo-soul:40;jazz:23,Tom Misch;Oscar Jerome;Aaron Taylor;Charlotte Day Wilson;Yazmin Lacey
+madra salach,Madra Salach,pool,Madra Salach,21919,ireland:100;folk:44;irish:29;irish folk:29,The Wran;The Mary Wallopers;Radie Peat;Gurriers;Lankum
+macklemore,Macklemore,pool,Macklemore,1664871,hip-hop:100;rap:58;underground rap:26;hip hop:21;seattle:10,Macklemore & Ryan Lewis;Flo Rida;B.o.B;Machine Gun Kelly;Pitbull
+meduza,MEDUZA,pool,Meduza,1033681,power metal:100;house:76;electronic:39;swedish:19,Joel Corry;Felix Jaehn;Regard;Jax Jones;Robin Schulz
+booter bee,Booter Bee,pool,Booter Bee,32579,rap:100;hip hop:100;drill:66;uk drill:66,M Huncho;CB;Mixtape Madness;Clavish;D-Block Europe
+clementine douglas,Clementine Douglas,pool,Clementine Douglas,10253,electronic:100;soul:25;house:17;dance:17,Sonny Fodera;Jazzy;Duke Dumont;Amtrac;James Hype
+erika de casier,Erika de Casier,pool,Erika de Casier,344123,rnb:100;soul:58;alternative rnb:38;downtempo:30,Kelela;Rochelle Jordan;Amaarae;Kilo Kish;Tirzah
+julien baker,Julien Baker,pool,Julien Baker,646748,indie:100;folk:50;indie folk:47;acoustic:12,Lucy Dacus;boygenius;Better Oblivion Community Center;Phoebe Bridgers;TORRES
+confidence man,Confidence Man,pool,Confidence Man,283508,dance:100;pop:77;australia:37;australian:37;electronic:13,Fcukers;Romy;Tiga;Dannii Minogue;PNAU
+joesef,Joesef,pool,Joesef,334168,soul:100;pop:51,Two Another;Joy Crookes;Tom Misch;Pip Millett;Jordan Rakei
+jaden thompson,Jaden Thompson,pool,Jaden Thompson,33231,house:100;electronic:11,Jamie Roy;Elliot Schooling;Amyelle;Carloh;Julie McDermott
+odhran murphy,Odhran Murphy,pool,Odhran Murphy,26083,,GIO DARA;Michael Sanzone;ryman leon;Late Night Thoughts;Benjamin Steer
+jacob banks,Jacob Banks,pool,Jacob Banks,309001,soul:100,Samm Henshaw;Ben l'Oncle Soul;Rag'n'Bone Man;Maverick Sabre;GoldFord
+v ghn,V'ghn,pool,V'ghn,6340,grenada:100;soca:25;caribbean:16,Lyrikal;Kerwin Du Bois;Patrice Roberts;Farmer Nappy;DJ Private Ryan
+kes,Kes,pool,Kes,52487,rock:100;soca:100;progressive rock:46;folk:16,Machel Montano;Bunji Garlin;Destra;Yung Bredda;Patrice Roberts
+bby,bby,pool,BBY,132055,indie pop:100;lo-fi:100;bedroom pop:16;uk:16,Royel Otis;Good Neighbours;spill tab;Almost Monday;Rec Hall
+dc3,DC3,pool,Dc3,32938,heavy metal:100;hard rock:100;rock:17,Y Shadey;Caleb Gordon;1K Phew;Alex Jean;Sondae
+hot chip,Hot Chip,pool,Hot Chip,1857132,electronic:100;indie:67;electropop:44;electronica:19,Cut Copy;Metronomy;Junior Boys;Hercules and Love Affair;Friendly Fires
+hard life,hard life,pool,Hard Life,155907,rnb:100;indie pop:100;funk:29;pop:29,Easy Life;Tai Verdes;SOFY;Binki;Alfie Templeman
+liang lawrence,Liang Lawrence,pool,Liang Lawrence,136994,my top songs:100;indie pop:100;united kingdom:16,Keni Titus;Bel;Carol Ades;Matilda Mann;Georgia Parker
+rizzle kicks,Rizzle Kicks,pool,Rizzle Kicks,450853,hip hop:100;british:92;rap:59;hip-hop:59;indie:22,Tinie Tempah;Example;Loyle Carner;Scouting for Girls;Just Jack
+arno sacco,Arno Sacco,pool,Arno Sacco,1843,,Summer Banton;Timur Nova;Abbie Piper;SHRETA;Lylo Gold
+panchiko,Panchiko,pool,Panchiko,1375401,indie rock:100;shoegaze:89;lo-fi:42;dream pop:38;indie:13;noise:10,Alison's Halo;LSD and the Search for God;Clarion;Rehash;VIVIENNE EASTWOOD
+amie blu,Amie Blu,pool,Amie Blu,132090,rnb:100;soul:100,Humble the Great;Katie Tupper;Dijon;Khamari;Noah Guy
+jamie jones,Jamie Jones,pool,Jamie Jones,275802,tech house:100;minimal:77;house:43;electronic:38;progressive:12,Hot Since 82;Super Flu;ANOTR;Ninetoes;PAWSA
+deed0t,deed0t,pool,deed0t,6002,,DJ Wintz;ADZ;Zeddy East;M1caspa;T6ix0
+bury tomorrow,Bury Tomorrow,pool,Bury Tomorrow,287209,metalcore:100;melodic metalcore:64;hardcore:17;british:15,While She Sleeps;Any Given Day;Bleed from Within;Fit For A King;The Ghost Inside
+soak,SOAK,pool,Soak,312641,indie:100;indie pop:22,Gordi;TORRES;Miya Folick;Orla Gartland;Marika Hackman
+sofia and the antoinettes,Sofia and the Antoinettes,pool,Sofia and the Antoinettes,45415,british:100;indie pop:100;uk:16;indie:16,Ellur;Fright Years;Bel;Etta Marcus;Carol Ades
+adekunle gold,Adekunle Gold,pool,Adekunle GOLD,137078,nigeria:100;afrobeats:56;nigerian:16,Olamide;Young Jonn;BNXN;Kizz Daniel;Asake
+lainey wilson,Lainey Wilson,pool,Lainey Wilson,249935,country:100;country rock:33,Carly Pearce;Tucker Wetmore;Ella Langley;Cody Johnson;Megan Moroney
+young franco,Young Franco,pool,Young Franco,310680,electronic:100;funk:64;hip-hop:42;all:42;australian:12,Jafunk;Franc Moody;Tentendo;Dabeull;DUCKWRTH
+chinchilla,CHINCHILLA,pool,Chinchilla,200837,power metal:100;heavy metal:42;german:21;metal:15,Mystic Prophecy;Banshee;Iron Savior;At Vance;Metalium
+cityboymoe,cityboymoe,pool,cityboymoe,30289,rap:100;hip-hop:100;rnb:66;uk:66;trap:33,Proph;Scribz Riley;Pozzy;Benjamin A.D;El Londo
+mei semones,Mei Semones,pool,Mei Semones,187483,indie pop:100;jazz:44;bossa nova:20;japanese:13,John Roseboro;Liana Flores;Luna Li;Lamp;Miso Extra
+wade,Wade,pool,Wade,67759,downtempo:100;emo:69;chillout:29;punk:29,Jaded;Minus 8;San Pacho;::M∆DE::IN::HEIGHTS::;Tita Lau
+shaybo,Shaybo,pool,Shaybo,25980,rap:100;hip hop:100;uk:66;hip-hop:66,Ivorian Doll;Br3nya;Miss Lafamilia;TeeZandos;BackRoad Gee
+wyatt,Wyatt,pool,Wyatt,35947,downtempo:100;electronic:100;electronica:16;house:16,Görkem Han Jr.;Silent Rider;BLAISE MOORE;Sam Sure;Sworr.
+emily makis,Emily Makis,pool,Emily Makis,36620,cypriot:100;electronic:100;cyprus:66;british electronic:66;cypriotess:33;cypriot electronic:33;british-cypriot:33,K Motionz;Catching Cairo;Skepsis;Goddard.;Flowidus
+azena,Azena,pool,Azena,123,,Naliyah
+studio20,studio20,pool,studio20,1273,,Pushbike;Foot Foot;Awning;Holly Head;AMITURE MUSIC
+loods,Loods,pool,Loods,67421,,
+bruce dickinson,Bruce Dickinson,pool,Bruce Dickinson,498329,heavy metal:100;hard rock:38;metal:20;british:17,Iron Maiden;Blaze Bayley;Helloween;Halford;Accept
+nell mescal,Nell Mescal,pool,Nell Mescal,63123,ireland:100;folk:100;indie folk:66;folk pop:66,Elle Coves;Sydney Rose;Kaleah Lee;Tiny Habits;Lizzy McAlpine
+blondie,Blondie,pool,Blondie,3598151,new wave:100;rock:36;pop:14,Deborah Harry;The Pretenders;The B-52's;The Go-Go's;Eurythmics
+george daniel,George Daniel,pool,George Daniel,42070,,Oscar Farrell;George Daniel & Oscar Farrell;Doss;A. G. Cook;TAAHLIAH
+essosa,Essosa,pool,Essosa,243701,rnb:100;soul:100;british:66;trip hop:17,Natanya;Laila!;Amaria;Rochelle Jordan;Sasha Keable
+bushbaby,Bushbaby,pool,Bushbaby,77275,uk garage:100;electronic:100;bassline:66,MPH;Diffrent;SILVA BUMPA;Soul Mass Transit System;main phase
+mallory knox,Mallory Knox,pool,Mallory Knox,124172,rock:100;post-hardcore:100;alternative rock:54;alternative:45;indie:13,Deaf Havana;Lower Than Atlantis;Young Guns;You Me at Six;Don Broco
+teezandos,TeeZandos,pool,TeeZandos,14840,rap:100;hip hop:100;uk:66;hip-hop:66;drill:33;british:33;female rap:33;uk drill:10,Queen Millz;Fizzler;Reemunni;Shaybo;Dezzie
+wstr,WSTR,pool,WSTR,100661,pop punk:100;british:24,Neck Deep;Between You & Me;State Champs;With Confidence;Knuckle Puck
+kirbs,KIRBS,pool,Kirbs,42218,,FourNine;Damzz;finessekid;Samrecks;AntsLive
+duke dumont,Duke Dumont,pool,Duke Dumont,1127005,house:100;electronic:72;electro:21;deep house:20,Gorgon City;Disciples;Route 94;Secondcity;Sonny Fodera
+pollyfromthedirt,Pollyfromthedirt,pool,Pollyfromthedirt,19040,lo-fi:100;guitar:25;british:16;indie:16,svn4vr;Middleman;Otto Benson;the healing power of horses;Grace Ives
+stefflon don,Stefflon Don,pool,Stefflon Don,302216,dancehall:100;hip-hop:44;rap:20;hip hop:20;british:10,Shenseea;Popcaan;Charly Black;Spice;Gyptian
+yung singh,Yung Singh,pool,Yung Singh,4007,jungle:100;electronic:100;live-2:66;uk bass:66,Hyas;Breaka;Swoosh;Ricky Force;Special Request
+cherryholt,Cherryholt,pool,CHERRYHOLT,9289,indie rock:100;rock:100,Arkayla;The Royston Club;the guest list;The Lilacs;Pentire
+lancer,Lancer,pool,Lancer,21219,power metal:100;heavy metal:48;speed metal:11,Nation;Primal Fear;Iron Savior;Firewind;Gamma Ray
+niamh bury,Niamh Bury,pool,Niamh Bury,3582,folk:100;irish:44,Niamh Regan;Rónán Ó Snodaigh;Oisin Leech;The Deadlians;A Lazarus Soul
+theatre,THEATRE,pool,Theatre,14118,hardcore:100;chaotic hardcore:69;alternative rock:29;christian hardcore:29;melodic hard rock:15,Pigeon;Masterpeace;Turnstile;mary in the junkyard;Bleech 9:3
+zaylevelten,Zaylevelten,pool,Zaylevelten,14525,rap:100;alternative:100;nigeria:66;hip-hop:66;nigerian hip-hop:33;trap:33,Blaqbonez;Cruel Santino;Lady Donli;Odunsi (The Engine);Odumodublvck
+hybrid minds,Hybrid Minds,pool,Hybrid Minds,242984,liquid funk:100;drum and bass:92;dnb:34;electronic:20;drum'n'bass:10,Wilkinson;BCee;Monrroe;Etherwood;Fred V
+humble the great,Humble the Great,pool,Humble the Great,70863,soul:100;pop:100;rnb:66;british:66,Amie Blu;Mack Keane;Noah Guy;Romeo + Juliet;Khamari
+blond ish,BLOND:ISH,pool,BLOND:ISH,344726,house:100;electronic:33;minimal:22;tech house:10,LP Giobbi;ANOTR;Carlita;Sonny Fodera;zerb
+samira,Samira,pool,Samira,33115,eurodance:100;dance:49;pop:11,Fun Factory;Masterboy;Ice MC;Captain Hollywood Project;Solid Base
+monoh,MONOH,pool,Monoh,23618,indie:100;ambient:11,Flights;Beads;House 4 House;Hathway;Ellie Scougall
+sido,Sido,pool,Sido,393578,rap:100;deutschrap:79;german:50;hip hop:43;hip-hop:21,Kool Savas;Bushido;Kontra K;Apache 207;SDP
+helene fischer,Helene Fischer,pool,Helene Fischer,238793,helene fischer:100;schlager:56;deutsche schlager:34;deutsch:15,Andrea Berg;Beatrice Egli;Maite Kelly;Matthias Reim;Wolfgang Petry
+shindy,Shindy,pool,Shindy,86581,hip-hop:100;rap:44;deutschrap:29;german hip-hop:17,Bushido;Kollegah;Kool Savas;Farid Bang;Fler
+zartmann,Zartmann,pool,Zartmann,94579,pop:100;german:25;deutschpop:17;germany:17,Ennio;BERQ;Ivo Martin;Ritter Lean;Mayberg
+kauta,Kauta,pool,Kauta,13817,alternative rock:100;rock:64;basque:42;german:11,Kerobia;Urtz;Urgabe;Latzen;Keike
+chapo102,Chapo102,pool,CHAPO102,54941,german:100;german lyrics:25;herbert groenemeyer:17,Miksu / Macloud;Zartmann;Nina Chuba;makko;filow
+niklas dee,Niklas Dee,pool,Niklas Dee,189609,electronic:100;german:25;deutschland:17;germany:17,Lizot;Valexus;Neptunica;HBZ;Tiscore
+berq,Berq,pool,BERQ,54018,german:100;pop:25;clinically romantic:16,Provinz;Mayberg;Ennio;Zartmann;Jeremias
+loud luxury,Loud Luxury,pool,Loud Luxury,716549,house:100;pop:20;electronic:13,Joel Corry;Meduza;Sam Feldt;Sigala;Nathan Dawe
+bia,BIA,pool,Bia,710759,rap:100;hip-hop:81;brasil:53;brazil:12;latin:12;trap:12,Nicki Minaj;Coi Leray;Latto;Saweetie;Erica Banks
+anna grey,Anna Grey,pool,Anna Grey,11780,,
+kane,Kane,pool,Kane,162558,rock:100;alternative rock:64;dutch:42;pop:22,Marco Borsato;Anouk;Di-rect;BLØF;Racoon
+monet192,Monet192,pool,Monet192,46751,rap:100;trap:100;german:17;hip hop:17,Dardan;Jamule;Reezy;Yakary;Mero
+jas,JAS,pool,Jas,30326,electronic:100;progressive trance:44,Tjark;Ellice;Ivo Martin;Cass & Slide;Provinz
+rea garvey,Rea Garvey,pool,Rea Garvey,137907,rock:100;irish:83;alternative:37;acoustic:26;pop:10,Michael Patrick Kelly;Sunrise Avenue;Reamonn;Milow;Stanfour
+kool savas,Kool Savas,pool,Kool Savas,193412,deutschrap:100;rap:79;hip hop:42;german:32;hip-hop:13;german hiphop:13,Sido;Azad;Genetikk;Kollegah;Samy Deluxe
+jamule,Jamule,pool,Jamule,68781,rap:100;german:25;german rap:16;hip-hop:16,KC Rebell;Monet192;Yakary;RAF Camora;Capital Bra
+gregor hagele,Gregor Hägele,pool,Gregor Hägele,15135,german:100;the voice of germany:66;the voice:66;preselection:33;german male vocalists:33;future preselection participants:33;unser lied für israel:10,Wincent Weiss;Sarah Connor;Mark Forster;Philipp Dittberner;Emilio
+a7s,A7S,pool,A7S,77620,edm:100;pop:100;house:17;swedish:17,Jubël;Fast Boy;Joel Corry;Sam Feldt;Kream
+paulwetz,PaulWetz,pool,PaulWetz,106843,german:100;pop:100;deutschpop:66;germany:66,Frida Gold;Ennio;Majan;Blond;jaschu
+dj gigola,DJ Gigola,pool,DJ Gigola,74490,techno:100;electronic:44;tech house:16;trance:16,mischluft;Funk Tribu;Vladimir Dubyshkin;Anetha;DJ Heartstring
+ritter lean,Ritter Lean,pool,Ritter Lean,45630,german:100;berlin:25;germany:16,Zartmann;filow;Ski Aggu;01099;makko
+cascada,Cascada,pool,Cascada,2416864,dance:100;pop:57;trance:34;techno:15,Groove Coverage;Manian;Italobrothers;Basshunter;Baracuda
+pomme,Pomme,pool,Pomme,355532,french:100;chanson:56;folk:26;pop:16,Solann;Coline Rio;Ben Mazué;Barbara Pravi;Clio
+christoph sakwerda,Christoph Sakwerda,pool,Christoph Sakwerda,5532,,Eleha;eNKay;Fabian Wegerer;Luca Noel;Matterz
+antje schomaker,Antje Schomaker,pool,Antje Schomaker,25245,german:100;indie pop:44,Madeline Juno;Blond;Max Giesinger;ok.danke.tschüss;Grossstadtgeflüster
+lucio101,Lucio101,pool,Lucio101,75257,berlin:100;rap:100;deutschrap:66;hip hop:16,Nizi19;PASHANIM;Kalim;Dante YN;pasha archive
+chris grey,Chris Grey,pool,Chris Grey,543477,canadian:100;pop:44;rnb:29,Allegra Jordyn;Dutch Melrose;Shaker;OHYUL of LNGSHOT;Chase Atlantic
+edin,Edin,pool,Edin,11789,german:100;germany:100,Moe Phoenix;Paula Douglas;ROTE MÜTZE RAPHI;Pietro Lombardi;Florentina
+thekidszn,Thekidszn,pool,thekidszn,205862,hiphop:100;rap:100;cloudrap:66,The Kid LAROI;Bankrol Hayden;Rarin;VWILLZ;Arizona Zervas
+trettmann,Trettmann,pool,Trettmann,76647,deutschrap:100;rap:44;hip-hop:29,Miksu / Macloud;Dendemann;01099;Majan;Casper
+dani lia,Dani Lia,pool,Dani Lia,13944,indie:100;pop:100;german:66,Bekkaa;Paula Engels;ALLESS.;Rosmarin;Liebestrunken
+joy denalane,Joy Denalane,pool,Joy Denalane,154748,soul:100;rnb:29;neo-soul:27;german:12,Leela James;José James;Otis Kane;Ledisi;Annett Louisan
+emei,Emei,pool,Emei,422247,pop:100;electronic:33;indie pop:22;usa:12,Emeline;Stela Cole;KiNG MALA;Cloudy June;Haiden Henderson
+paenda,PAENDA,pool,Paenda,16009,pop:100;austrian:56;austria:16;synthpop:16,Anna Odobescu;D-Mol;Roko Blažević;Ester Peony;Sarah McTernan
+paula engels,Paula Engels,pool,Paula Engels,6612,german:100;pop:25,Bekkaa;Dani Lia;ALLESS.;Liebestrunken;Rosmarin
+ghost61,Ghost61,pool,Ghost61,8763,,z8;SASHKO BRATE;SadiQ;sil3a;Undacava
+maja kemper,maja kemper,pool,Maja Kemper,912,,Charlotte Kudella;Emma Josephine;Bekkaa;Liska;Dani Lia
+enhypen,ENHYPEN,pool,ENHYPEN,1237440,k-pop:100;kpop:82;korean:39;pop:36,I-LAND;Evan;&TEAM;BOYNEXTDOOR;LNGSHOT
+mary middlefield,Mary Middlefield,pool,Mary Middlefield,17897,alternative:100;indie pop:100;switzerland:66;indie rock:66;lausanne:33;swiss alternative:33;suisse:33;rock-edged indie pop:10,Balancing Act;Florence Road;Alice Costelloe;Rubblebucket;Eaves Wilder
+pepino,pepino,pool,Pepíno,6,,
+luca dante spadafora,Luca-Dante Spadafora,pool,Luca-Dante Spadafora,92756,house:100;techno:100;german:17;psytrance:17,KXXMA;The Holy Santa Barbara;HBZ;Tic Tekk Toe;zombic
+rosmarin,rosmarin,pool,Rosmarin,7082,indie:100;soul:25;german:17;pop:17,Paula Engels;Liebestrunken;Dani Lia;Skuth;Cordoba78
+tommy richman,Tommy Richman,pool,Tommy Richman,1571443,rnb:100;rap:51;funk:22;hip-hop:12,mynameisntjmack;Jack Harlow;Rubii;4batz;Paco
+booshle g,Booshle G.,pool,Booshle G.,10340,hip hop:100;indie pop:100;afro soul:66;south africa:66;afro-soul:33,Seb Lowe;Lloyiso;Odhran Murphy;Late Night Thoughts;Matthew Mole
+neoni,Neoni,pool,Neoni,308225,indie:100;electronic:69;alternative:17,Jake Daniels;UNSECRET;Layto;Unlike Pluto;Bohnes
+marita,marita,pool,Marita,4048,latin:100;hard rock:100;dutch:66;the voice of holland:33;peruvian:33,Liska;Bekkaa;Dani Lia;friso;ALLESS.
+victoria west,Victoria West,pool,Victoria West,5622,youtube:100,Jaeyla;Iona Luke;Alex Robbins;Emma Rose;Frances Anderson
+rudi kartell,Rudi Kartell,pool,,,,
+connor skinner,Connor Skinner,pool,Connor Skinner,567,,"Chris de Sarandy;Martin Garrix, U2;SDP, Sido, Esther Graf;Amaya Gloor;Skye Newman"
+bartek turski,bartek turski,pool,Bartek Turski,18724,,"Johnny Tyler;Sissy Ford;Mandrazo;sorry, alone;Luna Noir."
+styro,STYRO,pool,Styro2000,3367,techno:100;minimal techno:100;minimal:16;electronic:16,Submania;Eight Miles High;The Suffragettes;Jabberjaw;Oliver Hacke
+sven vath,Sven Väth,pool,Sven Väth,161529,techno:100;electronic:58;minimal:31;trance:20,Der Dritte Raum;Adam Beyer;Cosmic Baby;Resistance D;Johannes Heil
+debba,Debba,pool,debba,5109,uk:100;electronic:100;breakbeat:66;breaks:66;uk garage:33;2-step:33,Canary Yellow;j wax;Nouveau Monica;Destrata;Benyayer
+ganges,Ganges,pool,Ganges,31946,dream pop:100;indie pop:25;spanish:16;sofar sounds:16,Amaia;Irenegarry;Bratty;La Bien Querida;Carla Morrison
+cherice,cherice,pool,Charice,160209,pop:100;rnb:71;soul:30,Iyaz;Sarah Geronimo;Shontelle;Jordin Sparks;David Archuleta
+jamila,Jamila,pool,Jamila,9315,switzerland:100;pop:100;thai:66;morocco:66;swiss-palestinian:33;moroccan:33;arabic tunes:33,Asma Lmnawar;Essa Almarzoug;Ihab Amir;Abd El Fattah Grini;Carmen Soliman
+luna simao,Luna Simao,pool,Luna Simao,3179,soul:100;germany:100;pop:16,Edin;Charly Bravo;erda;Ivy Quainoo;Bekkaa
+naika,Naïka,pool,Naïka,133378,pop:100;rnb:64;haiti:24;dance:11,Zeina;Bayou;Tayc;Aya Nakamura;Lolo Zouaï
+beatrice egli,Beatrice Egli,pool,Beatrice Egli,27085,schlager:100;pop:56;swiss:20;german:13,Matthias Reim;Helene Fischer;Andrea Berg;Maite Kelly;Ben Zucker
+sdp,SDP,pool,SDP,192190,german:100;hip hop:75;hip-hop:28;berlin:22,Sido;257ers;Alligatoah;Trailerpark;Gestört Aber GeiL
+keli holiday,Keli Holiday,pool,Keli Holiday,39716,alternative:100;indie:100;australia:66,Peking Duk;Spacey Jane;The Dreggs;Pacific Avenue;The Jungle Giants
+playboi carti,Playboi Carti,pool,Playboi Carti,2630465,trap:100;cloud rap:73;hip-hop:42;rap:41;rage:15;hip hop:12;opium:10,Ken Carson;Destroy Lonely;Lil Uzi Vert;Homixide Gang;OsamaSon
+genesis owusu,Genesis Owusu,pool,Genesis Owusu,358289,funk:100;neo-soul:70;hip-hop:33;rap:27,By Storm;Vince Staples;Fat Dog;Little Simz;Danny Brown
+mez,Mez,pool,Mez,81623,grime:100;lounge:69;downtempo:29;electronic:29,Ghetts;P Money;Frisco;Wiley;Novelist
+stephen wilson jr,Stephen Wilson Jr.,pool,Stephen Wilson Jr,425,,Stephen Wilson Jr & Hailey Whitters;Stephen Wilson Jr & HARDY;Diplo Presents Thomas Wesley;Tyler Childers / OurVinyl;Amanda Shires & Bobbie Nelson
+cassian,Cassian,pool,Cassian,112351,french house:100;electro:64;french electro:24;french touch:24;nu dance:12,Grum;Anyma;Argy;Mrak;Else
+rufus du sol,RÜFÜS DU SOL,pool,RÜFÜS DU SOL,853468,,Elderbrook;Lane 8;Ben Böhmer;Avoure;Monolink
+kane brown,Kane Brown,pool,Kane Brown,488853,country:100;country pop:15,Thomas Rhett;Jordan Davis;Cole Swindell;Dustin Lynch;Dylan Scott
+mudrat,MUDRAT,pool,Mudrat,40337,digital hardcore:100;punk:25;hip-hop:16;punk rock:16,Cowboy Hunters;The Chats;WARGASM (UK);RATSALAD.;Frank Carter & The Rattlesnakes
+gin wigmore,Gin Wigmore,pool,Gin Wigmore,290968,soul:100;indie:100;indie pop:59;new zealand:16;pop:12,ZZ Ward;Elle King;Ivy Levan;Valerie Broussard;Bishop Briggs
+2charm,2charm,pool,2charm,55020,australia:100;electronic:100;hyperpop:66;australian:66,Namasenda;daine;horsegiirL;Ninajirachi;Hyd
+miles nautu,Miles Nautu,pool,Miles Nautu,5534,rap:100;hip-hop:100,ThatBoyKwame;Zion Garcia;Barkaa;LIFEOFTHOM;Curtisy
+the cheaks,The Cheaks,pool,The Cheaks,51972,,Leap;Modern Alibi;The Listros;Noshows;Walking on Rivers
+skin on skin,Skin On Skin,pool,Skin On Skin,166334,techno:100;deep house:58;house:10;breakbeat:10,X CLUB.;Kettama;Mall Grab;Effy;X-Coast
+thewesternguide,TheWesternGuide,pool,TheWesternGuide,1929,samoan:100;reggae:100;under 500 listeners:66;samoa:66;under 100 listeners:33;under 2000 listeners:33,K'nova;Pacific Soul;Jordan Gavet;Pieter T;Vaniah Toloa
+devaura,DEVAURA,pool,DEVAURA,5631,,Djanaba;Barkaa;3%;Kee'Ahn;Hellcat Speedracer
+kybba,Kybba,pool,Kybba,98032,dutch:100;dancehall:100;amsterdam:66,Blaiz Fayah;X-Man;Kalash;Bamby;Maureen
+mild minds,Mild Minds,pool,Mild Minds,385362,electronic:100;lo-fi:36;australian:24;chillout:11,nimino;Ford.;Emmit Fenn;Neil Frances;Crooked Colours
+rii,Rii,pool,Rii,704,,Tez & Rii;DJ Rii;Altamash Faridi;Prashant Katheriya;Kaushik-Guddu
+youngn lipz,Youngn Lipz,pool,Youngn Lipz,39069,australia:100;hip-hop:100,Dj Discretion;Sydney Yungins;Ay Huncho;Yp;Hoodbars
+headwreck,Headwreck,pool,HEADWRECK,19987,nu metalcore:100;metalcore:100;australian:42;nu metal:24;djent:12;progressive metalcore:12,Ocean Grove;Windwaker;Void of Vision;HeavensGate;Diamond Construct
+the cat empire,The Cat Empire,pool,The Cat Empire,530516,ska:100;jazz:83;funk:54;australian:34;alternative:16,Bluejuice;The John Butler Trio;Powderfinger;Bernard Fanning;Jebediah
+slowly slowly,Slowly Slowly,pool,Slowly Slowly,36151,pop punk:100;emo:44;australian:29,Sly Withers;Ceres;Trophy Eyes;Between You & Me;Grayscale
+dear tommie,Dear Tommie,pool,Dear Tommie,919,,Max Jackson;Rachael Fahim;Lane Pittman;Hayley Jensen;Andrew Swift
+alexandria,Alexandria,pool,Alexandria,47416,gothic metal:78,Amanda Lee;Josie Edwards;Brye;Marino;Peggy
+y o g a,Y.O.G.A.,pool,Y.O.G.A.,11761,uk:100,ALPHAJACK;Country Night;DJ N'Farmer;Chris Galmon;John Price
+sollyy,Sollyy,pool,SOLLYY,5093,,Zion Garcia;emjaysoul;Friday*;Breakfast Road;Tahkoe
+william kiss,William Kiss,pool,William Kiss,13245,house:100;trance:100;techno:66;electronic:66;acid techno:33,Dave Sinner;Sally C;Known Artist;A.S.H;Beico & Mt93
+hollie smith,Hollie Smith,pool,Hollie Smith,25157,soul:100;new zealand:92;jazz:32,Che Fu;Fly My Pretties;Tiki;SJD;Adi Dick
+conway the machine,Conway the Machine,pool,Conway,26009,rap:100;pop:69;indie pop:29;hip-hop:29,Conway the Machine;Westside Gunn;Elcamino;Big Ghost Ltd & Conway The Machine;Rome Streetz
+the moving stills,The Moving Stills,pool,The Moving Stills,30728,garage rock:100;pop:100;alt-rock:66;indie pop:66;teen:33;indie rock:33;australian:33;new south whales:10,The Rions;Spacey Jane;Old Mervs;Pacific Avenue;Great Gable
+georgia mulligan,Georgia Mulligan,pool,Georgia Mulligan,5209,,Dominic Breen;Ainsley Farrell;Jacob Diamond;GLOOMIE;charlie gradon
+illy,Illy,pool,Illy,185577,australian:100;hip-hop:82;hip hop:50;aussie hip-hop:47;mpb:10,360;Thundamentals;Bliss n Eso;Hilltop Hoods;Seth Sentry
+battlesnake,Battlesnake,pool,battlesnake,19878,heavy metal:100;hard rock:36;australian:24;australia:11,Stonefield;Grand Magus;Hällas;The Sword;Tony Iommi
+tash,Tash,pool,Tash,102224,hip-hop:100;west coast:53;rap:20,Tha Alkaholiks;Ras Kass;Xzibit;Hieroglyphics;MC Eiht
+redd,REDD.,pool,Redd,123324,turkish rock:100;rock:79;turkish:43;redd:25,Pilli Bebek;Mor ve Ötesi;Teoman;Şebnem Ferah;Adamlar
+them,Them,pool,Them,475998,classic rock:100;60s:93;rock:55;british invasion:36;blues rock:15;blues-rock:14;garage rock:12,Van Morrison;The Spencer Davis Group;The Animals;The Troggs;The Yardbirds
+pixie lane,Pixie Lane,pool,Pixie Lane,571,,Bavhu;Emwa;Mylen;Sly Chaos;Emilie
+olivia escuyos,Olivia Escuyos,pool,Olivia Escuyos,25217,australia:100;rnb:100;melbourne:17;soul:17,Larissa Lambert;Alayna;Sabrina Claudio;Jayla Darden;Janine
+leroy clampitt,Leroy Clampitt,pool,Leroy Clampitt,2824,,Guy Margalit;Tilted Earth;Junkyard Cat;Animal Panic.;After 8:30
+tommy genesis,Tommy Genesis,pool,Tommy Genesis,346078,rap:100;hip-hop:85;cloud rap:32;electronic:32,Brooke Candy;Princess Nokia;Iggy Azalea;Leikeli47;JUNGLEPUSSY
+taylor moss,Taylor Moss,pool,Taylor Moss,3236,country:100,Max Jackson;Casey Barnes;Zac & George;Sara Berki;Hayley Jensen
+georgia maq,Georgia Maq,pool,Georgia Maq,11976,indie pop:100;indie rock:17;pop:17,Stella Donnelly;Lande Hekt;Snocaps;Alex the Astronaut;gladie
+pip millett,Pip Millett,pool,Pip Millett,214224,rnb:100;soul:73;british:22;neo-soul:12,Greentea Peng;Mahalia;Cleo Sol;Jorja Smith;Mereba
+the wolfe brothers,The Wolfe Brothers,pool,The Wolfe Brothers,6315,australia:100;country:100;country pop:66,Travis Collins;Casey Barnes;Lee Kernaghan;Jayne Denham;Brad Cox
+annie hamilton,annie hamilton,pool,Annie Hamilton,27594,indie rock:100;rock:100;alternative:37;indie:37;australian:19,Middle Kids;Phantastic Ferniture;Sarah Blasko;The Jezabels;Meg Mac
+heartline,Heartline,pool,Heartline,7321,progressive metalcore:100;metalcore:44;melodic metal:29,Vatic;VilifY;Irken Armada;Broken Earth;Elision
+gabriel jacoby,Gabriel Jacoby,pool,Gabriel Jacoby,70054,funk:100;soul:100;rnb:66;rap:16,Elmiene;BOY SODA;Mack Keane;Noah Guy;Odeal
+upper90,Upper90,pool,Upper90,23325,trance:100;techno:100,Janis Zielinski;DJ Heartstring;Malugi;MATRAKK;Funk Tribu
+winterbourne,Winterbourne,pool,Winterbourne,66059,indie folk:100;folk:44;indie:29;australian:29,Woodlock;Sons of the East;Hollow Coves;The Rubens;Ziggy Alberts
+amarni,AMARNI,pool,AMARNI,19790,australia:100;pop:100;rnb:17;hip-hop:17,Youngn Lipz;billymaree;Dj Discretion;Sydney Yungins;B Wise
+mother soki,Mother Soki,pool,Mother Soki,229623,dream pop:100;alternative:25;minnesota:17;lo-fi:17,The Crying Nudes;You'll Never Get to Heaven;Acopia;Tamaryn;Operelly
+talia perese,Talia Perese,pool,Talia Perese,13271,,Juga;rache.;Edyonthebeat;Devin Velez;What If This Song
+mercury,mercury,pool,Mercury,232713,house:100;electronic:33;shoegaze:12;indie rock:12,Porch Light;Chrissy;blue diner.;she's green;TTSSFU
+awning,Awning,pool,Awning,4263,folktronica:100;glitch:44;all:29;folk:17,Allegra Gellar;Qua;Salt Water Criminals;Ultre;Anois
+dibz,DIBZ,pool,Dibz,667,,KAHUKX;Rops1;Ay Huncho;Nasa Nova;LF70
+adele castillon,Adèle Castillon,pool,Adèle Castillon,124650,french:100;indie:16;indie pop:11;synthpop:11,Videoclub;Mattyeux;Yoa;Alice et Moi;ANAÏS MVA
+ninho,Ninho,pool,Ninho,193223,french:100;hip-hop:100;rap:29,WeRenoi;Leto;Gazo;Niska;Maes
+no limit,No Limit,pool,No Limit,57433,rock:100;japanese:100;j-pop:66;jpop:66;j-rock:33,ZZ;TRF;WW;Gazo;Gaulois
+dali,Dalí,pool,Dali,79796,psytrance:100;japanese:55;psychedelic trance:32;psychedelic:28;visual kei:13,Gumi;石田燿子;TWO-MIX;Yoko Takahashi;林原めぐみ
+camille lellouche,Camille Lellouche,pool,Camille Lellouche,15927,france:100;french:17,Amel Bent;Eloïz;Shy'm;Vitaa;Linh
+rnboi,RnBoi,pool,RnBoi,71107,french:100;rap:100;france:66;rnb:66;melo:33;nemours:33,Nono La Grinta;Tiakola;L2B;RSKO;Genezio
+cielbleu,Cielbleu,pool,cielbleu,10510,french:100,Stanislas;Dalí;Orrage;Luther;poissonchat
+pamela,PAMELA,pool,Pamela,69714,turkish rock:100;turkish:100;rock:22,Özlem Tekin;Nil Karaibrahimgil;Sertab Erener;Yüksek Sadakat;Hande Yener
+yame,Yamê,pool,Yamê,176029,french hip hop:100;experimental hip hop:100;french:17;rap:17,Orelsan;Josman;yvnnis;BEN plg;Laylow
+meryl,Meryl,pool,Meryl,47995,rap:100;dancehall:100;martinique:66;france:17,Kalash;Bamby;Maureen;X-Man;DJ Chinwax
+amel bent,Amel Bent,pool,Amel Bent,141148,french:100;pop:77;french pop:22,Vitaa;Shy'm;Jenifer;Patrick Fiori;M. Pokora
+destroy boys,Destroy Boys,pool,Destroy Boys,806738,garage rock:100;punk:100;garage punk:52;rock:52;riot grrrl:26;punk rock:15,The Oozes;VIAL;Slutever;Mommy Long Legs;Dazey and the Scouts
+miimii kds,Miimii KDS,pool,Miimii KDS,18511,bouyon:100;dominican:100;dominica:66,Natoxie;Ridge;Ricky Bishop;11t1;Aya Nakamura & La Rvfleuze
+alan walker,Alan Walker,pool,Alan Walker,1912594,electronic:100;house:73;edm:42;dance:40;norwegian:13,K-391;Axel Johansson;TheFatRat;Vicetone;Martin Garrix
+arca m,Arca M,pool,Arca M,5026,,PRODUIT;Renard Tortue;Sans Lactose;Yurz;Paolo.
+myke towers,Myke Towers,pool,Myke Towers,710174,reggaeton:100;puerto rico:18,JHAYCO;Dei V;Bryant Myers;Mora;Anuel AA
+jahneration,Jahneration,pool,Jahneration,16662,reggae:100,Naâman;Skarra Mucci;Danakil;Yaniss Odua;Dub Incorporation
+djaksparo,Djaksparo,pool,Djaksparo,9921,,La Mano 1.9;La Rvfleuze;Black Cat;Rambo goyard;Leto
+louve,Louve,pool,Louve,4915,french:100;electropop:17;pop:17,TRENTE;Novaé Lita;Julia Jean-Baptiste;Marguerite Thiam;Renard Tortue
+gaetan roussel,Gaëtan Roussel,pool,Gaëtan Roussel,52196,french:100;rock:64;indie pop:24,Louise Attaque;Julien Doré;Benjamin Biolay;Claudio Capéo;Jean-Louis Aubert
+paolo,Paolo.,pool,Paolo.,3285,,RandJess;Guill@ume;Lémofil;Antes & Madzes;Shikki
+jisoo,JISOO,pool,JISOO,696580,k-pop:100;pop:100;korean:29;blackpink:16,"BLACKPINK;Rosé;Jennie;Lisa;Rosé, Bruno Mars"
+rok wav,Rok.wav,pool,,,,
+twinsmatic,twinsmatic,pool,Twinsmatic,19212,all:100;french:25;experimental:16;hip-hop:16,13 Block;SCH;KEKRA;BEN plg;Josman
+carla de coignac,Carla De Coignac,pool,Carla De Coignac,4147,france:100;cadurcienne:100,Félix Radu;Noé Preszow;Lisa Pariente;Heroe;Hélène Sio
+palaye royale,Palaye Royale,pool,Palaye Royale,534254,alternative rock:100;alternative:71;glam rock:47;canadian:12,YUNGBLUD;Andy Black;Måneskin;DEAD POET SOCIETY;Friday Pilots Club
+clio,Clio,pool,Clio,161189,italo disco:100;french:30;pop:20,Alice et Moi;Johnny Jane;Hélène Sio;Pomme;Requin Chagrin
+mademoiselle lou,mademoiselle lou,pool,Mademoiselle Lou,13220,france:100,Raplume;USKY;Houdi;Olympe Chabert;smeels
+tomorrow x together,TOMORROW X TOGETHER,pool,TOMORROW X TOGETHER,1315824,k-pop:100;kpop:75;pop:30;korean:29,"BEOMGYU;YEONJUN;TOMORROW X TOGETHER, Jonas Brothers;TOMORROW X TOGETHER, Anitta;Taehyun"
+tonique,Tonique,pool,Tonique,425,,Okiman;Fancy feat. Lyane Leigh;Lotion Motion;Rocq-E;Dance mix 92-96
+hipo,Hipo,pool,Hipo,3886,noise:100;indie:100;shoegaze:66;spanish:66;badajoz:33,Apenino;El Estudiante Larry;Brichapik & RandJess;Shikki;Me Enveneno De Azules
+pit baccardi,Pit Baccardi,pool,Pit Baccardi,12545,rap:100;hip-hop:44;rap francais:17;french rap:17,Psy 4 de la Rime;Oxmo Puccino;Ärsenik;Fonky Family;Akhenaton
+k maro,K.Maro,pool,K‐Maro,80,britpop:100;synthpop:100;indie rock:66,Pep’s;Diam’s;Keen’V;Sexion D’assaut;Stereo Rides
+mr belt,Mr. Belt,pool,Mr. Belt,1152,,Lessi;PBH & Jack Shizzle;Bleach Baby;Bougenvilla;White N3rd
+sonny rave,Sonny Rave,pool,Sonny Rave,7894,,J9ueve;Hamza;Green Montana;Karmen;Edge
+pauline croze,Pauline Croze,pool,Pauline Croze,188871,french:100;chanson francaise:30;nouvelle scene francaise:28,Enzo Enzo;Coralie Clément;La Grande Sophie;Emily Loizeau;Paris Combo
+jah lil,Jah Lil,pool,Jah-Lil,1222,reggae:100,iotosh;Royal Blu;Rik Jam;Irie Souljah;Blvk H3ro
+antes,Antes,pool,Antes,847,melodic doom metal:100,ME HACES BIEN;La Edad Del Cielo;Horas;Sanar;No pienses de más
+persephone,Persephone,pool,Persephone,64548,darkwave:100;gothic:75;ethereal:45;ambient:15,L'Âme Immortelle;Gothica;Sopor Aeternus & The Ensemble of Shadows;Dark Sanctuary;sToa
+k2 sp,K2_sp,pool,K2_sp,6116,,Bilouki;TVLM;Free-B;2zg;OG Plugging
+senyss,Senyss,pool,Senyss,990,,Lycinaïs Jean;LACONI;LÉA CHURROS;Dof';Sandro Martelly
+poom,Poom,pool,Poom,63733,synthpop:100;pop:79;indie:29;electronic:20;sophisti-pop:10;france:10;nu-disco:10,Cléa Vincent;L'Impératrice;Bon Voyage Organisation;Hypnolove;The Pirouettes
+swimming paul,Swimming Paul,pool,Swimming Paul,141614,french:100;house:44;stutter house:29;french house:29,nimino;Fred again..;Barry Can't Swim;Killen.;Barry Can’t Swim
+savanah,SAVANAH,pool,Savanah,63060,stoner rock:100;stoner metal:25,Hazemaze;Mount Hush;Samsara Blues Experiment;Sons of Arrakis;The Lunar Effect
+rocca,Rocca,pool,Rocca,20748,hip-hop:100;rap:74;french rap:49;rap francais:22,Fonky Family;Busta Flex;Akhenaton;Ärsenik;Passi
+ouidad,Ouidad,pool,Ouidad,7926,morocco:100;pop:100,ElGrandeToto;Zamdane;Najm;Rym;Stormy
+wolf cutt,Wolf Cutt,pool,Wolf Cutt,3534,hyperpop:100;edm:100;electropop:17;pop:17,Ryan Case;elphi;Holliday Howe;JEONNE;Alex Chapman
+lulu gainsbourg,Lulu Gainsbourg,pool,Lulu Gainsbourg,13304,smooth jazz:100;jazz:56;french:37;chill:17,Mélanie Thierry;La Pompe Moderne;Détroit;Sophie-Tith;Granville
+lagos in paris,LAGOS IN PARIS,pool,Lagos In Paris,10404,,Moment In Time;Luna Blue;ALEX KEEPER;Ourson;Floating Club
+p o d,P.O.D.,pool,P.O.D.,1813534,nu metal:100;rapcore:74;alternative:33;rock:30;metal:11,Ill Niño;Nonpoint;Papa Roach;Pillar;Adema
+astrnne,Astrønne,pool,Astrønne,3079,cameroon:100,Lablue;lafleyne;Oscar Emch;Mee Shel;Amouravenir
+elliott armen,ELLIOTT ARMEN,pool,Elliott Armen,4602,french:100;folk:100;ma vie de roadie:66;funk_add_to_lidarr_batch_8:33,UssaR;Baptiste W. Hamon;Ladylike Lily;Aliocha;Philippine Lavrey
+ellie becker,Ellie Becker,pool,Ellie Becker,250,,Luns;Felix Antonio;PU$HKA;Isïa;Hotel Blue
+naveni,NAVENI,pool,NAVENI,1746,switzerland:100;soul:100;biel-bienne:66;swiss soul:66;bienne:33;biel:33;funk_add_to_lidarr_batch_19:33,Cachita;James Chatburn;edb;Zoe's Shanghai;Amahla
+nate,Nate,pool,Nate,15037,hip-hop:100;underground hip-hop:100;political rap:66;underground hip hop:66;political hip-hop:33;conscious hip-hop:33;true school:33;intelligent rap:10;ukhh:10;london hip-hop:10,Priceless;Logic & Last Resort;Caxton Press;Olek;MocroManiac
+kristina,Kristina,pool,Kristina,18359,pop:100;eurovision:94;slovak:55;folk:16,Ivi Adamou;Tamara Živković;LELEK;ALICJA;Sirusho
+jhayco,JHAYCO,pool,JHAYCO,490910,reggaeton:100;rap:18,Mora;Myke Towers;Omar Courtz;Dei V;Feid
+estopa,Estopa,pool,Estopa,314393,spanish:100;flamenco:72;pop:43;rock:38,Melendi;El Canto del Loco;Pereza;M-Clan;Extremoduro
+nicki nicole,Nicki Nicole,pool,Nicki Nicole,268455,pop:100;argentina:64;rnb:24,Maria Becerra;Emilia;Cazzu;Wos;Rusherking
+lia kali,Lia Kali,pool,Lia Kali,25131,hip hop:100;soul:100;barcelona:66;spain:66,Hard GZ;Juancho Marqués;Eazyboi;FAENNA;anier
+love of lesbian,Love of Lesbian,pool,Love of Lesbian,178777,indie:100;spanish indie pop:74;spanish:47;indie pop:44;pop:12,Iván Ferreiro;Vetusta Morla;Lori Meyers;Viva Suecia;Izal
+carolina durante,Carolina Durante,pool,Carolina Durante,70549,rock:100;indie rock:36;pop punk:24;spain:24,Alcalá Norte;Shego;las petunias;La Paloma;Cala Vento
+kapo,Kapo,pool,Kapo!,3411,neofolk:100;martial industrial:56;apocalyptic folk:32;dark ambient:13,Occidental Martyr;Death in June & Les Joyaux de la Princesse;Down In June;Luftwaffe;Die Weisse Rose
+pole,Pole.,pool,Pole,158883,minimal:100;glitch:95;idm:57;dub:55;electronic:26;dub techno:10;ambient:10,Deadbeat;Vladislav Delay;Monolake;Jan Jelinek;Fluxion
+sanguijuelas del guadiana,Sanguijuelas del Guadiana,pool,Sanguijuelas del Guadiana,6711,spanish:100;rock:100;flamenco:66;spain:66;flamenco rock:33;nuevo flamenco:33,Niña Polaca;Ultraligera;Siloé;Carlos Ares;Sexy Zebras
+los planetas,Los Planetas,pool,Los Planetas,185726,indie pop:100;spanish indie pop:85;indie:55;pop:45;spanish:22;indie rock:10,Sr. Chinarro;Triángulo de Amor Bizarro;Los Piratas;Lori Meyers;La Buena Vida
+la zowi,La Zowi,pool,La Zowi,74939,trap:100;spanish:25;cloud rap:16,Soto Asa;Bad Gyal;LABLACKIE;Albany;La Goony Chonga
+hard gz,Hard GZ,pool,Hard GZ,29384,rap:100;hip hop:100;spanish:66;spain:66;underground:33,Arce;Nikone;Denom;Swit Eme;Shoda Monkas
+carlos sadness,Carlos Sadness,pool,Carlos Sadness,105173,spanish:100;indie:100;folk:37;pop:37,Love of Lesbian;Caloncho;Supersubmarina;Vetusta Morla;Lori Meyers
+sergio contreras,Sergio Contreras,pool,Sergio Contreras,57724,flamenco:100;spanish:49;hip-hop:17,Kiko & Shara;Decai;El maki;Los Rebujitos;David DeMaría
+miguel campello,Miguel Campello,pool,Miguel Campello,11626,flamenco:100;spain:25;flamenco fusion jazz rock miguel campello elbicho madrid spain:17;alicante:17,Antoñito Molina;elbicho;El Canijo de Jerez;RaulE;juanlu montoya
+celtas cortos,Celtas Cortos,pool,Celtas Cortos,110186,folk rock:100;celtic:98;spanish:50;rock:47;spanish rock:16,M-Clan;Seguridad Social;Fito Y Fitipaldis;Fito & Fitipaldis;Estopa
+tokischa,Tokischa,pool,Tokischa,461851,rap:100;reggaeton:100;dembow:37;dominican:37;dominican republic:13,Bad Gyal;Arlene MC;Six Sex;El Alfa;Ms Nina
+marwan,Marwán,pool,Marwan,12967,cantautor:100;rap:25;spanish:17,Luis Ramiro;Andrés Suárez;Diego Ojeda;Rafa Pons;Carlos Chaouen
+califato 34,Califato ¾,pool,Califato ¾,24433,electronic:100;spain:36;flamenco:24;flamenco nuevo:24,La Plazuela;Rodrigo Cuevas;Derby Motoreta’s Burrito Kachimba;Lole Y Manuel;Camarón de la Isla
+liderj,Liderj,pool,Liderj,7063,,Oscar el Ruso;Samuel G;Angeliyo El Blanco;Las Rodes;Fran y Nico
+c mari,C Marí,pool,C Marí,18927,rap:100;hip-hop:100;spanish:66;spain:66;galiza:33;vigo:33;reggaeton:33;galicia:10;urban music:10;trap:10,Bon Calso;Raul Clyde;L'haine;Recycled J;Cruz Cafuné
+nickzzy,Nickzzy,pool,Nickzzy,23405,spanish:100;spain:100;drill:66;spanish drill:66,Aiman JR;ThePoing;Cyril Kamer;kg970;El Bobe
+maria pelae,María Peláe,pool,María Peláe,14717,flamenco:100;spain:100;nuevo flamenco:66;pop:17,DellaCruz;Karmento;DeTeresa;Lachispa;Quique Niza
+blas canto,Blas Cantó,pool,Blas Cantó,39217,eurovision:100;pop:100;spanish:42;spain:42;eurovision song contest:21;esc:21;eurovision 2020:21,James Newman;Remo Forrer;Emma Muscat;Edurne;Måns Zelmerlöw
+isabel aaiun,Isabel Aaiún,pool,Isabel Aaiún,20743,rumba flamenca:100;spain:100,Daviles de Novelda;ELYELLA;Bombai;Demarco Flamenco;María Peláe
+chiara oliver,Chiara Oliver,pool,chiara oliver,19096,pop:100;spain:25;chiara oliver:16;ot 2023:16,Claudia Arenas;Natalia Lacunza;Aitana;Belén Aguilera;Alba Reche
+rupatrupa,Rupatrupa,pool,Rupatrupa,34014,reggae:100;acoustic:100;spanish:66;spain:66;songwritter:33;rumba:33;cantautor:33,Muerdo;Rels B;El Kanka;Dread Mar I;Macaco
+pity,Pity,pool,Pity,7782,,
+mr kilombo,Mr. Kilombo,pool,Mr. Kilombo,19064,spanish:100;need to rate:100;rumba:17;fusion:17,Pedro Pastor;El Niño de La Hipoteca;TéCanela;Antílopez;Arnau Griso
+claudia arenas,Claudia Arenas,pool,Claudia Arenas,13358,ot 2025:100;pop:100,chiara oliver;Ruslana;Belén Aguilera;Guille Toledano;Samuraï
+faenna,Faenna,pool,FAENNA,9822,rap:100;hip hop:100;spanish:16;hip-hop:16,ILL PEKEÑO;Las Ninyas del Corro;Eazyboi;Elio Toffana;ZamoranoBeatz
+chema rivas,Chema Rivas,pool,Chema Rivas,29115,,Fabbio;Daviles de Novelda;Robledo;Lérica;Original Elias
+big lois,Big Lois,pool,Big Lois,3601,,Micky G;Angeliyo El Blanco;José Rey;Liderj;el daddy
+lg1do,Lg1do,pool,Lg1do,3196,,9Louro;xmaseda65;Kid Mount;Lil $am;silee
+mercedes canas,Mercedes Cañas,pool,Mercedes Cañas,6239,,Paula Mattheus;Grex;Ciao Marina;La Vecina De Arriba;Heykid
+pau vallve,Pau Vallvé,pool,Pau Vallvé,22735,catala:100;spanish:16;indie pop:16,Guillem Gisbert;Maria Coma;Inspira;Mishima;Renaldo & Clara
+boza,Boza,pool,Boza,218243,house:100;panama:100;dance:16;canadian:16,Sech;Dímelo Flow;Joey Montana;Don Omar;El Roockie
+grex,GREX,pool,Grex,9228,death metal:100;grindcore:25;chile:16;brutal death metal:16,Kiko Rivera;Mercedes Cañas;Ciao Marina;Heykid;Paul Alone
+nano mz,NANO Mz,pool,NANO Mz,4513,,llvna;Stormykid;nano.;Enol;De Rancho
+paopao,paopao,pool,PaoPao,51257,puerto rico:100;reggaeton:25;puerto rican:16,RaiNao;Mora;Alvaro Diaz;JHAYCO;Álvaro Díaz
+joaquina,Joaquina,pool,Joaquina,24480,latin:100;indie:100;latin pop:66;latin rock:66;venezuelan:33;venezuela:33,Sebastian Llosa;Mafalda Cardenal;Alleh;Corina Smith;Rawayana
+rebe,Rebe,pool,Rebe,84776,clinical archives:100;pop:100;bedroom pop:37;spain:37,Rusowsky;Judeline;Isa TKM;Aiko el grupo;Cariño
+chocquibtown,ChocQuibTown,pool,ChocQuibTown,93334,colombia:100;all:53;hip hop:14,Andrés Cepeda;Herencia de Timbiqui;Cabas;Carlos Vives;Santiago Cruz
+pantera blue,PANTERA BLUE,pool,Pantera Blue,92046,bossa nova:100;jazz:25,小野リサ;Laurindo Almeida;Liana Flores;Toco;Agustin Pereyra Lucena
+maria gil,María Gil,pool,Maria Gil,111,portugal:100,Rita Rocha;Gustavo Reinas;Mariana Pereira;Criss Calisto;Syro
+yung brandy,yung brandy,pool,Yung Brandy,4798,hip hop:100;bop:100;goat:66;surge:66;cloud rap:33;hexd:33,Abhir Hathi;YUNGLiAN MEDiOCRE BROKE BOi;Nostos;thatkid;BIBERON
+cma,Cma,pool,CMA,78216,chillstep:100;dubstep:50;electronic:15,Krisu;Jacoo;Blackmill;Sappheiros;Sizzlebird
+icy vedo,Icy Vedo,pool,Icy Vedo,4133,,jaydime;BIBERON;thatkid;superreservao;Yung Brandy
+oktoba,Oktoba,pool,Oktoba,4740,,SacrificioyPasta;EL NIÑO LA YUINTA;IVANCANO;GOLFITO LIL;Grace Ackerman
+mira paula,Mira Paula,pool,Mira Paula,4303,spanish or latin artists:100;spain:100,Bearoid;dani dicostas;interrogación amor;daniel sabater;Gala Nell
+bexnil,Bexnil,pool,Bexnil,721,,iseekarlo;Leïti Sene;Sam & Sen;MC Buzzz;Chineseguy2021
+zeno el faraon,Zeno El Faraón,pool,Zeno El Faraón,747,,AmoryOdio;Mina YW;Dlomalo;ginovVv;Callaito
+l beel,L'Beel,pool,L'Beel,1846,,Kitty110;Dellachaouen;Safu;Rico Rosa;Awwz
+luichi boy,Luichi Boy,pool,LUICHI BOY,5873,,confeti de odio;Carlota;Lashormigas;Colectivo DA SILVA;valverdina
+el unico,El Único,pool,El único,174,,
+rey quinto,Rey Quinto,pool,Rey Quinto,10685,,El Randal;Chivo XVI;baektowo;Joaquín Coronel;$HUPE
+juana del mono,Juana Del Mono,pool,Juana del Mono,2,,
+sfera ebbasta,Sfera Ebbasta,pool,Sfera Ebbasta,136846,trap:100;rap:73;italian:48;hip-hop:34;drill:11;hip hop:11,Capo Plaza;Artie 5ive;Lazza;Guè;Tony Effe
+angelica bove,Angelica Bove,pool,Angelica Bove,7293,italian:100,Malika Ayane;Levante;Bambole di Pezza;Arisa;Enrico Nigiotti
+okgiorgio,okgiorgio,pool,okgiorgio,30596,electronic:100;indie:100;italian:66;indie pop:17,I Cani;Joan Thiele;Liberato;Prima stanza a destra;Marco Castello
+noemi,Noemi,pool,Noemi,78988,italian:100;soul:86;pop:21,Giorgia;Alessandra Amoroso;Annalisa;Elodie;Emma
+cosmo,Cosmo,pool,Cosmo,97630,darkpsy:100;psytrance:62;psychedelic trance:29;psychedelic:18,I Cani;Giorgio Poi;Tutti fenomeni;Canova;Liberato
+margherita vicario,Margherita Vicario,pool,Margherita Vicario,19807,italian:100;pop:100;italy:16;italiana:16,Ditonellapiaga;Levante;Maria Antonietta;I patagarri;Francesca Michielin
+freshmula,FreshMula,pool,Fresh Mula,108,,"Kai's Collection;Arinosite;Tony Boy & Slings;FreshMula;Nerissima Serpe, Tony Boy, & Fritu"
+camoufly,camoufly,pool,camoufly,145056,trap:100;house:25;dance:16;electronic:16,Wes Mills;Atura;Sam Gellaitry;Salute;Oppidan
+ste,STE,pool,Ste,11717,hip hop:100;hip hip:66;butch:66;campania:33,Ciccio Merolla;Andrea Sannino;Vesuviano;jhosef;Petit
+verosimile,VEROSIMILE,pool,verosimile,487,,Fluente;Ceneri;Estremo;Daria Huber;CENTOMILACARIE
+enny p,Enny P,pool,Enny P,3431,,ABBY 6IX;Over Lapa;Maury North;Davìdd;YD Frost
+saintpaul,SaintPaul,pool,Saintpaul,956,,Due G;rikymp3;Yung Pips;Peter Napo;myto
+la nina,LA NIÑA,pool,La Niña,18068,italian:100;rnb:44;italy:29;art pop:29;e:15;d:15;o:15,Joan Thiele;Daniela Pes;Serena Brancale;Levante;Liberato
+trigno,Trigno,pool,Trigno,4277,,Jacopo Sol;Nicolò Filippucci;MOLLENBECK;Luk3;Senza Cri
+motta,Motta,pool,Motta,39218,italian:100;indie:73;drum and bass:12,The Zen Circus;Brunori Sas;Tre allegri ragazzi morti;I Cani;Fast Animals and slow kids
+the zen circus,The Zen Circus,pool,The Zen Circus,37276,italian:100;indie:77;folk-rock:38;folk:26,Tre allegri ragazzi morti;Motta;Ministri;Baustelle;I Cani
+mr rain,Mr.Rain,pool,Mr. Rain,778,rhythm and blues:100;italian:100;rock and roll:66;sanremo 2023:66,Irama;Il Tre;Pinguini Tattici Nucleari;Enrico Nigiotti;Tananai
+rizzo,Rizzo,pool,Rizzo,7843,heavy metal:100;hard rock:100;italian:66;eurobeat:66;melodic hard rock:33;us metal:33;us rock:33;colbie caillat:10,Alek;Cromo;Vago;Estremo;Roshelle
+idra rxx,IDRA Rxx,pool,IDRA Rxx,1308,,Dagood yl;twentyone21;YNK Smokey;Zayre;KHODI
+jeko,Jeko,pool,Jeko,7201,,ERYK GEE;tekuno;Hyper Fox;Matt Lucker;NGD Project
+zizzu,Zizzu,pool,Zizzu,541,,Yung Pips;YD Frost;myto;westcross;Kemio
+memento,Memento,pool,Memento,34719,alternative metal:100;alternative rock:96;hard rock:43;alternative:40,Erase The Grey;Modern Day Zero;Hourcast;Faktion;Systematic
+clauscalmo,clauscalmo,pool,clauscalmo,1057,acoustic:100;folk:100;italian:66;chamber folk:66,C+C=Maxigross;Her Skin;Gregorio Sanchez;Alessandro Fiori;Gnut
+julie ant,Julie Ant,pool,Julie Ant,118,,Altea;Bassolino
+mobrici,MOBRICI,pool,MOBRICI,14508,rock:100;indie:100;italian:66;indie rock:66;italy:33,Galeffi;LEGNO;Golden Years;Cimini;I Segreti
+joseph capriati,Joseph Capriati,pool,Joseph Capriati,49015,techno:100;minimal techno:71;minimal:44;tech house:33;electronic:11,Nicole Moudaber;Julian Jeweil;Adam Beyer;Bart Skils;Layton Giordani
+tancredi,Tancredi,pool,Tancredi,17828,italian male vocalists:100;italian:100;amici20:66;sanremo giovani 2024:66,Aka 7even;Enula;Alex W;Evandro;Beatrice Quinta
+opi,opi,pool,Opi,1968,reggaeton:100,Riccardo Stimolo;Kai Tokisaka;Cyllenian;73VYN;d3vm
+ugo borghetti,Ugo Borghetti,pool,UGO BORGHETTI,3320,centoventisei:100;126:100,ASP126;Drone126;Pretty Solero;Lovegang126;Gianni Bismark
+davide shorty,Davide Shorty,pool,Davide Shorty,8672,italian:100;soul:100;male soul vocalists:66;italy:66;sofar sounds:33,Funk Shui Project;Ghemon;Folcast;Urban Strangers;Johnny Marsiglia
+incis zone,Incis ZONE,pool,Incis Zone,6012,,Raspyy;Rasty Kilo;Uzi Lvke;SCACCIA;YD Frost
+vins,Vins,pool,Vins,6555,,Golden Years;CENTOMILACARIE;Tripolare;Lil Busso;STEF 5K
+simone matteuzzi,Simone Matteuzzi,pool,Simone Matteuzzi,376,,Delicatoni;Colombre;Bais;GIALLORENZO;sandri
+eva bloo,Eva Bloo,pool,Eva Bloo,886,,cmqmartina;Estremo;Sarafine;Vale LP;Beatrice Quinta
+hyper gazpacho,Hyper Gazpacho,pool,,,,
+vinnie marakas,Vinnie Marakas,pool,Vinnie Marakas,410,electropop:100;synthpop:100;synth:66;italian:66,I Camillas;Sxrrxwland;Scudetto;Nicolò Carnesi;L I M
+holy francisco,Holy Francisco,pool,Holy Francisco,2554,pop rock:100;italy:100;under 500 listeners:66;under 2000 listeners:66,theØ;Niveo;Alex Wyse;Gianmaria;SETHU
+ggiovanni,ggiovanni,pool,Ggiovanni,207,,d/rose;luke lecomte;pseudospettri;Tommi;thru collected
+lorenzo senni,Lorenzo Senni,pool,Lorenzo Senni,74518,experimental:100;electronic:100;glitch:48;trance:34;progressive electronic:15;abstract:11,Mark Fell;Evian Christ;Actress;Amnesia Scanner;Klein
+marta vega,Marta Vega,pool,Marta Vega,2027,,DEAR TASH;Tizzy Bac;Fight Pausa;P.t. Adamczyk & Sora Lion;Secret Cameras
+totem,Totem,pool,Totem,52362,metalcore:100;thrash metal:51;death metal:28;polish:19,Frontside;Acid Drinkers;Stigmata;Chimaira;Bleeding Through
+dalai xv,DALAI XV,pool,DALAI XV,223,,Lovesosa;elioo;DalaiXV;Frangipane;Asian Fake
+kemio,Kemio,pool,Kemio,2923,,Fiore Akamono;85Prod;Leevio;Marshe;KHODI
+mozik,Mozik,pool,Mozik,163,,WhyTrevxr;settembre7k;Maury North;Marshe;trenchmafia
+azael,AZael,pool,Azael,7247,podcast:100,ZA$X;19cola;Jiinzo's Graveyard;Hate/Love;Nikushimi
+alessandro ragazzo,Alessandro Ragazzo,pool,ALESSANDRO RAGAZZO,615,electronic:100;instrumental:100;italian:66;experimental:66;try:33;european:33;musique concrete:33;elctronic:10;mediterranean:10,Dimartino;I Camillas;Colombre;Laila Al Habash;Vipra
+camilla,camilla,pool,Camilla,2905,korea:100,Mariadele;Erredieffe;Sabrina Guida;Laura Moreno Garcia;Francesca Chiara
+giacomo gatto,Giacomo Gatto,pool,Giacomo Gatto,25,,
+napoleone,Napoleone,pool,Napoleone,2434,italian:100,Tropico;Tommaso Primo;La maschera;Gabriele Esposito;Fede 'N' Marlen
+jack out,Jack Out,pool,Jack Out,4550,rap:100;hip hop:100;italian:66;hip-hop:66;blog:33;italy:33;youtube:33;bloger:10;emo rap italiano:10,
+leam,Leam,pool,Leam,3360,,85Prod;RAPCALLING;Fiore Akamono;Over Lapa;Marshe
+dot valentino,Dot Valentino,pool,Dot Valentino,2166,detroit trap:100;italian trap:100,Luchetto;FIAMA GANG;Lil Fabris;Glasond;DAYTONA KK
+caterina cropelli,Caterina Cropelli,pool,Caterina Cropelli,484,,Caterina;Ciliari;chiamamifaro;Gio Evan;LEGNO
+sante,Santé,pool,SANTÉ,31403,minimal:100;house:69;tech house:29;techno:16,
+moregre,Moregrè,pool,Moregrè,367,,Nenè Azzurra;maremarcio;Garda 1990;Renàra;Votto
+reira dimentica il presente,Reira dimentica il presente,pool,Reira dimentica il presente,82,,deathcup;Alysei;Scumma do Mar;And So Your Life Is Ruined;Acanto
+la scimmia,La Scimmia,pool,La Scimmia,271,grunge:100;rock:100;alternative:66;indie:66;pop rock:33,Elephant Brain;Giorgieness;Manvポストセックス;Management Del Dolore Post-Operatorio;Gecofish
+alex fontana,Alex Fontana,pool,Alex Fontana,657,,Emilie Payet;Giuda Mio Fratello;Frightful Ocean;Corrado Nuccini;The Plastik Beatniks
+egojipse,egojipse‎,pool,egojipse‎,180,,Juck;@gabriele;9DEN;guidoqwerty;19cola
+traparentesi,traparentesi,pool,traparentesi,880,,onlycarlx;carlè.;inediti bazzi;CENTOMILACARIE;Lil Kvneki
+patrizia,Patrizia,pool,Patrizia,1340,classical crossover:100;symphonic metal:11;opera:11,Linda Tolchard;Micaela Haley;Victoria Baker;Diana Yukawa;Tiffany Desrosiers
+hearts apart,HEARTS APART,pool,Hearts Apart,759,rock:100;punk:100;emo:66;alternative rock:66;vicenza:33;brokenhearted:33;punk rock:33,Nervus;Five Hundred Bucks;The Rituals;The Bodies;Dead Bars
+camilla pnk,Camilla PNK,pool,Camilla PNK,596,,Sillyelly;AleXX iSt4R;Nxfeit;Narcolessia;Mr. Ugo
+novanta,Novanta,pool,Novanta,1573,indie pop:100;psychedelic:25;shoegaze:17;alternative:17,we melt chocolate;Any Other;La Casa al Mare;EUGENIA POST MERIDIEM;Foreverboymush
+fuck lacreme,FUCK!LACRÈME,pool,FUCK!LACRÈME,946,,Kissimjau;Sentimento;Noah Baine;uramaki.;MAYV
+lila,LILA,pool,Lila,51435,pop:100;rock:25;new wave:17,Evangelia;Athena Manoukian;Giorgos Mazonakis;Melody;Skott
+anastasia,Anastasia,pool,Anastasia,105470,macedonian:100;folk:71;soundtrack:43;ethno:40;neofolk:10,Mizar;Toše Proeski;Kaliopi;Foltin;ARHANGEL
+light,Light,pool,Light,35211,space rock:100;ambient:45;progressive rock:29;experimental:29;drone:11;folk:11,Flying Saucer Attack;Landing;Saske;Bardo Pond;Amp
+stavento,Stavento,pool,Stavento,20269,greek:100;indie:75;world music:49;greek pop:25;greek rock:25;entexno:25,Melisses;Goin' Through;Μιχάλης Χατζηγιάννης;Γιώργος Σαμπάνης;Onirama
+merko,Merko,pool,Merko,674,electronic:100,Gucci.MPG;2Shots;Likeboss;CHEKKIS;Skez
+bakv,BAKV,pool,BAKV,1688,,ATC Coco;ATC Nico;big skendo;Onad;Bexli
+natassa bofiliou,Natassa Bofiliou,pool,Νατάσσα Μποφίλιου,1566,greek:100;fonara:11,Gerasimos Evangelatos;Mariza Rizou;Marina Spanou;Eleonora Zouganeli;Maraveyas Ilegál
+onad,Onad,pool,Onad,2050,trap:100,BRes;Diff;Skez;Strat;Alecc
+giorgos livanis,Giorgos Livanis,pool,Giorgos Livanis,2775,greek:100;greece:100;greek male:66,Lena Zevgara;Petros Iakovidis;Ioulia Kallimani;Giorgos Kakosaios;Christina Salti
+faye theochari,Faye Theochari,pool,Faye Theochari,537,,Morfoula;Ria Ellinidou;Lena Zevgara;Κατερίνα Λιόλιου;Katerina Lioliou
+fevertoohigh,FEVERTOOHIGH,pool,FEVERTOOHIGH,12,,Voudou;andriko;DDS;Xxhtos;Kid Young
+miltos pashalidis,Miltos Pashalidis,pool,Miltos Pashalidis,6412,all:100;greek:44;greece:29,Giannis Xaroulis;Christos Thivaios;Haris & Panos Katsimihas;Σωκράτης Μάλαμας;Dimitris Zervoudakis
+ilias kampakakis,Ilias Kampakakis,pool,Ilias Kampakakis,2503,ilg:100;greek:100,Ilias Vrettos;Γιώργος Σαμπάνης;Nikos Oikonomopoulos;Christos Mastoras;Petros Iakovidis
+dimitris bakoulis,Dimitris Bakoulis,pool,Dimitris Bakoulis,743,greek:100;greece:100;entehno:66;laiko:66,Nefeli Fasouli;Σταμάτης Γονίδης;Matoula Zamani;Γιώργος Μαζωνάκης;Giota Negka
+alecc,Alecc,pool,Alecc,4248,,Ggreco;ATC Nico;Strat;HGEMONA$;Diff
+tse,TSE,pool,tse,1974,,MEF;HGEMONA$;Dof Twogee;Illeoo;Sadam
+mario kush,Mario Kush,pool,Mario Kush,265,,Diff;Yung Chicago;Yanek;Strat;Yung Drill3r
+good job nicky,good job nicky,pool,good job nicky,5518,greece eurovision 2022 shortlist:100,Ελένη Φουρέιρα;Dinamiss;Marina Spanou;Melisses;Τάμτα
+onyx,ONYX,pool,Onyx,485441,hip-hop:100;hardcore rap:83;gangsta rap:49;rap:24,Method Man;Sticky Fingaz;Das EFX;Redman;DMX
+2buzy,2Buzy,pool,2Buzy,38,,2Shots;Gucci.MPG;Likeboss;Merko;Owner 101
+terror,TERROR,pool,Terror,310162,hardcore:100;metalcore:25;hardcore punk:16;moshcore:12,Madball;Trapped Under Ice;Hatebreed;Pain of Truth;Incendiary
+l3mar,L3MAR,pool,L3MAR,62,,Short;KSF;BAKV;big skendo;Borac
+kelly kelekidou,Kelly Kelekidou,pool,Kelly Kelekidou,10998,greek:100,Eirini Merkouri;Nikos Kourkoulis;Kostas Karafotis;Fani Drakopoulou;Thanos Petrelis
+violeta ikari,Violeta Ikari,pool,Violeta Ikari,1362,greece:100,Giota Negka;Stavros Siolas;Ioulia Karapataki;Matoula Zamani;Miltos Pashalidis
+originale,Originale,pool,Originale,107,karneval:100,HermesHermes;XRS;Yanek;Sosma;HGEMONA$
+el braxo,EL BRAXO,pool,EL BRAXO,218,,Likeboss;Skez;Yanek;XRS;KSF
+sadomas,Sadomas,pool,Sadomas,2973,greek hip hop:100,2ΚΓ;sponty.;DJ OMONOIA;JAUL;Δπθ
+wiz,Wiz,pool,Ｗｉｚ．,36,game music:100;synthpop:100;chiptune:66,ズオウ・リアキ;骨折飲料;Junko Tamiya;Darios Sawm;FUMIO ITO
+giorgos margaritis,Giorgos Margaritis,pool,Giorgos Margaritis,5579,greek folk:100;greek:100;greece:66;laika:17,Στράτος Διονυσίου;Pasxalis Terzis;Vasilis Karras;Manolis Aggelopoulos;Themis Adamantidis
+genovese,GENOVESE,pool,Genovese,329,,Vese;Raidermen & Natural Elements;Shamus & C.Terror;Mafioso Crime Family;Black-1
+twelvee,Twelvee,pool,Twelvee,2674,rap:100;trap:100,Kareem Kalokoh;Mad Clip;Lil Barty;Strat;Dani Gambino
+phen,Phen,pool,Phen,839,,MEF;Slogan;Snik;Gameboy;DJ Stephan
+yanna vasileiou,Yanna Vasileiou,pool,Yanna Vasileiou,326,greece:100,Pavlina Voulgaraki;Petros Iakovidis;Eleni Hatzidou;Anastasios Rammos;Ano Kato
+hoodspo,HOODSPO,pool,HOODSPO,54,,Strat;Diff;Immune;Alecc;Block 93
+magda varoucha,Magda Varoucha,pool,Magda Varoucha,354,,Myrto Vasiliou;Pavlina Voulgaraki;SKIADARESES;0-100 seirene;Mariza Rizou
+capette,capétte,pool,capétte,3560,experimental:100;electro:100;folk pop:66;greece:66;thessaloniki:33,Παιδί Τραύμα;Sophie Lies;Fivos Delivorias;Thrax Punks;Margarita Zorbala
+xara,Xara,pool,Xara,2076,420:100;greek rap:100;quinto andar subsolo:66;uk funky:66,0-100 seirene;JAUL;TAKI TSAN;Sara ATH;Σημάδι
+kostas karafotis,Kostas Karafotis,pool,Kostas Karafotis,9009,greek:100;balkan:23,Giorgos Giannias;Giannis Vardis;Nikos Kourkoulis;Eirini Merkouri;Thanos Petrelis
+pavlos gkordis,Pavlos Gkordis,pool,Pavlos Gkordis,66,,Manos Kokolakis;Xristos Santikai;Morfoula;Giorgos Xylouris;Evi Koulkouvini
+eleana papaioannou,Eleana Papaioannou,pool,Eleana Papaioannou,1261,greek:100,Fani Drakopoulou;Aggeliki Iliadi;Elli Kokkinou;Thanos Petrelis;Giorgos Xristou
+neka,Neka,pool,Neka,2164,hardcore:100;electronic:100;italy:66;gabber:66;technical brutal death metal:33;finish:33,RoughSketch;DJ Myosuke;Matsui.K;Quil;RIZARDI
+avertos,Avertos,pool,Avertos,162,,K 287;Logos Timis;Novel 729;Αντίγνωμος;anser
+ukendt kunstner,Ukendt Kunstner,pool,Ukendt Kunstner,8934,hiphop:100;rap:100;danish:66;pop:17,KESI;Artigeardit;Lamin;Gilli;The Minds of 99
+zara larsson,Zara Larsson,pool,Zara Larsson,2584095,pop:100;swedish:75;sweden:20,Bebe Rexha;Perrie;Mabel;Zara Larsson & MNEK;Dua Lipa
+anthon edwards,Anthon Edwards,pool,Anthon Edwards,4468,danish:100,Thor Farlov;Anton Westerlin;Josef;Kundo;Citybois
+azzi,Azzi,pool,Azzi,4355,,YADDAY;Kosmal;KEDR;Galust;Лёня
+sara vita,Sara Vita,pool,Sara Vita,647,,USSEL;DAYYANI;Svea S;Angående Mig;KEDDE
+asta norr,ASTA NORR,pool,ASTA NORR,1293,,KEDDE;Karoline Mousing;Svea S;Sofie1998;Mumle
+elias conteh,Elias Conteh,pool,,,,
+samz,Samz,pool,Samz,486,,9Boogie;3xB;Faza;Kundo;Jeff3
+maluda,Maluda,pool,Maluda,1742,,STOR KAEFT;Wicky;Kundo;Zuloo;Michael Williams
+freja malou,Freja Malou,pool,Freja Malou,263,,USSEL;Lea Eyðbjørg;KEDDE;Ella Augusta;Emma Sehested Høeg
+goldie,GOLDIE,pool,Goldie,335940,drum and bass:100;jungle:93;drum n bass:30;electronic:29;dnb:10,Rufige Kru;Roni Size;Grooverider;Dillinja;Lemon D
+caffey,CAFFEY,pool,Caffey,174,,Sandra Hussein;Gobs;Baloosh;DIBSET;Caroline Dubois
+okaynico,OKAYNICO,pool,OKAYNICO,500,,PIND;Lea Romea;DeDerDrenge;Føns;wesmo
+tyrees,Tyrees,pool,Tyree,62029,acid house:100;house:82;acid:15;electronic:15,Fast Eddie;Mr. Lee;Phuture;DJ Pierre;Armando
+gabriel garcia,Gabriel Garcia,pool,Gabriel Garcia,1003,rock:100;metal:100;heavy:66;hard rock:66;heavy metal:33;alternative rock:33;alternative:33;black tide:10;metalcore:10,Cobra Club;The Din Pedals;Thembones;The CEO;Taking Dawn
+anton cornelius,Anton Cornelius,pool,Anton Cornelius,454,,USSEL;Albert Heath;Louis Jarto;Malte Ebert;URO
+mikey,mikey,pool,Mikey,12096,pop:100;alternative:44;electronica:29,ZOUMER;LXE;Golfklubb;garbagepink;Jay Leemo
+hands,Hands,pool,Hands,61364,post-metal:100;hardcore:68;experimental:39;progressive rock:38;post-hardcore:16;metalcore:10,"Sleeping Giant;My Epic;Oh, Sleeper;For Today;Forevermore"
+okayalbert,OkayAlbert,pool,OkayAlbert,1136,,Albert Rosen;Barley Passable;Mini Sants;Pastel Radio;Jules Grant
+albert hertz,Albert Hertz,pool,Albert Hertz,691,,Lola Hammerich;Bashir Billow;koilwood;Yangze;Iben
+hadi,Hadi,pool,Hadi,7708,,Ham Fra Syd;Miklo;ZUUZ;Baloosh;Shooter Gang
+ida vermehren,Ida Vermehren,pool,Ida Vermehren,64,,
+sankt thomas,Sankt Thomas,pool,Sankt Thomas,162,,Faza;3xB;K4BZ;Jeff3;9Boogie
+roya,ROYA,pool,Roya,88546,azerbaijan:100;electronic:100;pop:22,Łaszewo;Hayla;Lyrah;LASTLINGS;Fast Boy
+ossi michel,Ossi Michel,pool,Ossi Michel,61,,Hvem;Flammen;Rapolitics;Prompte;Dopeman & Lapello
+naomi vaughn,Naomi Vaughn,pool,Naomi Vaughn,1039,,Einár;Simon Emanuel;Y4ska;Daniela Rathana;Ana Diaz
+jura,Jura,pool,JURA,9203,hardcore:100;ambient:100;post-metal:66;post rock:66;industrial hardcore:33;gabber:33;creative commons:33;moja muzika:10;psydark:10,crystallmess;Balkaton Gang;1995 epilepsy;Djexon;Alen Sakić
+shinyhunt,shinyhunt,pool,shinyhunt,7847,rock:100;indie:100;indie rock:66;alternative:66;danish:33;denmark:33;pop-rock:33;alternative-rock:10;indie-rock:10,Barbro;100%Wet;Kindsight;The Furniture Group;Baby in Vain
+casper the ghost,Casper The Ghost,pool,Casper the Ghost,28932,indie:100,Alex Järvi;Elias Hurtig;Lil Gemi;Newkid;Fricky
+islandman,islandman,pool,Islandman,73680,ambient:100;electronic:25;turkey:17;turkish:17,Oceanvs Orientalis;Viken Arman;Populous;LALALAR;Satori
+np york,NP York,pool,NP York,123,,Who Killed Bambi;Valo Ato;Uironisk Distanse;Simon Kvamm;Katinka Band
+effie,Effie,pool,Effie,82072,korean:100;pop:64;cloud rap:42;rap:42;hip-hop:12,Nate Sib;SEBii;Jvcki Wai;Molly Yam;2hollis
+thaiboy digital,Thaiboy Digital,pool,Thaiboy Digital,409414,cloud rap:100;rap:56;trap:27;drain:24;drain gang:10,Bladee;Yung Lean;Ecco2K;Woesum;Bladee&Thaiboy Digital
+besa tafari,BESA TAFARI,pool,BESA TAFARI,81,,
+harrison first,Harrison First,pool,Harrison First,11451,dance:100;electronic:100;rnb:66,Kurt.;boaboa;Venus Anon;Kissimjau;PNK FME
+pede b,Pede B,pool,Pede B,12893,rap:100;hip-hop:100;danish:60,Jooks;Per Vers;Jøden;Rent Mel;Ham Den Lange
+aone,Aone,pool,Aone,376,progressive metal:100;french:44,Lyr Drowning;Anthropia;Cloverseeds;Venturia;Julien Damotte
+favna,Favna,pool,Favna,1499,,naws;Night Breeze;DJ Abyss;Slow Ted;The Power Alchemist
+smash into pieces,Smash Into Pieces,pool,Smash Into Pieces,205901,alternative rock:100;rock:52;hard rock:28;swedish:22;post-grunge:11,Apoc;All Good Things;Self Deception;Written by Wolves;Citizen Soldier
+kape yeel,Kape Yeel,pool,Kape Yeel,1227,sweden:100;swedish:25;electropop:17;pop:17,garbagepink;Klara Keller;Havet;Division 7;Avantgardet
+findlay brown,Findlay Brown,pool,Findlay Brown,82304,folk:100;british:31;chillout:14,The Lake Poets;Merz;Jay Jay Pistolet;Blue Roses;Isobel Anderson
+roxy jules,Roxy Jules,pool,Roxy Jules,1191,denmark:100,Marie Fisker;Mellemblond;Nikolaj Nørlund;Baby in Vain;Spids Nøgenhat
+hotel hunger,Hotel Hunger,pool,Hotel Hunger,3949,rock:100;danish:25,Malurt;The Sandmen;inside the whale;Big Fat Snake;Fielfraz
+monaqi,Monaqi,pool,Monaqi,156,,August Rosenbaum;Knægt;Kind mod Kind;Søn;Tomas Høffding
+kleerup,Kleerup,pool,Kleerup,404057,electronic:100;swedish:76;electronica:26;disco:21,Olof Dreijer;Titiyo;Robyn;The Knife;Familjen
+bex,Bex,pool,Bex,47193,punk:100;alternative:25;punk rock:16,Dead Pony;The Meffs;Nova Twins;Karen Dió;Melodic in Fusion
+jireel,Jireel,pool,Jireel,44767,swedish:100;hip hop:11,Y4ska;Naod;Asme;LAMix;Ant Wan
+ronia,Ronia,pool,Ronia,7740,swedish:100,Emilie Adams;Gwennili;Lo Lauren;Jhon Allan;Julia Sabaté
+cucuun,Cucuun,pool,Cucuun,112,,Angående Mig;Tailcoat;Rasmus Dahl;Carol Supreme;Uden Ord
+horse vision,Horse Vision,pool,Horse Vision,63925,indie rock:100;dream pop:56;art rock:37;electronic:17,Snuggle;Deer Park;Chanel Beads;Fine;Maria Somerville
+tomode,Tomode,pool,Tomode,12059,psychedelic rock:100;electronic:100;indie rock:66;indie pop:66;sweden:33;psychedelic pop:33;indie dance:33,Skinny Dipp;Sunshine Boysclub;The Kaleidoscopes;Antonio Barret;RHNO
+palads,Palads,pool,Palads,13,,Zar Paulo;Barselona;Pyrus;Hjalmer;Carl Emil Petersen
+ida fiona,Ida Fiona,pool,Ida Fiona,2561,alt-pop:100;norwegian:100,Trygve Skaug;Gunn Kvaale;sa_g;Kjartan Lauritzen;Sophie Stray
+saweetie,Saweetie,pool,Saweetie,1235671,hip-hop:100;rap:91;better than selena gomez:39;urban:36;female rapper:15,City Girls;Latto;Kaliii;Rubi Rose;Ice Spice
+shndo,shndō,pool,Shndō,1969,usa:100,Amnes;ALIIIAS;Eyezic;heartaake;SoLoveAbel
+bokassa,Bokassa,pool,Bokassa,38533,stoner rock:100;rock:19;stoner metal:13;hardcore punk:13,Crobot;Spidergawd;Valley of the Sun;The Good The Bad and The Zugly;Slomosa
+muuk,muuk,pool,Muuk,1032,rock:100;ambient:100;noise:66;instrumental:66;krautrock:33;experimental:33;electronic:33;insane:10;trip-hop:10;drone:10,Gintė Preisaitė;Azain;Celest;J. Zunz;Never-Never
+magnificence,Magnificence,pool,MAGNIFICENCE,38286,britpop:100;electronic:100;electro house:66;dutch:16,Loopers;TV Noise;SWACQ;Tom & Jame;Jaakob
+axel johansson,Axel Johansson,pool,Axel Johansson,45868,danish:100;house:25;dance:17;electronic:17,K-391;Alan Walker;Vicetone;Klaas;Jim Yosef
+mark sixma,Mark Sixma,pool,Mark Sixma,97812,trance:100;progressive trance:86;uplifting trance:47;tech trance:38;electronic:12,Andrew Rayel;Alexander Popov;Jorn van Deynhoven;Orjan Nilsen;Heatbeat
+h e r o,H.E.R.O.,pool,H.e.r.o.,12998,alternative rock:100;rock:25;danish:16;alternative metal:16,Fight the Fade;Days of Jupiter;Sick Puppies;Citizen Soldier;We Are the Catalyst
+takida,Takida,pool,Takida,160249,alternative rock:100;rock:100;swedish:46;hard rock:41;alternative:15,Those Damn Crows;Andy And The Rockets;Plan Three;Nomy;Smash Into Pieces
+kream,KREAM,pool,Kream,332219,house:100;norwegian:64;dance:24;electronic:24;edm:12,Hayla;Korolova;John Summit;Mossano;miss monique
+karlee girl,KARLEE GIRL,pool,KARLEE GIRL,216136,rnb:100;pop:44,Say Now;KATSEYE;no na;FLO;XG
+selma eriksen,Selma Eriksen,pool,Selma Eriksen,33486,indie pop:100;usa:66;los angeles:66,Lyn Lapid;tiger la flor;Easha;Arden Jones;Andrea Chahayed
+the darkest moment,The Darkest Moment,pool,The Darkest Moment,5511,alternative rock:100;alternative metal:100;metalcore:66;post-hardcore:66;nu metal:33,Amoura;Deadthrone;Painting Promises;Glass Hands;I the Fire
+ringo moon,Ringo Moon,pool,Ringo Moon,281,tromsoe:100,A Million Pineapples;Blondekant;Bachstreetboys 2022;Neon Apartments;Hrishav
+marvelous mosell,Marvelous Mosell,pool,Marvelous Mosell,6203,danish:100;rap:25;dansk:17;hip-hop:17,Benal;Emil Kruse;Barselona;Carl Knast;Flødeklinikken
+gone future,Gone Future,pool,Gone Future,804,,"Showpony, Aaron Taos & Tyler Lindsay;Sibille Attar;Året Var;Dolores Haze;Stephanie Gilbert"
+vanir,Vanir,pool,Vanir,28776,folk metal:100;viking metal:75;denmark:16;viking folk metal:12,Wolfchant;Heathen Foray;Grymheart;Svartsot;Grimner
+nobu,NOBU,pool,Nobu,7787,techno:100;electronic:25;japan:17,MAKS;Evert van Huygevoort;Christian Cambas;Kozlov;Sigourney K
+cezinando,Cezinando,pool,Cezinando,41213,norwegian:100;norway:100;hip-hop:29,Undergrunn;Karpe;Marstein;Ari Bajgora;Team Me
+sleiken,Sleiken,pool,Sleiken,5256,,Sjakklubb;Prells;Westbound;BABELAID;Festefar
+beklagelig,BEKLAGELIG,pool,BEKLAGELIG,1,,
+nossan,Nossan,pool,Nossan,2149,,Nossán;Ys1;Moe3;Metropolen;Benocchio
+1362,1362,pool,1362,1285,post-rock:100;instrumental:100;post-metal:66,Ylva;Borghini;Sjakklubb;Øyen Holding;Smokken
+kordflyel,Kordfløyel,pool,Kordfløyel,233,,Jesper Jenset;Metropolen;Vettche;Avgvstvs;Ka2
+sun byrd,Sūn Byrd,pool,Sūn Byrd,3489,soul:100;norwegian:100,Isbit;Pumpegris;Svømmebasseng;GIDDYGANG;Holm CPU
+barna,barna,pool,Barna,610,,1362;Smokken;Sjakklubb;Øyen Holding;Olavs Menn
+sli0h,Sli0h,pool,Sli0h,2289,,Ys1;Dutty Dior;Oscar Blesson;Lille Pablo;Moe3
+truls,Truls,pool,Truls,31181,pop:100;electronic:33;norwegian:22,Martin Halla;Astrid Smeplass;Ask Embla;LidoLido;DJ Broiler
+curbz,CURBZ,pool,CURBZ,141,,Zimmermann;Synne Sørgjerd;PEN GUTT;Gjenfødt Kultur;Aktiv Dödshjelp
+crille,Crille,pool,Crille,10105,,Mio Johansson;Hasselyra;Ringnes-Ronja;EPA DUNK;Kaptenen
+obede,Obede,pool,Obede,450,,Daniel Obede;Ice Csay;Siyabång;Youngsavages;PRIMZ
+jay sorrow,Jay Sorrow,pool,Jay Sorrow,1082,,Makosir;Nossan;Amara;Ys1;BRONER CLUB
+victoria spandow,Victoria Spandow,pool,Victoria Spandow,856,,Mathilde Elisif Høglo;Elisabeth Nygård-Pearson;Benjamin da Silva;Elida Waage;Simone Haaland
+joki,joki,pool,Joki,30987,house:100;electronic:100;nfm:66;belgium:66,Alok;Lost Frequencies;Thierry Von Der Warth;Dimitri Vegas;Naarly
+philip emilio,Philip Emilio,pool,Philip Emilio,9772,norwegian:100;hip-hop:11,Arif;Unge Ferrari;Tomine Harket;Dårlig Vane;Ezzari
+elsie bay,Elsie Bay,pool,Elsie Bay,16231,melodi grand prix 2022:100;norwegian:100;norway:17;pop:17,Maria Celin;Eline Thorp;Tiril;Oda Gondrosen;Eline Noelia
+glassmanet,Glassmanet,pool,Glassmanet,4043,psychedelic:100;indie:100;shoegaze:66;alternative pop:66;dream pop:33;ethereal:33;norway:33;indiepop:10;psychedelic pop:10;indie-pop:10,Crystal Canyon;Misty Coast;Wine Pride;Teana;Babe Lewis
+luli,LULI,pool,Luli,4136,pop:100;bossa nova:66;chile:66;luliton:33,Bwana Trio;Claudette Soares;Ximena Abarca;Odette Lara;Carolina Molina
+guwapi,Guwapi,pool,Guwapi,573,,Moe3;Ys1;Hævk;Gæste Gutter;ameo
+weimoth,Weimoth,pool,Weimoth,264,,Subaru;HC;Smul;Ys1;kolsta
+rage,Rage,pool,Rage,269920,heavy metal:100;power metal:84;speed metal:33;metal:21;german:10,Grave Digger;Gamma Ray;Primal Fear;Iron Savior;Running Wild
+gustav1000,GUSTAV1000,pool,GUSTAV1000,960,,tre40fire;Gjenfødt Kultur;Balestrand Badeklubb;Masåva;sa_g
+studaviga,Studavigå,pool,Studavigå,10963,swedish:100;svenska:100,LOOKET;Strög1;Albatraoz;BR0D3R;Sofie Svensson & Dom Där
+elisabeth nygard pearson,Elisabeth Nygård-Pearson,pool,Elisabeth Nygård-Pearson,350,,Andrea Bredesen Holm;Benjamin da Silva;Elida Waage;Oda Jonetta Joberg;Ingeborg Ruud
+granitt,GRANITT,pool,Granitt,185,,Henrik Støren;Oslo Båtforening;Ståles menn;Racer;Matchvinner
+vepsestikk,Vepsestikk,pool,Vepsestikk,1671,indie rock:100;alternative:100;norwegian:66,Sliteneliten;Evigheten;Evig Ferie;Rektor;brenn.
+thea alana,Thea Alana,pool,Thea Alana,178,,"Yes Alexander;AFRO aka All Flows Reach Out;Lawrence Arnell;Tony Touch, Big Pun, Sunkiss, Reif-Hustle;AZ, Allure"
+ylora,Ylora,pool,,,,
+dale,dale,pool,Dale,22705,new wave:100;dance:25,The Moderates;DD Walker;ZEVY;ølin;SpAzI
+lamix,Lamix,pool,LAMix,17104,hip hop:100;swedish:100,Jireel;Elias Abbas;Denz;Blizzy;Dree Low
+fredrik lundman,Fredrik Lundman,pool,Fredrik Lundman,2989,country:100;swedish:100;sweden:66,SCHLAGERZ;Tennessee Tears;Angelino;Annika Wickihalder;Arwin
+zach top,Zach Top,pool,Zach Top,165044,country:100;usa:25,Cody Johnson;Hudson Westbrook;Riley Green;George Strait;Randall King
+prof stranger,Prof. Stranger,pool,Prof. Stranger,18785,house:100;garage:44;future garage:29,sensu;Maya Q;Me & George;Crush3d;Jordon Alexander
+jill johnson,Jill Johnson,pool,Jill Johnson,64857,country:100;swedish:82;pop:50,"Sarah Dawn Finer;Pam Rose;Sanna, Shirley & Sonja;Sonja Aldén;Peter Jöback"
+red langur,Red Langur,pool,Red Langur,2195,,June Dogs;Alexander Grandjean;Cactus Tree;We are all fossils;Morning Bear
+yaeow,yaeow,pool,yaeow,186517,swedish:100;acoustic:25;lofi:16;indie:16,shy martin;Shiloh Dynasty;Elina;Isak Danielson;I Belong To The Zoo
+late verlane,Late Verlane,pool,Late Verlane,3786,sweden:100;indie:11,Rheya;Sofie;Moon Palace;Izza Gara;Junior Brielle
+isac halldin,Isac Halldin,pool,Isac Halldin,1048,,Aiden Malacaria;RedeemedZed;Salty Licorice;Rymdpojken;Vilhelm Buchaus
+belle and sebastian,Belle and Sebastian,pool,Belle and Sebastian,1837994,indie:100;indie pop:97;alternative:35;twee:32;indie rock:15,Camera Obscura;God Help the Girl;The Magnetic Fields;The Essex Green;Yo La Tengo
+simon superti,Simon Superti,pool,simon superti,11315,swedish:100;hiphop:11,Klaudy;Rymdpojken;noll2;Dom Första;Lucianoz
+little jinder,Little Jinder,pool,Little Jinder,77118,electronic:100;electropop:76;synthpop:41;sweden:31;pop:10,Kite;Veronica Maggio;Säkert!;Miriam Bryant;Molly Sandén
+tuva rawall,Tuva Råwall,pool,tuva Råwall,353,,Fanny Avonne;Peg Parnevik;Olivia Lobato;noll2;Klaudy
+lastreet,LaStreet,pool,LaStreet,6768,,G1ocatore;01AN;5iftyy;SHACKI;HaVaL
+sh1,SH1,pool,Sh1,2169,drum and bass:100;liquid funk:25,JB;(NSF) Destroy2k & Sativa;Simon V & Telmo A;Smote & Stunna feat. Submorphics;Peyo & Grimm
+perla,PERLA,pool,Perla,17169,paraguay:100;brega:36;california seixas:24;aleyster crowley:24,Lindomar Castilho;Barros De Alencar;Luis Alberto Del Paraná;Luis Bordon;Tierra Adentro
+simon emanuel,Simon Emanuel,pool,Simon Emanuel,7867,swedish:100;hiphop:25;hip hop:17,Alexis Weak;Mack Beats;Lorentz & Sakarias;Mohammed Ali;Niklas von Arnold
+naja,NAJA,pool,Naja,17704,j-pop:100;punk:25;metalcore:17,より子;PoppinS;コタニキンヤ;Changin' My Life;星村麻衣
+ellen smed,Ellen Smed,pool,,,,
+axel ruby,Axel Ruby,pool,Axel Ruby,5138,swedish:100,Academics;Erik henebratt;Alexander Juneblad;Erk;Bella Leonette
+bergamus,Bergamus,pool,Bergamus,717,,Herman Silow;Jacub;Jonna Randen;Jens Hult;Moonica Mac
+m1nore,M1nore,pool,M1nore,37,,Marze;LKN;Paros;West Ivar;Einár
+storstadspojkarna,Storstadspojkarna,pool,Storstadspojkarna,369,,Lov1;Papi Santana;Von Disco;Fjellrev;Raggarligan
+zoe lobos,Zoe Lobos,pool,Zoe Lobos,1212,sweden:100;latin pop:66;uruguayan:66,MO XO;Amena;Imenella;Hanna Löwenborg;Isak Benjamin
+sand,Sand,pool,Sand,29514,krautrock:100;hardcore:44;beatdown:26;psychedelic:26,Amon Düül II;Kraan;Can;Cluster;Birth Control
+lauri haav,Lauri Haav,pool,Lauri Haav,19046,finland:100;pop:100;rap:16;hip hop:16,ibe;Sexmane;Gettomasa;Isac Elliot;Turisti
+pehmoaino,pehmoaino,pool,Pehmoaino,22663,finnish:100;indie pop:100;finland:37;pop:37,emma & matilda;Ruusut;KUUMAA;Vesta;louna0nline
+axel kala,Axel Kala,pool,axel kala,9565,finnish:100;rap:100;suomirap:66,Pyrythekid;Lyttä;Md$;Röge;Rekami
+costee,costee,pool,costee,17626,finnish:100;pop:11,Tupe.;Pihlaja;Sini Yasemin;Lukas Leon;ELLIMEI
+ellimei,ELLIMEI,pool,ELLIMEI,7963,finnish:100;pop:100;finland:66,Jaakko Kulta;KAUKUA;Minttu;Elias Kaskinen;Sara Bee
+mikael laurent,Mikael Laurent,pool,Mikael Laurent,5387,,Tupe.;Jambo;Jaakko Kulta;Bizi;M//O
+ab,AB,pool,AB,50623,rnb:100;soul:100;psychobilly:29;japanese:29;neo-soul:15;hard rock:15;funk:15,October London;Digga;Jazmine Sullivan;Daniel Caesar;Case
+valentin,Valentin,pool,Valentin,77268,acoustic:100;japanese:44;alternative:29;instrumental hip-hop:29;brazilian:10,Visconde;DJ Okawari;Michita;You+Me;Tiago Iorc
+leyla,Leyla,pool,Leyla,5694,pop:100;hip-hop:25;finnish:17;aor:17,Alina Burnet;Sara Bee;Minttu;Pyrythekid;Davy
+samuell,Samuell,pool,Samuell,7449,pop:100,Minttu;Sara Bee;Niilo;Ikuinenkesä;Elias Kaskinen
+kastehelmi,Kastehelmi,pool,Kastehelmi,1167,,ELLAELLA;Dreamilla;Asla Jo;Edicti;Varkemaa
+camila cabello,Camila Cabello,pool,Camila Cabello,2568778,pop:100;cuba:18;dance:18,Fifth Harmony;Lauren Jauregui;Selena Gomez;Tate McRae;Dinah Jane
+knife girl,Knife Girl,pool,knife girl,37730,finland:100;electronic:100;finnish:29;indie pop:29,Jenni Vartiainen;Keiju;louna0nline;Etta;Olli
+slaya,SLAYA,pool,Slaya,474,suomirap:100,Habson;Bars On Bars;Hudari;Milly SL;G yayo
+kati,KATI,pool,Kati,4093,finnish:100;dance:100,Sani;Meiju Suvas;YihaoXingg;头不痛;YN-K
+vimma,Vimma,pool,Vimma,5687,finland:100;finnish:25;progressive folk:16;seen live ohyes:16,Nössö Nova;Elsi Sloan;Pilven Piirtäjät;Syskofrenia;Keidas
+pampulameri,pampulameri,pool,pampulameri,418,finnish:100,Asla Jo;ELLIMEI;Kastehelmi;Annika Pudas;ELLAELLA
+vivian,vivian,pool,Vivian,12967,rock:100;hard rock:44;switzerland:29;heavy metal:29;swiss:15,Dada Ante Portas;Plüsch;QL;Florian Ast;Lovebugs
+uniikki,Uniikki,pool,Uniikki,35778,finnish:100;rap:62;hip-hop:32,Brädi;Aste;Kapasiteettiyksikkö;Timo Pieni Huijaus;Kymppilinja
+markus krunegard,Markus Krunegård,pool,Markus Krunegård,129327,swedish:100;indie pop:68;pop:31;indie:28,Håkan Hellström;Säkert!;Jakob Hellman;Kent;Familjen
+adi,ADI,pool,Adi,22675,psychedelic trance:100;psytrance:64;goa trance:24;darkpsy:24;home collection:12;dark psytrance:12,Lage;Magnat;lappis;Dishaan;Nicole Cherry
+keki,Keki,pool,Keki,885,hi-site:100;eurobeat:100,Chemical Boy;MAX CASANOVA;Lisa Ferrari;Baby Energy;Cindy Cooper
+strongboi,strongboi,pool,strongboi,219792,funk:100;indie pop:100;chamber pop:66;electronic:29,Men I Trust;Tokyo Tea Room;Kate Bollinger;Oracle Sisters;Tennis
+liina,LIINA,pool,Liina,971,,Kaip;Neili;Jeremine;la haka;Jenna Alexa
+dreamilla,dreamilla,pool,Dreamilla,2105,pop:100;finnish:25;finland:17,Vera Wall;Edicti;Asla Jo;Jaakko Kulta;Minttu
+pauliina kokkonen,Pauliina Kokkonen,pool,Pauliina Kokkonen,1464,finland:100,Eroma;Mira Luoti;Adikia;Terhi Kokkonen;Anni Lahe
+bigbang,BIGBANG,pool,Bigbang,971251,k-pop:100;big bang:85;korean:44;bigbang:35;kpop:15;norwegian:15;rock:13,G-DRAGON;GD&TOP;Daesung;태양;GD X TAEYANG
+jennie,JENNIE,pool,Jennie,1640580,k-pop:100;korean:74;kpop:28;pop:22,"BLACKPINK;Rosé;Lisa;JISOO;Rosé, Bruno Mars"
+nayeon,NAYEON,pool,NAYEON,841847,k-pop:100;pop:65;twice:40;korean:16,TWICE;JIHYO;TZUYU;MISAMO;CHAEYOUNG
+yves,Yves,pool,Yves,518498,k-pop:100;rnb:91;korean:38;loona:38;pop:15,ARTMS;CHUU;Loossemble;HeeJin;ODD EYE CIRCLE (ARTMS)
+dynamicduo,Dynamicduo,pool,Dynamic Duo,44660,korean:100;hip-hop:100;korean hip-hop:25;rap:24;k-hip hop:11,Drunken Tiger;Swings;Dok2;Primary;Supreme Team
+i n,I.N,pool,I.N,14717,stray kids:100;k-pop:33;kpop:12;korean:12,CHANGBIN;Bang Chan;Hyunjin;Han;Seungmin
+gaho,Gaho,pool,Gaho,206590,rnb:100;k-pop:56;korean:37;k-rnb:17,Kim Feel;HA SUNG WOON;Sam Kim;Woosung;10cm
+suchmos,Suchmos,pool,Suchmos,87032,j-rock:100;japanese:100;rock:34;funk:22;acid jazz:11,サカナクション;Nulbarich;離婚伝説;Iri;星野源
+jo1,JO1,pool,JO1,61547,j-pop:100;japanese:36;japan:11;pop:11,DXTEEN;ME:I;IS:SUE;BE:FIRST;Mazzel
+starglow,STARGLOW,pool,Starglow,3779,j-pop:100;japanese:25;jpop:16;pop:16,Mazzel;BE:FIRST;SKY-HI;Novel Core;Ayumu Imazu
+elijah woods,elijah woods,pool,Elijah Woods,231489,singer-songwriter pop:100;canadian:100,Alexander Stewart;Forest Blakk;Katherine Li;Alex Sampson;Tyler Shaw
+warren hue,Warren Hue,pool,Warren Hue,125475,rap:100;hip-hop:100;indonesian:16;hot:16,Rich Brian;88rising & Rich Brian;1999 WRITE THE FUTURE;tobi lou;Warren Hue & Chasu
+wonho,WONHO,pool,WONHO,262646,k-pop:100;pop:100;korean:46,Kihyun;MONSTA X;SHOWNU X HYUNGWON (MONSTA X);JOOHONEY;I.M
+keyveatz,Keyveatz,pool,Keyveatz,46432,k-pop:100;korean:100;kpop:66;pop:29;aomg:15;hip-hop:15,H//PE Princess;Heart of Woman;MEOVV;OURBIRTHDAY;VVS
+ampers one,AMPERS&ONE,pool,AMPERS&ONE,62791,boys planet:100;k-pop:44;korean:29,82MAJOR;EVNNE;ONE PACT;8TURN;xikers
+way ched,Way Ched,pool,Way Ched,64204,korean:100;hip-hop:11,Coogie;Leellamarz;BOYCOLD;Sik-K;Trade L
+dpr artic,DPR ARTIC,pool,DPR ARTIC,61161,rap:100;techno:100;korean:66;hip-hop:66,DPR CREAM;Dabin.kr;DPR LIVE;Tabber;PENOMECO
+dessy,Dessy,pool,Dessy,11056,dessy grande:100,DESSY STEFANOU;DamiYoncé;Dimitris Butera;Norella;G+UNENBERG
+bgyo,BGYO,pool,BGYO,14758,opm:100;philippines:100;ppop:66;pinoy pop:66;p-pop:33,G22;Jolina Magdangal;Bini;Regine Velasquez;ALAMAT
+mei ehara,mei ehara,pool,Mei Ehara,242634,japanese:56;j-indie:17;city pop:17,Minuano;Lamp;Kaede;Ichiko Aoba;Satoko Shibata
+whitten ooi,Whitten Ooi,pool,Whitten Ooi,64,,
+yogee new waves,Yogee New Waves,pool,Yogee New Waves,60211,japanese:100;indie:56;indie rock:16;indie pop:16,never young beach;Tendre;踊ってばかりの国;tempalay;Khaki
+luby sparks,Luby Sparks,pool,Luby Sparks,32401,shoegaze:100;dream pop:51;indie rock:22;indie pop:22,For Tracy Hyde;Cattle;Moon in June;PLASTIC GIRL IN CLOSET;Clams
+shintokyo,SHINTOKYO,pool,SHINTOKYO,4914,,新東京;ボタニカルな暮らし。;penguinrush;YAJICO GIRL;ochunism
+silvy,SILVY,pool,Silvy,14666,thai:100;pop:25;rnb:17;hip hop:17,Be On Cloud;Sizzy;Namtan Tipnaree;Earth Pirapat;Alyn Wee
+joons,JOONS,pool,Joons,160,,Ployé;Paul Bill Jr.;Ake Surachet;ที Jetset'er;Pedlar
+mister two five,MISTER TWO FIVE,pool,MISTER TWO FIVE,9201,,Moghul Miz;Jude Thomas;Wubi;Titus Irons;Apriltwentyfifth
+quiet morning,quiet morning,pool,Quiet Morning,13873,,donny daydream;West of Eden;Riaan;Minh;sonny zero
+babylon,Babylon,pool,Babylon,49330,progressive rock:100;visual kei:31;j-rock:15;heavy metal:10,DaizyStripper;LAREINE;La'Mule;DIAURA;摩天楼オペラ
+nell,NELL,pool,Nell,180385,korean:100;k-rock:80;indie:42;alternative:36;rock:16,자우림;Epik High;검정치마;Urban Zakapa;HANRORO
+otis kane,Otis Kane,pool,Otis Kane,113796,rnb:100;soul:100;usa:17;los angeles:17,Don West;Aaron Childs;Nectar Woode;Velvet Funk;Hajaj
+rosie darling,Rosie Darling,pool,Rosie Darling,158541,indie pop:100;indie:25;yandex music:16;pop:16,Elina;Sara Kays;shy martin;Sasha Alex Sloan;Avery Lynch
+piao,PIAO,pool,Piao,55189,canadian:100;chinese:100;pop:66;rnb:17,Bayli;Hunnygloss;Lexie Liu;Genia;Say Now
+modelki,MODELKI,pool,Modelki,46785,polish:100;pop:100;hip-hopolo:66;booba:66;piotr krasko w swojej mazurskiej posiadlosci:33,Jonatan;Eryk Moczko;KUQE 2115;Roxie Węgiel;przemek.pro
+miu,MIÜ,pool,Miü,46464,rap:100;hip-hop:100;poland:66;polish:66;polskie:33;polish hip-hop:33,Ekipa;KINNY ZIMMER;Bungee;White 2115;Otsochodzi
+jan rapowanie,Jan-Rapowanie,pool,Jan-rapowanie,67393,rap:100;hip-hop:100;polish:29;polish hip-hop:29;polish rap:15,SB Maffija;TACONAFIDE;Quebonafide;Fukaj;Bedoes 2115
+kizo,Kizo,pool,Kizo,90068,polish:100;rap:25;hip hop:16;hip-hop:16,malik montana;Żabson;ReTo;SB Maffija;White 2115
+sylwia grzeszczak,Sylwia Grzeszczak,pool,Sylwia Grzeszczak,90539,pop:100;polish:85;alternative:11,Ewelina Lisowska;Sanah;Sarsa;Oskar Cyms;Ania Wyszkoni
+oskar cyms,Oskar Cyms,pool,Oskar Cyms,30108,polish:100;pop:100;teen pop:66;teeen pop:66,Dawid Kwiatkowski;Carla Fernandes;Sylwia Grzeszczak;Lanberry;Bletka
+young leosia,Young Leosia,pool,Young Leosia,86680,dancehall:100;pop rap:64;hip house:24;hip hop:24,Otsochodzi;GrubSon;Dina Ayada;Jamal;zuziula
+frosti,Frosti,pool,Frosti,25535,electronica:100;electronic:100;danish:66;scandinavian:66;danish music:33;dansk:33,berson;Asster;White Widow;KaptuR;Bary
+inee,Inee,pool,INEE,8256,poland:100;pop:100;hiphop:17;rap:17,IndeB;Cooks;Kacper;Filipek;RUSKIEFAJKI
+ofelia,Ofelia,pool,Ofelia,37419,polish:100;alternative:36,Mela Koteluk;Daria ze Śląska;Kasia Lins;Mery Spolsky;The Dumplings
+onar,Onar,pool,Onar,48265,rap:100;hip-hop:94;polski hip hop:39;polish:37;hip hop:12,Płomień 81;Pih;Pyskaty;Kajman;Młody M
+piotr odoszewski,Piotr Odoszewski,pool,Piotr Odoszewski,9921,indie:100;pop:100;poland:66;indie pop:66;polish:33,Wiktor Waligóra;Paula Biskup;Daniel Godson;Livka;Wiktoria Zwolińska
+kara,Kara,pool,Kara,385974,k-pop:100;korean:69;pop:21;kpop:10,9MUSES;After School;T-ARA;Brown Eyed Girls;Dal★Shabet
+szwed swd,Szwed Swd,pool,szwed swD,3111,rap:100,Bary;Macias;Chłopiec;Skumaj;Doliacz
+pan savyan,Pan Savyan,pool,Pan Savyan,8563,poland:100;pop:25;piotr krasko w swojej mazurskiej posiadlosci:16;eurovision:16,Daria Marx;Maciej Skiba;Sw@da;Chrust;Paula Biskup
+sarius,Sarius,pool,Sarius,49847,rap:100;hip-hop:16;polish hip-hop:11,Kartky;Jibbs;Guzior;Pezet;Paluch
+zippy ogar,Zippy Ogar,pool,Zippy ogar,13408,hiphop:100;rap:100;polish:66;hip-hop:66;polish hiphop:33;polish rap:33,Dżanglu;KUQE 2115;Znowu Tony;GOMBAO 33;North Side District
+albo inaczej,Albo Inaczej,pool,Albo Inaczej,38767,jazz:100;polish:100;wodecki:66;projekt:66;alkopoligamia:33;bem:33;andrzejczak:33;stefan hula na sniadaniu przy mamuciej skoczni:10;piotr krasko w swojej mazurskiej posiadlosci:10,Stach Bukowski;Piotr Zioła;Męskie Granie Orkiestra 2020;Męskie Granie Orkiestra 2019;ARS LATRANS Orchestra
+cbw,CBW,pool,CBW,33144,,SLoweZ;Waima;emonik;hesoyam;Słodziak
+maciej musiaowski,Maciej Musiałowski,pool,Maciej Musiałowski,10206,,Ania Iwanek;Kleks;Paula Biskup;Męskie Granie Orkiestra 2021;Marcin Maciejczak
+tax free,Tax Free,pool,Tax Free,27425,dutch beat:100;folk rock:100,rydawarrior;730 Huncho;ATHC;GM2L;OG ENZO
+yana couto,Yana Couto,pool,Yana Couto,53701,poland:100;ambient:25;polish:16,Dawid Tyszkowski;Ophelia Wilde;Dylan John Sparkes;Imaginary Poet;Dennis Korn
+jeremi sikorski,Jeremi Sikorski,pool,Jeremi Sikorski,4780,poland:100;polish:100;twoja twarz brzmi znajomo:66;polskie:66;your face sounds familiar:33,Wiktoria Kida;kuba i kuba;Maciej Skiba;Hania Kuzimowicz;pszona
+mery spolsky,Mery Spolsky,pool,Mery Spolsky,34773,polish:100;alternative:36;electropop:11;pop:11,Julia Wieniawa;Daria Zawiałow;Bovska;Ofelia;Daria ze Śląska
+wiktoria jakubowska,Wiktoria Jakubowska,pool,Wiktoria Jakubowska,766,polish:100,Magda Kluz;Ania Szlagowska;Paulina Przybysz;Dominika Płonka;Ania Leon
+ania szlagowska,Ania Szlagowska,pool,Ania Szlagowska,5436,polish:100,Dominika Płonka;Zuzanna Malisz;Wiktor Waligóra;Paula Roma;ZUTA
+tede,TEDE,pool,Tede,96255,hip-hop:100;rap:99;polski hip hop:36;polish:30;hip hop:10,Włodi;donGURALesko;Ten Typ Mes;O.S.T.R.;Pezet
+sawomir,Sławomir,pool,Sławomir,42820,poland:100;seenlive:100;watchlist:66;disco polo:66;rock-polo:33;pure fucking true norwegian nazi apokalyptic ocultistic black like satans ass metal from land of the vikings:33;brutal necrocanibalistic grindcore with certain influences of father rydzyk:33;januszcore:10;rocko polo:10;najsurowszy norweski black metal prosto z glebin norweskich lasow osikany moczem renifera:10,Boys;Grzegorz Hyży;Mig;Sanah;Łobuzy
+vixen,Vixen,pool,Vixen,181221,hard rock:100;hair metal:67;rock:10,Lita Ford;Kix;Winger;Danger Danger;Lee Aaron
+baby v,Baby V,pool,Baby V,1273,,Kazek;JA22Y;Kajtek;zuziula;Boron
+ewelina flinta,Ewelina Flinta,pool,Ewelina Flinta,61877,polish:100;rock:49;pop:35,Virgin;Patrycja Markowska;Kasia Kowalska;Kasia Cerekwicka;Ewelina Lisowska
+3bb,3BB,pool,3BB,186,,3brat;Kwiatek Haze;KARUZELKAAA;JupiJej;Kajzer
+miosz skierski,Miłosz Skierski,pool,Miłosz Skierski,2186,,Helena Ciuraba;Monika Kociołek;Aria Martelle;Maciej Skiba;Wiktoria Kida
+bonson,Bonson,pool,Bonson/Matek,8074,rap:100;hip-hop:65;underground:29;polish:14,HuczuHucz;Bonson&Brus;VNM;Bonson;Solar/Białas
+zbyt mocne 2,Zbyt Mocne 2,pool,Zbyt Mocne 2,5681,,iskraa;ATHC;pinkinthecup;OG ENZO;Gresh
+wisniosz,wiśniosz,pool,wiśniosz,4876,emo:100;polish:100;pop punk:66;emo-pop:17,Felivers;cafetrauma;!Ben;Wojtek Szumański;Jonasz Gubera
+super momenty,Super Momenty,pool,Super momenty,917,polish:100,SMKKPM;Prawie Idealni;Ranko Ukulele;Sad Smiles;Wojtek Szumański
+kuba badach,Kuba Badach,pool,Kuba Badach,15013,jazz:100;polish:83;funk:52;smooth jazz:40;pop:12,Poluzjanci;Polucjanci;Mietek Szcześniak;Dorota Miśkiewicz;Bisquit
+livles,Livles,pool,livles,3848,,chmuura;9ssey;tiredrnn;jedrek hibob;antekokej
+micha bajor,Michał Bajor,pool,Michał Bajor,27115,poezja śpiewana:100;polish:92;poetry:61;poezja spiewana:17,Janusz Radek;Alicja Majewska;Katarzyna Groniec;Magda Umer;Pod Budą
+sara girgis,Sara Girgis,pool,Sara Girgis,431,,Karolina Charko;Babie Lato;Wiktoria Kida;Maciej Skiba;maks.tachasiuk
+hyacinth,HYACINTH,pool,Hyacinth,3018,screamo:100;french:33;real screamo:10,A.S.T.R.O.;The Third Memory;Brume Retina;le massacre du client de 15 heures;Utarid
+tadeo,Tadeo,pool,Tadeo,17136,techno:100;minimal:73;minimal techno:36;deep:19,Pied Plat;Risque Rythum Team;Risqué Rythum Team;Norman Nodge;Samuli Kemppi
+buslav,Buslav,pool,Buslav,14476,polish:100;singer songwritter:25;piotr krasko w swojej mazurskiej posiadlosci:16,Kroki;Bownik;Leski;Piotr Zioła;Barbara Wronska
+esceh,esceh,pool,esceh,8256,rap:100;hip-hop:100;polish:66;polish hip-hop:66,Beteo;2K;Kabe;Deemz;Asster
+kalwi,Kalwi,pool,Kalwi & Remi,132001,electronic:100;trance:91;house:52;techno:50;polish:25,C-Bool;Pakito;Danzel;Shaun Baker;Benassi Bros.
+zyny,ŻYŃY,pool,Żyńy,4736,polish:100,Siema Ziemia;ZIMA STULECIA;Sunareht;Hoshii;NIEMOC
+soulard,Soulard,pool,Soulard,4028,,SHEDER;Pazzy;Skumaj;młodyBA;FEKIR
+palion,Palion,pool,Palion,15343,,Wojan;przemekbestgames;SmileSlow;Friendz;Noob Doknes
+klaudia marzec,Klaudia Marzec,pool,Klaudia Marzec,1608,polish:100,Monika Fortuniak;Paula Roma;Matylda/Łukasiewicz;Leon Krześniak;Natalia Grosiak
+budka suflera,Budka Suflera,pool,Budka Suflera,156935,rock:100;polish:75;classic rock:43;polish rock:38,Perfect;Lady Pank;Dżem;T.Love;Maanam
+covin,Covin,pool,Covin,3316,horror punk:100;all:100,Kaluch;xxhnex;młody dymas;chmuura;Kamerzysta
+hatti vatti,Hatti Vatti,pool,Hatti Vatti,13181,dubstep:100;ambient:80;electronic:44;dub:36;minimal:11,Hatti Vatti Feat Echo Ranks;Hatti Vatti & Cian Finn;UL/KR;DFRNT;Eleven Tigers
+waitforfriday,waitforfriday,pool,waitforfriday,77,,Wiktoria Kida;Hania Kuzimowicz;Maciej Musiałowski;wiśniosz;Livka
+qbik,Qbik,pool,qbik,35027,experimental:100;electronic:25;idm:17;hip-hop:17,Cypis;Majki;Cjalis;Kabe;Szczyl
+linda,Linda,pool,Linda,40930,russian:100;pop:15;japanese:10,Линда;t.A.T.u.;Lena Katina;masha i medvedi;ВИА Гра
+damazy,damazy,pool,Damazy,372,,kuba i kuba;Ignacy;Mateusz Gędek;Janek Górka;Paula Biskup
+jerry heil,Jerry Heil,pool,Jerry Heil,39712,ukrainian:100;pop:79;ukraine:20,DOROFEEVA;FIЇNKA;alyona alyona;Klavdia Petrivna;Kola
+archive,Archive,pool,Archive,834623,trip-hop:100;electronic:62;progressive rock:38;alternative:34,Birdpen;UNKLE;Tricky;Elsiane;Death in Vegas
+b o k,B.O.K.,pool,B.O.K,10648,hip-hop:100;rap:49;polish:32,Bisz;Bisz-Pekro;Bisz-Kosa;Szops;Te-Tris
+slv,slv,pool,SLV,12145,hardgroove:100;oldschool techno:77;oldschool-techno:17;techno:17,Chontane;Hemka;OFF / GRID;Raffaele Attanasio;Invexis
+patryk skoczynski,Patryk Skoczyński,pool,Patryk Skoczyński,3439,poland:100;polish:100,Natalia Zastępa;Marcin Sójka;AniKa Dąbrowska;Michał Szczygieł;Anastazja Maciąg
+pola basik,Pola Błasik,pool,Pola Błasik,258,,Natalia Grosiak;Paula Roma;maks.tachasiuk;Ewa Koc;Maja Kleszcz
+jakub wysmuek,Jakub Wysmułek,pool,Jakub Wysmułek,1731,,Krzyk Mody;marcycha;Renata Ślesicka;Mateusz Gędek;Powaby
+zoe livay,Zoë Livay,pool,Zoë Livay,16004,netherlands:100;pop:100,Danique;Sven Versteeg;Willem & Jan;Paul Sinha;Tino Martin
+kevin,Kevin,pool,Kevin,81408,pop:100;rap:64;hip-hop:24;hip hop:11,Sevn Alias;Lijpe;broederliefde;Mula B;Dopebwoy
+justen de wildt,Justen de Wildt,pool,Justen de Wildt,11025,,Rutger Van Barneveld;Sven Versteeg;wesly bronkhorst;Quido van de Graaf;Likke Pêhp
+within temptation,Within Temptation,pool,Within Temptation,1392270,symphonic metal:100;female fronted metal:30;metal:25;gothic:11,Delain;Nightwish;Epica;Xandria;Tarja
+jet van der steen,jet van der steen,pool,Jet van der Steen,10069,pop:100;dutch:25;electro-pop:17;the netherlands:17,Froukje;Hannah Mae;S10;Bente;Roxy Dekker
+spanker,Spanker,pool,Spanker,22754,hiphop:100;netherlands:100;nederhop:66;nederlandstalig:66,Architrackz;Equalz;Yssi SB;Qlas & blacka;JoeyAK
+chef special,Chef'Special,pool,Chef'Special,158628,funk:100;rock:64;ska:40;reggae:38;rap:18;dutch:14,Racoon;Di-rect;Krezip;Miss Montreal;Anouk
+turfy gang,Turfy Gang,pool,Turfy Gang,37030,rap:100;pop:25;hip hop:17;hip-hop:17,Bilal Wahib;Noano;$hirak;Luca St;Idaly
+rene karst,Rene Karst,pool,Rene Karst,24324,dutch:100;schlager:100;one hit wonder:66,Jan Biggel;Opgeblazen;John de Bever;wesly bronkhorst;Feestteam
+danique,Danique,pool,Danique,7863,rnb:100;pop:100;dutch:66;the netherlands:33;under 2000 listeners:10,Marc Floor;Zoë Livay;Zoë Tauran;Nienke Leone;Sigourney K
+mart hoogkamer,Mart Hoogkamer,pool,Mart Hoogkamer,30790,pop:100;netherlands:25;nederlands:17;the netherlands:17,Samuel Welten;Robert van Hemert;Yves Berendse;Marco Schuitmaker;Jan Smit
+rijck,Rijck,pool,Rijck,6352,,Langa;Milolaathetlukken;Siggy & D1ns;Lusho;Qlas
+freddy moreira,Freddy Moreira,pool,Freddy Moreira,12837,,Team Rush Hour;Roeland Beelen;Bam Bam Papi;Afro Bros;Langa
+idaly,Idaly,pool,Idaly,43093,rap:100;hip-hop:100;rnb:66;dutch:66,CHO;Yssi SB;Chivv;$hirak;KM
+van dik hout,Van Dik Hout,pool,Van Dik Hout,66164,dutch:100;nederlandstalig:74;pop:22;rock:15,Acda en de Munnik;De Dijk;De Poema's;BLØF;Racoon
+radio z,RADIO Z,pool,Radio Z,1867,hiphop:100;rap:100;dutch:66;hip hop:66;amsterdam:33;super group:33;netherlands:33,smib;Nnelg;Ray Fuego;Vjèze Fur;stay away from dante!
+gerard joling,Gerard Joling,pool,Gerard Joling,59583,dutch:100;pop:86;eurovision:30;nederlandstalig:17,Jan Smit;André Hazes;Rob De Nijs;Drukwerk;Armand
+kimberly fransens,Kimberly Fransens,pool,Kimberly Fransens,4518,dutch:100;pop:100;netherlands:66;dutch female vocalists:66,Danique;Tino Martin;Zoë Tauran;Paul Sinha;Zoë Livay
+don diablo,Don Diablo,pool,Don Diablo,708882,house:100;electronic:71;dance:40;electro:33;trance:10,Mike Williams;Firebeatz;Nicky Romero;Sam Feldt;R3hab
+dior,Dior,pool,Dior,52704,rap:100;hiphop:25;netherlands:17;hip hop:17,КлоуКома;Mula B;Miyagi & Andy Panda;Jamik;Boef
+bartofso,Bartofso,pool,Bartofso,22347,hiphop:100;rap:100;dutch:66;hip hop:66;trap:33,De Fellas;Pietju Bell;momi;Young Ellens;JoZo
+shep,SHEP,pool,Shep,21990,usa:100;pop:100;american:66;all:66;doo wop:33,Shep and The Limelites;Johnny Maestro;The Festivals;Don & Juan;Timothy Wilson
+burleson,Burleson,pool,Burleson,2147,,Figo Gang;Dylisa;Oykie;Dammie;Mtkid
+tim dawn,Tim Dawn,pool,Tim Dawn,20589,pop:100;dutch:25;dutch male vocalists:17;gentle indie sounds:17,Ed Struijlaart;Loren Nine;Dinand;Nick Klyne;wulf
+gp uit g,GP UIT G,pool,GP UIT G,4344,,Qlas;Topperig;BFLQuatro;Highguest;Hekje31
+3ddy,3DDY,pool,3ddy,652,,"Jamie James, robin drabe, Micky Hurts & Drabes;Frankie Frank;Love Frequency;3kelves;Ferreck Dawn & Jem Cooke"
+gerrit schneider,Gerrit Schneider,pool,Gerrit Schneider,871,,Jari Hellegers;Jesse Prins;Martijn Stam;Quido van de Graaf;Joey Nicolay
+makez,Makèz,pool,Makèz,46604,deep house:100;house:100;netherlands:17,Dam Swindle;Cody Currie;Soul Wun;Franck Roger;DJ Steaw
+lamsi,Lamsi,pool,Lamsi,6502,rnb:100;electronic:100;dutch:66,£MONZO;Cyra Gwynth;RM47;De Schuurman;BenjiFlow
+warhaus,Warhaus,pool,Warhaus,162187,indie rock:100;rock:100;belgian:66;belgium:66;indie:24,Balthazar;J. Bernardt;Faces On TV;Absynthe Minded;dEUS
+my baby,MY BABY,pool,My Baby,63698,soul:100;blues:64;blues rock:42;funk:32,De Staat;Elder Island;Bo Saris;Fantastic Negrito;Izo FitzRoy
+plonki,plonki,pool,plonki,1932,,Cloud Cafe;Parker Fans;De Toegift;fiep;Leah Rye
+alice olsthoorn,Alice Olsthoorn,pool,Alice Olsthoorn,2618,netherlands:100;dutch:100;holland:66;the netherlands:66;nederland:33;nl:33,Famke Louise;Linde Schöne;LIONSTORM;Jesse Hoefnagels;Prins S. en De Geit
+hamza othman,Hamza Othman,pool,hamza othman,1,,
+roosbeef,Roosbeef,pool,Roosbeef,48348,dutch:100;alternative:35;nederlandstalig:17;all:13,Spinvis;Eefje de Visser;Lucky Fonz III;Maaike Ouboter;Wende
+olamide,Olamide,pool,Olamide,135952,nigeria:100;hip-hop:64;afrobeats:24;nigerian:24,BNXN;Young Jonn;Seyi Vibez;Asake;Davido
+sofia dragt,Sofia Dragt,pool,Sofia Dragt,7377,singer-songwriters:16;folk:16,Mell & Vintage Future;Youri Lentjes;Judy Blank;Will Knox;Angela Moyra
+awkward i,AWKWARD i,pool,Awkward I,29279,dutch:100;indie:92;folk:51,Anne Soldaat;El Pino and the Volunteers;Pien Feith;Case Mayfield;Alamo Race Track
+jayc,JAYC,pool,Jayc,50774,house:100,Lemtom;Bryant BRX;Didier Armeni;Jack Marlow;Zarg
+joey nicolay,Joey Nicolay,pool,Joey Nicolay,1218,,Jesse Prins;Jari Hellegers;Quido van de Graaf;Martijn Stam;Gerrit Schneider
+raffie de driver,Raffie de Driver,pool,Raffie De Driver,420,,wesly bronkhorst;Rutger Van Barneveld;Ammar;Sven Versteeg;De Règâhs
+wally,Wally,pool,Wally,16264,progressive rock:100;symphonic prog:39,Gracious;Luca St;Marou;Rijck;Jesse Hoefnagels
+navarone cole,NAVARONE COLE,pool,Navarone Cole,1077,hiphop:100;rap:100;dutch:66;hip hop:66;r-n-b:33;rotterdam:33;netherlands:33,Feis;Sor;smib;Jean Jacques;Jiri11
+rafting goods,RAFTING GOODS,pool,RAFTING GOODS,1873,,Het Moment;Tim Beumers;Hairo;$KEER&BOO$;mpdrees24
+jamie miller,Jamie Miller,pool,Jamie Miller,269435,the voice:100;pop:100;the voice uk:66;soul:16,Caleb Hearn;Calum Scott;Alex Warren;Sam Fischer;Jake Scott
+3js,3JS,pool,3JS,33017,dutch:100;eurovision:41;levenslied:20;nederlandstalig:20,Nielson;Jeroen van der Boom;Jan Smit;Nick & Simon;Jaap Reesema
+jerome,Jérôme,pool,Jérôme,192,,Ruben Hillen;Quido van de Graaf;Feest Met De Buurman;Dave Dekker;Justen de Wildt
+thomas berge,Thomas Berge,pool,Thomas Berge,16389,dutch:100;netherlands:25;the netherlands:16;nederlandstalig:16,Grad Damen;Jannes;Dries Roelvink;Wolter Kroes;Turfy Gang
+elske dewall,Elske DeWall,pool,Elske Dewall,14099,pop:39;dutch:26,Krystl;Sandy Dane;Jacqueline Govaert;Lisa Lois;Stevie Ann
