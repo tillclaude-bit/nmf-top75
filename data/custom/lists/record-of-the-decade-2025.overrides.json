@@ -6,21 +6,15 @@
   "skip_compilations": true
  },
  "HUNTR/X - This Is What It Sounds Like": {
-  "query": "track:\"This Is What It Sounds Like\" artist:\"HUNTR/X\"",
+  "query": "track:\"What It Sounds Like\" artist:\"HUNTR/X\"",
   "artist": "HUNTR",
-  "title": "This Is What It Sounds Like",
+  "title": "What It Sounds Like",
   "skip_compilations": true
  },
  "Saja Boys - Your Idol": {
   "query": "track:\"Your Idol\" artist:\"Saja Boys\"",
   "artist": "Saja Boys",
   "title": "Your Idol",
-  "skip_compilations": true
- },
- "Levi Heron - The Glen": {
-  "query": "track:\"The Glen\" artist:\"Levi Heron\" -edit",
-  "artist": "Levi Heron",
-  "title": "The Glen",
   "skip_compilations": true
  }
 }
