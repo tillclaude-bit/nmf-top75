@@ -630,20 +630,20 @@
   },
   {
    "input": "HUNTR/X - This Is What It Sounds Like",
-   "match": null,
-   "ov": "{\"artist\": \"HUNTR\", \"query\": \"track:\\\"This Is What It Sounds Like\\\" artist:\\\"HUNTR/X\\\"\", \"skip_compilations\": true, \"title\": \"This Is What It Sounds Like\"}",
-   "candidates": [
-    "What It Sounds Like / HUNTR/X, EJAE, AUDREY NUNA, REI AMI, KPop Demon Hunters Cast [KPop Demon Hunters (Soundtrack from the Netflix Film)] (album) 5sBDrrtLGbV64QJnEqfjer",
-    "What It Sounds Like - Acapella / HUNTR/X, EJAE, AUDREY NUNA, REI AMI, KPop Demon Hunters Cast [KPop Demon Hunters (Soundtrack from the Netflix Film / Deluxe Version)] (compilation) 5diyROKgjowezpjRgQNBPQ",
-    "What It Sounds Like - Huntrix Villain Song / MilkyyMelodies [What It Sounds Like (Huntrix Villain Song)] (single) 1CTLaslHZuISDr42VcZXRh",
-    "What It Sounds Like - from the Netflix film KPop Demon Hunters / HUNTR/X, EJAE, AUDREY NUNA, REI AMI, KPop Demon Hunters Cast [What It Sounds Like (from the Netflix film KPop Demon Hunters)] (single) 0ibDrIhrynomZ4pDp6an0n",
-    "What It Sounds Like / HUNTR/X, EJAE, AUDREY NUNA, REI AMI, KPop Demon Hunters Cast [KPop Demon Hunters (Soundtrack from the Netflix Film / Deluxe Version)] (compilation) 36FlVeExlCnmIQlseBU98K",
-    "What It Sounds Like / Shiranai.exe [What It Sounds Like] (single) 459yKd84ffpFVtcelshv67",
-    "This Is What It Feels Like / Peachy Pete, Outliers, LAST CALL [This Is What It Feels Like] (single) 0Bpbr1GgLMgQnuFmVo5zMH",
-    "How It’s Done / HUNTR/X, EJAE, AUDREY NUNA, REI AMI, KPop Demon Hunters Cast [KPop Demon Hunters (Soundtrack from the Netflix Film)] (album) 3RXUgPNIbUgFxsDWuBQEt6",
-    "When Doves Cry / Prince [Purple Rain] (album) 6sby78fghipoXHQLeeZFFH",
-    "Lucky Strike / Maroon 5 [Overexposed Track By Track] (album) 4rpzPAbwJboZQw2p9T5T3f"
-   ]
+   "match": {
+    "id": "5sBDrrtLGbV64QJnEqfjer",
+    "title": "What It Sounds Like",
+    "artists": [
+     "HUNTR/X",
+     "EJAE",
+     "AUDREY NUNA",
+     "REI AMI",
+     "KPop Demon Hunters Cast"
+    ],
+    "album": "KPop Demon Hunters (Soundtrack from the Netflix Film)",
+    "score": 98
+   },
+   "ov": "{\"artist\": \"HUNTR\", \"query\": \"track:\\\"What It Sounds Like\\\" artist:\\\"HUNTR/X\\\"\", \"skip_compilations\": true, \"title\": \"What It Sounds Like\"}"
   },
   {
    "input": "Jack Black - Steve's Lava Chicken",
@@ -902,9 +902,9 @@
      "Levi Heron"
     ],
     "album": "The Glen (Levi Heron Edit)",
-    "score": 98
+    "score": 1
    },
-   "ov": "{\"artist\": \"Levi Heron\", \"query\": \"track:\\\"The Glen\\\" artist:\\\"Levi Heron\\\" -edit\", \"skip_compilations\": true, \"title\": \"The Glen\"}"
+   "ov": "null"
   },
   {
    "input": "Lily Allen - Pussy Palace",
