@@ -83,16 +83,15 @@
   {
    "input": "Jamie Miller & Antonio Cipriano - Babydoll",
    "match": {
-    "id": "0aMiGCmu4sVGpkSCldE0pK",
+    "id": "1o9mAOmNm3wT2NdyGV1Ard",
     "title": "Babydoll",
     "artists": [
-     "Jamie Miller",
-     "Antonio Cipriano"
+     "Jamie Miller"
     ],
-    "album": "Lagu Viral Barat 2026",
-    "score": 9
+    "album": "Babydoll",
+    "score": 98
    },
-   "ov": "null"
+   "ov": "{\"artist\": \"Jamie Miller\", \"query\": \"track:\\\"Babydoll\\\" artist:\\\"Jamie Miller\\\"\", \"skip_compilations\": true, \"title\": \"Babydoll\"}"
   },
   {
    "input": "Fontaines D.C. - Marianne",
@@ -646,15 +645,16 @@
   {
    "input": "Madonna & Kylie Minogue - Love Sensation",
    "match": {
-    "id": "1ViHUUTbkDgS9iyLmWgIYt",
-    "title": "Love Sensation",
+    "id": "6mqNeI1TJomhLrDzY66uQw",
+    "title": "Love Sensation - Afterhours Radio Edit",
     "artists": [
-     "Madonna"
+     "Madonna",
+     "Kylie Minogue"
     ],
-    "album": "CONFESSIONS II",
-    "score": 6
+    "album": "Love Sensation",
+    "score": 99
    },
-   "ov": "null"
+   "ov": "{\"ids\": [\"6mqNeI1TJomhLrDzY66uQw\"]}"
   },
   {
    "input": "Fontaines D.C. - Japan",
