@@ -144,6 +144,87 @@ def best(line):
             "album": it.get("album", {}).get("name"), "score": sc}
 
 
+def best_radio(line):
+    """Radio-Edit-Praeferenz: Radio-Edit > Standard > Extended/Original; keine spaeteren Remixe; Album-Jahr 1997-2000 bevorzugt."""
+    main, mains, feats, title = parse(line)
+    wanted = norm(mains[0])
+    variants = title_variants(title)
+    tail_full = norm(title)
+    allowed = r"radio|original|single|album|club|extended|video|full|short|uk|us|vocal|remaster(?:ed)?|7|12|mix|edit|version|mixes|inch|the|a|and|\d+"
+    cands = {}
+    for v in variants:
+        for q in (f'track:"{v}" artist:"{mains[0]}" year:1997-2000', f'track:"{v}" artist:"{mains[0]}"',
+                  f"{v} {mains[0]} radio edit", f"{v} {mains[0]}"):
+            s, r = call("https://api.spotify.com/v1/search?" + urllib.parse.urlencode(
+                {"q": q, "type": "track", "limit": 10, "market": "from_token"}), token=tok)
+            if s != 200:
+                continue
+            for it in r.get("tracks", {}).get("items", []) or []:
+                if it and it.get("id") and it["id"] not in cands:
+                    cands[it["id"]] = it
+    scored = []
+    for it in cands.values():
+        names = [norm(a["name"]) for a in it["artists"]]
+        if not any(wanted and (wanted in n or n in wanted) for n in names):
+            continue
+        name = it["name"]
+        low = name.lower()
+        alb = it.get("album") or {}
+        albn = (alb.get("name") or "").lower()
+        if re.search(r"\b(dub|instrumental|acoustic|live|karaoke|tribute|cover|re-?edit|rework|bootleg|megamix|mash-?up|sped up|slowed|nightcore|a cappella|acapella|vip|reprise)\b", low + " " + albn):
+            continue
+        tn = norm(name)
+        ok = False
+        for v in variants:
+            nv = norm(v)
+            if nv and tn.startswith(nv):
+                rest = tn[len(nv):]
+                if rest == "" or tail_full.startswith(nv + rest) or re.fullmatch(r"(?:" + allowed + r")*", rest):
+                    ok = True
+                    break
+        if not ok:
+            continue
+        parts = [a or b for a, b in re.findall(r"\(([^)]*)\)|\s-\s(.*)$", name)]
+        bad = False
+        for part in parts:
+            pl = part.lower()
+            if norm(part) and norm(part) in tail_full:
+                continue
+            if re.search(r"remix|mix|edit|version|remaster", pl):
+                resid = re.sub(r"\b(?:" + allowed + r")\b|[\s\-\"'.,/]", "", pl)
+                if resid:
+                    bad = True
+        if bad:
+            continue
+        sc = 0
+        if re.search(r"radio|single (?:version|edit|mix)|7\"|7'", low):
+            sc += 4
+        elif not parts or all(norm(p) in tail_full for p in parts):
+            sc += 3
+        elif re.search(r"extended|club|original mix|12", low):
+            sc += 1
+        else:
+            sc += 2
+        try:
+            y = int((alb.get("release_date") or "0")[:4])
+        except ValueError:
+            y = 0
+        if 1997 <= y <= 2000:
+            sc += 6
+        elif alb.get("album_type") == "compilation":
+            sc -= 1
+        if it.get("duration_ms", 0) > 390000 and not re.search(r"extended|club|12|original", low):
+            sc -= 1
+        scored.append((sc, it, y))
+    if not scored:
+        return None
+    scored.sort(key=lambda x: (x[0], -x[1].get("duration_ms", 0)), reverse=True)
+    sc, it, y = scored[0]
+    return {"id": it["id"], "title": it["name"], "artists": [a["name"] for a in it["artists"]],
+            "album": (it.get("album") or {}).get("name"), "year": y,
+            "dur": round(it.get("duration_ms", 0) / 1000), "score": sc}
+
+
 LAST_CANDS = []
 
 
@@ -239,7 +320,7 @@ for lst in sorted(glob.glob("data/custom/lists/*.txt")):
             matches.append(entry)
             print(("OVR ") if m else "MISS", l, "->", [x["title"] for x in found_ov])
             continue
-        m = best(l)
+        m = best_radio(l) if os.path.exists(f"data/custom/lists/{base}.radio") else best(l)
         matches.append({"input": l, "match": m, "ov": sig})
         print(("OK  " if m else "MISS"), l, "->", (m["title"] + " / " + ", ".join(m["artists"])) if m else "-")
     if changed:
