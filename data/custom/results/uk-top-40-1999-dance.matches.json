@@ -167,12 +167,33 @@
   },
   {
    "input": "Humate - Love Stimulation",
-   "match": null,
+   "match": {
+    "id": "0lr3tWqXKWGZOfEbNdNArR",
+    "title": "Love Stimulation",
+    "artists": [
+     "Humate"
+    ],
+    "album": "Reactivate 7 - Aquasonic Trance",
+    "year": 1993,
+    "dur": 339,
+    "score": 2
+   },
    "ov": "null"
   },
   {
    "input": "Armand Van Helden - You Don't Know Me",
-   "match": null,
+   "match": {
+    "id": "0S388DyqohrJ0PXf2h1SYZ",
+    "title": "You Don't Know Me",
+    "artists": [
+     "Armand Van Helden",
+     "Duane Harden"
+    ],
+    "album": "Dj Mag : House",
+    "year": 2023,
+    "dur": 491,
+    "score": 1
+   },
    "ov": "null"
   },
   {
@@ -220,7 +241,17 @@
   },
   {
    "input": "DJ Eric - We Are Love",
-   "match": null,
+   "match": {
+    "id": "52Tsr3Vc99zAoGXjIvJ3Wn",
+    "title": "We Are Love - Original",
+    "artists": [
+     "DJ Eric"
+    ],
+    "album": "We Are Love",
+    "year": 1998,
+    "dur": 365,
+    "score": 8
+   },
    "ov": "null"
   },
   {
@@ -280,7 +311,17 @@
   },
   {
    "input": "Studio 45 - Freak It!",
-   "match": null,
+   "match": {
+    "id": "0xwqQCDN9UaV3xE1TSO7qp",
+    "title": "Freak It! - Club Mix",
+    "artists": [
+     "Jackie Christie / Studio 45"
+    ],
+    "album": "DJ Jackie Christie's Hard Tasty Beats",
+    "year": 1999,
+    "dur": 372,
+    "score": 7
+   },
    "ov": "null"
   },
   {
@@ -502,7 +543,17 @@
   },
   {
    "input": "Beverley Knight - Made It Back",
-   "match": null,
+   "match": {
+    "id": "2qXQGsCviLaEyC3cN0r5dg",
+    "title": "Made It Back",
+    "artists": [
+     "Beverley Knight"
+    ],
+    "album": "Made It Back",
+    "year": 2007,
+    "dur": 219,
+    "score": 2
+   },
    "ov": "null"
   },
   {
@@ -563,7 +614,17 @@
   },
   {
    "input": "Fatboy Slim - Right Here Right Now",
-   "match": null,
+   "match": {
+    "id": "5IrjmYyUI2lOck3LZqUO18",
+    "title": "Right Here Right Now (Single Version)",
+    "artists": [
+     "Fatboy Slim"
+    ],
+    "album": "Right Here, Right Now",
+    "year": 1998,
+    "dur": 356,
+    "score": 10
+   },
    "ov": "null"
   },
   {
@@ -604,12 +665,34 @@
   },
   {
    "input": "B.M.R - Check It Out",
-   "match": null,
+   "match": {
+    "id": "7nbklme1AnMDKPKbp3fbSF",
+    "title": "Check It Out",
+    "artists": [
+     "B.M.R. ",
+     "FELICIA"
+    ],
+    "album": "Peppermint Jam Allstars, Vol. 1",
+    "year": 1998,
+    "dur": 364,
+    "score": 9
+   },
    "ov": "null"
   },
   {
    "input": "Freddy Fresh - Badder Badder Schwing",
-   "match": null,
+   "match": {
+    "id": "7lsZ0OZARZkukFyUBZJW3f",
+    "title": "Badder Badder Schwing",
+    "artists": [
+     "Freddy Fresh",
+     "Fatboy Slim"
+    ],
+    "album": "Badder Badder Schwing",
+    "year": 2005,
+    "dur": 206,
+    "score": 3
+   },
    "ov": "null"
   },
   {
@@ -680,7 +763,17 @@
   },
   {
    "input": "Pete Heller - Big Love",
-   "match": null,
+   "match": {
+    "id": "2hb6W6bhiwlcF7BKuliLe8",
+    "title": "Big Love",
+    "artists": [
+     "Pete Heller's Big Love"
+    ],
+    "album": "Big Love",
+    "year": 1999,
+    "dur": 610,
+    "score": 8
+   },
    "ov": "null"
   },
   {
@@ -732,7 +825,17 @@
   },
   {
    "input": "Push - Universal Nation",
-   "match": null,
+   "match": {
+    "id": "0WlWVkWNpQeIbB1eDWNdhr",
+    "title": "Universal Nation",
+    "artists": [
+     "Push"
+    ],
+    "album": "Reactivate 14 - Larry The Lobster's Trancetastic Pot Boilers",
+    "year": 1999,
+    "dur": 484,
+    "score": 8
+   },
    "ov": "null"
   },
   {
@@ -787,7 +890,17 @@
   },
   {
    "input": "Lost Witness - Happiness Happening",
-   "match": null,
+   "match": {
+    "id": "45waxkxN02CG4pXCIzVm1z",
+    "title": "Happiness Happening - Extended Mix",
+    "artists": [
+     "Lost Witness"
+    ],
+    "album": "Happiness Happening",
+    "year": 1999,
+    "dur": 438,
+    "score": 7
+   },
    "ov": "null"
   },
   {
@@ -807,7 +920,17 @@
   },
   {
    "input": "Wiseguys - Ooh La La",
-   "match": null,
+   "match": {
+    "id": "3IBDXz8f3k78Tb46ipwQau",
+    "title": "Ooh La La",
+    "artists": [
+     "The Wiseguys"
+    ],
+    "album": "The Antidote",
+    "year": 1998,
+    "dur": 353,
+    "score": 9
+   },
    "ov": "null"
   },
   {
@@ -878,7 +1001,17 @@
   },
   {
    "input": "Mauro Picotto - Lizard (Gonna Get You)",
-   "match": null,
+   "match": {
+    "id": "7dXkU5nMYFZ58yzpnvb57r",
+    "title": "Lizard (Gonna Get You) - Radio Edit",
+    "artists": [
+     "Mauro Picotto"
+    ],
+    "album": "Lizard (Gonna Get You)",
+    "year": 2019,
+    "dur": 206,
+    "score": 4
+   },
    "ov": "null"
   },
   {
@@ -1025,7 +1158,17 @@
   },
   {
    "input": "Space Brothers - Legacy (Show Me Love)",
-   "match": null,
+   "match": {
+    "id": "0v7YcImyR9H3BlsvQXYq3H",
+    "title": "Legacy - Radio Edit",
+    "artists": [
+     "The Space Brothers"
+    ],
+    "album": "Legacy",
+    "year": 2011,
+    "dur": 211,
+    "score": 4
+   },
    "ov": "null"
   },
   {
@@ -1276,12 +1419,33 @@
   },
   {
    "input": "Planet Perfecto - Not Over Yet '99",
-   "match": null,
+   "match": {
+    "id": "2bvhWMbykQzWlMz4Om8CLR",
+    "title": "Not Over Yet '99",
+    "artists": [
+     "Planet Perfecto",
+     "Grace"
+    ],
+    "album": "All Time Dance Bangers",
+    "year": 2021,
+    "dur": 217,
+    "score": 2
+   },
    "ov": "null"
   },
   {
    "input": "Eclipse - Makes Me Love You",
-   "match": null,
+   "match": {
+    "id": "0DqM3OGjPJjPqFXoNvY0Ya",
+    "title": "Makes Me Love You - Radio Edit",
+    "artists": [
+     "Eclipse"
+    ],
+    "album": "Makes Me Love You",
+    "year": 2018,
+    "dur": 214,
+    "score": 4
+   },
    "ov": "null"
   },
   {
@@ -1431,7 +1595,18 @@
   },
   {
    "input": "Lost Tribe - Gamemaster",
-   "match": null,
+   "match": {
+    "id": "1M3XLQZEG4I6bQiHwlSyyG",
+    "title": "Gamemaster",
+    "artists": [
+     "Matt Darey",
+     "Lost Tribe"
+    ],
+    "album": "Boundaries of Imagination Mixed by Armin van Buuren (Remastered)",
+    "year": 1999,
+    "dur": 364,
+    "score": 9
+   },
    "ov": "null"
   },
   {
@@ -1497,17 +1672,48 @@
   },
   {
    "input": "Lost Witness - Red Sun Rising",
-   "match": null,
+   "match": {
+    "id": "14SGVFGwge8Xa9VEZh7aFU",
+    "title": "Red Sun Rising - Radio Edit",
+    "artists": [
+     "Lost Witness",
+     "Tracey Carmen"
+    ],
+    "album": "Red Sun Rising 2020",
+    "year": 2024,
+    "dur": 174,
+    "score": 4
+   },
    "ov": "null"
   },
   {
    "input": "Paul Johnson - Get Get Down",
-   "match": null,
+   "match": {
+    "id": "4h4AEqy0iBbjdlbtWvIx5O",
+    "title": "Get Get Down",
+    "artists": [
+     "Paul Johnson"
+    ],
+    "album": "Get Get Down",
+    "year": 1999,
+    "dur": 368,
+    "score": 9
+   },
    "ov": "null"
   },
   {
    "input": "Fragma - Toca Me",
-   "match": null,
+   "match": {
+    "id": "7mEo2QdFyIinffKLCBlT8G",
+    "title": "Toca Me - UK Radio Edit",
+    "artists": [
+     "Fragma"
+    ],
+    "album": "Toca Me (Ben Rainey Remix)",
+    "year": 2022,
+    "dur": 199,
+    "score": 4
+   },
    "ov": "null"
   },
   {
@@ -1532,7 +1738,18 @@
   },
   {
    "input": "Balearic Bill - Destination Sunshine",
-   "match": null,
+   "match": {
+    "id": "3LJ3lO5F0Kx98q1iktRNXu",
+    "title": "Destination Sunshine",
+    "artists": [
+     "Alex Gold",
+     "Balearic Bill"
+    ],
+    "album": "Destination Sunshine",
+    "year": 1999,
+    "dur": 433,
+    "score": 8
+   },
    "ov": "null"
   },
   {
@@ -1602,7 +1819,17 @@
   },
   {
    "input": "Space Brothers - Heaven Will Come",
-   "match": null,
+   "match": {
+    "id": "42B7TxL4htYXYgGP7bRPUB",
+    "title": "Heaven Will Come - Original Mix",
+    "artists": [
+     "The Space Brothers"
+    ],
+    "album": "Lustral Presents Trance Classics",
+    "year": 2009,
+    "dur": 186,
+    "score": 1
+   },
    "ov": "null"
   },
   {
@@ -1684,7 +1911,17 @@
   },
   {
    "input": "Heliotropic - Alive",
-   "match": null,
+   "match": {
+    "id": "0Zv2FNHJeCgmUIAliemnZ1",
+    "title": "Alive - Radio Edit",
+    "artists": [
+     "Heliotropic"
+    ],
+    "album": "Alive",
+    "year": 2010,
+    "dur": 218,
+    "score": 4
+   },
    "ov": "null"
   },
   {
@@ -1804,7 +2041,18 @@
   },
   {
    "input": "M3 - Bailamos",
-   "match": null,
+   "match": {
+    "id": "3NwwoWHSoHr8feaBk6lY9X",
+    "title": "Bailamos",
+    "artists": [
+     "Matt Darey",
+     "M3"
+    ],
+    "album": "Retrospective (25 Years)",
+    "year": 2019,
+    "dur": 234,
+    "score": 3
+   },
    "ov": "null"
   },
   {
@@ -1829,7 +2077,19 @@
   },
   {
    "input": "Bedrock - Heaven Scent",
-   "match": null,
+   "match": {
+    "id": "1Yqvsi7X3gGOuLRdaOk010",
+    "title": "Heaven Scent",
+    "artists": [
+     "Bedrock",
+     "John Digweed",
+     "Nick Muir"
+    ],
+    "album": "Heaven Scent",
+    "year": 1999,
+    "dur": 630,
+    "score": 8
+   },
    "ov": "null"
   },
   {
