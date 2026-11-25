@@ -19,6 +19,9 @@ rt = subprocess.run(["openssl", "enc", "-d", "-aes-256-cbc", "-pbkdf2", "-iter",
                     capture_output=True, text=True, check=True).stdout.strip()
 
 
+ERRS = {}
+
+
 def call(url, data=None, token=None, form=False, method=None):
     for attempt in range(5):
         h = {}
@@ -41,6 +44,7 @@ def call(url, data=None, token=None, form=False, method=None):
             if e.code == 429:
                 ra = int(e.headers.get("Retry-After", "2"))
                 if ra > 120:
+                    ERRS["429 Retry-After>120 (max %ss)" % ra] = ERRS.get("429 Retry-After>120 (max %ss)" % ra, 0) + 1
                     return 429, f"Retry-After {ra}s - abgebrochen"
                 time.sleep(ra + 1)
                 continue
@@ -394,3 +398,4 @@ for lst in sorted(glob.glob("data/custom/lists/*.txt")):
             info.update({"tracks_added": len(ids), "tracks_reported": tot, "ids_sha": sig})
             json.dump(info, open(plf, "w", encoding="utf-8"), indent=1)
             print("PLAYLIST aktualisiert", info)
+print("API-Fehler:", ERRS)
