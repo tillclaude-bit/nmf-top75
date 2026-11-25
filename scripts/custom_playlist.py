@@ -156,9 +156,9 @@ def best_radio(line):
     tail_full = norm(title)
     allowed = r"radio|original|single|album|club|extended|video|full|short|uk|us|vocal|remaster(?:ed)?|7|12|mix|edit|version|mixes|inch|the|a|and|\d+"
     cands = {}
-    for v in variants:
-        for q in (f'track:"{v}" artist:"{mains[0]}" year:1997-2000', f'track:"{v}" artist:"{mains[0]}"',
-                  f"{v} {mains[0]} radio edit", f"{v} {mains[0]}"):
+    for v in variants[:2]:
+        for q in (f'track:"{v}" artist:"{mains[0]}" year:1997-2000', f"{v} {mains[0]} radio edit"):
+            time.sleep(0.8)
             s, r = call("https://api.spotify.com/v1/search?" + urllib.parse.urlencode(
                 {"q": q, "type": "track", "limit": 10, "market": "from_token"}), token=tok)
             if s != 200:
